@@ -1,0 +1,112 @@
+---
+title: Linux에서 pandoc을 이용해 md을 pdf로 변환하자.
+pubDatetime: 2023-09-10T23:12:00Z
+featured: true
+draft: false
+tags:
+  - linux
+  - pandoc
+  - markdown
+  - pdf
+  - WSL
+ogImage: ""
+description: pandoc을 설치해서, md를 pdf로 변환하는 과정을 담았습니다.
+---
+
+## Table of contents
+
+## 들어가며
+
+WSL에서 google-chrome을 깔아도 도저히 md가 pdf로 변환이 안된다. 그래서 pandoc을 이용해서 변환하기로 마음 먹었다.
+
+## 설치 Bash Script
+
+```bash
+sudo apt install -y \
+  pandoc \
+  texlive-full
+```
+
+## markdown을 pdf로 변환하는 Bash Script
+
+```bash
+pandoc --pdf-engine=xelatex -V CJKmainfont="한글 지원 폰트" test.md -o test.pdf
+```
+
+## 한글 지원 폰트 확인하는 Bash Script
+
+```bash
+fc-list :lang=ko
+```
+
+```bash
+/usr/share/fonts/truetype/nanum/NanumSquare_acR.ttf: 나눔스퀘어_ac,NanumSquare_ac:style=Regular
+/usr/share/fonts/truetype/nanum/NanumSquareRoundB.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound Bold,나눔스퀘어라운드 Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK SC:style=Bold
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK TC:style=Bold
+/usr/share/fonts/truetype/nanum/NanumMyeongjoEcoR.ttf: 나눔명조 에코,NanumMyeongjo Eco:style=Regular
+/usr/share/fonts/truetype/nanum/NanumGothicCodingBold.ttf: 나눔고딕코딩,NanumGothicCoding:style=Bold
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK JP:style=Bold
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK HK:style=Bold
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK KR:style=Bold
+/usr/share/fonts/truetype/nanum/NanumSquareRoundR.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound Regular,나눔스퀘어라운드 Regular:style=Regular
+/usr/share/fonts/truetype/nanum/NanumSquareB.ttf: 나눔스퀘어,NanumSquare,NanumSquare Bold,나눔스퀘어 Bold:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK JP:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK HK:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK KR:style=Regular
+/usr/share/fonts/truetype/nanum/NanumGothicLight.ttf: 나눔고딕,NanumGothic,NanumGothic Light,나눔고딕 Light:style=Light,Regular
+/usr/share/fonts/truetype/nanum/NanumGothicEcoR.ttf: 나눔고딕 에코,NanumGothic Eco:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBrush.ttf: 나눔손글씨 붓,Nanum Brush Script:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK SC:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK TC:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf: 나눔바른고딕,NanumBarunGothic:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBarunGothicUltraLight.ttf: 나눔바른고딕,NanumBarunGothic,NanumBarunGothic UltraLight,나눔바른고딕 UltraLight:style=UltraLight
+/usr/share/fonts/truetype/nanum/NanumSquare_acL.ttf: 나눔스퀘어_ac,NanumSquare_ac,NanumSquare_ac Light,나눔스퀘어_ac Light:style=Light
+/usr/share/fonts/truetype/nanum/NanumSquare_acB.ttf: 나눔스퀘어_ac,NanumSquare_ac,NanumSquare_ac Bold,나눔스퀘어_ac Bold:style=ExtraBold
+/usr/share/fonts/truetype/nanum/NanumGothicEcoExtraBold.ttf: 나눔고딕 에코,NanumGothic Eco,NanumGothic Eco ExtraBold,나눔고딕 에코 ExtraBold:style=ExtraBold
+/usr/share/fonts/truetype/nanum/NanumSquare_acEB.ttf: 나눔스퀘어_ac,NanumSquare_ac,NanumSquare_ac ExtraBold,나눔스퀘어_ac ExtraBold:style=ExtraBold
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc: Noto Serif CJK SC:style=Regular
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc: Noto Serif CJK TC:style=Regular
+/usr/share/fonts/truetype/nanum/NanumGothic.ttf: 나눔고딕,NanumGothic:style=Regular
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc: Noto Serif CJK JP:style=Regular
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc: Noto Serif CJK KR:style=Regular
+/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc: Noto Serif CJK HK:style=Regular
+/usr/share/fonts/truetype/nanum/NanumGothicEcoBold.ttf: 나눔고딕 에코,NanumGothic Eco:style=Bold
+/usr/share/fonts/truetype/nanum/NanumBarunpenB.ttf: 나눔바른펜,NanumBarunpen,NanumBarunpen Bold:style=Bold
+/usr/share/fonts/truetype/nanum/NanumGothicEco.ttf: 나눔고딕 에코,NanumGothic Eco:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBarunGothic-YetHangul.ttf: 나눔바른고딕 옛한글,NanumBarunGothic YetHangul:style=Regular
+/usr/share/fonts/truetype/nanum/NanumGothicCoding.ttf: 나눔고딕코딩,NanumGothicCoding:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf: 나눔바른고딕,NanumBarunGothic:style=Bold
+/usr/share/fonts/truetype/nanum/NanumPen.ttf: 나눔손글씨 펜,Nanum Pen Script:style=Regular
+/usr/share/fonts/truetype/nanum/NanumBarunGothicLight.ttf: 나눔바른고딕,NanumBarunGothic,NanumBarunGothic Light,나눔바른고딕 Light:style=Light
+/usr/share/fonts/truetype/nanum/NanumSquareRoundL.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound Light,나눔스퀘어라운드 Light:style=Light,Regular
+/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf: 나눔고딕,NanumGothic:style=Bold
+/usr/share/fonts/truetype/nanum/NanumMyeongjoEcoExtraBold.ttf: 나눔명조 에코,NanumMyeongjo Eco,NanumMyeongjo Eco ExtraBold,나눔명조 에코 ExtraBold:style=ExtraBold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK TC:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK SC:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK KR:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK HK:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK JP:style=Bold
+/usr/share/fonts/truetype/nanum/NanumSquareEB.ttf: 나눔스퀘어,NanumSquare,NanumSquare ExtraBold,나눔스퀘어 ExtraBold:style=ExtraBold
+/usr/share/fonts/truetype/nanum/NanumMyeongjoEcoBold.ttf: 나눔명조 에코,NanumMyeongjo Eco:style=Bold
+/usr/share/fonts/truetype/nanum/NanumMyeongjo-YetHangul.ttf: 나눔명조 옛한글,NanumMyeongjo YetHangul:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK SC:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK TC:style=Regular
+/usr/share/fonts/truetype/nanum/NanumMyeongjoEco.ttf: 나눔명조 에코,NanumMyeongjo Eco:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK HK:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK KR:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK JP:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK JP:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK KR:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK HK:style=Bold
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK TC:style=Bold
+/usr/share/fonts/truetype/nanum/NanumBarunpenR.ttf: 나눔바른펜,NanumBarunpen:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK SC:style=Bold
+/usr/share/fonts/truetype/nanum/NanumSquareR.ttf: 나눔스퀘어,NanumSquare:style=Regular
+/usr/share/fonts/truetype/nanum/NanumMyeongjo.ttf: 나눔명조,NanumMyeongjo:style=Regular
+/usr/share/fonts/truetype/nanum/NanumSquareL.ttf: 나눔스퀘어,NanumSquare,NanumSquare Light,나눔스퀘어 Light:style=Light
+/usr/share/fonts/truetype/nanum/NanumMyeongjoBold.ttf: 나눔명조,NanumMyeongjo:style=Bold
+/usr/share/fonts/truetype/nanum/NanumMyeongjoExtraBold.ttf: 나눔명조,NanumMyeongjo,NanumMyeongjoExtraBold,나눔명조 ExtraBold:style=ExtraBold
+/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound ExtraBold,나눔스퀘어라운드 ExtraBold:style=ExtraBold,Regular
+/usr/share/fonts/truetype/nanum/NanumGothicExtraBold.ttf: 나눔고딕,NanumGothic,NanumGothicExtraBold,나눔고딕 ExtraBold:style=ExtraBold
+```
