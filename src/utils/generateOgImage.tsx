@@ -119,15 +119,16 @@ const options: SatoriOptions = {
   width: 1200,
   height: 630,
   embedFont: true,
+  // 한글 깨져서 MonoPlexKR로 폰트 바꿈
   fonts: [
     {
-      name: "IBM Plex Mono",
+      name: "MonoPlexKR",
       data: fontRegular,
       weight: 400,
       style: "normal",
     },
     {
-      name: "IBM Plex Mono",
+      name: "MonoPlexKR",
       data: fontBold,
       weight: 600,
       style: "normal",
