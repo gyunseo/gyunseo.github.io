@@ -1,6 +1,6 @@
 # Gyunseo's Blog
 
-제 로그를 웹에 기록합니다.
+제 흔적을 웹에 기록합니다.
 
 ## 🚀 Project Structure
 
