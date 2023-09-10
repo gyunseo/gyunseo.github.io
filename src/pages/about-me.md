@@ -7,12 +7,22 @@ title: "About Me"
   <img src="/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
+# 🐾 ㉶를 꿈꿉니다
+
+# Would-be Developer
+
+---
+
 # Portfolio
 
 ## Game
 
 - [CatchMouse(쥐를 잡아라!)](https://play.google.com/store/apps/details?id=com.Team_CatchMouse.CatchMouse)
 - [옥영나라를 구해라!](https://play.google.com/store/apps/details?id=com.Comedu_Games.SaveOkyungWorld)
+
+## Web Service
+
+---
 
 # Information
 
@@ -41,6 +51,8 @@ title: "About Me"
 - 유튜브(youtube handle): @gyunrinkle
 - 인스타그램(ig handle): @gyunrinkle
 
+---
+
 # History
 
 - (2019 ~ now) 성균관대학교 컴퓨터교육과 입학(Major in Computer Education, College of Education, Sungkyunkwan University)
@@ -48,6 +60,8 @@ title: "About Me"
 - (2020 ~ now) 성균관대학교 소프트웨어학과 복수전공(Double Major in Computer Science, College of Computing, Sungkyunkwan University)
 
 - (2020 ~ 2022) 공군 정보보호병 병장 만기전역(Served and Discharged from ROK Airforce, Staff Sergeant)
+
+---
 
 # Stack
 
@@ -67,6 +81,7 @@ title: "About Me"
 
 ## DB
 
+- postgresql
 - mysql
 - oracle
 
@@ -78,7 +93,9 @@ title: "About Me"
 
 ## Web Framework
 
-- React
+- Nest.js
+- Next.js
+- Astro
 - Spring boot
 
 ## Game Engine
@@ -87,5 +104,5 @@ title: "About Me"
 
 ---
 
-If you like my blog, check out my blog github repoistory [repo](https://github.com/gyunseo/gyunseo.github.io).  
+If you like my blog, check out my blog github [repo](https://github.com/gyunseo/gyunseo.github.io).  
 Or you can even give any feedback via my [email](mailto:rbstj0311@naver.com).
