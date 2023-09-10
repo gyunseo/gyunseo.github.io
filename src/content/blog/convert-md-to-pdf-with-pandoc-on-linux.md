@@ -39,6 +39,8 @@ pandoc --pdf-engine=xelatex -V CJKmainfont="한글 지원 폰트" test.md -o tes
 fc-list :lang=ko
 ```
 
+### 실행 결과
+
 ```bash
 /usr/share/fonts/truetype/nanum/NanumSquare_acR.ttf: 나눔스퀘어_ac,NanumSquare_ac:style=Regular
 /usr/share/fonts/truetype/nanum/NanumSquareRoundB.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound Bold,나눔스퀘어라운드 Bold:style=Bold,Regular
