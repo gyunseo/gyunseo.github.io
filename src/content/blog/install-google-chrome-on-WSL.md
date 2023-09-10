@@ -1,7 +1,7 @@
 ---
 title: WSL에 Google Chrome을 설치하자
 pubDatetime: 2023-09-10T22:50:00Z
-featured: true
+featured: false
 draft: false
 tags:
   - WSL
