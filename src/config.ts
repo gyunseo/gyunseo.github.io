@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Gyunseo Lee (이균서)",
   desc: "Gyunseo's Blog. Write my logs on the web.",
   title: "Gyunseo's Blog",
-  ogImage: "og-me.jpg",
+  ogImage: "me-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
