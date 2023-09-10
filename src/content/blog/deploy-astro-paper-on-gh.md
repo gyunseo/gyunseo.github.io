@@ -1,7 +1,7 @@
 ---
 title: Astro Paper Theme를 Github Pages에서 Deploy하자!
 pubDatetime: 2023-09-10T16:10:00Z
-featured: false
+featured: true
 draft: false
 tags:
   - blog
