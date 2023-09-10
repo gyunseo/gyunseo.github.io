@@ -1,16 +1,16 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://gyunseo.github.io/",
+  author: "Gyunseo Lee",
+  desc: "Gyunseo's Blog. Write some my logs on the web.",
+  title: "Gyunseo's Blog",
+  ogImage: "me-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
 
-export const LOCALE = ["en-EN"]; // set to [] to use the environment default
+export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
@@ -22,19 +22,19 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/gyunseo",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.facebook.com/profile.php?id=100034260045422",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com/gyunseo0311",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -42,11 +42,11 @@ export const SOCIALS: SocialObjects = [
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:rbstj0311@naver.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
