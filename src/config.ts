@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://gyunseo.github.io/",
   author: "Gyunseo Lee (이균서)",
-  desc: "Gyunseo's Blog. Write some my logs on the web.",
+  desc: "Gyunseo's Blog. Write my logs on the web.",
   title: "Gyunseo's Blog",
   ogImage: "me-og.jpg",
   lightAndDarkMode: true,
@@ -52,9 +52,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/gyunseo0311",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -64,9 +64,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.youtube.com/@gyunseo0311",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "WhatsApp",
@@ -100,9 +100,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://discordapp.com/users/547656789269807104",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
+    active: true,
   },
   {
     name: "GitLab",
