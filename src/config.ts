@@ -2,7 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://gyunseo.github.io/",
-  author: "Gyunseo Lee",
+  author: "Gyunseo Lee (이균서)",
   desc: "Gyunseo's Blog. Write some my logs on the web.",
   title: "Gyunseo's Blog",
   ogImage: "me-og.jpg",
