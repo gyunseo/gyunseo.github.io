@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
 ---
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/public/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
 # Portfolio
