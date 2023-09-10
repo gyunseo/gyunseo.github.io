@@ -1,21 +1,24 @@
 import satori, { SatoriOptions } from "satori";
 import { SITE } from "@config";
-import { writeFile } from "node:fs/promises";
+import { writeFile, readFile } from "node:fs/promises";
 import { Resvg } from "@resvg/resvg-js";
 
 const fetchFonts = async () => {
   // Regular Font
-  const fontFileRegular = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
-  );
-  const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
+  // const fontFileRegular = await fetch("../../public/fonts/MonoplexKR-Regular.ttf");
+  // const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
+
+  const fontRegular: ArrayBuffer = await readFile(
+    "public/fonts/MonoplexKR-Regular.ttf"
+  );
   // Bold Font
-  const fontFileBold = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
-  );
-  const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
+  // const fontFileBold = await fetch("../../public/fonts/MonoplexKR-SemiBold.ttf");
+  // const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
+  const fontBold: ArrayBuffer = await readFile(
+    "public/fonts/MonoplexKR-SemiBold.ttf"
+  );
   return { fontRegular, fontBold };
 };
 
@@ -119,7 +122,6 @@ const options: SatoriOptions = {
   width: 1200,
   height: 630,
   embedFont: true,
-  // 한글 깨져서 MonoPlexKR로 폰트 바꿈
   fonts: [
     {
       name: "MonoPlexKR",
