@@ -10,7 +10,7 @@ tags:
   - Concurrency
   - Thread
 ogImage: ""
-description: pandoc을 설치해서, md를 pdf로 변환하는 과정을 담았습니다.
+description: OS:TEP 26장 공부한 거 정리
 ---
 
 ## Table of contents
