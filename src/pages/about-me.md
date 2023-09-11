@@ -7,7 +7,7 @@ title: "About Me"
   <img src="/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-# 🐾 ㉶를 꿈꿉니다
+# 🐾㉶를 꿈꿉니다
 
 # Would-be Developer
 
