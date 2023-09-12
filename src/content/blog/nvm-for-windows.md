@@ -35,7 +35,7 @@ GitHub에서 [nvm-windows release note](https://github.com/coreybutler/nvm-windo
 nvm -v
 ```
 
-```powerhsell
+```powershell
 1.1.11
 ```
 
@@ -49,11 +49,11 @@ nvm install lts
 
 하기 명령어로 설치된 Node.js 버전들을 확인할 수 있다.
 
-```powerhsell
+```powershell
 nvm ls
 ```
 
-```powerhsell
+```powershell
 
     18.17.1
 ```
