@@ -57,7 +57,7 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["MonoplexKR", "monospace"],
+      mono: ["Sarasa Mono K", "monospace"],
     },
     // },
   },
