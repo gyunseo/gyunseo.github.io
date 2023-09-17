@@ -64,4 +64,20 @@ pthread_cond_signal(pthread_cond_t *c);
 
 1. 부모 thread가 자식 thread를 생성하고, 계속 실행해 `thr_join()`을 호출하고 자식 thread가 끝나기를 기다리는 경우. 이 경우에는 부모 thread가 lock을 획득하고, 자식이 끝났는지 검사한 후에 (`done`이 1이 됐는지) 자식이 끝나지 않았으므로, `wait()`를 호출해 스스로를 재운다. (이때 lock을 해제) 자식 thread가 추후에 실행돼, `"child"`라는 msg를 print하고, `thr_exit()`을 호출해 부모 thread를 깨울 것이다. 이 코드는 lock을 획득한 후에, `done`을 1로 설정하고, 부모 thread에 signal을 보내 부모가 일어나도록 한다. (이때까지는 아직 부모 thread는 lock이 없겠죠? ㅎㅎ) 그 다음 마지막으로, 호출되었던 `wait()`에서 자식 thread에서 놓아준 lock을 획득하고, 그 상태로 return하여 부모 thread가 마저 실행될 것이고, 다시 또 lock을 해제하고 `"parent: end"` msg를 print할 것이다.
 
-2. 자식 thread가 생성되면서 즉시 실행되고, `done`을 1로 설정한다. 그리고 자고 있는 thread를 깨우기 위해 signal을 보낸다. 하지만 이때 자고 있는 thread가 없기 때문에, 단순히 return한다. (한 마디로 헛수고한 셈이다.) 이후에 부모 thread가 실행되고, `thr_join()`을 호출하고, `done`이 1인 걸 알게 된다. `done`이 1이므로 while이 실행되지 않고, 대기 없이 바로 return한다.
+2. 자식 thread가 생성되면서 즉시 실행되고, `done`을 1로 설정한다. 그리고 자고 있는 thread를 깨우기 위해 signal을 보낸다. 하지만 이때 자고 있는 thread가 없기 때문에, 단순히 return한다. (한 마디로 헛수고한 셈이다.) 이후에 부모 thread가 실행되고, `thr_join()`을 호출하고, `done`이 1인 걸 알게 된다. `done`이 1이므로 `while`이 실행되지 않고, 대기 없이 바로 return한다.
+
+매우 중요한 사실이 있다.
+부모 thread가 조건을 검사할 때 (`done`을 검사할 때) `if`가 아니라 `while`을 사용한다는 것이다. 그리고 `done`이라는 상태 변수가 꼭 필요하다.
+왜 그래야 하는지 하기 그림을 통해 이해하자.
+![](/public/image/ostep-30-condition-variables-1694973358249.jpeg)
+여기서 자식 thread가 생성된 즉시 실행되어, `thr_exit()`가 호출되는 경우를 상정해 보자. 자식 thread -(signal)-> no one answers. then, 부모 thread (sleeps) -(forever) -> no one wakes it up. 이런 형국이 된다.
+이 예제를 통해 왜 `done`과 같은 상태 변수가 필요한지 알게 됐다.
+잠자고, 깨우고, 락을 설정하는 것이 `done`이라는 상태 변수를 중심으로 구현됐다.
+또 다른 안 좋은 예시가 있다.
+signal을 주거나 대기할 때 lock을 획득할 필요가 없다고 가정해 보자.
+하기 그림을 보며 어떤 문제가 생길지 생각해 보자.
+![](/public/image/ostep-30-condition-variables-1694973636035.jpeg)
+여기서는 race condition이 발생한다. 만약 부모 thread가 `done`이 0인 걸 확인하고, 잠을 자려한다. `wait()`를 호출하기 직전에 interrupt가 걸려서, 자식 thread가 실행되고, 자식 thread는 `done`을 1로 바꾸고, signal을 보낸다. 하지만, 깨워야 할 thread가 없어서 별 다른 짓을 안 하고 return하게 된다. 부모 thread로 다시 돌아 와서, `wait()`를 호출하고 영원히 잠자게 된다.
+상기의 간단한 두 예제를 통해, 컨디션 변수를 제대로 사용하기 위한 기본적인 요건들을 이해했기를 바란다.
+
+## 생산자/소비자 (유한 버퍼) 문제
