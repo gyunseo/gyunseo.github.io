@@ -29,8 +29,7 @@ description: Astro Paper Theme을 Github Pages에 배포하는 과정을 담았�
 
 ### branch 관리
 
-<iframe src="https://o365skku-my.sharepoint.com/personal/rbstj0311_o365_skku_edu/_layouts/15/embed.aspx?UniqueId=a38e6aff-daf6-42b1-951e-9d7300971887" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="deploy-astro-paper-on-gh-1694947244903.jpeg"></iframe>
-
+![](/public/assets/image/deploy-astro-paper-on-gh-1694966803545.jpeg)
 Github Actions으로 Build와 Deploy를 동시에 하는 branch인 `gh-pages` branch를 default branch로 두었다.
 그리고, [downstream](https://github.com/gyunseo/gyunseo.github.io)의 `main` branch는 [upstream](https://github.com/satnaing/astro-paper)인 Astro Themes에서 주기적으로 pull해 와서, major한 변경 사항이 있다면 반영을 해준다.
 또 `gh-pages` branch에 `main` branch를 merge를 하는 식으로 blog repo branch를 관리할 것이다.
