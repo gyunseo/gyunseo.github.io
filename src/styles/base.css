@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 눈누 CDN 추가 */
+/* jsdevlivr CDN 추가 */
 @font-face {
   font-family: "Sarasa Mono K";
   src: url("https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-extralight.woff2")
