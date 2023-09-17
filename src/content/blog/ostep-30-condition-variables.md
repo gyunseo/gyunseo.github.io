@@ -8,6 +8,7 @@ tags:
   - OS
   - OSTEP
   - Concurrency
+  - Condition-Variables
 ogImage: ""
 description: OS:TEP 30장 공부한 거 정리
 ---
