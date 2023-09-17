@@ -60,3 +60,8 @@ pthread_cond_signal(pthread_cond_t *c);
 이렇게 복잡한 이유는 thread 스스로를 재우려 할 때, race condition의 발생을 막기 위해서이다.
 이해를 위해 하기 그림에 나타난 join 문제의 해법을 보자.
 ![](/public/image/ostep-30-condition-variables-1694972374585.jpeg)
+두 가지 경우가 있다.
+
+1. 부모 thread가 자식 thread를 생성하고, 계속 실행해 `thr_join()`을 호출하고 자식 thread가 끝나기를 기다리는 경우. 이 경우에는 부모 thread가 lock을 획득하고, 자식이 끝났는지 검사한 후에 (`done`이 1이 됐는지) 자식이 끝나지 않았으므로, `wait()`를 호출해 스스로를 재운다. (이때 lock을 해제) 자식 thread가 추후에 실행돼, `"child"`라는 msg를 print하고, `thr_exit()`을 호출해 부모 thread를 깨울 것이다. 이 코드는 lock을 획득한 후에, `done`을 1로 설정하고, 부모 thread에 signal을 보내 부모가 일어나도록 한다. (이때까지는 아직 부모 thread는 lock이 없겠죠? ㅎㅎ) 그 다음 마지막으로, 호출되었던 `wait()`에서 자식 thread에서 놓아준 lock을 획득하고, 그 상태로 return하여 부모 thread가 마저 실행될 것이고, 다시 또 lock을 해제하고 `"parent: end"` msg를 print할 것이다.
+
+2. 자식 thread가 생성되면서 즉시 실행되고, `done`을 1로 설정한다. 그리고 자고 있는 thread를 깨우기 위해 signal을 보낸다. 하지만 이때 자고 있는 thread가 없기 때문에, 단순히 return한다. (한 마디로 헛수고한 셈이다.) 이후에 부모 thread가 실행되고, `thr_join()`을 호출하고, `done`이 1인 걸 알게 된다. `done`이 1이므로 while이 실행되지 않고, 대기 없이 바로 return한다.
