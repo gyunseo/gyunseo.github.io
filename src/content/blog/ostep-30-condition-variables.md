@@ -57,4 +57,6 @@ pthread_cond_signal(pthread_cond_t *c);
 > `wait()`가 호출될 때, `mutex`는 잠겨있었다 가정한다. `wait()`의 역할은 lock을 해제하고 호출한 thread를 재우는 것이다. 어떤 딴 thread가 signal을 보내, thread가 깨어나면, `wait()`에서 return하기 전에 lock을 재획득해야 한다.
 
 그러니, 조건이 만족돼 잠에서 깨어났더라도 lock을 획득 못하면 다시 sleep 상태로 돌아간다.
-이렇게 복잡한 이유는 thread 스스로를 재우려 할 때, race condition의 발생을 막기위해서다.
+이렇게 복잡한 이유는 thread 스스로를 재우려 할 때, race condition의 발생을 막기 위해서이다.
+이해를 위해 하기 그림에 나타난 join 문제의 해법을 보자.
+![](/public/image/ostep-30-condition-variables-1694972374585.jpeg)
