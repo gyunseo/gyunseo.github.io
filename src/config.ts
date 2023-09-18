@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Gyunseo's Blog",
   ogImage: "me-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
 };
 
 export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
