@@ -160,3 +160,11 @@ Mesa semantic에서는 언제나 `while`문을 이용하면 된다.
 ![](/image/ostep-30-condition-variables-1695002361454.jpeg)
 그리고 이 과정은 글로 쓰기 귀찮으니, 교재 캡처본으로 설명을 대체한다.
 ![](/image/ostep-30-condition-variables-1695002400634.jpeg)
+암튼 세 쓰레드 모두 대기 상태로 돌입할 수 있는 대참사가 날 수 있다는 것이다.
+
+### 단일 버퍼 생산자/소비자 해법
+
+두 개의 컨디션 변수 `empty`와 `fill`을 사용한다.
+![](/image/ostep-30-condition-variables-1695002665298.jpeg)
+
+### 최종적인 생산자/소비자 해법
