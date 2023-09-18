@@ -89,4 +89,12 @@ signal을 주거나 대기할 때 lock을 획득할 필요가 없다고 가정�
 여러 개의 생산자 쓰레드와 소비자 쓰레드가 있다고 하자.
 생산자는 데이터를 만들어 버퍼에 넣고, 소비자는 버퍼에서 데이터를 꺼내 쓴다.
 이런 관계는 실제 시스템에서 자주 일어난다. (ex: 멀티 쓰레드 web server의 경우 생산자는 HTTP 요청을 작업 큐 (유한 버퍼)에 넣고, 소비자 쓰레드는 이 큐에서 요청을 꺼내어 처리한다. ~~**ㄷㄷ 이거 김승일이 말한 거 아님?**~~)
-`grep foo file.txt | wc -l`과 같은 문장처럼 pipe 명령으로 한 program의 결과를 다른 program에게 전달할 때도 유한 버퍼를 사용한다. 이 예제는 두 개의 프로세스가 병행 실행된다. `grep` 명령어는 `file.txt`에서 `foo`라는 문자열이 포함된 줄만 찾아 stdout에 쓴다. unix shell은 출력 결과를 unix pipe (시스템 콜인 pipe에 의해 생성)라는 곳으로 redirect한다.
+`grep foo file.txt | wc -l`과 같은 문장처럼 pipe 명령으로 한 program의 결과를 다른 program에게 전달할 때도 유한 버퍼를 사용한다.
+이 예제는 두 개의 프로세스가 병행 실행된다. `grep` 명령어는 `file.txt`에서 `foo`라는 문자열이 포함된 줄만 찾아 stdout에 쓴다. unix shell은 출력 결과를 unix pipe (시스템 콜인 pipe에 의해 생성)라는 곳으로 redirect한다.
+파이프의 한쪽 끝에는 `wc` 프로세스의 stdin과 연결돼 있다.
+`grep` process = producer, `wc` process = consumer.
+두 process 간에는 kernel 내부의 유한 버퍼가 있다.
+유한 버퍼는 공유 자원이다.
+그래서, race condition 방지를 위해 동기화가 필요하다.
+하기 그림을 보면서 이해해 보자.
+![](/image/ostep-30-condition-variables-1695000070208.jpeg)
