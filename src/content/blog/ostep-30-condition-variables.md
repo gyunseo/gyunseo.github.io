@@ -104,3 +104,8 @@ signal을 주거나 대기할 때 lock을 획득할 필요가 없다고 가정�
 읽은 값은 return.
 
 > 중요한 점: 버퍼에 뭐가 없을 때 버퍼에 값을 넣고, 버퍼에 가득찼을 때 버퍼에서 값을 읽고 비운다.
+
+이제 이 작업은 두 threads에 의해 수행된다.
+하나는 producer thread고, 다른 하나는 consumer thread이다.
+![](/image/ostep-30-condition-variables-1695000430496.jpeg)
+하지만 이 코드가 제대로 동작하지 않는다는 것쯤은 잘 알 것이다. (~~난 모르겠음.~~)
