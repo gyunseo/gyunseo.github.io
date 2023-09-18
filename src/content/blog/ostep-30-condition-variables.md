@@ -98,3 +98,7 @@ signal을 주거나 대기할 때 lock을 획득할 필요가 없다고 가정�
 그래서, race condition 방지를 위해 동기화가 필요하다.
 하기 그림을 보면서 이해해 보자.
 ![](/image/ostep-30-condition-variables-1695000070208.jpeg)
+`put()` 루틴은 buffer가 비었다고 가정하고, 값을 buffer에 넣고 `count`를 1로 set하여 가득찼다고 표시한다.
+`get()`은 그 반대로 동작한다.
+버퍼가 찼는지 확인하고, 값을 꺼낸 버퍼가 비었다고 설정한다.
+읽은 값은 return.
