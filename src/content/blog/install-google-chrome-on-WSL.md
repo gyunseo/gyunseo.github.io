@@ -37,4 +37,4 @@ google-chrome
 
 ## google-chrome 실행 화면
 
-![](/image/install-google-chrome-on-WSL.jpeg)
+![](/public/image/install-google-chrome-on-WSL.jpeg)
