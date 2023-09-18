@@ -53,3 +53,11 @@ sem_init(&s, 0, 1);
 이 두 개의 함수는 atomic하게 실행된다고 가정한다.
 세마포어 루틴 내에서 race condition이 발생할 수 있다는 사실은 아직은 걱정하지 말자.
 이를 해결하가 위해 곧 lock과 condition variables를 사용한다.
+
+## 이전 세마포어(락)
+
+![](/image/ostep-31-semaphores-1695006397149.jpeg)
+
+상기 그림을 보자.
+`sem_wait()`와 `sem_post()`가 쌍으로 임계 영역을 둘러싼 것을 볼 수 있다.
+이것이 동작하기 위한 핵심은 세마포어 `m`의 초기값이다.
