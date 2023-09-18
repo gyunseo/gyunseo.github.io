@@ -143,3 +143,11 @@ lock을 획득하고, 버퍼가 비었는지 확인한다.
 ![](/image/ostep-30-condition-variables-1695001454877.jpeg)
 시그널은 쓰레드를 깨우기만 한다.
 일종의 힌트에 불과하다.
+이런 식으로 시그널을 정의하는 것을 Mesa semantic이라고 하고, 깨어난 즉시 쓰레드가 실행되는 것을 보장하는 걸 Hoare semantic이라고 한다.
+대부분의 시스템은 Mesa semantic을 채용한다.
+
+### 개선된, 하지만 아직도 불완전한: `if`문 대신 `while`문
+
+이 문제는 쉽게 해결될 수 있다.
+하기 그림을 보며 이해해 보자.
+![](/image/ostep-30-condition-variables-1695001770681.jpeg)
