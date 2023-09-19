@@ -4,7 +4,7 @@ import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
-import convertMarkdownImageLink from "./src/utils/convertMarkdownImageLink";
+import convertMarkdownImageLink from "/src/utils/convertMarkdownImageLink";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gyunseo.xyz", // replace this with your deployed dom:wain
