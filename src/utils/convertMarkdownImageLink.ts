@@ -2,8 +2,6 @@ import { visit } from "unist-util-visit";
 
 // markdown image-link converter
 const convertMarkdownImageLink = () => {
-  console.log("convertMarkdownImageLink function called"); // 함수가 호출되었는지 확인, 호출은 되네
-  debugger;
   return (tree: any) => {
     visit(tree, "text", (node, index, parent) => {
       const markdownImageRegex = /!\[(.*)\]\((.+)\)/g;
@@ -24,8 +22,8 @@ const convertMarkdownImageLink = () => {
           });
         }
 
-        console.log("Image Match:", fullMatch); // 이미지 태그 매칭 확인
-        console.log("Image Name:", imageName); // 이미지 이름 확인
+        console.debug("Image Match:", fullMatch); // 이미지 태그 매칭 확인
+        console.debug("Image Name:", imageName); // 이미지 이름 확인
         newNodes.push({
           type: "image",
           url: `/image/${imageName}`, // 경로를 `public/image`에 맞춰서 수정
@@ -47,4 +45,5 @@ const convertMarkdownImageLink = () => {
     });
   };
 };
+
 export default convertMarkdownImageLink;
