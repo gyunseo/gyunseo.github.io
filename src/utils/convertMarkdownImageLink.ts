@@ -3,47 +3,13 @@ import { visit } from "unist-util-visit";
 // markdown image-link converter
 const convertMarkdownImageLink = () => {
   return (tree: any) => {
-    visit(tree, "text", (node, index, parent) => {
-      const markdownImageRegex = /!\[(.*)\]\((.+)\)/g;
-
-      let match;
-      let lastIndex = 0;
-      const newNodes = [];
-
-      while ((match = markdownImageRegex.exec(node.value)) !== null) {
-        const [fullMatch, imageName] = match;
-        const start = match.index;
-        const end = markdownImageRegex.lastIndex;
-
-        if (start !== lastIndex) {
-          newNodes.push({
-            type: "text",
-            value: node.value.slice(lastIndex, start),
-          });
-        }
-
-        console.debug("Image Match:", fullMatch); // 이미지 태그 매칭 확인
-        console.debug("Image Name:", imageName); // 이미지 이름 확인
-        newNodes.push({
-          type: "image",
-          url: `/image/${imageName}`, // 경로를 `public/image`에 맞춰서 수정
-          alt: imageName,
-        });
-
-        lastIndex = end;
-      }
-
-      if (newNodes.length > 0) {
-        if (lastIndex < node.value.length) {
-          newNodes.push({
-            type: "text",
-            value: node.value.slice(lastIndex),
-          });
-        }
-        parent.children.splice(index, 1, ...newNodes);
-      }
+    // AST에서 image 노드를 찾아서 url을 수정한다.
+    visit(tree, "image", node => {
+      console.log("node", node);
+      // trim "/public" from the image url
+      node.url = node.url.replace("/public", "");
+      console.log("trimmed node", node);
     });
   };
 };
-
 export default convertMarkdownImageLink;
