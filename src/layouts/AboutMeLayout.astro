@@ -23,21 +23,22 @@ const { frontmatter } = Astro.props;
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
       <slot />
     </section>
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="gyunseo/gyunseo.github.io"
+      data-repo-id="R_kgDOKRmokg"
+      data-category="Comments"
+      data-category-id="DIC_kwDOKRmoks4CZlYO"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="preferred_color_scheme"
+      data-lang="ko"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async></script>
   </main>
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="gyunseo/gyunseo.github.io"
-    data-repo-id="R_kgDOKRmokg"
-    data-category="Comments"
-    data-category-id="DIC_kwDOKRmoks4CZlYO"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="ko"
-    crossorigin="anonymous"
-    async></script>
   <Footer />
 </Layout>
