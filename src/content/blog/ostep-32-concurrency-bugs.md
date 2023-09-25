@@ -58,3 +58,18 @@ description: OS:TEP 32장 공부한 거 정리
 3. `fputs`는 NULL 포인터 역참조를 하게 되어, 프로그램은 크래시된다.
 
 > **다수의 메모리 참조 연산들 간에 있어 예상했던 직렬성(serializability)이 보장되지 보장되지 않았다. (즉, 코드의 일부에 원자성이 요구됐으나, 실행 시에 그 원자성이 위반됐다.)**
+
+어느 부분이 문제일까?
+
+NULL값 검사와 `fputs` 호출 시 `proc_info`를 인자로 사용할 때, 원자적으로 실행되는 것 (_atomicity assumption_)을 가정했다.
+근데, 이 가정이 깨진 것이다.
+
+어떻게 해결할까?
+
+락을 추가해, 어느 쓰레드든 `proc_info` 필드 접근 시, `proc_info_lock` 락 변수를 획득토록 한다.
+
+![](/public/image/ostep-32-concurrency-bugs-1695658112849.jpeg)
+
+### 순서 위반 오류 (order violation)
+
+![](/public/image/ostep-32-concurrency-bugs-1695658149124.jpeg)
