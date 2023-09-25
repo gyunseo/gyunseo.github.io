@@ -46,7 +46,7 @@ description: OS:TEP 32장 공부한 거 정리
 
 대표적인 두 종류의 오류인 **원자성 위반(atomicity violation)** 과 **순서 위반(order violation)** 오류를 살펴본다.
 
-#### 원자성 위반 오류 (atomicity violation)
+### 원자성 위반 오류 (atomicity violation)
 
 ![](/public/image/ostep-32-concurrency-bugs-1695656996684.jpeg)
 상기 예제는 MySQL에서 발견한 간단한 예제이다.
