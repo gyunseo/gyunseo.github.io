@@ -1,14 +1,13 @@
-## 해
-
+---
 pubDatetime: 2022-09-26T00:33:00Z
 title: OSTEP 32 Concurrency Bugs
 featured: false
 tags:
-
-- docs
-  ogImage: ""
-  description: OS:TEP 32장 공부한 거 정리
-
+  - OSTEP
+  - Concurrency
+  - Computer-Science
+ogImage: ""
+description: OS:TEP 32장 공부한 거 정리
 ---
 
 ## Table of contents
