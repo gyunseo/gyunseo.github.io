@@ -34,3 +34,20 @@ tags:
 `MySQL` , `Apache`, `Mozilla`, `OpenOffice`
 ![](/public/image/ostep-32-concurrency-bugs-1695656687000.jpeg)
 상기 표는 예로 든 병행 프로그램에서의 병행성 오류들을 표로 나타낸 것이다.
+비교착 상태와 교착 상태의 오류로 나뉜 것을 알 수 있다.
+
+## 비교착 상태 오류
+
+상기 표를 보면 비교착 상태 오류가 병행성 오류의 과반수를 차지한다.
+
+그것들은 어떤 종류일까?
+어떻게 발생하는가?
+어떻게 해결할 수 있는가?
+
+대표적인 두 종류의 오류인 **원자성 위반(atomicity violation)** 과 **순서 위반(order violation)** 오류를 살펴본다.
+
+#### 원자성 위반 오류 (atomicity violation)
+
+![](/public/image/ostep-32-concurrency-bugs-1695656996684.jpeg)
+상기 예제는 MySQL에서 발견한 간단한 예제이다.
+`thd` 자료 구조의 `proc_info` 필드를 두 개의 딴 쓰레드들가 접근한다.
