@@ -1,11 +1,14 @@
----
+## 해
+
 pubDatetime: 2022-09-26T00:33:00Z
 title: OSTEP 32 Concurrency Bugs
 featured: false
 tags:
-  - docs
-ogImage: ""
-description: OS:TEP 32장 공부한 거 정리
+
+- docs
+  ogImage: ""
+  description: OS:TEP 32장 공부한 거 정리
+
 ---
 
 ## Table of contents
@@ -27,6 +30,7 @@ description: OS:TEP 32장 공부한 거 정리
 > **복잡한 병행 프로그램에서 발생하는 병행성 오류들은 어떤 것들이 있는가?**
 
 대표적인 오픈 소스 프로그램 4개를 예로 들어 설명한다.
+
 `MySQL` , `Apache`, `Mozilla`, `OpenOffice`
 ![](/public/image/ostep-32-concurrency-bugs-1695656687000.jpeg)
-병해
+상기 표는 예로 든 병행 프로그램에서의 병행성 오류들을 표로 나타낸 것이다.
