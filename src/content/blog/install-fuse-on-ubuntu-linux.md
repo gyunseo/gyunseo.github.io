@@ -48,6 +48,7 @@ sudo apt install -y libfuse2
 ```
 
 상기 명령어로 `FUSE 2.x`를 설치한다.
+설치가 완료됐다면, 이제 `FUSE 2.x`는 system을 손상시키지 않고 `FUSE 3.x`와 함께 잘 작동해야 한다.
 
 ## 참고 문서
 
