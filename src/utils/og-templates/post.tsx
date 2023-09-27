@@ -1,30 +1,7 @@
-import satori, { SatoriOptions } from "satori";
 import { SITE } from "@config";
-import { writeFile, readFile } from "node:fs/promises";
-import { Resvg } from "@resvg/resvg-js";
+import type { CollectionEntry } from "astro:content";
 
-const fetchFonts = async () => {
-  // Regular Font
-
-  // const fontFileRegular = await fetch("../../public/fonts/MonoplexKR-Regular.ttf");
-  // const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
-
-  const fontRegular: ArrayBuffer = await readFile(
-    "public/fonts/MonoplexKR-Regular.ttf"
-  );
-  // Bold Font
-  // const fontFileBold = await fetch("../../public/fonts/MonoplexKR-SemiBold.ttf");
-  // const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
-
-  const fontBold: ArrayBuffer = await readFile(
-    "public/fonts/MonoplexKR-SemiBold.ttf"
-  );
-  return { fontRegular, fontBold };
-};
-
-const { fontRegular, fontBold } = await fetchFonts();
-
-const ogImage = (text: string) => {
+export default (post: CollectionEntry<"blog">) => {
   return (
     <div
       style={{
@@ -83,7 +60,7 @@ const ogImage = (text: string) => {
               overflow: "hidden",
             }}
           >
-            {text}
+            {post.data.title}
           </p>
           <div
             style={{
@@ -104,7 +81,7 @@ const ogImage = (text: string) => {
                 "
               </span>
               <span style={{ overflow: "hidden", fontWeight: "bold" }}>
-                {SITE.author}
+                {post.data.author}
               </span>
             </span>
 
@@ -117,42 +94,3 @@ const ogImage = (text: string) => {
     </div>
   );
 };
-
-const options: SatoriOptions = {
-  width: 1200,
-  height: 630,
-  embedFont: true,
-  fonts: [
-    {
-      name: "MonoPlexKR",
-      data: fontRegular,
-      weight: 400,
-      style: "normal",
-    },
-    {
-      name: "MonoPlexKR",
-      data: fontBold,
-      weight: 600,
-      style: "normal",
-    },
-  ],
-};
-
-const generateOgImage = async (mytext = SITE.title) => {
-  const svg = await satori(ogImage(mytext), options);
-
-  // render png in production mode
-  if (import.meta.env.MODE === "production") {
-    const resvg = new Resvg(svg);
-    const pngData = resvg.render();
-    const pngBuffer = pngData.asPng();
-
-    console.info("Output PNG Image  :", `${mytext}.png`);
-
-    await writeFile(`./dist/${mytext}.png`, pngBuffer);
-  }
-
-  return svg;
-};
-
-export default generateOgImage;

@@ -10,9 +10,7 @@ export default defineConfig({
   site: "https://gyunseo.xyz", // replace this with your deployed dom:wain
   integrations: [
     tailwind({
-      config: {
-        applyBaseStyles: false,
-      },
+      applyBaseStyles: false,
     }),
     react(),
     sitemap(),
@@ -40,4 +38,5 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
+  scopedStyleStrategy: "where",
 });
