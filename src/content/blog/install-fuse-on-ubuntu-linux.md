@@ -39,3 +39,16 @@ dpkg -l | grep fuse3
 ```
 
 `ii fuse3`로 시작하는 line이 있는지 확인한다. (해당 line이 없으면 `fuse3`가 설치돼 있지 않은 것이다.)
+
+![](/src/assets/image/install-fuse-on-ubuntu-linux-1695839873427.jpeg)
+상기 이미지와 같이 나오면 package가 잘 설치돼 있는 것이다.
+
+```bash
+sudo apt install -y libfuse2
+```
+
+상기 명령어로 `FUSE 2.x`를 설치한다.
+
+## 참고 문서
+
+[](https://docs.appimage.org/user-guide/troubleshooting/fuse.html#setting-up-fuse-2-x-alongside-of-fuse-3-x-on-recent-ubuntu-22-04-debian-and-their-derivatives)
