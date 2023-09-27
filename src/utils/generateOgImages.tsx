@@ -7,13 +7,13 @@ import siteOgImage from "./og-templates/site";
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "https://github.com/gyunseo/Sarasa-Mono-K-Font-Download/blob/main/sarasa-mono-k-regular.ttf"
+    "https://github.com/gyunseo/ttf-sarasa-mono-k/raw/main/sarasa-mono-k-regular.ttf"
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
   // Bold Font
   const fontFileBold = await fetch(
-    "https://github.com/gyunseo/Sarasa-Mono-K-Font-Download/blob/main/sarasa-mono-k-bold.ttf"
+    "https://github.com/gyunseo/ttf-sarasa-mono-k/raw/main/sarasa-mono-k-bold.ttf"
   );
   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
