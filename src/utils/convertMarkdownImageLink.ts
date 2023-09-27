@@ -5,7 +5,7 @@ const convertMarkdownImageLink = () => {
   return (tree: any) => {
     // AST에서 image 노드를 찾아서 url을 수정한다.
     visit(tree, "image", node => {
-      console.log("node", node);
+      // console.log("node", node);
       // if url starts with "/public", then trim "/public" from the image url
       if (node.url.startsWith("/public")) {
         node.url = node.url.slice(7);
@@ -14,7 +14,7 @@ const convertMarkdownImageLink = () => {
       if (node.url.startsWith("public")) {
         node.url = node.url.slice(6);
       }
-      console.log("trimmed node", node);
+      // console.log("trimmed node", node);
     });
   };
 };
