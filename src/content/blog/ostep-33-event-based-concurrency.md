@@ -39,7 +39,7 @@ description: OS:TEP 33장 공부한 거 정리
 고전적인 이벤트 기반의 서버가 어떻게 생겼는지 살펴보자.
 이 응용 프로그램은 event loop라는 단순한 구조를 기반으로 짜여 있다.
 코드는 하기와 같다.
-![](/public/image/ostep-33-event-based-concurrency-1695669194022.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695669194022.jpeg)
 
 매우 간단하다.
 루프 안에서 사건 발생을 대기한다.
@@ -66,7 +66,7 @@ interface의 기능은 간단하다.
 이 시스템 콜들이 정확히 해당 역할을 한다.
 `select()`를 예로 살펴보자.
 Mac OS X가 제공하는 메뉴얼은 이 API를 다음과 같이 설명한다.
-![](/public/image/ostep-33-event-based-concurrency-1695669543207.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695669543207.jpeg)
 메뉴얼의 내용은 다음과 같다.
 
 > `select()`는 `readfds`, `writefds`, 그리고 `errorfds`를 통해 전달된 I/O 디스크립터(descriptor) 집합들을 검사해서, 각 디스크립터 들에 해당하는 입출력 디바이스가 읽을 준비가 되었는지, 쓸 준비가 되었는지, 처리해야 할 예외 조건이 발생했는지 등을 파악한다.
@@ -101,7 +101,7 @@ non-blocking interface는 모든 프로그래밍 (예, 멀티 쓰레드 프로�
 
 확실한 이해를 위해, `select()`를 이용해 어떤 네트워크 디스크립터에 msg가 도착했는지를 파악하는 경우를 살펴보자.
 하기 코드를 살펴 보자.
-![](/public/image/ostep-33-event-based-concurrency-1695670379636.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695670379636.jpeg)
 상기 코드는 이해하기 쉽다.
 초기화 후에 서버는 무한 루프에 들어간다.
 그 루프 내에서 `FD_ZERO()` 매크로를 이용해, 파일 디스크립터를 초기화한 후, `FD_SET()`을 사용하여,`minFD`에서 `maxFD`까지의 파일 디스크립터 집합에 포함시킨다.
@@ -143,20 +143,20 @@ I/O 처리와 딴 연산이 자연스레 overlap되는 현상이 쓰레드 기�
 언급된 한계를 극복하기 위해 여러 현대 OS들이 I/O 요청을 디스크로 내려 보낼 수 있는 일반적으로 asynchrounous I/O라 부르는 새로운 방법을 개발했다.
 이 interace는 프로그램이 I/O 요청을 하면 I/O 요청이 끝나기 전에 제어권을 즉시 다시 호출자에게 돌려주는 것을 가능케 했으며, 추가적으로 여러 종류의 I/O들이 완료됐느지도 판단할 수 있게했다.
 예를 들어, Mac OS X가 제공하는 interface를 살펴 보자.
-![](/public/image/ostep-33-event-based-concurrency-1695671345039.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695671345039.jpeg)
 이 API는 `struct aiocb` 또는 전문 용어로 AIO 제어 블럭 (AIO control block)이라고 불리는 기본적인 구조를 사용하고 있다.
 상기 코드가 간단화한 구조다.
 파일에 대한 비동기 읽기 요청을 하려면, 응용 프로그램은 먼저 이 자료 구조에 읽고자 하는 파일의 파일 디스크립터 (`aio_fildes`), 파일 내에서 위치(`aio_offset`)와 더불어 요청 길이 (`aio_nbytes`), 그리고 마지막으로 읽기 결과로 얻은 데이터를 저장할 대상 메모리의 위치(`aio_buf`)와 같으 관련 정보를 채워 넣어야 한다.
 이 자료 구조에 정보가 다 채워지면 응용 프로그램은 읽으려는 파일에 비동기 호출을 보낸다.
 Mac OS X에서는 간단한 asynchronous read API를 사용한다.
-![](/public/image/ostep-33-event-based-concurrency-1695671540037.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695671540037.jpeg)
 이 명령어를 통해 I/O 호출을 성공하면, 즉시 리턴을 하며 응용 프로그램 (이벤트 기반의 서버 류)은 하던 일을 계속 진행할 수 있다.
 풀어야 하는 퍼즐 한 조작이 있다.
 
 > **I/O가 종료됐다는 것을 어떻게 알 수 있을까? 그리고 `aio_buf`가 가리키는 버퍼에 요청했던 데이터가 있다는 것을 어떻게 알 수 있을까?**
 
 마지막으로 API 하나가 필요하다. Mac OS X에서는 이 API를 `aio_error()`라 한다.
-![](/public/image/ostep-33-event-based-concurrency-1695671699745.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695671699745.jpeg)
 이 시스템 콜은 aiocbp에 의해 참조된 요청이 완료됐는지를 검사한다.
 완료됐으면, 성공했다고 리턴을 하고 (0으로) 실패했다면 EINPROGRESS를 반환한다.
 모든 대기 중인 비동기 I/O는 주기적으로 `aio_error()` 시스템 콜로 시스템에 폴링(poll)하여 해당 I/O가 완료됐는지 확인할 수 있다.
@@ -180,7 +180,7 @@ Mac OS X에서는 간단한 asynchronous read API를 사용한다.
 쓰레드 기반 서버를 예로 들자.
 이 서버는 파일 디스크립터 (`fd`) 로 명시된 파일에서 데이터를 read해, 해당 데이터를 네트워크 소켓 디스크립터 (`sd`) 로 전송한다.
 코드는 하기와 같다.
-![](/public/image/ostep-33-event-based-concurrency-1695692516472.jpeg)
+![](/src/assets/image/ostep-33-event-based-concurrency-1695692516472.jpeg)
 이 작업은 멀티 쓰레드 프로그램에서는 매우 간단하다.
 `read()`가 리턴되면 전송할 네트워크 소켓 정보가 같은 스택에 존재하기 때문이다.
 근데, 이벤트 기반 시스템에서는 그렇게 간단하지가 않다.

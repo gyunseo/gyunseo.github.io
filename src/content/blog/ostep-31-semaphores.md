@@ -39,7 +39,7 @@ sem_init(&s, 0, 1);
 이 값은 같은 process 내의 thread 간 semaphore를 공유한다는 것을 의미한다.
 초기화된 후에는 `sem_wait()`, 또는 `sem_post()`라는 함수를 호출해, semaphore를 다룬다.
 두 함수의 동작은 하기 그림에 나온다.
-![](/public/image/ostep-31-semaphores-1694974842445.jpeg)
+![](/src/assets/image/ostep-31-semaphores-1694974842445.jpeg)
 이 루틴들은 다수 threads에 의해 동시에 호출되는 것을 가정한다.
 임계 영역은 적절히 보호돼야 한다.
 일단 임계 영역 보호에 대한 고민은 잠깐 뒤로 보류한다.
@@ -56,7 +56,7 @@ sem_init(&s, 0, 1);
 
 ## 이전 세마포어(락)
 
-![aa](/public/image/ostep-31-semaphores-1695006397149.jpeg)
+![aa](/src/assets/image/ostep-31-semaphores-1695006397149.jpeg)
 
 상기 그림을 보자.
 `sem_wait()`와 `sem_post()`가 쌍으로 임계 영역을 둘러싼 것을 볼 수 있다.

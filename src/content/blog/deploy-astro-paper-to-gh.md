@@ -29,7 +29,7 @@ description: Astro Paper Theme을 Github Pages에 배포하는 과정을 담았�
 
 ### branch 관리 전략
 
-![](/public/image/deploy-astro-paper-to-gh-1694966803545.jpeg)
+![](/src/assets/image/deploy-astro-paper-to-gh-1694966803545.jpeg)
 Github Actions으로 Build와 Deploy를 동시에 하는 branch인 `gh-pages` branch를 default branch로 두었다.
 그리고, [downstream](https://github.com/gyunseo/gyunseo.github.io)의 `main` branch는 [upstream](https://github.com/satnaing/astro-paper)인 Astro Themes의 `main`에서 주기적으로 pull해 와서, major한 변경 사항이 있다면 반영을 해준다.
 또, `gh-pages` branch에서는 pull된 `main` branch를 merge하는 식으로 blog repo branch를 관리할 것이다.
@@ -39,9 +39,9 @@ Github Actions으로 Build와 Deploy를 동시에 하는 branch인 `gh-pages` br
 Repository Settings / Environments / Configure `github-pages`에 들어가서, deployment branch를 `gh-pages`로 꼭 setting을 해 놓자.
 이렇게 설정을 해 놓지 않으면, deploy가 되지를 않는다.
 
-![](/public/image/deploy-astro-paper-to-gh-1695112039084.jpeg)
-![](/public/image/deploy-astro-paper-to-gh-1695112081236.jpeg)
-![](/public/image/deploy-astro-paper-to-gh-1695112096971.jpeg)
+![](/src/assets/image/deploy-astro-paper-to-gh-1695112039084.jpeg)
+![](/src/assets/image/deploy-astro-paper-to-gh-1695112081236.jpeg)
+![](/src/assets/image/deploy-astro-paper-to-gh-1695112096971.jpeg)
 
 ### Build and Deployment Source Setting
 
@@ -56,4 +56,4 @@ Github Actions와 Deploy from a branch가 있는데, 필자는 Github Actions로
 Repository Settings / Pages 에 가면 하기와 같이 Custom Domain을 설정할 수 있다.
 일단은 본인의 Custom Domain을 적어 놓자. (사실 더 해줘야 할 작업들이 남아 있다.)
 
-![](/public/image/deploy-astro-paper-to-gh-1695112641845.jpeg)
+![](/src/assets/image/deploy-astro-paper-to-gh-1695112641845.jpeg)
