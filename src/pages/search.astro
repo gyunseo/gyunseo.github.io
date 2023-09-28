@@ -12,7 +12,7 @@ const posts = await getCollection("blog", ({ data }) => !data.draft);
 
 // List of items to search in
 // SearchBar takes props as an array of SearchItem,
-//which is an object with title, description and CollectionEntry<"blog">.
+// which is an object with title, description and CollectionEntry<"blog">.
 const searchList = posts.map(data => ({
   title: data["data"].title,
   description: data["data"].description,
