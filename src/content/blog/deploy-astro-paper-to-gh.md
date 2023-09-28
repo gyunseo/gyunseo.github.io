@@ -1,5 +1,6 @@
 ---
-title: Astro Paper Theme를 Github Pages에서 Deploy하자!
+title: Astro Paper Theme를 Github Pages에서 Deploy하자
+postSlug: deploy-astro-paper-to-gh
 pubDatetime: 2023-09-10T16:10:00Z
 featured: true
 draft: false

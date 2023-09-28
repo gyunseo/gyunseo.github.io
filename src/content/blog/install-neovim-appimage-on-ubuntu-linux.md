@@ -1,5 +1,6 @@
 ---
 title: Ubuntu Linux에 neovim appimage 설치하기
+postSlug: install-neovim-appimage-on-ubuntu-linux
 pubDatetime: 2023-09-28T03:44:00Z
 featured: false
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: Linux에서 pandoc을 이용해 md을 pdf로 변환하자.
+postSlug: convert-md-to-pdf-with-pandoc-on-linux
 pubDatetime: 2023-09-10T23:12:00Z
 featured: false
 draft: false

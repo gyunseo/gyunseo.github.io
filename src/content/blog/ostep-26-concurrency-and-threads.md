@@ -1,5 +1,6 @@
 ---
 title: OSTEP 26 Concurrency and Threads
+postSlug: ostep-26-concurrency-and-threads
 pubDatetime: 2023-09-11T02:44:00Z
 featured: false
 draft: false

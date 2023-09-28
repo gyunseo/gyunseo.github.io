@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2023-09-26T00:33:00Z
 title: OSTEP 32 Concurrency Bugs
+postSlug: ostep-32-concurrency-bugs
 featured: false
 tags:
   - OSTEP

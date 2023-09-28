@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2023-09-26T03:52:00Z
 title: OSTEP 33 Event-based Concurrency
+postSlug: ostep-33-event-based-concurrency
 featured: false
 tags:
   - OSTEP

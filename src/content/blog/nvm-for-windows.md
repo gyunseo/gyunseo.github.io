@@ -1,5 +1,6 @@
 ---
 title: Windows에서 NVM으로 Node 버전 관리하기
+postSlug: nvm-for-windows
 pubDatetime: 2023-09-12T02:52:00Z
 featured: false
 draft: false

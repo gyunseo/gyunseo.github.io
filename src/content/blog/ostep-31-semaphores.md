@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2023-09-18T03:11:00Z
 title: OSTEP 31 Semaphores
+postSlug: ostep-31-semaphores
 featured: false
 draft: false
 tags:
