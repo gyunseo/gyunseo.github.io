@@ -1,6 +1,5 @@
 ---
 title: Hello, World!
-postSlug: {{title}}
 pubDatetime: {{date}}T{{time}}:00Z
 featured: false
 draft: false
