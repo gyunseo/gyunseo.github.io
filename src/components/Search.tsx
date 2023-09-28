@@ -7,7 +7,8 @@ import type { CollectionEntry } from "astro:content";
 export type SearchItem = {
   title: string;
   description: string;
-  data: CollectionEntry<"blog">["data"];
+  // to use slugify function, because it only takes CollectionEntry<"blog">
+  data: CollectionEntry<"blog">;
 };
 
 interface Props {
@@ -111,8 +112,10 @@ export default function SearchBar({ searchList }: Props) {
         {searchResults &&
           searchResults.map(({ item, refIndex }) => (
             <Card
+              // slugify function only takes CollectionEntry<"blog">
               href={`/posts/${slugify(item.data)}`}
-              frontmatter={item.data}
+              // frontmatter is type of CollectionEntry<"blog">["data"]
+              frontmatter={item.data["data"]}
               key={`${refIndex}-${slugify(item.data)}`}
             />
           ))}

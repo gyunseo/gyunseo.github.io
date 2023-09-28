@@ -26,8 +26,10 @@ const next = pageNum < totalPages ? "" : "disabled";
   <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
     <ul>
       {
-        posts.map(({ data }) => (
-          <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+        // slugify function takes only CollectionEntry<"blog"> as an argument
+        // frontmatter is type of CollectionEntry<"blog">["data"]
+        posts.map(data => (
+          <Card href={`/posts/${slugify(data)}`} frontmatter={data["data"]} />
         ))
       }
     </ul>

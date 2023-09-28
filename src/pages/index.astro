@@ -69,13 +69,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <section id="featured">
             <h2>Featured</h2>
             <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
+              {
+                // slugify function takes only CollectionEntry<"blog"> type
+                // frontmatter is type of CollectionEntry<"blog">["data"]
+                featuredPosts.map(data => (
+                  <Card
+                    href={`/posts/${slugify(data)}`}
+                    frontmatter={data["data"]}
+                    secHeading={false}
+                  />
+                ))
+              }
             </ul>
           </section>
           <Hr />
@@ -90,11 +94,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           sortedPosts
             .filter(({ data }) => !data.featured)
             .map(
-              ({ data }, index) =>
+              // slugify function takes only CollectionEntry<"blog"> type
+              // frontmatter is type of CollectionEntry<"blog">["data"]
+              (data, index) =>
                 index < 4 && (
                   <Card
                     href={`/posts/${slugify(data)}`}
-                    frontmatter={data}
+                    frontmatter={data["data"]}
                     secHeading={false}
                   />
                 )

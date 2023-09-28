@@ -11,11 +11,13 @@ export async function GET() {
     title: SITE.title,
     description: SITE.desc,
     site: SITE.website,
-    items: sortedPosts.map(({ data }) => ({
+    // slugify function takes only CollectionEntry<"blog"> type
+    // other frontmatter properties is type of CollectionEntry<"blog">["data"]
+    items: sortedPosts.map(data => ({
       link: `posts/${slugify(data)}`,
-      title: data.title,
-      description: data.description,
-      pubDate: new Date(data.pubDatetime),
+      title: data["data"].title,
+      description: data["data"].description,
+      pubDate: new Date(data["data"].pubDatetime),
     })),
   });
 }

@@ -48,8 +48,10 @@ const sortTagsPost = getSortedPosts(tagPosts);
     <h1 slot="title" transition:name={tag}>{`Tag:${tag}`}</h1>
     <ul>
       {
-        sortTagsPost.map(({ data }) => (
-          <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+        // slugify function takes only CollectionEntry<"blog"> type
+        // frontmatter is type of CollectionEntry<"blog">["data"]
+        sortTagsPost.map(data => (
+          <Card href={`/posts/${slugify(data)}`} frontmatter={data["data"]} />
         ))
       }
     </ul>

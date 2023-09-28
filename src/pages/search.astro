@@ -11,9 +11,11 @@ import SearchBar from "@components/Search";
 const posts = await getCollection("blog", ({ data }) => !data.draft);
 
 // List of items to search in
-const searchList = posts.map(({ data }) => ({
-  title: data.title,
-  description: data.description,
+// SearchBar takes props as an array of SearchItem,
+//which is an object with title, description and CollectionEntry<"blog">.
+const searchList = posts.map(data => ({
+  title: data["data"].title,
+  description: data["data"].description,
   data,
 }));
 ---

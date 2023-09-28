@@ -14,8 +14,9 @@ export interface Props {
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
+  // slugify function takes only CollectionEntry<"blog"> type
   const postResult = posts.map(post => ({
-    params: { slug: slugify(post.data) },
+    params: { slug: slugify(post) },
     props: { post },
   }));
 
