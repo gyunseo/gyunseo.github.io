@@ -75,3 +75,20 @@ endif
 
 Shell에서 input method를 바꿔주는 [im-select](https://github.com/daipeihust/im-select)라는 프로그램이 있다.
 이를 이용해서, insert mode를 떠날 때, `im-select 1033` 명령어를 실행하게 하여 normal mode에서는 Windows 상에서 Locale 번호가 1033인 US Keyboard를 사용하게 하도록한다.
+`im-select.exe` windows binary를 다운 받고, `C:\im-select\im-select.exe`에 저장한다.
+그리고 `init.vim`을 하기와 같이 편집한다.
+
+```vim
+autocmd InsertLeave * : silent !C:\\im-select\\im-select.exe 1033
+if exists('g:vscode')
+    " VSCode extension
+
+else
+    " ordinary Neovim
+endif
+```
+
+## vscode settings에서 `init.vim` path 설정
+
+![](/src/assets/image/install-neovim-extension-on-vscode-1695879355411.jpeg)
+vscode에서 상기 이미지와 같이 `init.vim` path를 설정한다.
