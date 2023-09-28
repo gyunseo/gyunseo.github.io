@@ -48,4 +48,4 @@ Powershell Core에서 상기 커맨드를 입력해 `winget`으로 neovim을 설
 vscode settings에서 상기 그림과 같이 neovim executable paths를 등록한다.
 
 Windows의 경우: `C:\Program Files\Neovim\bin\nvim.exe`
-Linux의 경우: `/usr/bin/nvim` (WSL의 경우, 마지막 Use WSL을 체크해 주면 된다.)
+Linux의 경우: `/usr/bin/nvim (apt package manager로 설치했을 경우, 필자는 직접 다운 받아서 경로가 다름)` (WSL의 경우, 마지막 Use WSL을 체크해 주면 된다.)
