@@ -7,7 +7,7 @@ const convertMarkdownLink = () => {
     visit(tree, "link", node => {
       // if url matches link regex, them trim the .md extension
       if (node.url.match(/^.*\.(md)$/gi)) {
-        node.url = node.url.replace(/\.md$/gi, "");
+        node.url = `/posts/${node.url.replace(/\.md$/gi, "")}`;
       }
     });
   };
