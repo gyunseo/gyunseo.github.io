@@ -49,3 +49,29 @@ vscode settings에서 상기 그림과 같이 neovim executable paths를 등록�
 
 Windows의 경우: `C:\Program Files\Neovim\bin\nvim.exe`
 Linux의 경우: `/usr/bin/nvim (apt package manager로 설치했을 경우, 필자는 직접 다운 받아서 경로가 다름)` (WSL의 경우, 마지막 Use WSL을 체크해 주면 된다.)
+
+## `init.vim` 설정하기
+
+neovim `init.vim`이라는 설정 파일을 사용한다.
+`nvim.exe`를 실행하고, `:echo stdpath("config")`를 입력하여, Windows에서 `init.vim` path를 확인하자.
+
+![](/src/assets/image/install-neovim-extension-on-vscode-1695877500411.jpeg)
+![](/src/assets/image/install-neovim-extension-on-vscode-1695877517915.jpeg)
+
+`C:\Users\[사용자 이름]\AppData\Local\nvim`으로 나오는 것을 볼 수 있다.
+해당 directory에 `init.vim` 파일을 만들고, 하기와 같이 작성한다.
+
+```vim
+if exists('g:vscode')
+    " VSCode extension
+else
+    " ordinary Neovim
+endif
+```
+
+위와 같이 하는 이유는 VIM 플러그인들이 VSCode에서 문제를 일으킬 수 있기 때문에, 조건부로 Plugin을 활성화하려고 하는 것이다.
+
+## `im-select` 설치 및 `init.vim` 설정
+
+Shell에서 input method를 바꿔주는 [im-select](https://github.com/daipeihust/im-select)라는 프로그램이 있다.
+이를 이용해서, insert mode를 떠날 때, `im-select 1033` 명령어를 실행하게 하여 normal mode에서는 Windows 상에서 Locale 번호가 1033인 US Keyboard를 사용하게 하도록한다.
