@@ -30,4 +30,8 @@ markdown으로 post를 작성할 때, 이미 작성해 두었던 다른 markdown
 그런데, astro paper에서는 post slug를 markdown의 frontmatter에 딸린 title 값을 slugified한 걸 default로 박아 두어서, `/posts/딴-포스트` url로 redirect되지 않는다. (여기서 의문이 들 수도 있다. 엥? 님이 url로 쓴 거는 `딴-포스트.md` 아님? `.md`는 어디다 팔아 먹고 오셨죠? 이에 대한 대답은 [markdown AST node url 값 변경하기](update-markdown-ast-node-url-value.md)에 있다.)
 그래서 astro paper를 살짝 마개조(?)하는 느낌으로 해서, default post slug를 markdown filename이 slugified된 걸로 바꿔 보려 한다.
 
+## `/src/utils/slugify.ts` 코드 수정하기
+
+## 관련된 코드 모두 수정하기
+
 ## 참고 문서
