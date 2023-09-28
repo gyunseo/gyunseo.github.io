@@ -4,7 +4,7 @@ title: "About Me"
 ---
 
 <div>
-  <img src="/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="https://res.cloudinary.com/gyunseo-blog/image/upload/v1695893159/og-images/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
 # 🐾㉶를 꿈꿉니다
