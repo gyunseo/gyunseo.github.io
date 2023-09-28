@@ -21,7 +21,7 @@ description: Ubuntu에 neovim appimage를 설치하고, 작동하는 과정을 �
 
 ## FUSE 설치
 
-[Ubuntu Linux에 FUSE 설치하기](ubuntu-linux에-fuse-설치하기) 문서를 참고.
+[Ubuntu Linux에 FUSE 설치하기](install-fuse-on-ubuntu-linux.md)문서를 참고.
 
 ## AppImage 다운로드 후, 실행하기
 

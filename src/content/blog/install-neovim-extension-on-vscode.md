@@ -92,3 +92,7 @@ endif
 
 ![](/src/assets/image/install-neovim-extension-on-vscode-1695879355411.jpeg)
 vscode에서 상기 이미지와 같이 `init.vim` path를 설정한다.
+
+## 참고 문서
+
+<https://github.com/vscode-neovim/vscode-neovim/issues/68>
