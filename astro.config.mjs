@@ -4,8 +4,10 @@ import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
-import convertMarkdownImageLink from "./src/utils/convertMarkdownImageLink";
-import convertMarkdownLink from "./src/utils/convertMarkdownLink";
+import {
+  updateImageLinkNode,
+  updateLinkNode,
+} from "./src/utils/updateMarkdownASTNodeURLValue";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gyunseo.xyz", // replace this with your deployed dom:wain
@@ -25,10 +27,10 @@ export default defineConfig({
           test: "Table of contents",
         },
       ],
-      // convert MarkdownImageLink syntax,
-      convertMarkdownImageLink,
-      // convert MarkdownLink syntax,
-      convertMarkdownLink,
+      // update Markdown ImageLink Node URL Value,
+      updateImageLinkNode,
+      // convert Markdown Link Node URL Value,
+      updateLinkNode,
     ],
     shikiConfig: {
       theme: "one-dark-pro",
