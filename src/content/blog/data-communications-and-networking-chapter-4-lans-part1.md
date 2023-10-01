@@ -42,4 +42,6 @@ LLC는 **protocol data unit (PDU)** 을 정의한다.
 - control field: for flow and error control
 - DSAP and SSAP fields는 source (보내는 쪽의 어플리케이션이 무엇이다. 한글이냐 곰플레이어냐)와 destination (받는 쪽의 어플리케이션이 무엇이다.)에 있는 upper-layer protocol을 정의한다. (랜카드 위에 올라 가는 application protocol이 무엇이냐?)
 
+근데 most upper-layer protocol들은 LLC를 안 쓴다.
+
 ## 4.2
