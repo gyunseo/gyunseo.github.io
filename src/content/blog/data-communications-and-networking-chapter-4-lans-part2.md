@@ -19,3 +19,22 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 ### Ethernet Frame
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
+
+### Physical-layer header
+
+- Preamble: 1과 0이 교대하는 56bits (7B)
+- SFD: Start Frame Delimeter, flag (10101011) (1B)
+
+이 헤더의 두 필드는 왜 있냐? Physical Layer에서 처리한다.
+Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
+
+### 앞 2개 field를 뺀 진 Ethernet Frame
+
+- Destination Address: (6B)
+- Source Address: (6B)
+- Type: (2B)
+- Data and Padding: 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.(46B ~ 1500B)
+- CRC: (4B)
+
+Minimum Frame Length: 46B + 18B = 64B
+Maximum Frame Length: 1500B + 18B = 1518B
