@@ -30,9 +30,9 @@ Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 
 
 ### 앞 2개 field를 뺀 진 Ethernet Frame
 
-- Destination Address: (6B)
-- Source Address: (6B)
-- Type: (2B)
+- Destination Address: 목적지 주소(6B)
+- Source Address: 송신지 주소(6B)
+- Length/Type: (2B)
 - Data and Padding: 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.(46B ~ 1500B)
 - CRC: (4B)
 
