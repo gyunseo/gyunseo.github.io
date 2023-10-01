@@ -57,6 +57,16 @@ SSAP는 source (나), DSAP (상대방 이메일)
 - Standard Ethernet: 10Mbps
 - Fast Ethernet: 100Mbps
 - Gigabit Ethernet: 1Gbps
-- 10 Gigabit Ethernet: 10Gbps
+- 10 Gigabit (Ten-Gigabit) Ethernet: 10Gbps
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696176038888.jpeg)
+
+- 802.1Q: Virtual LANs (VLANs)
+- **802.2: Logical Link Control**
+- **802.3: CSMA/CD Ethernet**
+- 802.3af: Power over Ethernet (PoE) (예, 인터넷 전화)
+- **802.4: Token Bus**
+- **802.5: Token Ring**
+-
 
 ## 4.2
