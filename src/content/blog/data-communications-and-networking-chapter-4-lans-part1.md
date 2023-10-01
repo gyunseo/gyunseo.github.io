@@ -24,4 +24,8 @@ Ethernet: a family of wired computer networking technologies commonly used in LA
 
 ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173798651.jpeg)
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
+
 ## 4.2
