@@ -36,3 +36,8 @@ pnpm-debug.log*
 
 #obsidian
 .obsidian/
+
+# logseq
+logseq/
+journal/
+pages/
