@@ -20,7 +20,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
 
-### Physical-layer header
+#### Physical-layer header
 
 - Preamble: 1과 0이 교대하는 56bits (7B)
 - SFD: Start Frame Delimeter, flag (10101011) (1B)
@@ -28,7 +28,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 이 헤더의 두 필드는 왜 있냐? Physical Layer에서 처리한다.
 Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
 
-### 앞 2개 field를 뺀 진 Ethernet Frame
+#### 앞 2개 field를 뺀 진 Ethernet Frame
 
 - Destination Address: 목적지 주소(6B)
 - Source Address: 송신지 주소(6B)
