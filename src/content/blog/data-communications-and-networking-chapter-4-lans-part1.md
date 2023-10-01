@@ -27,7 +27,7 @@ ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173798651.jpeg)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
-MAC이라 불리는 sublayer는 specific한 media access method (protocol) 가 각 LAN을 위해 있다고 정의한다.
+MAC이라 불리는 sublayer는 각 LAN에 대해 specific한 media access method (protocol)를 정의한다.
 
 Ethernet MAC은 CSMA/CD가 Ethernet LANs를 위한 Ethernet media access method라고 정의한다.
 
@@ -67,6 +67,6 @@ SSAP는 source (나), DSAP (상대방 이메일)
 - 802.3af: Power over Ethernet (PoE) (예, 인터넷 전화)
 - **802.4: Token Bus**
 - **802.5: Token Ring**
-- 802.15: Wireless Personal Area Network (WPAN)
+- 802.15: Wireless Personal Area Network (WPAN) (사람 한명의 공간 정도)
 - 802.15.1: Bluetooth
 - 802.15.4: ZigBee (공장에서 씀)
