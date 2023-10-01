@@ -79,3 +79,7 @@ sudo apt install ./gitkraken-amd64.deb
 gitkraken
 # 잘 되네
 ```
+
+## 참고 문서
+
+<https://julialang.kr/?p=3174>
