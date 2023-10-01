@@ -14,7 +14,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ## Table of contents
 
-## 4.1 Ethernet
+## Ethernet
 
 Local Area Network: a computer network that is designed for <u>a limited geographic area such as a building or a campus</u>
 
