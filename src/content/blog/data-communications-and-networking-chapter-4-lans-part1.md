@@ -67,6 +67,8 @@ SSAP는 source (나), DSAP (상대방 이메일)
 - 802.3af: Power over Ethernet (PoE) (예, 인터넷 전화)
 - **802.4: Token Bus**
 - **802.5: Token Ring**
--
+- 802.15: Wireless Personal Area Network (WPAN)
+- 802.15.1: Bluetooth
+- 802.15.4: ZigBee (공장에서 씀)
 
 ## 4.2
