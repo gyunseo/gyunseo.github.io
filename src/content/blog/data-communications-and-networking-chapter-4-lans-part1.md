@@ -16,4 +16,10 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ## 4.1 Ethernet
 
-Local Area Network: a computer network that is designed for **a limited geographic area such as a building or a campus**
+Local Area Network: a computer network that is designed for <u>a limited geographic area such as a building or a campus</u>
+
+Ethernet: a family of wired computer networking technologies commonly used in LAN
+
+1985년, IEEE에서 다양한 manufacturers의 equipment들 사이의 intercommunication을 가능케하기 위해 Project 802라 불리는 프로젝트를 시작.
+
+## 4.2
