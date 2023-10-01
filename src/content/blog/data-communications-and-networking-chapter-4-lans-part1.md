@@ -52,6 +52,8 @@ SSAP: Source Service Access Point
 만약 email을 썼다고 하면, 이메일 전체 내용이 data에 쏙 들어 간다.
 SSAP는 source (나), DSAP (상대방 이메일)
 
+(HDLC는 WAN Protocol)
+
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696175792874.jpeg)
 
 - Standard Ethernet: 10Mbps
