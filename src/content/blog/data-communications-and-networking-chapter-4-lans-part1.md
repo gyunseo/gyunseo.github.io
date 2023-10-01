@@ -27,13 +27,13 @@ ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173798651.jpeg)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
-각 MAC sublayer는 specific한 media access method (protocol) 을 사용하여 정의한다.
+MAC이라 불리는 sublayer는 specific한 media access method (protocol) 가 각 LAN을 위해 있다고 정의한다.
 
-Ethernet LANs의 경우는 CSMA/CD를 media access method로 하여 정의한다.
+Ethernet MAC은 CSMA/CD가 Ethernet LANs를 위한 Ethernet media access method라고 정의한다.
 
-Token Ring LANs와 Token Bus LANs의 경우는 token-passing method로 하여 정의한다.
+Token Ring MAC과 Token Bus MAC은 각각 token-passing method가 Token Ring LANs와 Token Bus LANs를 위한 media access method라 정의한다.
 
-Logical Link Control (LLC): <u>flow control, error control, part of the framing duties</u>
+Logical Link Control (LLC): <u>flow control, error control, part of the framing duties</u>e들이 한 sublayer로 collected된다. (그 sublayer가 LLC)
 
 LLC는 모든 IEEE LANs를 위해 one single data link control protocol을 제공한다.
 
@@ -70,5 +70,3 @@ SSAP는 source (나), DSAP (상대방 이메일)
 - 802.15: Wireless Personal Area Network (WPAN)
 - 802.15.1: Bluetooth
 - 802.15.4: ZigBee (공장에서 씀)
-
-## 4.2
