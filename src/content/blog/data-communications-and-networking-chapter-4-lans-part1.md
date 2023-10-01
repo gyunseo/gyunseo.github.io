@@ -40,8 +40,23 @@ LLC는 모든 IEEE LANs를 위해 one single data link control protocol을 제�
 LLC는 **protocol data unit (PDU)** 을 정의한다.
 
 - control field: for flow and error control
-- DSAP and SSAP fields는 source (보내는 쪽의 어플리케이션이 무엇이다. 한글이냐 곰플레이어냐)와 destination (받는 쪽의 어플리케이션이 무엇이다.)에 있는 upper-layer protocol을 정의한다. (랜카드 위에 올라 가는 application protocol이 무엇이냐?)
+- DSAP and SSAP fields는 source (보내는 쪽의 어플리케이션이 무엇이다. 한컴오피스냐 곰플레이어냐)와 destination (받는 쪽의 어플리케이션이 무엇이다.)에 있는 upper-layer protocol을 정의한다. (랜카드 위에 올라 가는 application protocol이 무엇이냐?)
 
-근데 most upper-layer protocol들은 LLC를 안 쓴다.
+근데 most upper-layer protocol들은 LLC를 안 쓴다. (복잡하고 끼어들면 속도가 느려진다.)
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696175216740.jpeg)
+
+DSAP: Destination Service Access Point
+SSAP: Source Service Access Point
+
+만약 email을 썼다고 하면, 이메일 전체 내용이 data에 쏙 들어 간다.
+SSAP는 source (나), DSAP (상대방 이메일)
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696175792874.jpeg)
+
+- Standard Ethernet: 10Mbps
+- Fast Ethernet: 100Mbps
+- Gigabit Ethernet: 1Gbps
+- 10 Gigabit Ethernet: 10Gbps
 
 ## 4.2
