@@ -4,6 +4,9 @@ pubDatetime: 2023-10-01T20:07:00Z
 featured: false
 draft: false
 tags:
+  - BSOD
+  - Windows
+  - Laptop
 ogImage: ""
 description: 대체 내 노트북은 왜 이러는 걸까..?
 ---
