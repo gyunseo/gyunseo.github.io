@@ -29,6 +29,6 @@ ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
 Ethernet MAC은 CSMA/CD를 사용한다.
 
-Logical Link Control (LLC): flow control, error, control, part of the framing duties
+Logical Link Control (LLC): <u> flow control, error control, part of the framing duties </u>
 
 ## 4.2
