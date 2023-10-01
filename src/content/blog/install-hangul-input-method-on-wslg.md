@@ -6,6 +6,7 @@ draft: false
 tags:
   - WSL
   - WSLg
+  - Hangul
 ogImage: ""
 description: WSLg에서 한글 폰트 렌더링이 잘 안되고, 입력이 안된다... 해결하자.
 ---
