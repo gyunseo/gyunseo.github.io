@@ -22,6 +22,6 @@ Ethernet: a family of wired computer networking technologies commonly used in LA
 
 1985년, IEEE에서 <u> 다양한 manufacturers의 equipment들 사이의 intercommunication을 가능케하기 </u> 위해 Project 802라 불리는 프로젝트를 시작.
 
-ISO에서는 또한 이걸 ISO 8802 표준으로 승인.
+ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 
 ## 4.2
