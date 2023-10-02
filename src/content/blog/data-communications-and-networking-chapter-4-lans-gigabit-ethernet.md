@@ -55,3 +55,9 @@ description: this is template
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267129485.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696266973254.jpeg)
+
+## Encoding
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267212787.jpeg)
+
+화살표 양방향으로 있으면 동시에 송/수신 안된다.
