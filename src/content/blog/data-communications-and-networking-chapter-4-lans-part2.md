@@ -106,16 +106,24 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 하기 그림을 보며 이해해 보자.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
 
-### 선발대 bit의 모험...
+### 첫 번째 bit의 모험...
 
 그렇다면 collision은 언제 일어날까?
 최악의 경우를 생각해 보자.
 station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
 두 station은 shared media에서 가장 양 끝단에 존재한다고 하자.
-network는 10Mbps의 bandwidth를 가지고, maximum propagation time은 25.6$\mu s$ propagation speed는 $2 \times 10^8m/s$라 하자. (그렇다면, 거속시를 이용해 잘 계산해 보면, cable 길이는 5120$m$인 것이다.)
+network는 10Mbps의 bandwidth를 가지고, maximum propagation time은 25.6$\mu s$ propagation speed는 $2 \times 10^8m/s$라 하자. (그렇다면, 거속시를 이용해 잘 계산해 보면, cable 길이는 5120$m$인 것을 알 수있다.)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
 그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
 이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu s$에 collision이 발생하게 되는 것이다.)
 그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time (first 512 bits times) 동안 sense할 수 있다.
-만약 이 시간 이후에 collision이 일어나서, collision이 다시 A로 돌아와서 (최악의 경우 25.6$\mu s$ 동안 다시 A로 돌아가겠죠?), collision detection이 돼, collision error가 first 512 bits times 이후에 발생했다고 하면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 이럴 때 주로 일어난다.)
+만약 이 시간 이후에 collision이 일어나서, collision이 다시 A로 돌아와서 (최악의 경우 25.6$\mu s$ 동안 다시 A로 돌아가겠죠?), collision detection이 돼, collision error가 first 512 bits times 이후에 발생했다고 하면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 주로 일어난다.)
+
+### Cable Length 계산
+
+$$MaxLength=Propagation\,Speed \times SlotTime/2$$
+$$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
+위 수식에 따라 Propagation Speed (빛의 속도) 를 20만 km/s로 잡고, 충돌이 SlotTime의 절반 시간 안에 일어나니 계산 결과가 5120m가 나온다. (이론적으로)
+그런데, repeater와 interface들에서 발생하는 딜레이와 jam sequence를 보내는 데에 들어가는 시간을 고려하여,
+**MaxLength = 2500m**이다.
