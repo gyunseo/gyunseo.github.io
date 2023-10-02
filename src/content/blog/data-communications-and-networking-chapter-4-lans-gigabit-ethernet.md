@@ -58,6 +58,11 @@ description: Gigabit Ethernet 공부한 거 정리
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267129485.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696266973254.jpeg)
 
+- 1000Base-SX: two-wire short-wave fiber, 550m
+- 1000Base-LX: two-wire long-wave fiber, 5000m
+- 1000Base-CX: two-wire copper(STP), 25m
+- 1000Base-T4: four-wire UTP, 100m
+
 ## Encoding
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267212787.jpeg)
