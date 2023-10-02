@@ -133,11 +133,23 @@ $$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
 
-- 10Base5: data rate가 10Mbps, Baseband (digital) signal 사용, 500m 케이블 사용
-- 10Base2: data rate가 10Mbps, Baseband (digital) signal 사용, 200m에 준하는 185m 케이블 사용
+- 10Base5: data rate가 10Mbps, Baseband (digital) signal 사용, 500m thick coaxial케이블 사용 (500m니깐 5개 연결 가능)
+- 10Base2: data rate가 10Mbps, Baseband (digital) signal 사용, 200m에 준하는 185m thin coaxial 케이블 사용
 - 10Base-T: data rate가 10Mbps, Baseband (digital) signal 사용, 100m UTP 케이블 사용
-- 10Base-F: data rate가 10Mbps, Baseband (digital) signal 사용, 2000m fiber-optic 케이블 사용
+- 10Base-F: data rate가 10Mbps, Baseband (digital) signal 사용, 2000m fiber-optic 케이블 (광케이블) 사용
 
 ### Encoding and Decoding
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250805426.jpeg)
+
+### 10Base5: Thick Ethernet
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696251379388.jpeg)
+
+- Transceiver: a transmitter and a receiver
+  주의 깊게 살펴봐야할 것은 transceiver이다. transceiver는 transmitting, receiving 그리고 collision dectection을 책임진다.
+  Thick coaxial에 **tap**을 통해 연결된다.
+  Station에는 **Transceiver cable**을 통해 연결된다. (maximum 50m)
+  500m라는 제한을 둔 것은 신호가 감쇠되기 때문이다.
+  멀리 갈수록 신호가 줄어든다.
+  그만큼 감쇠되는 걸 막으려면 power를 많이 써야 하기 때문에, 그러면 전력소모가 너무 심해서 500m로 끊은 것이다.
