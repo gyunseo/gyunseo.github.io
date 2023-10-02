@@ -100,3 +100,8 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 ### Access Method
 
 Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
+Ehternet에서 slot time은 bits로 정의된다.
+slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간이다. (Chapter 3의 CSMA/CD에서 왜 **512bits**를 보내는지 그 이유를 다뤘었다. $Minimum\;T_{fr}=2 \times T_p$이기 때문이다. 나중에 해당 블로그 글 링크로 걸기)
+그렇다면, 10Mbps의 Standard Ethernet에서는 51.2μs가 걸린다. (거속시로 계속해 보면 금방 나온다.)
+하기 그림을 보며 이해해 보자.
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
