@@ -194,3 +194,19 @@ Baseband는 Digital (Manchester Encoding 사용)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257478333.jpeg)
 
 ## Changes in the Standard
+
+- Bridged Ethernet
+  - **bridge**들에 의한 LAN의 division
+- Switched Ethernet
+  - bandwidth가 station과 **switch** 사이에서 공유됨. (각 5Mbps)
+- Full-Duplex Ethernet
+  - CSMA/CD가 필요없음.
+
+## Bridged Ethernet
+
+bridge들에 의해 나눠진 LAN의 division이다.
+bridge는 bandwidth를 raise하고 collision domain을 분리한다.
+
+## Raising Bandwidth
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258472204.jpeg)
