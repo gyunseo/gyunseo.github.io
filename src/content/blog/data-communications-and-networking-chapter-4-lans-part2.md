@@ -129,3 +129,6 @@ $$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
 **MaxLength = 2500m**이다.
 
 ### Implementation
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
