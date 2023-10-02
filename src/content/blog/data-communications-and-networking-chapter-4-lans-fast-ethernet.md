@@ -15,8 +15,12 @@ description: Fast Ethernet 공부한 거 정리
 
 ## Table of contents
 
-## Fast Ethernet
+## Fast Ethernet (IEEE 802.3u Working Group, Fast Ethernet)
 
 - **100Mbps**
 - Standard Ethernet과 backward-compatible
 - Frame format, min/max frame lengths, addressing (48-bit address) 모두 10Mbps Ethernet과 동일
+
+## MAC Sublayer
+
+- MAC sublayer가 CSMA/CD Media Access Protocol을 이용해

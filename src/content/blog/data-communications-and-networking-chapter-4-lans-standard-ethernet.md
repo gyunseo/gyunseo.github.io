@@ -15,7 +15,7 @@ description: Standard Ethernet 공부한 거 정리
 
 ## Table of contents
 
-## Standard Ethernet (IEEE 802.3 CSMA/CD Ethernet)
+## Standard Ethernet (IEEE 802.3 Working Group, CSMA/CD Ethernet)
 
 10Mbps의 데이터 속도를 가진 원래의 이더넷 기술을 Standard Ethernet이라고 부른다.
 대부분의 implementation은 Ethernet 발전 과정에서 다른 기술로 이동했지만 발전 과정에서 변경되지 않은 Standard Ethernet의 일부 기능이 있다.
