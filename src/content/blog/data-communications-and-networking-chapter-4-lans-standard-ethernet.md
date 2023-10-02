@@ -231,3 +231,7 @@ bridge로 나뉜 각 network는 bandwidthwise적으로 독립적이다. (~~각 s
 상기 그림을 보자.
 bridge로 collision domain의 separation이 없을 때는 12개의 station이 모두 medium을 access하기 위해 contend한다.
 그러나, bridging을 통해 오직 3개의 station들이 medium을 access하기 위해 contend (경쟁)한다.
+
+repeater는 그냥 신호를 더 갈 수 있게 만들어 주는 것이다.
+bridge는 주소가 있다. (송신자 주소, 목적지 주소 MAC 어드레스가 있다.)
+처음에는 다른 segment로도 뿌려진다. 그런데 같은 segment에 있는 게 학습이 되면, 그 다음부터 같은 segment에 있는 것이라 bridge에서 filtering해서 다른 segment로 보내지 않는다. 그래서 다른 segment에서 carrier sense를 해서 collision domain을 separation하고, bandwidth를 독립적으로 사용할 수 있는 것이다.
