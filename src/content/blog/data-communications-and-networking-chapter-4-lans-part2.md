@@ -35,7 +35,7 @@ Preamble의 역할은 receiving system에 coming frame을 alert하는 것이다.
 
 SFD는 프레임의 시작을 알린다.
 
-Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
+간단히 정리하자면, Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
 
 ### 앞 2개 field를 뺀 진짜 Ethernet Frame
 
