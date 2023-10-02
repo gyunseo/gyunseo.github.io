@@ -21,4 +21,7 @@ IEEE 802.11에서는 두 개의 MAC Sublayer를 정의했다.
 
 DCF는 media access method로 CSMA/CA를 사용한다.
 
-Physical layers에는 802.11n OFDM도 존재한다.
+Physical layers에는 **802.11n OFDM**도 존재한다.
+LLC는 참고로 **802.2**이다. (그림이 오타다.)
+
+## Distributed Coordination Function
