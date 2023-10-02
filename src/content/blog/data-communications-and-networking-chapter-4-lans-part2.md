@@ -176,3 +176,18 @@ T connector를 사용해, 케이블과 케이블을 연결해 나가는 구조�
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
 
 ### 10Base-T: Twisted-Pair Ethernet
+
+physical star topology를 이용한다. (Hub를 사용해서)
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257278724.jpeg)
+
+### 10Base-F: Fiber Ethernet
+
+10Base-T에서 cable을 광케이블을 사용하면 10Base-F이다.
+
+### IEEE 802.3 Working Group
+
+Broadband는 Analog
+Baseband는 Digital (Manchester Encoding 사용)
+~~1Base5는 뭐지?~~
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257478333.jpeg)
