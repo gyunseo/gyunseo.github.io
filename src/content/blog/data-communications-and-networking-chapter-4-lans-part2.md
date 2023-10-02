@@ -112,7 +112,7 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 최악의 경우를 생각해 보자.
 station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
 두 station은 shared media에서 가장 양 끝단에 존재한다고 하자.
-network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time interval이 $51.2\mu s$인 상황을 가정해 보자.
+network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time interval (transmission delay)이 $51.2\mu s$인 상황을 가정해 보자.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
 그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
@@ -123,7 +123,7 @@ network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time in
 ### Cable Length 계산
 
 $$MaxLength=Propagation\,Speed \times SlotTime/2$$
-$$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
+$$ MaxLength=(2*10^8)*(51.2 \* 10^{-6}/2) = 5120m$$
 위 수식에 따라 Propagation Speed (빛의 속도) 를 20만 km/s로 잡고, 충돌이 SlotTime의 절반 시간 안에 일어나니 계산 결과가 5120m가 나온다. (이론적으로)
 그런데, repeater와 interface들에서 발생하는 딜레이와 jam sequence를 보내는 데에 들어가는 시간을 고려하여, Standard Ethernet에서는
 **MaxLength = 2500m**이다.
@@ -159,9 +159,11 @@ Station에는 **Transceiver cable**을 통해 연결된다. (maximum 50m)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696252356082.jpeg)
 
-(교수님이 그냥 별로 안 중요하게 설명하고 넘어간 정보들)
+(~~교수님이 그냥 별로 안 중요하게 설명하고 넘어간 정보들~~)
 한 프레임이 보내지고, 다음 한 프레임을 보내기까지, transmitter는 최소 96bits의 idle line state를 전송해야 한다.
 10Mbps에서 interpacket gap은 $9.6\mu s$이다.
 Collision Detection Time은 한 segment lenght에서의 propagation delay의 최소 2배여야 한다.
 
 ### 10Base2: Thin Ethernet
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
