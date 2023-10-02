@@ -64,4 +64,8 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 앞의 3B는 Vendor Address (제조사)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696220119713.jpeg)
-전송은 left-to-rigth byte-to-byte. 하지만 각 byte에서는 LSB가 먼저 보내지고, MSB가 가장 나중에 보내진다.
+전송은 left-to-right byte-to-byte. 하지만 각 byte에서는 LSB가 먼저 보내지고, MSB가 가장 나중에 보내진다.
+
+Unicast Address: only one recipient를 정의한다.
+Multicast Address: a group of addresses를 정의한다.
+Broadcast Address: recipients가 netwrok에 있는 모든 stations라는 걸 의미한다.
