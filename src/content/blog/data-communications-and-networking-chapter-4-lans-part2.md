@@ -112,7 +112,7 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 최악의 경우를 생각해 보자.
 station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
 두 station은 shared media에서 가장 양 끝단에 존재한다고 하자.
-network는 10Mbps의 bandwidth를 가지고, maximum propagation time은 25.6$\mu s$ propagation speed는 $2 \times 10^8m/s$라 하자. (그렇다면, 거속시를 이용해 잘 계산해 보면, cable 길이는 5120$m$인 것을 알 수있다.)
+network는 10Mbps의 data rate를 가지고, maximum propagation time은 25.6$\mu s$ propagation speed는 $2 \times 10^8m/s$라 하자. (그렇다면, 거속시를 이용해 잘 계산해 보면, cable 길이는 5120$m$인 것을 알 수있다.)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
 그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
@@ -132,6 +132,11 @@ $$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
+
+- 10Base5: data rate가 10Mbps, Baseband (digital) signal 사용, 500m 케이블 사용
+- 10Base2: data rate가 10Mbps, Baseband (digital) signal 사용, 200m에 준하는 185m 케이블 사용
+- 10Base-T: data rate가 10Mbps, Baseband (digital) signal 사용, 100m UTP 케이블 사용
+- 10Base-F: data rate가 10Mbps, Baseband (digital) signal 사용, 2000m fiber-optic 케이블 사용
 
 ### Encoding and Decoding
 
