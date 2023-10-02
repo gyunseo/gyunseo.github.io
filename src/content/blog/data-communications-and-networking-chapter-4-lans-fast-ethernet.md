@@ -35,7 +35,7 @@ description: Fast Ethernet 공부한 거 정리
 
 wire가 2개 이상이어서, 송/수신이 동시에 된다. 그래서 뒤에 X 붙임.
 기존 케이블(10Mbps용 category 3)을 쓰는데, 100Mbps가 지원되게 해주는 implementation. (근데, half-duplex여서 송/수신이 동시에 안된다.)
-cable의 maxlength는 250m이다. (CSMA/CD protocol과 최소 frame size를 그대로 유지한다고 하면은...)
+cable의 max length는 250m이다. (CSMA/CD protocol과 최소 frame size를 그대로 유지한다고 하면은...)
 
 ## Encoding
 
