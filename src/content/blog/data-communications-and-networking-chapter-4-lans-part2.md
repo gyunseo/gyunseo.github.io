@@ -92,3 +92,7 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 unicast는 받아야 될 recipient만 frame을 받고 나머지 station은 frame을 discard한다.
 multicast도 똑같다.
 broadcast는 sender를 제외한 station이 모두 수신한다.
+
+#### Access Method
+
+Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
