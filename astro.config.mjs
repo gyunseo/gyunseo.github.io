@@ -8,6 +8,8 @@ import {
   updateImageLinkNode,
   updateLinkNode,
 } from "./src/utils/updateMarkdownASTNodeURLValue";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gyunseo.xyz", // replace this with your deployed dom:wain
@@ -21,6 +23,8 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [
       remarkToc,
+      // to support a math syntax in markdown
+      remarkMath,
       [
         remarkCollapse,
         {
@@ -32,6 +36,8 @@ export default defineConfig({
       // convert Markdown Link Node URL Value,
       updateLinkNode,
     ],
+    // to render math in HTML with KaTex
+    rehypePlugins: [rehypeKatex],
     shikiConfig: {
       theme: "one-dark-pro",
       wrap: true,
