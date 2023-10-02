@@ -10,7 +10,7 @@ tags:
   - Ethernet
   - Fast-Ethernet
 ogImage: ""
-description: this is template
+description: Fast Ethernet 공부한 거 정리
 ---
 
 ## Table of contents

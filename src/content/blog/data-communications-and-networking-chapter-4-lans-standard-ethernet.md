@@ -10,7 +10,7 @@ tags:
   - LAN
   - Standard-Ethernet
 ogImage: ""
-description: Data Communications and Networking Chapter 4 LANs 공부한 거 정리
+description: Standard Ethernet 공부한 거 정리
 ---
 
 ## Table of contents
