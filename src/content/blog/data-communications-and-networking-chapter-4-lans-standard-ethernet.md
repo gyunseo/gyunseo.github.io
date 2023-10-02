@@ -1,5 +1,5 @@
 ---
-title: Data Communications and Networking Chapter 4 LANs Part 2
+title: Data Communications and Networking Chapter 4 LANs Standard Ethernet
 pubDatetime: 2023-10-02T01:18:00Z
 featured: false
 draft: false
@@ -129,7 +129,7 @@ $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
 그런데, repeater와 interface들에서 발생하는 딜레이와 jam sequence를 보내는 데에 들어가는 시간을 고려하여, Standard Ethernet에서는
 **MaxLength = 2500m**이다.
 
-### Implementation
+## Implementation
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
@@ -186,7 +186,7 @@ physical star topology를 이용한다. (Hub를 사용해서)
 
 10Base-T에서 cable을 광케이블을 사용하면 10Base-F이다.
 
-### IEEE 802.3 Working Group
+## IEEE 802.3 Working Group
 
 Broadband는 Analog
 Baseband는 Digital (Manchester Encoding 사용)
