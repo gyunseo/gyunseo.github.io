@@ -15,7 +15,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ## Table of contents
 
-## Standard Ethernet
+## Standard Ethernet (IEEE 802.3 CSMA/CD Ethernet)
 
 10Mbps의 데이터 속도를 가진 원래의 이더넷 기술을 Standard Ethernet이라고 부른다.
 대부분의 implementation은 Ethernet 발전 과정에서 다른 기술로 이동했지만 발전 과정에서 변경되지 않은 Standard Ethernet의 일부 기능이 있다.
@@ -250,13 +250,20 @@ A->E로 보낼 때, 동시에 B->C로 보낼 수 있게 할 수 없을까?
 
 N개의 station이 있는 네트워크에서, N개의 네트워크를 갖는 건 어떨까? 라는 의문에서 Switched Ethernet은 시작한다.
 bridged ethernet에서 각 segment가 bridge를 station을 포함해서 bandwidth를 공유한 거 처럼 switch 또한 각 domain에서 10Mbps를 switch와 station이 공유하여, 각 5Mbps의 대역폭을 갖는다.
-layer-2 switch는 packet 더 빠르게 핸들링하게 해주는 정교한 방법이 있는 N-port bridge이다.
-그 정교한 방법이란?
+layer-2 switch(L2 Switch)는 packet을 더 빠르게 핸들링하게 해주는 정교한 방법이 있는 N-port bridge이다.
+
+그렇다면 그 정교한 방법이란?
 (교수님의 첨언)
 bridge처럼 address를 학습한다.
 처음에는 목적지를 모르니, 모든 station에 다 보내 준다.
 1번 포트에서 트래픽이 들어 오면, 기록을 해 놓는다.
-1번 포트에 ethernet address 무엇이 있다.
+1번 포트에는 ethernet address 무엇이 있다.
 처음에는 목적지를 모르니, 딴 포트들로 다 보내 준다.
 그러면 특정 포트에서 응답이 온다. 예를 들어 4번 포트에는 뭐가 있다. 이것도 기록을 한다.
 기록이 다 되면, 특정 포트에서 들어 오는 패킷을 딴 특정 포트로 보내준다.
+
+## Full-Duplex Ethernet
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696261627798.jpeg)
+
+(10Base5와 10Base2는 half-duplex이고, 10Base-T는 항상 full-duplex이다.)
