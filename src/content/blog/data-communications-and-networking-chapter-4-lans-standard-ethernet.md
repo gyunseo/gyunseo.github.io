@@ -8,6 +8,7 @@ tags:
   - Computer-Network
   - Ethernet
   - LAN
+  - Standard-Ethernet
 ogImage: ""
 description: Data Communications and Networking Chapter 4 LANs 공부한 거 정리
 ---
@@ -20,11 +21,11 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 대부분의 implementation은 Ethernet 발전 과정에서 다른 기술로 이동했지만 발전 과정에서 변경되지 않은 Standard Ethernet의 일부 기능이 있다.
 다른 세 가지 기술을 이해할 수 있는 길을 마련하기 위해 이 Standard Ethernet에 대해 논의한다.
 
-### Ethernet Frame
+## Ethernet Frame
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
 
-### Physical-layer Header
+## Physical-layer Header
 
 - Preamble (7B): 1과 0이 교대하는 56bits
 - SFD (1B): Start Frame Delimeter, flag (10101011)
@@ -37,7 +38,7 @@ SFD는 프레임의 시작을 알린다.
 
 간단히 정리하자면, Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
 
-### 앞 2개 field를 뺀 진짜 Ethernet Frame
+## 앞 2개 field를 뺀 진짜 Ethernet Frame
 
 - Destination Address (6B): 목적지 주소
 - Source Address (6B): 송신지 주소
@@ -47,7 +48,7 @@ SFD는 프레임의 시작을 알린다.
 - Data and Padding (46B ~ 1500B): 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.
 - CRC (Cyclic Redundancy Check) (4B): (나중에 다시 적기)
 
-### Frame Length
+## Frame Length
 
 Minimum Frame Length: 46B + 18B = 64B
 Maximum Frame Length: 1500B + 18B = 1518B
@@ -58,7 +59,7 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 그래서 shared media를 monopolizing을 막기위해서 Maximum Frame Length가 있다.
 그리고 랜카드의 메모리 Buffer Size도 줄여야 한다.
 
-### Addressing
+## Addressing
 
 각 station은 Ethernet Network에서 자신들만의 Network Interface Card (NIC)를 갖는다.
 우리는 NIC 주소를 MAC Address, Ethernet Address, Hardware Address라고 부른다.
@@ -80,7 +81,7 @@ Broadcast Address는 Hexadecimal로 `FF-FF-FF-FF-FF-FF`이다.
 상기 그림을 기반으로 다음과 결론을 도출할 수 있다.
 Source Address의 Byte 1의 LSB는 항상 0이고, Destination Address의 Byte 1 LSB는 Unicast Address일 경우에는 0이고, Multicast이거나 Broadcast Address일 경우에는 1이다.
 
-### Distinguish Between Unicast, Multicast, and Broadcast Transmission
+## Distinguish Between Unicast, Multicast, and Broadcast Transmission
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223903316.jpeg)
 상기 그림을 통해 어떻게 Unicast, Multicast, 그리고 Broadcast transmission들이 서로 구분되는지 알아 보자.
@@ -97,7 +98,7 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 - multicast도 똑같다.
 - broadcast는 sender를 제외한 station이 모두 수신한다.
 
-### Access Method
+## Access Method
 
 Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
 Ehternet에서 slot time은 bits로 정의된다.
@@ -106,7 +107,7 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 하기 그림을 보며 이해해 보자.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
 
-### 첫 번째 bit의 모험...
+## 첫 번째 bit의 모험...
 
 그렇다면 collision은 언제 일어날까?
 최악의 경우를 생각해 보자.
@@ -120,7 +121,7 @@ network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time in
 그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time (first 512 bits times) 동안 sense할 수 있다.
 만약 이 시간 이후에 collision이 일어나서, collision이 다시 A로 돌아와서 (최악의 경우 25.6$\mu s$ 동안 다시 A로 돌아가겠죠?), collision detection이 돼, collision error가 first 512 bits times 이후에 발생했다고 하면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 주로 일어난다.)
 
-### Cable Length 계산
+## Cable Length 계산
 
 $$MaxLength=Propagation\,Speed \times SlotTime/2$$
 $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
@@ -138,11 +139,11 @@ $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
 - 10Base-T: data rate가 10Mbps, Baseband (digital) signal 사용, 100m UTP 케이블 사용
 - 10Base-F: data rate가 10Mbps, Baseband (digital) signal 사용, 2000m fiber-optic 케이블 (광케이블) 사용
 
-### Encoding and Decoding
+## Encoding and Decoding
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250805426.jpeg)
 
-### 10Base5: Thick Ethernet
+## 10Base5: Thick Ethernet
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696251379388.jpeg)
 
@@ -166,7 +167,7 @@ Station에는 **Transceiver cable**을 통해 연결된다. (maximum 50m)
 10Mbps에서 interpacket(interframe) gap은 $9.6\mu s$이다.
 Collision Detection Time은 한 segment length에서의 propagation delay의 최소 2배여야 한다.
 
-### 10Base2: Thin Ethernet
+## 10Base2: Thin Ethernet
 
 **Cheapernet**이라고도 불린다.
 transceiver가 NIC의 일부이다. 즉, station 안에 있다는 말이다.
@@ -175,13 +176,13 @@ T connector를 사용해, 케이블과 케이블을 연결해 나가는 구조�
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
 
-### 10Base-T: Twisted-Pair Ethernet
+## 10Base-T: Twisted-Pair Ethernet
 
 physical star topology를 이용한다. (Hub를 사용해서)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257278724.jpeg)
 
-### 10Base-F: Fiber Ethernet
+## 10Base-F: Fiber Ethernet
 
 10Base-T에서 cable을 광케이블을 사용하면 10Base-F이다.
 
@@ -191,3 +192,5 @@ Broadband는 Analog
 Baseband는 Digital (Manchester Encoding 사용)
 ~~1Base5는 뭐지?~~
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257478333.jpeg)
+
+## Changes in the Standard
