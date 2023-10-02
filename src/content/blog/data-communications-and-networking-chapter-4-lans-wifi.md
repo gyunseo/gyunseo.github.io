@@ -37,3 +37,14 @@ Wireless LANs에서는 CSMA/CD를 쓸 수 없다.
 - signal fading때문에 collision을 듣기가 어렵다.
 
 ## Hidden Terminal Problem
+
+## Exposed Terminal Problem
+
+## BSS (Basic Service Set)
+
+Ad hoc network (BSS without AP)
+Infrastructrue (BSS with AP)
+
+## ESS (Extended Service Set)
+
+BSS들을 AP(Distributed System)로 연결한 것
