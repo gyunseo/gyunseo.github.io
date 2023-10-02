@@ -130,3 +130,5 @@ station A가 있고, frame을 보내려는 destination station B가 있다고 �
   위 그림과 같은 상황이 발생하게 된다.
   그러니깐, collision은 slot time의 first half 동안에만 일어나게 된다.
   이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6μs에 collision이 발생하게 되는 것이다.)
+  그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time 동안 sense할 수 있다.
+  만약 이 시간 이후에 collision이 일어난다면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 이럴 때 주로 일어난다.)
