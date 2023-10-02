@@ -16,6 +16,10 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ## Standard Ethernet
 
+10Mbps의 데이터 속도를 가진 원래의 이더넷 기술을 Standard Ethernet이라고 부른다.
+대부분의 implementation은 Ethernet 발전 과정에서 다른 기술로 이동했지만 발전 과정에서 변경되지 않은 Standard Ethernet의 일부 기능이 있다.
+다른 세 가지 기술을 이해할 수 있는 길을 마련하기 위해 이 Standard Ethernet에 대해 논의한다.
+
 ### Ethernet Frame
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
@@ -93,6 +97,6 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 - multicast도 똑같다.
 - broadcast는 sender를 제외한 station이 모두 수신한다.
 
-## Access Method
+### Access Method
 
 Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
