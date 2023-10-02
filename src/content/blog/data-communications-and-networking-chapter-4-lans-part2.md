@@ -58,3 +58,10 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 
 각 station은 Ethernet Network에서 자신들만의 Network Interface Card (NIC)를 갖는다.
 우리는 NIC 주소를 MAC Address, Ethernet Address, Hardware Address라고 부른다.
+
+`4A:30:10:21:10:1A` 와 같이 6B로 나타낸다.
+
+앞의 3B는 Vendor Address (제조사)
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696220119713.jpeg)
+전송은 left-to-rigth byte-to-byte. 하지만 각 byte에서는 LSB가 먼저 보내지고, MSB가 가장 나중에 보내진다.
