@@ -116,7 +116,7 @@ network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time in
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
 그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
-이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 Maximum $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu s$에 collision이 발생하게 되는 것이다. half of slot time과 Maximum $T_p$가 왜 같을까? 왜냐면 slot time을 $2 \times Maximum\;T_p$로 구했기 때문이다..)
+이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 Maximum $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu s$에 collision이 발생하게 되는 것이다. 근데 왜 half of slot time과 Maximum $T_p$가 같을까? 왜냐면 slot time을 $2 \times Maximum\;T_p$로 구했기 때문이다..)
 그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time (first 512 bits times) 동안 sense할 수 있다.
 만약 이 시간 이후에 collision이 일어나서, collision이 다시 A로 돌아와서 (최악의 경우 25.6$\mu s$ 동안 다시 A로 돌아가겠죠?), collision detection이 돼, collision error가 first 512 bits times 이후에 발생했다고 하면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 주로 일어난다.)
 
@@ -127,7 +127,6 @@ $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
 위 수식에 따라 Propagation Speed (빛의 속도) 를 20만 km/s로 잡고, 충돌이 SlotTime의 절반 시간 안에 일어나니 계산 결과가 5120m가 나온다. (이론적으로)
 그런데, repeater와 interface들에서 발생하는 딜레이와 jam sequence를 보내는 데에 들어가는 시간을 고려하여, Standard Ethernet에서는
 **MaxLength = 2500m**이다.
-ddd
 
 ### Implementation
 
@@ -160,11 +159,20 @@ Station에는 **Transceiver cable**을 통해 연결된다. (maximum 50m)
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696252356082.jpeg)
 
-(~~교수님이 그냥 별로 안 중요하게 설명하고 넘어간 정보들~~)
+(~~교수님이 그냥 별로 안 중요하게 설명하고 넘어간 정보들. 근데 시험에는 나올지도 모름 ㅋㅋ~~)
+
+컴퓨터 간 간격은 2.5m.
 한 프레임이 보내지고, 다음 한 프레임을 보내기까지, transmitter는 최소 96bits의 idle line state를 전송해야 한다.
-10Mbps에서 interpacket gap은 $9.6\mu s$이다.
-Collision Detection Time은 한 segment lenght에서의 propagation delay의 최소 2배여야 한다.
+10Mbps에서 interpacket(interframe) gap은 $9.6\mu s$이다.
+Collision Detection Time은 한 segment length에서의 propagation delay의 최소 2배여야 한다.
 
 ### 10Base2: Thin Ethernet
 
+**Cheapernet**이라고도 불린다.
+transceiver가 NIC의 일부이다. 즉, station 안에 있다는 말이다.
+동축 케이블을 사용한다.
+T connector를 사용해, 케이블과 케이블을 연결해 나가는 구조이다. (지금은 잘 안 씀.)
+
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
+
+### 10Base-T: Twisted-Pair Ethernet
