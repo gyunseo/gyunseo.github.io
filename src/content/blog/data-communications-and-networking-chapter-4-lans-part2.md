@@ -105,3 +105,7 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 그렇다면, 10Mbps의 Standard Ethernet에서는 51.2μs가 걸린다. (거속시로 계속해 보면 금방 나온다.)
 하기 그림을 보며 이해해 보자.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
+그렇다면 collision은 언제 일어날까?
+최악의 경우를 생각해 보자.
+station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
+두 station은 shared media에서 양 끝단에 존재한다고 하자.
