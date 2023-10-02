@@ -66,6 +66,12 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696220119713.jpeg)
 전송은 left-to-right byte-to-byte. 하지만 각 byte에서는 LSB가 먼저 보내지고, MSB가 가장 나중에 보내진다.
 
-Unicast Address: only one recipient를 정의한다.
+Unicast Address: only one recipient를 정의한다. (source address는 항상 Unicast Address이다.)
 Multicast Address: a group of addresses를 정의한다.
 Broadcast Address: recipients가 netwrok에 있는 모든 stations라는 걸 의미한다.
+
+Broadcast Address는 Hexadecimal로 `FF-FF-FF-FF-FF-FF`이다.
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223467557.jpeg)
+상기 그림을 기반으로 다음과 결론을 도출할 수 있다.
+Source Address의 Byte 1의 LSB는 항상 0이고, Destination Address의 Byte 1 LSB는 Unicast Address일 경우에는 0이고, Multicast이거나 Broadcast Address일 경우에는 1이다.
