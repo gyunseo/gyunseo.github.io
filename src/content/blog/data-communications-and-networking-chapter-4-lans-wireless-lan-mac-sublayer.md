@@ -18,3 +18,7 @@ IEEE 802.11에서는 두 개의 MAC Sublayer를 정의했다.
 
 - DCF: Distributed Coordination Function
 - PCF: Point Coordination Function
+
+DCF는 media access method로 CSMA/CA를 사용한다.
+
+Physical layers에는 802.11n OFDM도 존재한다.
