@@ -22,22 +22,26 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 #### Physical-layer header
 
-- Preamble: 1과 0이 교대하는 56bits (7B)
-- SFD: Start Frame Delimeter, flag (10101011) (1B)
+- Preamble (7B): 1과 0이 교대하는 56bits
+- SFD (1B): Start Frame Delimeter, flag (10101011)
 
 이 헤더의 두 필드는 왜 있냐? Physical Layer에서 처리한다.
 
 Preamble의 역할은 receiving system에 coming frame을 alert하는 것이다. 그리고 receiving system이 동기화돼 있지 않으면, clock을 동기화할 수 있도록 한다.
 
+SFD는 프레임의 시작을 알린다.
+
 Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
 
 #### 앞 2개 field를 뺀 진짜 Ethernet Frame
 
-- Destination Address: 목적지 주소(6B)
-- Source Address: 송신지 주소(6B)
-- Length/Type: 어떨 때에는 Type으로 해석되고, 또 다른 어떨 때에는 Length로 해석된다.(2B)
-- Data and Padding: 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.(46B ~ 1500B)
-- CRC: (4B)
+- Destination Address (6B): 목적지 주소
+- Source Address (6B): 송신지 주소
+- Length / Type (2B): 어떤 경우에는 Type으로 해석되고, 또 다른 어떤 경우에는 Length로 해석된다.
+  - field의 value가 1518보다 작으면, length field로 해석되고, data field의 length를 정의한다.
+  - field의 vlaue가 1536보다 크면, MAC frame을 사용하는 upper-layer protocol을 정의한다. (랜카드 위에 바로 application이 올라가는 게 아니라, network layer가 있는데, network layer protocol의 종류가 엄청 많다. 그래서 그걸 구분하는 용도이다. 그럼 length는? 상위 계층에서 알아서 처리한다.)
+- Data and Padding (46B ~ 1500B): 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.
+- CRC (4B):
 
 Minimum Frame Length: 46B + 18B = 64B
 Maximum Frame Length: 1500B + 18B = 1518B
