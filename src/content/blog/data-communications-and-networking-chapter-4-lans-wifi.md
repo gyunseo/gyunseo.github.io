@@ -35,3 +35,5 @@ Wireless LANs에서는 CSMA/CD를 쓸 수 없다.
   - duplex mode가 필요하고, wireless host는 그럴 만한 power가 없다.
 - hidden terminal problem때문에 collision이 detect되지 않을 수 있다.
 - signal fading때문에 collision을 듣기가 어렵다.
+
+## Hidden Terminal Problem
