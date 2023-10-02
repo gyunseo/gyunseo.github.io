@@ -53,3 +53,8 @@ Minimum length restriction이 있는 이유는 올바른 CSMA/CD 동작을 보�
 Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는 동안 다른 station은 보내지를 못한다.
 그래서 shared media를 monopolizing을 막기위해서 Maximum Frame Length가 있다.
 그리고 랜카드의 메모리 Buffer Size도 줄여야 한다.
+
+#### Addressing
+
+각 station은 Ethernet Network에서 자신들만의 Network Interface Card (NIC)를 갖는다.
+우리는 NIC 주소를 MAC Address, Ethernet Address, Hardware Address라고 부른다.
