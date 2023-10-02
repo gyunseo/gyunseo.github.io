@@ -20,7 +20,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
 
-#### Physical-layer header
+#### Physical-layer Header
 
 - Preamble (7B): 1과 0이 교대하는 56bits
 - SFD (1B): Start Frame Delimeter, flag (10101011)
@@ -41,7 +41,15 @@ Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 
   - field의 value가 1518보다 작으면, length field로 해석되고, data field의 length를 정의한다.
   - field의 vlaue가 1536보다 크면, MAC frame을 사용하는 upper-layer protocol을 정의한다. (랜카드 위에 바로 application이 올라가는 게 아니라, network layer가 있는데, network layer protocol의 종류가 엄청 많다. 그래서 그걸 구분하는 용도이다. 그럼 length는? 상위 계층에서 알아서 처리한다.)
 - Data and Padding (46B ~ 1500B): 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.
-- CRC (4B):
+- CRC (Cyclic Redundancy Check) (4B):
+
+#### Frame Length
 
 Minimum Frame Length: 46B + 18B = 64B
 Maximum Frame Length: 1500B + 18B = 1518B
+
+Minimum length restriction이 있는 이유는 올바른 CSMA/CD 동작을 보장하기 위해서이다.
+
+Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는 동안 다른 station은 보내지를 못한다.
+그래서 shared media를 monopolizing을 막기위해서 Maximum Frame Length가 있다.
+그리고 랜카드의 메모리 Buffer Size도 줄여야 한다.
