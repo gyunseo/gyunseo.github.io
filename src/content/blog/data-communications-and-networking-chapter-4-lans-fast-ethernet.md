@@ -33,6 +33,10 @@ description: Fast Ethernet 공부한 거 정리
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265660260.jpeg)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265637883.jpeg)
 
+- 100Base-TX: two wires category 5 UTP or STP, 100m
+- 100Base-FX: two wires fiber, 185m
+- 100Base-T4: Four wires category 3 UTP, 100m
+
 wire가 2개 이상이어서, 송/수신이 동시에 된다. 그래서 뒤에 X 붙임.
 기존 케이블(10Mbps용 category 3)을 쓰는데, 100Mbps가 지원되게 해주는 implementation. (근데, half-duplex여서 송/수신이 동시에 안된다.)
 cable의 max length는 250m이다. (CSMA/CD protocol과 최소 frame size를 그대로 유지한다고 하면은...)

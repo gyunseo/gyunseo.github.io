@@ -29,9 +29,9 @@ ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
 MAC이라 불리는 sublayer는 각 LAN에 대해 specific한 media access method (protocol)를 정의한다.
 
-Ethernet MAC은 CSMA/CD가 Ethernet LANs를 위한 Ethernet media access method라고 정의한다.
+Ethernet MAC은 CSMA/CD가 Ethernet LANs를 위한 media access method (protocol)라고 정의한다.
 
-Token Ring MAC과 Token Bus MAC은 각각 token-passing method가 Token Ring LANs와 Token Bus LANs를 위한 media access method라 정의한다.
+Token Ring MAC과 Token Bus MAC은 각각 token-passing method가 Token Ring LANs와 Token Bus LANs를 위한 media access method (protocol)라 정의한다.
 
 Logical Link Control (LLC): <u>flow control, error control, part of the framing duties</u>e들이 한 sublayer로 collected된다. (그 sublayer가 LLC)
 
