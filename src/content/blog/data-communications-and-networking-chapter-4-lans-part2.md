@@ -89,9 +89,9 @@ bus topology에서는 station A가 station B에게 frame 하나를 전송하면,
 star topology에서는 station A가 station B에게 frame 하나를 전송하면, hub가 수신한다.
 그리고, 허브가 A를 제외한 모든 station에게 전송해 준다.
 
-unicast는 받아야 될 recipient만 frame을 받고 나머지 station은 frame을 discard한다.
-multicast도 똑같다.
-broadcast는 sender를 제외한 station이 모두 수신한다.
+- unicast는 받아야 될 recipient만 frame을 받고 나머지 station은 frame을 discard한다.
+- multicast도 똑같다.
+- broadcast는 sender를 제외한 station이 모두 수신한다.
 
 #### Access Method
 
