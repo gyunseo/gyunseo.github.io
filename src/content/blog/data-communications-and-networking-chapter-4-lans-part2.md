@@ -20,7 +20,7 @@ description: Data Communications and Networking Chapter 4 LANs 공부한 거 정
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
 
-#### Physical-layer Header
+### Physical-layer Header
 
 - Preamble (7B): 1과 0이 교대하는 56bits
 - SFD (1B): Start Frame Delimeter, flag (10101011)
@@ -33,7 +33,7 @@ SFD는 프레임의 시작을 알린다.
 
 Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 놨다.
 
-#### 앞 2개 field를 뺀 진짜 Ethernet Frame
+### 앞 2개 field를 뺀 진짜 Ethernet Frame
 
 - Destination Address (6B): 목적지 주소
 - Source Address (6B): 송신지 주소
@@ -43,7 +43,7 @@ Destination Address가 날라가는 걸 방지하기 위해 앞에 8B를 넣어 
 - Data and Padding (46B ~ 1500B): 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.
 - CRC (Cyclic Redundancy Check) (4B): (나중에 다시 적기)
 
-#### Frame Length
+### Frame Length
 
 Minimum Frame Length: 46B + 18B = 64B
 Maximum Frame Length: 1500B + 18B = 1518B
@@ -54,7 +54,7 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 그래서 shared media를 monopolizing을 막기위해서 Maximum Frame Length가 있다.
 그리고 랜카드의 메모리 Buffer Size도 줄여야 한다.
 
-#### Addressing
+### Addressing
 
 각 station은 Ethernet Network에서 자신들만의 Network Interface Card (NIC)를 갖는다.
 우리는 NIC 주소를 MAC Address, Ethernet Address, Hardware Address라고 부른다.
@@ -76,7 +76,7 @@ Broadcast Address는 Hexadecimal로 `FF-FF-FF-FF-FF-FF`이다.
 상기 그림을 기반으로 다음과 결론을 도출할 수 있다.
 Source Address의 Byte 1의 LSB는 항상 0이고, Destination Address의 Byte 1 LSB는 Unicast Address일 경우에는 0이고, Multicast이거나 Broadcast Address일 경우에는 1이다.
 
-#### Distinguish Between Unicast, Multicast, and Broadcast Transmission
+### Distinguish Between Unicast, Multicast, and Broadcast Transmission
 
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223903316.jpeg)
 상기 그림을 통해 어떻게 Unicast, Multicast, 그리고 Broadcast transmission들이 서로 구분되는지 알아 보자.
@@ -93,6 +93,6 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 - multicast도 똑같다.
 - broadcast는 sender를 제외한 station이 모두 수신한다.
 
-#### Access Method
+## Access Method
 
 Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
