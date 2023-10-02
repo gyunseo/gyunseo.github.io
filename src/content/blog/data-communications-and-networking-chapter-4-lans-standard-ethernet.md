@@ -46,7 +46,7 @@ SFD는 프레임의 시작을 알린다.
   - field의 value가 1518보다 작으면, length field로 해석되고, data field의 length를 정의한다.
   - field의 vlaue가 1536보다 크면, MAC frame을 사용하는 upper-layer protocol을 정의한다. (랜카드 위에 바로 application이 올라가는 게 아니라, network layer가 있는데, network layer protocol의 종류가 엄청 많다. 그래서 그걸 구분하는 용도이다. 그럼 length는? 상위 계층에서 알아서 처리한다.)
 - Data and Padding (46B ~ 1500B): 최소 Byte보다 적은 게 들어 가면 Padding으로 가짜 Byte들이 들어간다.
-- CRC (Cyclic Redundancy Check) (4B): (나중에 다시 적기)
+- CRC (Cyclic Redundancy Check) (4B): error detection information, **CRC-32**
 
 ## Frame Length
 
