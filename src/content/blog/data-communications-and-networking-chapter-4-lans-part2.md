@@ -123,8 +123,7 @@ network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time in
 ### Cable Length 계산
 
 $$MaxLength=Propagation\,Speed \times SlotTime/2$$
-$$ MaxLength=(2*10^8)*(51.2\*10^{-6}/2) = 5120m$$
-$$1\*2$$
+$$ MaxLength=(2*10^8)*({51.2}\*10^{-6}/2) = 5120m$$
 위 수식에 따라 Propagation Speed (빛의 속도) 를 20만 km/s로 잡고, 충돌이 SlotTime의 절반 시간 안에 일어나니 계산 결과가 5120m가 나온다. (이론적으로)
 그런데, repeater와 interface들에서 발생하는 딜레이와 jam sequence를 보내는 데에 들어가는 시간을 고려하여, Standard Ethernet에서는
 **MaxLength = 2500m**이다.
