@@ -270,3 +270,5 @@ bridge처럼 알고리즘을 이용해 address를 학습한다.
 
 L2 Switch를 계속 발전 시켜 보니, UTP 케이블은 8개 가닥이 있다. (가닥이 2개가 있어야 전기신호를 보낼 수 있음.) 심지어 4쌍이나 있음. 그러면 보내면서 받자.
 CSMA/CD가 필요없다. 보내는 거 10Mbps, 받는 거 10Mbps (increasing bandwidth)
+
+(Full-Duplex Ethernet은 다시 정리하기)
