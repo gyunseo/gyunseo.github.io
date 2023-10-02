@@ -102,16 +102,20 @@ star topology에서는 station A가 station B에게 frame 하나를 전송하면
 Standard Ethernet은 1-persistent CSMA/CD를 Media Access Method로 사용한다.
 Ehternet에서 slot time은 bits로 정의된다.
 slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간이다. (Chapter 3의 CSMA/CD에서 왜 **512bits**를 보내는지 그 이유를 다뤘었다. $Minimum\;T_{fr}=2 \times T_p$이기 때문이다. 나중에 해당 블로그 글 링크로 걸기)
-그렇다면, 10Mbps의 Standard Ethernet에서는 Time Interval이 51.2$\mu$s가 걸린다. (중학교 때 배운 거속시로 계산해 보면 금방 나온다.)
+그렇다면, 10Mbps의 Standard Ethernet에서는 Time Interval이 51.2$\mu s$가 걸린다. (중학교 때 배운 거속시로 계산해 보면 금방 나온다.)
 하기 그림을 보며 이해해 보자.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
+
+### 선발대 bit의 모험...
+
 그렇다면 collision은 언제 일어날까?
 최악의 경우를 생각해 보자.
 station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
 두 station은 shared media에서 가장 양 끝단에 존재한다고 하자.
+network는 10Mbps의 bandwidth를 가지고, maximum propagation time은 25.6$\mu s$ propagation speed는 $2 \times 10^8m/s$라 하자. (그렇다면, 거속시를 이용해 잘 계산해 보면, cable 길이는 5120$m$인 것이다.)
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
-그러니깐, collision은 slot time의 first half 동안에만 일어나게 된다.
-이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu$s에 collision이 발생하게 되는 것이다.)
-그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time 동안 sense할 수 있다.
-만약 이 시간 이후에 collision이 일어난다면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 이럴 때 주로 일어난다.)
+그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
+이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu s$에 collision이 발생하게 되는 것이다.)
+그리고 만약 first half of slot time에 collision이 일어난다면, 이 collision은 sender가 slot time (first 512 bits times) 동안 sense할 수 있다.
+만약 이 시간 이후에 collision이 일어나서, collision이 다시 A로 돌아와서 (최악의 경우 25.6$\mu s$ 동안 다시 A로 돌아가겠죠?), collision detection이 돼, collision error가 first 512 bits times 이후에 발생했다고 하면, late collision이 일어났다고 한다. (주로 케이블 길이를 너무 길게 설정했을 때 이럴 때 주로 일어난다.)
