@@ -1,5 +1,5 @@
 ---
-title: Data Communications and Networking Chapter 4 LANs Part 1
+title: Data Communications and Networking Chapter 4 LANs Ethernet
 pubDatetime: 2023-10-02T00:04:00Z
 featured: false
 draft: false
@@ -9,7 +9,7 @@ tags:
   - LAN
   - Ethernet
 ogImage: ""
-description: Data Communications and Networking Chapter 4 LANs 공부한 거 정리
+description: Ethernet 공부한 거 정리
 ---
 
 ## Table of contents

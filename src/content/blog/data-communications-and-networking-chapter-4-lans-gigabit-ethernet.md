@@ -10,7 +10,7 @@ tags:
   - Gigabit-Ethernet
   - LAN
 ogImage: ""
-description: this is template
+description: Gigabit Ethernet 공부한 거 정리
 ---
 
 ## Table of contents
@@ -25,6 +25,8 @@ description: this is template
 - 1Gbps data rate를 유지하고, MAC sublayer를 그대로 유지하면 도저히 cable 길이를 맞출 수가 없어서 (그대로 유지한다고 가정하면 25m가 최대임), MAC sublayer를 바꾼다.
 
 ## Full-Duplex Mode
+
+- CSMA/CD 필요 없다.
 
 ## Traditional
 
