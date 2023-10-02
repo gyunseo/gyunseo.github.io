@@ -226,12 +226,20 @@ bridge로 나뉜 각 network는 bandwidthwise적으로 독립적이다. (~~각 s
 
 ## Separating Collision Domains
 
-![](src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260310961.jpeg)
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260310961.jpeg)
 
 상기 그림을 보자.
 bridge로 collision domain의 separation이 없을 때는 12개의 station이 모두 medium을 access하기 위해 contend한다.
 그러나, bridging을 통해 오직 3개의 station들이 medium을 access하기 위해 contend (경쟁)한다.
 
-repeater는 그냥 신호를 더 갈 수 있게 만들어 주는 것이다.
-bridge는 주소가 있다. (송신자 주소, 목적지 주소 MAC 어드레스가 있다.)
+(교수님의 첨언)
+repeater는 그냥 신호를 더 멀리 갈 수 있게 만들어 주는 것이다.
+그런데, bridge에게는 주소가 있다. (송신자 주소, 목적지 주소 MAC 어드레스가 있다.)
 처음에는 다른 segment로도 뿌려진다. 그런데 같은 segment에 있는 게 학습이 되면, 그 다음부터 같은 segment에 있는 것이라 bridge에서 filtering해서 다른 segment로 보내지 않는다. 그래서 다른 segment에서 carrier sense를 해서 collision domain을 separation하고, bandwidth를 독립적으로 사용할 수 있는 것이다.
+
+## Switched Ethernet
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260647694.jpeg)
+dumb hub는 network hardware의 가장 basic이다.
+네트워크에서 한 노드로부터 정보를 받으면, 그 정보를 같은 네트워크에 있는 다른 모든 노드에게 다 보내 준다.
+상기 그림을 보며 이해해 보자.
