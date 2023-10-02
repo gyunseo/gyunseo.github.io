@@ -209,4 +209,25 @@ bridge는 bandwidth를 raise하고 collision domain을 분리한다.
 
 ## Raising Bandwidth
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258472204.jpeg)
+![](src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258472204.jpeg)
+unbridged된 하나의 네트워크가 있다고 생각해 보자.
+CSMA/CD 방식을 이용하기 때문에, 어떤 하나의 station이 frame을 보내고 있으면, 또 다른 하나의 station은 frame을 못 보낸다.
+즉, total capacity (10Mbps) 가 두 station 사이서 공유된다는 것이다.
+한 station이 보내고, 또 다른 한 station이 보내고 교대한다.
+결국 평균적으로 각 station은 5Mbps의 rate로 data를 보내게 된다.
+상기 그림이 그 예시를 보여준다.
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258804889.jpeg)
+상기 그림 같이 12개의 station을 6개로 나눴다고 해 보자.
+bridge로 나뉜 각 network는 bandwidthwise적으로 독립적이다. (~~각 segment마다 bandwidth가 독립적이라는 말 같다.~~)
+나뉜 각 네트워크는 10Mbps의 capacity를 갖게된다.
+각 segment는 이제 6개의 station 사이서 capacity를 공유한다. (사실은 bridge가 station처럼 행동하기 때문에 7개이다.)
+그렇게 되면 10/12 Mbps가 아닌, 10/7 Mbps의 rate로 평균적으로 각 segment의 station이 data를 보낼 수 있기 때문에, bandwidth가 raise된 것이다.
+
+## Separating Collision Domains
+
+![](src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260310961.jpeg)
+
+상기 그림을 보자.
+bridge로 collision domain의 separation이 없을 때는 12개의 station이 모두 medium을 access하기 위해 contend한다.
+그러나, bridging을 통해 오직 3개의 station들이 medium을 access하기 위해 contend (경쟁)한다.
