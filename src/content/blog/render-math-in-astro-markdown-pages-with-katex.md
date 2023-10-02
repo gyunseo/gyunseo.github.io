@@ -120,6 +120,6 @@ export default defineConfig({
 
 ## 참고 문서
 
-<https://ileumas.com/writing/2022/03/astro-math-katex/>
-<https://github.com/remarkjs/remark-math>
-<https://katex.org/docs/browser#loading-as-global>
+- <https://ileumas.com/writing/2022/03/astro-math-katex/>
+- <https://github.com/remarkjs/remark-math>
+- <https://katex.org/docs/browser#loading-as-global>
