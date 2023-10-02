@@ -75,3 +75,20 @@ Broadcast Address는 Hexadecimal로 `FF-FF-FF-FF-FF-FF`이다.
 ![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223467557.jpeg)
 상기 그림을 기반으로 다음과 결론을 도출할 수 있다.
 Source Address의 Byte 1의 LSB는 항상 0이고, Destination Address의 Byte 1 LSB는 Unicast Address일 경우에는 0이고, Multicast이거나 Broadcast Address일 경우에는 1이다.
+
+#### Distinguish Between Unicast, Multicast, and Broadcast Transmission
+
+![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223903316.jpeg)
+상기 그림을 통해 어떻게 Unicast, Multicast, 그리고 Broadcast transmission들이 서로 구분되는지 알아 보자.
+
+Standard Ethernet은 기본적으로 coaxial cable (동축 케이블) 을 이용한 bus topology나 twisted pair cable (UTP or STP)과 hub를 이용한 star topology를 사용한다.
+
+전송 의도가 unicast, multicast, broadcast이든 간에, standard Ethernet에서의 transmission은 항상 broadcast이다.
+
+bus topology에서는 station A가 station B에게 frame 하나를 전송하면, 모든 station들이 수신한다.
+star topology에서는 station A가 station B에게 frame 하나를 전송하면, hub가 수신한다.
+그리고, 허브가 A를 제외한 모든 station에게 전송해 준다.
+
+unicast는 받아야 될 recipient만 frame을 받고 나머지 station은 frame을 discard한다.
+multicast도 똑같다.
+broadcast는 sender를 제외한 station이 모두 수신한다.
