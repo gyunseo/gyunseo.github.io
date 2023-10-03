@@ -4,6 +4,11 @@ pubDatetime: 2023-10-03T04:19:00Z
 featured: false
 draft: false
 tags:
+  - Computer-Science
+  - Computer-Network
+  - LAN
+  - Wireless-LAN
+  - MAC-Sublayer
 ogImage: ""
 description: Wireless LAN MAC Sublayer 공부한 거 정리
 ---
