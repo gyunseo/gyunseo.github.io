@@ -16,3 +16,9 @@ description: Bluetooth 공부한 거 정리
 ## Table of contents
 
 ## Bluetooth
+
+a wireless LAN technology designed to connect devices of different functions such as telephones, notebooks, computers, cameras, printers, coffee makers, and so on.
+
+<u>A Bluetooth LAN is an ad hoc network.</u>
+
+IEEE 802.15 statndard fines a
