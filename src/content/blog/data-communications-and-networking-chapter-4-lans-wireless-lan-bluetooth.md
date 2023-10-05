@@ -27,3 +27,10 @@ a wireless LAN technology designed to connect devices of different functions suc
 IEEE 802.15 statndard fines a
 
 ## Architecture
+
+piconet and scatternet
+
+5.2 version 기준
+2Mbps with a 2.4-GHz bandwidth.
+
+802.11b 무선 LAN과 Bluetooth LAN 사이에서 간섭이 일어날 수 있다.
