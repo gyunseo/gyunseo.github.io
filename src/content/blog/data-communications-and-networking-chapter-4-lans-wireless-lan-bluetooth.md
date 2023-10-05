@@ -21,4 +21,9 @@ a wireless LAN technology designed to connect devices of different functions suc
 
 <u>A Bluetooth LAN is an ad hoc network.</u>
 
+- formed spontaneously
+- make a network called a piconet
+
 IEEE 802.15 statndard fines a
+
+## Architecture
