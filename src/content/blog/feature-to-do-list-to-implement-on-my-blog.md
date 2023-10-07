@@ -1,7 +1,7 @@
 ---
 title: 내 블로그에 구현해야 할 기능 to-do-list
 pubDatetime: 2023-10-08T01:07:00Z
-featured: false
+featured: true
 draft: false
 tags:
   - blog
