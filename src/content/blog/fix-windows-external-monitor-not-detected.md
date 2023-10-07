@@ -4,6 +4,10 @@ pubDatetime: 2023-10-08T00:18:00Z
 featured: false
 draft: false
 tags:
+  - Windows
+  - Monitor
+  - 잔류전원
+  - 외장모니터
 ogImage: ""
 description: Yoga Slim 7 ProX 14ARH7은 전설이다...
 ---
