@@ -21,6 +21,7 @@ description: 시간 나면 틈틈이 구현할 예정
 
 ## feature-to-do-list
 
+- ~~markdown AST node의 value를 내가 원하는 값으로 바꾸는 util 구현하기~~
 - Isso Comment System을 Oracle 무료 서버에 배포해서, 블로그에 붙이기
 - src/assets/image에 있는 사진들 모두 cloudinary에 upload하기
 - pasted image를 cloudinary에 upload해주는 plugin obsidian에 설치해서 테스트해 보기
