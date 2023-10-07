@@ -38,7 +38,7 @@ title: "About Me"
 
 ## GitHub:
 
-- <https://github.com/gyunrinkle>
+- <https://github.com/gyunseo>
 
 ## 취미(Hobby):
 
@@ -47,9 +47,9 @@ title: "About Me"
 
 ## SNS(Social Media):
 
-- 트위터(twitter handle): @gyunrinkle
-- 유튜브(youtube handle): @gyunrinkle
-- 인스타그램(ig handle): @gyunrinkle
+- 트위터(twitter handle): [@gyunseo0311](https://twitter.com/gyunseo0311)
+- 유튜브(youtube handle): [@gyunseo0311](https://youtube.com/gyunseo0311)
+- 인스타그램(ig handle): [@gyunseo0311](https://instagram.com/gyunseo0311)
 
 ---
 
