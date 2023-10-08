@@ -38,6 +38,25 @@ wsl --install
 username과 password를 잘 설정을 하고 나면, 하기 이미지와 같이 설정이 완료된다.
 ![](/src/assets/image/install-wsl-on-windows-1696744245267.jpeg)
 
+## Windows 기능 켜기/끄기 확인
+
+![](/src/assets/image/install-wsl-on-windows-1696744570177.jpeg)
+[Windows에서 WSL을 완전히 삭제하자.](uninstall-wsl-completely-on-windows.md)에서
+
+- Hyper-V
+- Linux용 Windows 하위 시스템
+- Windows 하이퍼바이저 플랫폼
+- 가상 머신 플랫폼
+
+을 모두 체크해제하고, WSL을 삭제했었는데,
+
+```powershell
+wsl --install
+```
+
+을 하고 나니, 가상 머신 플랫폼만 설치가 돼 있다.
+왜 그런지는 나도 모르겠다. (~~근데 잘 돌아가면 그만 아닌가?~~)
+
 ## 참고 문서
 
 <https://learn.microsoft.com/ko-kr/windows/wsl/install>
