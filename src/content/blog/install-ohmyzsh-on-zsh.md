@@ -88,7 +88,15 @@ source ~/.zshrc
 
 상기 명령어로, 현재 shell session에서 logout하지 않고, 바뀐 `.zshrc` 설정을 바로 반영하자.
 
-## Install powerlevel10k for
+## Install powerlevel10k for ohmyzsh
+
+하기 명령어로 `powerlevel10k` repo를 clone한다.
+
+```zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+`~/.zshrc` 파일에서 `ZSH_THEME="powerlevel10k/powerlevel10k"`을 설정한다.
 
 ## Plugin
 
@@ -98,3 +106,4 @@ source ~/.zshrc
 
 - <https://github.com/ohmyzsh/ohmyzsh>
 - <https://github.com/romkatv/powerlevel10k#oh-my-zshhttps://github.com/romkatv/powerlevel10k#oh-my-zsh>
+- <https://github.com/romkatv/powerlevel10k>
