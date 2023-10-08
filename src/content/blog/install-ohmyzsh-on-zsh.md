@@ -4,7 +4,10 @@ pubDatetime: 2023-10-08T17:34:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - Ubuntu
+  - Linux
+  - zsh
+  - ohmyzh
 ogImage: ""
 description: 기본 zsh은 너무 앙상하다.
 ---
