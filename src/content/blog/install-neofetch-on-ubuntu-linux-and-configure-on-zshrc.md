@@ -4,7 +4,12 @@ pubDatetime: 2023-10-08T23:02:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - "#neofetch"
+  - Ubuntu
+  - Linux
+  - zsh
+  - powerlevel10k
+  - terminal-customization
 ogImage: ""
 description: terminal을 킬 때 마다 멋있게 보이면 좋을 것 가탇.
 ---
