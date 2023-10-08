@@ -98,9 +98,30 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 `~/.zshrc` 파일에서 `ZSH_THEME="powerlevel10k/powerlevel10k"`을 설정한다.
 
-## Plugin
+```zsh
+nvim ~/.zshrc
+```
 
-나중에 좀 더 공부하고 작성 예정
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763490631.jpeg)
+
+```zsh
+source ~/.zshrc
+```
+
+이제부터 `Powerlevel10k configuration wizard`가 실행된다.
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763564811.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763580252.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763654657.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763671554.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763691713.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696763718715.jpeg)
+처음 몇 번은 폰트가 제대로 렌더링 되는지 확인을 한다.  
+그 이후에는 계속 어떤 설정을 할 것인지 물어 본다.  
+본인의 기호에 맞게 설정하면 된다.
+
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696764202962.jpeg)
+
+## Plugin
 
 ## 참고 문서
 
