@@ -88,7 +88,7 @@ source ~/.zshrc
 
 상기 명령어로, 현재 shell session에서 logout하지 않고, 바뀐 `.zshrc` 설정을 바로 반영하자.
 
-## Install powerlevel10k for ohmyzsh
+## Install `powerlevel10k` for `ohmyzsh`
 
 하기 명령어로 `powerlevel10k` repo를 clone한다.
 
@@ -120,6 +120,16 @@ source ~/.zshrc
 본인의 기호에 맞게 설정하면 된다.
 
 ![](/src/assets/image/install-ohmyzsh-on-zsh-1696764202962.jpeg)
+
+## `~/.p10k.zsh`
+
+```zsh
+nvim ~/.p10k.zsh
+```
+
+상기 명령어로 `~/.p10k.zsh` 파일을 수정하여, prompt에 나오는 segments를 customizing할 수 있다.
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696772955102.jpeg)
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696773064121.jpeg)
 
 ## Plugin
 
