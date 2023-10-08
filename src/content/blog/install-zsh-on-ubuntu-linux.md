@@ -20,6 +20,29 @@ description: bash은 못 생겼다.
 
 ## Install zsh
 
+```bash
+sudo apt install -y zsh
+```
+
+설치 이후, `zsh --version` 명령어로 제대로 설치됐는지 확인하자.
+
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696753635034.jpeg)
+
+## Set up zsh as default
+
+```bash
+chsh -s $(which zsh)
+```
+
+상기 명령어로 default shell을 `zsh`로 변경하자.
+
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696753757536.jpeg)
+`ctrl + d`로 logout 한 이후, 다시 shell에 접속하자.
+
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696753845698.jpeg)
+그러면 상기 이미지처럼 shell이 바뀌었을 것이다.  
+`echo $SHELL` 명령어를 통해 `zsh`로 바뀌었음을 확인도 가능하다.
+
 ## 참고 문서
 
 <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
