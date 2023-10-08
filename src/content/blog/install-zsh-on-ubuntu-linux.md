@@ -39,7 +39,17 @@ chsh -s $(which zsh)
 ![](/src/assets/image/install-zsh-on-ubuntu-linux-1696753757536.jpeg)
 `ctrl + d`로 logout 한 이후, 다시 shell에 접속하자.
 
-![](/src/assets/image/install-zsh-on-ubuntu-linux-1696753845698.jpeg)
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696754262377.jpeg)
+그러면 상기 이미지와 같이 zsh 설정 function이 나온다.
+
+- `q`
+- `0`
+- `1`
+- `2`
+
+중에 하나 입력하면 되는데, `2`가 `~/.zshrc`를 알아서 설정해주는 것 같아서, `2`를 누르고 들어갔다.
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696754339498.jpeg)
+
 그러면 상기 이미지처럼 shell이 바뀌었을 것이다.  
 `echo $SHELL` 명령어를 통해 `zsh`로 바뀌었음을 확인도 가능하다.
 
