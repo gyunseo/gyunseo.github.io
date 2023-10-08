@@ -1,0 +1,33 @@
+---
+title: Windows에 WSL을 설치하자
+pubDatetime: 2023-10-08T14:39:00Z
+featured: false
+draft: false
+tags:
+  - WSL
+  - Windows
+ogImage: ""
+description: WSL 설치하는 과정을 담았다.
+---
+
+## Table of contents
+
+## 들어가며
+
+최근에 WSL 오류가 많이 나서, [Windows에서 WSL을 완전히 삭제하자.](uninstall-wsl-completely-on-windows.md)에 나온 대로 WSL을 완전히 삭제하고, WSL을 재설치를 하려고 한다.
+
+## WSL 설치 명령
+
+Powershell을 관리자 권한으로 실행한 후, 하기 명령어를 입력한다.
+
+```powershell
+wsl --install
+```
+
+![](/src/assets/image/install-wsl-on-windows-1696743830305.jpeg)
+상기 이미지처럼 나온다면 설치가 잘 된 것이다.
+이미지에 나온 대로 재부팅을 하자.
+
+## 참고 문서
+
+<https://learn.microsoft.com/ko-kr/windows/wsl/install>
