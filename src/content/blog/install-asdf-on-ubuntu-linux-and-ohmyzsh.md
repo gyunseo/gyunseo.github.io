@@ -56,15 +56,15 @@ sudo apt-get install -y dirmngr gpg curl gawk
 
 본격적으로 `asdf` plugin을 설치하기 전에, plugin 의존성 패키지들을 설치한다.
 
-## Plugin 설치
+## `Nodejs` Plugin 설치
 
-하기 명령어로 `node.js` plugin을 설치한다.
+하기 명령어로 `nodejs` plugin을 설치한다.
 
 ```zsh
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 ```
 
-## Version 설치
+## `Nodejs` Version 설치
 
 하기 명령어로 모든 `node.js` runtime version을 볼 수 있다.
 
@@ -107,10 +107,90 @@ asdf list nodejs
 
 ![](src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696766814971.jpeg)
 
-## Version 설정하기
+## `nodejs` Version 설정하기
+
+`asdf`는 현재 작업 디렉터리부터 `$HOME` 디렉터리까지 모든 `.tool-versions` 파일에서 tool의 버전 조회를 수행합니다.  
+`asdf`가 관리하는 tool을 실행할 때, version lookup이 발생합니다.
+
+## `nodejs` Global Version 설정하기
+
+```zsh
+asdf global nodejs 18.18.0
+```
+
+상기 명령어로 global version을 설정한다.
+global defaults는 `$HOME/.tool-versions`에서 관리된다.
+그러면 하기 명령어로 global version이 제대로 설정됐는지 확인할 수 있다.
+
+```zsh
+cat $HOME/.tool-versions
+```
+
+![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767200085.jpeg)
+
+## `nodejs` Local version 설정하기
+
+18.17.1 version을 설치하고, `gyunseo.github.io` 디렉터리에서 local version으로 18.17.1 version을 설정하자.
+
+```zsh
+asdf install nodejs 18.17.1
+asdf local nodejs 18.17.1
+cat $PWD/.tool-versions
+```
+
+![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767644582.jpeg)
+
+## `python` Plugin 설치
+
+```zsh
+asdf plugin-add python
+```
+
+## `python` Latest Version 확인
+
+```zsh
+asdf latest python
+# outputs: 3.12.0
+```
+
+## `python` Version 설치
+
+```zsh
+# Python version build envrionment를 위한, system dependencies 설치
+sudo apt update -y; sudo apt install -y build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+# python version 설치
+asdf install python 3.12.0
+```
+
+## `python` Global Version 설정
+
+```zsh
+asdf global python 3.12.0
+cat $HOME/.tool-versions
+```
+
+![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696769147862.jpeg)
+
+하기 명령어를 입력하자.
+
+```zsh
+python3 --version
+# outputs: Python 3.10.12
+```
+
+`python3`는 `asdf` plugin lifecycle에서 설치된 것이 아니라서 상기 결과와 같이 version이 나온다.  
+현재 shell session에서 logout했다가, 다시 shell session login하면 된다.
+
+```zsh
+python3 -V
+# outputs: Python 3.12.0
+```
 
 ## 참고 문서
 
 - <https://asdf-vm.com/guide/getting-started.html>
 - <https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf>
 - <https://github.com/asdf-vm/asdf-nodejs>
+- <https://github.com/asdf-community/asdf-python>
