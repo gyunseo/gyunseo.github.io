@@ -135,6 +135,44 @@ nvim ~/.p10k.zsh
 
 ## Plugin
 
+- **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
+- **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
+
+`zsh-autosuggestions` 설치:
+
+```zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+`zsh-syntax-highlighting` 설치:
+
+```zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+`~/.zshrc` plugin definition 수정:
+
+```zsh
+nvim ~/.zshrc
+```
+
+```
+plugins=(
+	git
+	asdf
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+)
+```
+
+![](/src/assets/image/install-ohmyzsh-on-zsh-1696775854824.jpeg)
+
+```zsh
+source ~/.zshrc
+```
+
+상기 명령어로 session logout을 하지 않고, `~/.zshrc` 변경 사항을 바로 적용한다.
+
 ## 참고 문서
 
 - <https://github.com/ohmyzsh/ohmyzsh>
