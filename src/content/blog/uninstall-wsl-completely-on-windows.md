@@ -46,8 +46,8 @@ WSL에서 메모리 누수 문제도 있고, 가끔 가다 자기 혼자 죽기�
 
 ## 참고 문서
 
-<https://pureinfotech.com/uninstall-wsl-windows-11/>
-<https://www.makeuseof.com/uninstall-wsl-windows/>
-<https://superuser.com/questions/1510172/hyper-v-vs-virtual-machine-platform-vs-windows-hypervisor-platform-settings-in-p>
-<https://learn.microsoft.com/ko-kr/windows/wsl/faq#wsl-2-------------------vmware----virtualbox------------->
-<https://superuser.com/questions/1556521/virtual-machine-platform-in-win-10-2004-is-hyper-v/1619173#1619173>
+- <https://pureinfotech.com/uninstall-wsl-windows-11/>
+- <https://www.makeuseof.com/uninstall-wsl-windows/>
+- <https://superuser.com/questions/1510172/hyper-v-vs-virtual-machine-platform-vs-windows-hypervisor-platform-settings-in-p>
+- <https://learn.microsoft.com/ko-kr/windows/wsl/faq#wsl-2-------------------vmware----virtualbox------------->
+- <https://superuser.com/questions/1556521/virtual-machine-platform-in-win-10-2004-is-hyper-v/1619173#1619173>
