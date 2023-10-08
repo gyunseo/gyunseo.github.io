@@ -25,3 +25,8 @@ WSL에서 메모리 누수 문제도 있고, 가끔 가다 자기 혼자 죽기�
 필자는 Ubuntu->Windows Subsystem for Linux WSLg Preview->Windows Subsystem for Linux Update->Linux용 Windows 하위 시스템 순으로 삭제했다.
 ![](/src/assets/image/uninstall-wsl-completely-on-windows-1696738223576.jpeg)
 ![](/src/assets/image/uninstall-wsl-completely-on-windows-1696738269567.jpeg)
+
+## 설정-앱-선택적 기능-기타 Windows 기능
+
+![](/src/assets/image/uninstall-wsl-completely-on-windows-1696738604428.jpeg)
+상기 이미지에서 기타 Windows 기능을 선택한다.
