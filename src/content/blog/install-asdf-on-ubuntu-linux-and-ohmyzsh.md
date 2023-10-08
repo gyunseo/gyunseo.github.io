@@ -188,6 +188,21 @@ python3 -V
 # outputs: Python 3.12.0
 ```
 
+## `python` Local Version 설정
+
+하기 명령어를 입력하자.
+
+```zsh
+asdf install python 3.11.6
+asdf local python 3.11.6
+cat $PWD/.tool-versions
+# outputs: python 3.11.6
+```
+
+## `reshim`
+
+이거는 좀 더 공부해서 적을 예정
+
 ## 참고 문서
 
 - <https://asdf-vm.com/guide/getting-started.html>
