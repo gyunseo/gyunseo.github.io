@@ -88,10 +88,13 @@ source ~/.zshrc
 
 상기 명령어로, 현재 shell session에서 logout하지 않고, 바뀐 `.zshrc` 설정을 바로 반영하자.
 
+## Install powerlevel10k for
+
 ## Plugin
 
 나중에 좀 더 공부하고 작성 예정
 
 ## 참고 문서
 
-<https://github.com/ohmyzsh/ohmyzsh>
+- <https://github.com/ohmyzsh/ohmyzsh>
+- <https://github.com/romkatv/powerlevel10k#oh-my-zshhttps://github.com/romkatv/powerlevel10k#oh-my-zsh>
