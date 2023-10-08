@@ -47,11 +47,29 @@ chsh -s $(which zsh)
 - `1`
 - `2`
 
-중에 하나 입력하면 되는데, `2`가 `~/.zshrc`를 알아서 설정해주는 것 같아서, `2`를 누르고 들어갔다.
+중에 하나 입력하면 되는데, `2`가 `~/.zshrc`를 알아서 추천 설정에 따라 설정해주는 것 같아서, `2`를 누르고 들어갔다.
 ![](/src/assets/image/install-zsh-on-ubuntu-linux-1696754339498.jpeg)
 
 그러면 상기 이미지처럼 shell이 바뀌었을 것이다.  
 `echo $SHELL` 명령어를 통해 `zsh`로 바뀌었음을 확인도 가능하다.
+
+## locale 설정
+
+```zsh
+vim ~/.zshrc
+```
+
+로 `.zshrc` 파일을 편집한다.
+`export LC_MESSAGES=en_US.UTF-8`을 `.zshrc` 마지막 line에 추가한다.
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696754497696.jpeg)
+
+```zsh
+source ~/.zshrc
+```
+
+로 logout하지 않고, 현재 shell session에 설정을 바로 반영하자.
+![](/src/assets/image/install-zsh-on-ubuntu-linux-1696754696387.jpeg)
+`LC_MESSAGES`가 `en_US.UTF-8`로 설정된 것을 볼 수 있고, `LC_MESSAGES`도 알파벳으로 잘 나온다.
 
 ## 참고 문서
 
