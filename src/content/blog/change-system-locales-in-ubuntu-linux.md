@@ -4,6 +4,9 @@ pubDatetime: 2023-10-08T15:25:00Z
 featured: false
 draft: false
 tags:
+  - Locale
+  - Ubuntu
+  - Linux
 ogImage: ""
 description: Error Message는 영어로만 나오게 할 수 없을까?
 ---
@@ -83,3 +86,7 @@ source ~/.bashrc
 
 ![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696747096422.jpeg)
 이제 `LC_MESSAGES`도 알파벳으로 잘 나오는 걸 확인할 수 있다.
+
+## 참고 문서
+
+<https://docs.oracle.com/cd/E26925_01/html/E27145/glmha.html>
