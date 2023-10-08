@@ -20,7 +20,7 @@ description: Ubuntu에 neovim appimage를 설치하고, 작동하는 과정을 �
 `neovim` 최신 버전을 설치하려면, GitHub stable release에서 appimage를 다운받아, 해당 appimage를 실행해야 한다.
 그래서 `neovim`을 [stable release](https://github.com/neovim/neovim/releases/tag/stable)에 나온 대로 설치하려 한다.
 
-## FUSE 설치
+## `FUSE 2.x` 설치
 
 [Ubuntu Linux에 FUSE 설치하기](install-fuse-on-ubuntu-linux.md)문서를 참고.
 
