@@ -14,7 +14,9 @@ description: WSL 설치하는 과정을 담았다.
 
 ## 들어가며
 
-최근에 WSL 오류가 많이 나서, [Windows에서 WSL을 완전히 삭제하자.](uninstall-wsl-completely-on-windows.md)에 나온 대로 WSL을 완전히 삭제하고, WSL을 재설치를 하려고 한다.
+최근에 WSL 오류가 많이 나서 WSL를 재설치하려 한다.
+일단 먼저 [Windows에서 WSL을 완전히 삭제하자.](uninstall-wsl-completely-on-windows.md)에 나온 대로 WSL을 완전히 삭제한다.
+그리고 WSL을 설치한다.
 
 ## WSL 설치 명령
 
@@ -27,6 +29,14 @@ wsl --install
 ![](/src/assets/image/install-wsl-on-windows-1696743830305.jpeg)
 상기 이미지처럼 나온다면 설치가 잘 된 것이다.
 이미지에 나온 대로 재부팅을 하자.
+
+## 재부팅 후
+
+![](/src/assets/image/install-wsl-on-windows-1696744165825.jpeg)
+![](/src/assets/image/install-wsl-on-windows-1696744175895.jpeg)
+상기 이미지처럼 Ubuntu 설치를 마무리하고, username을 설정하라고 한다.
+username과 password를 잘 설정을 하고 나면, 하기 이미지와 같이 설정이 완료된다.
+![](/src/assets/image/install-wsl-on-windows-1696744245267.jpeg)
 
 ## 참고 문서
 
