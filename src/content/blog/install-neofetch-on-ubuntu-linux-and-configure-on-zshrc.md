@@ -54,3 +54,7 @@ source ~/.p10k.zsh
 
 를 하고, shell session을 logout하고 다시 login하면,  
 neofetch가 먼저 보이고, 그 다음에 `powerlevel10k` theme prompt가 나타난다.
+
+## Shell Sessiong Login 화면
+
+![](/src/assets/image/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696774546411.jpeg)
