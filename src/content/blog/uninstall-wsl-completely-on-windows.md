@@ -30,3 +30,9 @@ WSL에서 메모리 누수 문제도 있고, 가끔 가다 자기 혼자 죽기�
 
 ![](/src/assets/image/uninstall-wsl-completely-on-windows-1696738604428.jpeg)
 상기 이미지에서 기타 Windows 기능을 선택한다.
+
+## 참고 문서
+
+<https://pureinfotech.com/uninstall-wsl-windows-11/>
+<https://www.makeuseof.com/uninstall-wsl-windows/>
+<https://superuser.com/questions/1510172/hyper-v-vs-virtual-machine-platform-vs-windows-hypervisor-platform-settings-in-p>
