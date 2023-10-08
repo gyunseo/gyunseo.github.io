@@ -32,7 +32,18 @@ chmod u+x nvim.appimage
 ./nvim.appimage
 ```
 
+## AppImage directory 생성 및 symbolic link 생성
+
+```zsh
+mkdir .appimage
+mv nvim.appimage .appimage
+sudo ln -s ~/.appimage/nvim.appimage /usr/local/bin/nvim
+nvim
+# nvim 명령어로 잘 실행되는지 확인
+```
+
 ## 참고 문서
 
-<https://github.com/neovim/neovim/releases/tag/stable>
-<https://github.com/neovim/neovim/wiki/Installing-Neovim#linux>
+- <https://github.com/neovim/neovim/releases/tag/stable>
+- <https://github.com/neovim/neovim/wiki/Installing-Neovim#linux>
+- <https://askubuntu.com/questions/1467544/any-reason-not-to-store-appimage-files-in-usr-local-bin>
