@@ -180,7 +180,7 @@ python3 --version
 # outputs: Python 3.10.12
 ```
 
-`python3`는 `asdf` plugin lifecycle에서 설치된 것이 아니라서 상기 결과와 같이 version이 나온다.  
+버전이 `asdf` plugin에서 설치했던 것과 다르게 나온다.  
 현재 shell session에서 logout했다가, 다시 shell session login하면 된다.
 
 ```zsh
