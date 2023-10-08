@@ -56,6 +56,7 @@ wsl --install
 
 을 하고 나니, 가상 머신 플랫폼만 설치가 돼 있다.
 왜 그런지는 나도 모르겠다. (~~근데 잘 돌아가면 그만 아닌가?~~)
+그런데 이후에 Docker Desktop을 Hyper-V 대신 WSL2를 backend로 이용해 설치하니, 또 Linux용 Windows 하위 시스템에 체크가 돼있었다.
 
 ## 참고 문서
 
