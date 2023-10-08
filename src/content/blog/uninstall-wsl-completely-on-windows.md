@@ -31,6 +31,18 @@ WSL에서 메모리 누수 문제도 있고, 가끔 가다 자기 혼자 죽기�
 ![](/src/assets/image/uninstall-wsl-completely-on-windows-1696738604428.jpeg)
 상기 이미지에서 기타 Windows 기능을 선택한다.
 
+![](/src/assets/image/uninstall-wsl-completely-on-windows-1696741218580.jpeg)
+![](/src/assets/image/uninstall-wsl-completely-on-windows-1696741270383.jpeg)
+그러면 상기 이미지와 같이 Windows 기능 켜기/끄기가 나온다.
+여기서
+
+- Hyper-V
+- Linux용 Windows 하위 시스템
+- 가상 머신 플랫폼
+  체크를 해제한다.
+
+그리고 PC를 재부팅한다.
+
 ## 참고 문서
 
 <https://pureinfotech.com/uninstall-wsl-windows-11/>
