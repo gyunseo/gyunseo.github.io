@@ -26,7 +26,7 @@ su - root
 
 ## `Sarasa Gothic` font 다운로드
 
-```bash
+```zsh
 cd /usr/share/fonts/truetype/
 mkdir sarasa
 cd sarasa
@@ -38,9 +38,22 @@ ls
 # ttc 파일이 잘 있는지 확인하기
 ```
 
+## `Sarasa Nerd Font` 다운로드
+
+```zsh
+cd /usr/share/fonts/truetype/sarasa
+wget https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v0.42.1-0/sarasa-nerd-font-ttc.zip
+sudo apt install -y unzip
+unzip sarasa-nerd-font-ttc.zip
+rm -rf sarasa-nerd-font-ttc.zip
+ls
+# ttc 파일이 잘 있는지 확인하기
+```
+
 ## font 설치하기
 
 ```bash
+sudo apt install -y fontconfig
 # 하기 명령어로 ttc 폰트 설치
 sudo fc-cache -f -v
 # 하기 명령어로 설치된 폰트 확인
