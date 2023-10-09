@@ -4,7 +4,9 @@ pubDatetime: 2023-10-09T18:00:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - Docker
+  - Ubuntu
+  - Linux
 ogImage: ""
 description: Docker Desktop이 아닌...
 ---

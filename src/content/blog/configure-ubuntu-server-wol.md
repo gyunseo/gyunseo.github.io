@@ -4,7 +4,9 @@ pubDatetime: 2023-10-09T17:12:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - Ubuntu
+  - WOL
+  - Linux
 ogImage: ""
 description: 따로 패키지들을 설치해줘야 한다...
 ---
