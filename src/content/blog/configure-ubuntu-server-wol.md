@@ -50,20 +50,6 @@ sudo ethtool enp3s0
 방금 `ethtool`로 설정했던 건 재부팅하면 초기화된다.  
 부팅할 때마다 해당 설정을 켜주도록 하려면, 네트워크 인터페이스 설정 파일을 수정해야 한다.
 
-## `/etc/network/interfaces` file 수정
-
-```zsh
-# nvim으로 etc/network/interfaces 수정
-sudo nvim /etc/network/interfaces
-```
-
-하기 내용을 file에 append한다.
-
-```
-post-up /sbin/ethtool -s enp3s0 wol g
-post-down /sbin/ethtool -s enp3s0 wol g
-```
-
 ## `/etc/netplan/01-network-manager-all.yaml` file 수정
 
 `etc/netplan/01-network-manager-all.yaml` file을 하기와 같이 수정한다.
