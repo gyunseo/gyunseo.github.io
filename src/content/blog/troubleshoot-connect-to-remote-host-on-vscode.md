@@ -67,4 +67,9 @@ gyunseo0311.iptime.org ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIb
 ```
 
 `192.168.0.2`, `gyunseo0311.iptime.org` 모두 내 server인데, 이전에 이 노트북에서 다른 방식으로 접속했던 전적이 있어서 그런 것 같다.  
+지금 다시 새로 깔린 Ubuntu OS에 접속하려 하니, 전에 있던 인증 정보로 Server에 login하려니 충돌이 난 것 같다.  
 그래서 상기 파일 내용을 모두 날리고, 다시 vscode에서 접속하니 잘 됐다. (쑻)
+
+## 참고 문서
+
+<https://visu4l.tistory.com/entry/ssh-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D-%EC%97%90%EB%9F%ACWARNING-REMOTE-HOST-IDENTIFICATION-HAS-CHANGED>
