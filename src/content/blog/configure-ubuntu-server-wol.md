@@ -48,7 +48,7 @@ sudo ethtool enp3s0
 방금 `ethtool`로 설정했던 건 재부팅하면 초기화된다.  
 부팅할 때마다 해당 설정을 켜주도록 하려면, 네트워크 인터페이스 설정 파일을 수정해야 한다.
 
-## `etc/network/interfaces` file 수정
+## `/etc/network/interfaces` file 수정
 
 ```zsh
 # nvim으로 etc/network/interfaces 수정
@@ -62,7 +62,7 @@ post-up /sbin/ethtool -s enp3s0 wol g
 post-down /sbin/ethtool -s enp3s0 wol g
 ```
 
-## `etc/netplan/01-network-manager-all.yaml` file 수정
+## `/etc/netplan/01-network-manager-all.yaml` file 수정
 
 `etc/netplan/01-network-manager-all.yaml` file을 하기와 같이 수정한다.
 
@@ -81,7 +81,15 @@ network:
 
 ```zsh
 sudo netplan apply
+# outputs:
+WARNING: systemd-networkd is not running, output will be incomplete.
+
+Failed to reload network settings: No such file or directory
+Falling back to a hard restart of systemd-networkd.service
 ```
+
+![](/src/assets/image/configure-ubuntu-server-wol-1696840435975.jpeg)
+이런 오류가 날 것인데, 명령어를 한번 더 실행시켜 주면 된다.
 
 ## 테스트
 
@@ -91,3 +99,7 @@ sudo shutdown -h now
 ```
 
 iptime wol로 하니깐 잘 된다 ㅎㅎ
+
+## 참고 문서
+
+<https://ca.ramel.be/117>
