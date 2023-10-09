@@ -31,7 +31,7 @@ docker compose version
 # outputs: Docker Compose version v2.21.0
 ```
 
-## `$USER` docker group에 추가
+## `$USER` docker group에 추가 (vscode devconatiner 사용을 하기 위해)
 
 ```zsh
 sudo usermod -aG docker $USER
