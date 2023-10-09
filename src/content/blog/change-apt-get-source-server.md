@@ -21,8 +21,8 @@ description: mirror.kakao.com이 빠르구나...
 ## `zsh` 명령어
 
 ```zsh
-sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
-sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sudo sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+sudo sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 ```
 
 참고로 이렇게 하고 나서 오류가 날 수 있는데, 이에 대해서 책임은 지지 않습니다 ㅎㅎ
