@@ -8,7 +8,6 @@ tags:
   - Computer-Network
   - LAN
   - Ethernet
-ogImage: ""
 description: Ethernet 공부한 거 정리
 ---
 

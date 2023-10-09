@@ -8,7 +8,6 @@ tags:
   - Linux
   - ohmyzh
   - asdf
-ogImage: ""
 description: zsh의 framework의 세계는 엄청나다.
 ---
 

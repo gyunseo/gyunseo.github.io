@@ -8,7 +8,6 @@ tags:
   - Ubuntu
   - Linux
   - package
-ogImage: ""
 description: Ubuntu Linux에서 package를 완전 삭제하는 과정을 담았습니다.
 ---
 

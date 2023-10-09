@@ -8,7 +8,6 @@ tags:
   - Linux
   - Docker
   - Docker-Compose
-ogImage: ""
 description: docker compose plugin 설치하기...
 ---
 

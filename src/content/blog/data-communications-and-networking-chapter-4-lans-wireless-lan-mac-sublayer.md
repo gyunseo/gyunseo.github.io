@@ -9,7 +9,6 @@ tags:
   - LAN
   - Wireless-LAN
   - MAC-Sublayer
-ogImage: ""
 description: Wireless LAN MAC Sublayer 공부한 거 정리
 ---
 

@@ -10,7 +10,6 @@ tags:
   - markdown
   - pdf
   - WSL
-ogImage: ""
 description: pandoc을 설치해서, md를 pdf로 변환하는 과정을 담았습니다.
 ---
 

@@ -9,7 +9,6 @@ tags:
   - LAN
   - Wireless-LAN
   - Bluetooth
-ogImage: ""
 description: Bluetooth 공부한 거 정리
 ---
 

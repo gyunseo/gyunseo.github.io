@@ -9,7 +9,6 @@ tags:
   - LAN
   - WIFI
   - Wireless-LAN
-ogImage: ""
 description: this is template
 ---
 

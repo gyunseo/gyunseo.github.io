@@ -9,7 +9,6 @@ tags:
   - Ethernet
   - LAN
   - Standard-Ethernet
-ogImage: ""
 description: Standard Ethernet 공부한 거 정리
 ---
 

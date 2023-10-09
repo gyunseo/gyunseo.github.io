@@ -6,7 +6,6 @@ draft: false
 tags:
   - vscode
   - ssh
-ogImage: ""
 description: known_hosts를 수정하자...
 ---
 

@@ -9,7 +9,6 @@ tags:
   - Linux
   - neovim
   - appimage
-ogImage: ""
 description: Ubuntu에 neovim appimage를 설치하고, 작동하는 과정을 담았습니다.
 ---
 

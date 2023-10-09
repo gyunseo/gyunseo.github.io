@@ -8,7 +8,6 @@ tags:
   - Ubuntu
   - Linux
   - FUSE
-ogImage: ""
 description: Ubuntu Linux에서 FUSE를 설치하는 과정을 담았습니다.
 ---
 

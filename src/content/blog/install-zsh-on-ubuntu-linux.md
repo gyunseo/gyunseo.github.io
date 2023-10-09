@@ -8,7 +8,6 @@ tags:
   - Linux
   - zsh
   - terminal-customization
-ogImage: ""
 description: bash은 못 생겼다.
 ---
 

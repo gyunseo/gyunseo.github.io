@@ -8,7 +8,6 @@ tags:
   - NVM
   - Windows
   - Node
-ogImage: ""
 description: Windows에서 NVM으로 Node 버전을 관리하는 과정과 방법을 담았습니다.
 ---
 

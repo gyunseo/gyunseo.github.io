@@ -7,7 +7,6 @@ tags:
   - Locale
   - Ubuntu
   - Linux
-ogImage: ""
 description: Error Message는 영어로만 나오게 할 수 없을까?
 ---
 

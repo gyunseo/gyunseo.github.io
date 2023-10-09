@@ -7,7 +7,6 @@ tags:
   - markdown
   - AST
   - Astro
-ogImage: ""
 description: this is template
 ---
 

@@ -9,7 +9,6 @@ tags:
   - LAN
   - Ethernet
   - Fast-Ethernet
-ogImage: ""
 description: Fast Ethernet 공부한 거 정리
 ---
 

@@ -10,7 +10,6 @@ tags:
   - ohmyzh
   - terminal-customization
   - powerlevel10k
-ogImage: ""
 description: 기본 zsh은 너무 앙상하다.
 ---
 

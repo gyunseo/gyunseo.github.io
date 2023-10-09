@@ -9,7 +9,6 @@ tags:
   - Isso
   - Obsidian
   - Cloudinary
-ogImage: ""
 description: 시간 나면 틈틈이 구현할 예정
 ---
 

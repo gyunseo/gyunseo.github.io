@@ -6,7 +6,6 @@ draft: false
 tags:
   - WSL
   - Windows
-ogImage: ""
 description: WSL 설치하는 과정을 담았다.
 ---
 

@@ -7,7 +7,6 @@ tags:
   - Docker
   - Ubuntu
   - Linux
-ogImage: ""
 description: Docker Desktop이 아닌...
 ---
 

@@ -4,7 +4,6 @@ pubDatetime: {{date}}T{{time}}:00Z
 featured: false
 draft: false
 tags: test
-ogImage: ""
 description: this is template
 ---
 

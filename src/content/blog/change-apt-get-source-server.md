@@ -7,7 +7,6 @@ tags:
   - Ubuntu
   - Linux
   - apt
-ogImage: ""
 description: mirror.kakao.com이 빠르구나...
 ---
 

@@ -9,7 +9,6 @@ tags:
   - github-pages
   - Astro
   - astro-paper
-ogImage: ""
 description: Astro Paper Theme을 Github Pages에 배포하는 과정을 담았습니다.
 ---
 

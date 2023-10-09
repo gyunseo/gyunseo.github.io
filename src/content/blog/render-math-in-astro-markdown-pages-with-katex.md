@@ -9,7 +9,6 @@ tags:
   - KaTex
   - Astro
   - markdown
-ogImage: ""
 description: rehype-katex와 remark-math package를 프로젝트에 추가하고, 적용하는 과정을 담았습니다.
 ---
 

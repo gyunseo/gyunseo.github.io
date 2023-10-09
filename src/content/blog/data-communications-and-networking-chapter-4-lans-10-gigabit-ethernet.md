@@ -10,7 +10,6 @@ tags:
   - 10-Gigabit-Ethernet
   - LAN
   - 10Gbps-Ethernet
-ogImage: ""
 description: 10 Gigabit Ethernet 공부한 거 정리
 ---
 

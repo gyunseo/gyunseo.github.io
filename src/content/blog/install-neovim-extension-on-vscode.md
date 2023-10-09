@@ -9,7 +9,6 @@ tags:
   - neovim
   - vim
   - extension
-ogImage: ""
 description: vscode에 neovim extension 설치 과정을 담았습니다.
 ---
 

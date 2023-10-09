@@ -9,7 +9,6 @@ tags:
   - Ethernet
   - Gigabit-Ethernet
   - LAN
-ogImage: ""
 description: Gigabit Ethernet 공부한 거 정리
 ---
 

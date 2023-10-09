@@ -7,7 +7,6 @@ tags:
   - Ubuntu
   - WOL
   - Linux
-ogImage: ""
 description: 따로 패키지들을 설치해줘야 한다...
 ---
 

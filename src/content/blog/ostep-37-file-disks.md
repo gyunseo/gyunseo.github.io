@@ -6,7 +6,6 @@ draft: false
 tags:
   - OSTEP
   - file-disks
-ogImage: ""
 description: OSTEP 37장 공부한 거 정리
 ---
 

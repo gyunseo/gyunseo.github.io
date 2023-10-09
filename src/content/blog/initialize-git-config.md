@@ -6,7 +6,6 @@ draft: false
 tags:
   - git
   - configuration
-ogImage: ""
 description: git config 최초 설정하는 방법
 ---
 

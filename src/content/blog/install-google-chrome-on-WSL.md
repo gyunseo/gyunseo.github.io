@@ -7,7 +7,6 @@ draft: false
 tags:
   - WSL
   - Linux
-ogImage: ""
 description: WSL에 Google Chrome을 설치하는 과정을 담았습니다.
 ---
 

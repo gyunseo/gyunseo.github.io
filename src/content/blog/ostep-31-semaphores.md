@@ -10,7 +10,6 @@ tags:
   - OSTEP
   - Concurrency
   - Semaphores
-ogImage: ""
 description: OS:TEP 31장 공부한 거 정리
 ---
 

@@ -7,7 +7,6 @@ tags:
   - Linux
   - WSL
   - WSLg
-ogImage: ""
 description: WSL에서 오류가 많이 난다...
 ---
 

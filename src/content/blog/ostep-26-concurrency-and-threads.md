@@ -10,7 +10,6 @@ tags:
   - Computer-Science
   - Concurrency
   - Thread
-ogImage: ""
 description: OS:TEP 26장 공부한 거 정리
 ---
 

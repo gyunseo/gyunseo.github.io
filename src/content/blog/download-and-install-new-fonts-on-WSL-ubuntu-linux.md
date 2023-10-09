@@ -8,7 +8,6 @@ tags:
   - WSL
   - Linux
   - Ubuntu
-ogImage: ""
 description: WSL에 font를 설치하는 과정을 담았습니다.
 ---
 

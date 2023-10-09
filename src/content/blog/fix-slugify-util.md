@@ -7,7 +7,6 @@ tags:
   - slug
   - test
   - Astro
-ogImage: ""
 description: slugify.ts를 수정하고, 관련된 코드를 수정한 과정을 담았습니다.
 ---
 

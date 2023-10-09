@@ -8,7 +8,6 @@ tags:
   - Concurrency
   - Computer-Science
   - OS
-ogImage: ""
 description: OS:TEP 33장 공부한 거 정리
 ---
 
