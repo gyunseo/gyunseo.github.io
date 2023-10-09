@@ -77,7 +77,7 @@ Falling back to a hard restart of systemd-networkd.service
 ```
 
 ![](/src/assets/image/configure-ubuntu-server-wol-1696840435975.jpeg)
-이런 오류가 날 것인데, 명령어를 한번 더 실행시켜 주면 된다.
+이런 오류가 날 것인데, 명령어를 똑같이 한번 더 실행시켜 주면 된다.
 
 ## 테스트
 
