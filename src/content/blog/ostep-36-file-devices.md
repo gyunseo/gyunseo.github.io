@@ -5,6 +5,7 @@ featured: false
 draft: false
 tags:
   - OSTEP
+  - file-devices
 ogImage: ""
 description: OSTEP 36장 공부한 거 정리
 ---
