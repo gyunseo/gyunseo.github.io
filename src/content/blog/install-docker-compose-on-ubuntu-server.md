@@ -31,6 +31,12 @@ docker compose version
 # outputs: Docker Compose version v2.21.0
 ```
 
+## `$USER` docker group에 추가
+
+```zsh
+sudo usermod -aG docker $USER
+```
+
 ## 참고 문서
 
 - <https://docs.docker.com/compose/install/linux/#install-using-the-repository>
