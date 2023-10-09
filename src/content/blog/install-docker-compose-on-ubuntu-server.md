@@ -33,6 +33,8 @@ docker compose version
 
 ## `$USER` docker group에 추가 (vscode devconatiner 사용을 하기 위해)
 
+하기 명령어를 입력하면, 이제 `sudo`를 붙이지 않아도 docker 명령어를 사용할 수 있다.
+
 ```zsh
 sudo usermod -aG docker $USER
 ```
