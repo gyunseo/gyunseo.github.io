@@ -46,6 +46,8 @@ CJKmonofont: Sarasa Mono K
 ---
 ```
 
+참고로, `\newpage`나 `\pagebreak`를 사용하면, 새 페이지로 넘어간다.
+
 ## 한글 지원 폰트 확인하는 Bash Script
 
 ```bash
@@ -125,3 +127,8 @@ fc-list :lang=ko
 /usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound ExtraBold,나눔스퀘어라운드 ExtraBold:style=ExtraBold,Regular
 /usr/share/fonts/truetype/nanum/NanumGothicExtraBold.ttf: 나눔고딕,NanumGothic,NanumGothicExtraBold,나눔고딕 ExtraBold:style=ExtraBold
 ```
+
+## 참고 문서
+
+- <https://tex.stackexchange.com/questions/341809/pandoc-does-not-recognize-chinese-characters>
+- <https://stackoverflow.com/questions/16965490/pandoc-markdown-page-break>
