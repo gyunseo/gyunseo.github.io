@@ -29,8 +29,9 @@ sudo apt install -y \
 
 ## markdown을 pdf로 변환하는 Bash Script
 
-```bash
-pandoc --pdf-engine=xelatex -V CJKmainfont="한글 지원 폰트" test.md -o test.pdf
+```zsh
+# pandoc --pdf-engine=xelatex -V CJKmainfont="한글 지원 폰트" test.md -o test.pdf
+pandoc --pdf-engine=xelatex -V CJKmainfont="Sarasa Mono K" test.md -o test.pdf
 ```
 
 ## 한글 지원 폰트 확인하는 Bash Script
