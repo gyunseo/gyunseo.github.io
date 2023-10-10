@@ -34,6 +34,18 @@ sudo apt install -y \
 pandoc --pdf-engine=xelatex -V CJKmainfont="Sarasa Mono K" test.md -o test.pdf
 ```
 
+상기와 같이 입력하면 CJK main font만 지정된 폰트로 변환된다.  
+그래서 모든 폰트를 원하는 폰트로 설정하려면 하기와 같이 md 파일을 수정하면 된다.
+
+```md
+---
+mainfont: Sarasa Mono K
+monofont: Sarasa Mono K
+CJKmainfont: Sarasa Mono K
+CJKmonofont: Sarasa Mono K
+---
+```
+
 ## 한글 지원 폰트 확인하는 Bash Script
 
 ```bash
