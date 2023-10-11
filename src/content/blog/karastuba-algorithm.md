@@ -42,7 +42,24 @@ $xy$의 연산을 위해, 하기와 같이 쪼갬.
 $x=x_1B^m+x_0$  
 $y=y_1B^m+y_0$
 
-\begin{align}
-xy=(x_1 \times B^m+x_0)(y_1 \times B^m+y_0) \\
-
-\end{align}
+- 일반적으로 `n`자리인 경우 `m=n/2`
+  $$
+  \begin{align}
+  xy=(x_1 \times B^m+x_0)(y_1 \times B^m+y_0)
+  \newline=x_1y_1 \times B^{2m} + (x_0y_1 + x_1y_0) \times B^m + x_0y_0
+  \newline
+  \newline L = x_1y_1
+  \newline M = x_0y_1 + x_1y_0
+  \newline N = x_0y_0
+  \newline
+  \newline xy = L \times B^{2m} + M \times B^m + N
+  \end{align}
+  $$
+  $$
+  \begin{align}
+  M = x_0y_1 + x_1y_0
+  \newline = (x_1 + x_0)(y_1 + y_0) - x_0y_0 - x_1y_1
+  \newline = (x_1 + x_0)(y_1 + y_0) - L - N
+  \newline = L + N - (x_1 - x_0)(y_1 - y_0)
+  \end{align}
+  $$
