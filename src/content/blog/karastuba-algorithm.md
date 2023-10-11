@@ -43,6 +43,7 @@ $x=x_1B^m+x_0$
 $y=y_1B^m+y_0$
 
 - 일반적으로 `n`자리인 경우 `m=n/2`
+
   $$
   \begin{align}
   xy=(x_1 \times B^m+x_0)(y_1 \times B^m+y_0)
@@ -55,6 +56,7 @@ $y=y_1B^m+y_0$
   \newline xy = L \times B^{2m} + M \times B^m + N
   \end{align}
   $$
+
   $$
   \begin{align}
   M = x_0y_1 + x_1y_0
@@ -83,8 +85,6 @@ xy = (x_1 \times B^m + x_0)(y_1 \times B^m + y_0)
 \newline = L + N - (x_1 - x_0)(y_1 - y_0)
 \newline N = x_0y_0
 \end{align}
-
-
 $$
 
 `L = 20`, `N = 20`, `M = 20 + 24 - (4 - 8)(5 - 3) = 52`

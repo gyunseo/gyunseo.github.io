@@ -1,5 +1,13 @@
 import { visit } from "unist-util-visit";
 
+export const remarkMathDebug = () => {
+  return (tree: any) => {
+    console.log("!!!!!!!!!!!!");
+    visit(tree, "math", node => {
+      console.log(node.value);
+    });
+  };
+};
 // markdown image-link converter
 export const updateImageLinkNode = () => {
   return (tree: any) => {
