@@ -35,7 +35,21 @@ $$
 
 - 정복
 
-  - M1~M7를 구하기 위해 재귀 호출
+  - M1 ~ M7를 구하기 위해 재귀 호출
 
 - 통합
   - 최종 값 C를 구함
+
+## Formulas for Strassen's Algorithm
+
+$$
+\begin{align}
+M 1 = (A 00 + A11) ∗ (B00 + B11)
+M 2 = (A 10 + A11) ∗ B00
+M 3 = A00 ∗ (B01 - B11)
+M 4 = A11 ∗ (B10 - B00)
+M 5 = (A 00 + A01) ∗ B11
+M 6 = (A 10 - A00) ∗ (B00 + B01)
+M 7 = (A 01 - A11) ∗ (B10 + B11)
+\end{align}
+$$
