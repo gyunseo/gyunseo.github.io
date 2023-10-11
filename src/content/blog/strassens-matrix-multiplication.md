@@ -26,3 +26,16 @@ C_{00} = A_{00}B_{00} + A_{01}B_{10}
 \newline C_{11} = A_{10}B_{01} + A_{11}B_{11}
 \end{align}
 $$
+
+## Strassen's Matrix Multiplication (행렬 곱셈)
+
+- 분할
+
+  - A, B 행렬을 분할
+
+- 정복
+
+  - M1~M7를 구하기 위해 재귀 호출
+
+- 통합
+  - 최종 값 C를 구함
