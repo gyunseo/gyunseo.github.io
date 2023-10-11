@@ -78,7 +78,13 @@ $$
 \begin{align}
 xy = (x_1 \times B^m + x_0)(y_1 \times B^m + y_0)
 \newline = L \times B^{2m} + M \times B^m + N
+\newline L = x_1y_1
+\newline M = x_0y_1 + x_1y_0
+\newline = L + N - (x_1 - x_0)(y_1 - y_0)
+\newline N = x_0y_0
 \end{align}
+
+
 $$
 
 `L = 20`, `N = 20`, `M = 20 + 24 - (4 - 8)(5 - 3) = 52`
