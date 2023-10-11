@@ -41,3 +41,8 @@ description: Large Integers들을 곱할 때는 어떤 알고리즘을 사용해
 $xy$의 연산을 위해, 하기와 같이 쪼갬.
 $x=x_1B^m+x_0$  
 $y=y_1B^m+y_0$
+
+\begin{align}
+xy=(x_1 \times B^m+x_0)(y_1 \times B^m+y_0) \\
+
+\end{align}
