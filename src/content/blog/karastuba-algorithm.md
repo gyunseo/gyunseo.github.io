@@ -63,3 +63,23 @@ $y=y_1B^m+y_0$
   \newline = L + N - (x_1 - x_0)(y_1 - y_0)
   \end{align}
   $$
+
+### 예: `48 * 53`
+
+- 일반적인 경우
+  - 4번의 곱셈
+  - `n`의 자리의 3번에 덧셈
+
+![](/src/assets/image/karastuba-algorithm-1697000260795.jpeg)
+
+- 카라추바 알고리즘인 경우
+
+$$
+\begin{align}
+xy = (x_1 \times B^m + x_0)(y_1 \times B^m + y_0)
+\newline = L \times B^{2m} + M \times B^m + N
+\end{align}
+$$
+
+`L = 20`, `N = 20`, `M = 20 + 24 - (4 - 8)(5 - 3) = 52`
+`xy = 20 * 10^2 + 52 * 10^1 + 24 = 2000 + 520 + 24 = 2544`
