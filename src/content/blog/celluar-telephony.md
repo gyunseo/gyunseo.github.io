@@ -71,3 +71,5 @@ description: Celluar Telephony에 대해서 공부한 거 정리
   - it uses FMDA to separate channels in a link
   - AMPS operates in the 800MHz band
   - the system uses two separate analog channels for forward and reverse.
+
+![](/src/assets/image/celluar-telephony-1697081996594.jpeg)
