@@ -22,4 +22,4 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 ![](/src/assets/image/celluar-telephony-1697080731772.jpeg)
 
-휴대폰의 무선 연결은 BS까지 그리고 BS와 MSC.
+휴대폰의 무선 연결은 BS까지
