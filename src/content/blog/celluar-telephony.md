@@ -46,6 +46,12 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 - the mobile station moves form one cell to another
 
-### Hard handoff
+### Hard Handoff
 
 - break before make connection
+  (통화가 안될 가능성이 생김)
+
+### Soft Handoff
+
+- make before break
+  (중간 구역에서는 양다리를 걸친다.)
