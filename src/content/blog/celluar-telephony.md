@@ -33,6 +33,11 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 ## Transmitting
 
 - the mobile station scans the band
-- the base station relays the data to teh MSC
+- the base station relays the data to the MSC
 - the MSC sends the data on to the telephone central office.
--
+- if the called the party is available, a connection is made and the result is relayed back to the MSC.
+
+## Receiving
+
+- MSC searches for the location of the mobile station by **sending query signals to each cell** in a process called **paging**
+- MSC transmits a ringing signal and, **when the mobile station answers**, assigns a voice channel to the call.
