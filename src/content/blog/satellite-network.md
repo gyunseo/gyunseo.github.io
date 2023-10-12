@@ -51,3 +51,8 @@ description: this is template
 - 24개의 위성, 6개의 궤도
 - 한 궤도에 4개의 위성
 - four satellites are visible from any point on Earth.
+  ![](/src/assets/image/satellite-network-1697083722299.jpeg)
+- GPS is based on a principle called **trilateration**
+  ![](/src/assets/image/satellite-network-1697083879367.jpeg)
+- On a plane,
+- In space
