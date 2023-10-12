@@ -10,16 +10,16 @@ description: this is template
 
 ## Table of contents
 
-## satellite network
+## Satellite network
 
 ![](/src/assets/image/satellite-network-1697083175366.jpeg)
 
-## operation
+## Operation
 
 - 케플러 법칙
 - the signal from a satelllite is normally aimed to
 
-## three categories of satellites
+## Three Categories of Satellites
 
 - GEO satellite: 정지 궤도 위성, 고도 $35,786\,km$에 위치해야 함.
   - van allen belt is a layer that contains charged particles
@@ -28,7 +28,7 @@ description: this is template
   ![](/src/assets/image/satellite-network-1697083437810.jpeg)
   MEO, LEO는 자전속도보다 훨씬 빠르게...
 
-## Frequency bands for satellite communication
+## Frequency Bands for Satellite Communication
 
 - transmission from the earth to the satellite is called **uplink**
 - transmission from the satellite to the earth is called **downlink**
