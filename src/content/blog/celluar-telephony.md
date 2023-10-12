@@ -73,3 +73,18 @@ description: Celluar Telephony에 대해서 공부한 거 정리
   - the system uses two separate analog channels for forward and reverse.
 
 ![](/src/assets/image/celluar-telephony-1697081996594.jpeg)
+
+상기 그림에서
+Each band is 25 MHz,
+made of 832 30-kHz analog channels.
+이론상 832대가 동시에 통화가 가능하다.
+채널을 할당해 주고, 그것으로 소통한다.
+
+![](/src/assets/image/celluar-telephony-1697082165826.jpeg)
+
+## Second Generation (2G)
+
+- IS-136 D-AMPS
+- GSM
+- IS-95 CDMA
+-
