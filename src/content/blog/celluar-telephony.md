@@ -61,3 +61,13 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 ## Roaming
 
 - Neighboring service providers can provide extended coverage through a roaming contract
+
+예: 호주에 있는 사람이 영국으로 가도 서로 통신이 되는 구조
+
+## First Generation
+
+- it was designed for voice communication using analog signals.
+- Advanced Mobile Phone System (AMPS)
+  - it uses FMDA to separate channels in a link
+  - AMPS operates in the 800MHz band
+  - the system uses two separate analog channels for forward and reverse.
