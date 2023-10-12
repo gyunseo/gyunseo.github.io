@@ -109,3 +109,30 @@ GSM은 8명이 들어올 수 있다.
 
 - Interim Standaard 95, based on CDMA and DSSS
 - GPS 지원
+- pilot channel sends a continuous stream of 1s to mobile station
+- IS-95 defines two data rate sets
+  - first set: 9600, 4800, 2400, 1200bps
+  - second set: 14400, 7200, 3600, 1800bps
+
+![](/src/assets/image/celluar-telephony-1697082584604.jpeg)
+
+- 휴대폰 ESN으로 사용자 식별 (이거와 음성을 섞어 채널로 쏜다.)
+  ![](/src/assets/image/celluar-telephony-1697082662309.jpeg)
+- 받을 때에도 ESN이 관련된다.
+
+## Third Generation
+
+- provide both digital data and voice communication
+- Internet Mobile Communication for 2000 (IMT-2000)
+
+- voice quality comparable to that of the existing public telephone network
+- 144Kbps, 384Kbps, 2Mbps
+- a band of 2GHz
+- 2MHz
+- 인터넷 사용가능
+  ![](/src/assets/image/celluar-telephony-1697082809953.jpeg)
+
+## Fourth Generation (4G)
+
+- data rate 100Mbps (moving car), 1Gbps for stationary user
+- 모든 걸 IP packet으로 바꿔서 보내겠다. All IP, packet-switched, networks
