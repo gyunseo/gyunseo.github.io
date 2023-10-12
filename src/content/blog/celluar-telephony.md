@@ -100,3 +100,12 @@ digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌�
 
 ![](/src/assets/image/celluar-telephony-1697082403892.jpeg)
 ![](/src/assets/image/celluar-telephony-1697082424305.jpeg)
+GSM은 8명이 들어올 수 있다.
+
+내부 프레임 구조:
+![](/src/assets/image/celluar-telephony-1697082457601.jpeg)
+
+### IS-95
+
+- Interim Standaard 95, based on CDMA and DSSS
+- GPS 지원
