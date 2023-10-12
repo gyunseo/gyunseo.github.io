@@ -23,3 +23,7 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 ![](/src/assets/image/celluar-telephony-1697080731772.jpeg)
 
 휴대폰의 무선 연결은 BS까지
+
+![](/src/assets/image/celluar-telephony-1697080852481.jpeg)
+
+각 셀마다 주파수를 다른 주파수를 사용한다.
