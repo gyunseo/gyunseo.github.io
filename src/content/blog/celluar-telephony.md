@@ -41,3 +41,11 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 - MSC searches for the location of the mobile station by **sending query signals to each cell** in a process called **paging**
 - MSC transmits a ringing signal and, **when the mobile station answers**, assigns a voice channel to the call.
+
+## Handoff
+
+- the mobile station moves form one cell to another
+
+### Hard handoff
+
+- break before make connection
