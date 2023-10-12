@@ -56,3 +56,16 @@ description: this is template
   ![](/src/assets/image/satellite-network-1697083879367.jpeg)
 - On a plane,
 - In space
+  ![](/src/assets/image/satellite-network-1697083936977.jpeg)
+
+## LEO
+
+- Low-Earth Orbit
+
+## Iridium System
+
+- 66 satelites, orbit에 11개
+
+## Teledesic
+
+- 288 satellites in 12 polar orbit
