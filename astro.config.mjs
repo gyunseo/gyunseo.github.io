@@ -5,13 +5,11 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import {
-  remarkMathDebug,
   updateImageLinkNode,
   updateLinkNode,
 } from "./src/utils/updateMarkdownASTNodeURLValue";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import remarkParse from "remark-parse";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gyunseo.xyz", // replace this with your deployed dom:wain
@@ -24,8 +22,6 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
-      remarkParse,
-      remarkMathDebug,
       remarkMath,
       remarkToc,
       // to support a math syntax in markdown
