@@ -1,5 +1,5 @@
 ---
-title: Hello, World!
+title: 컴넷 celluar telephony
 pubDatetime: 2023-10-12T12:07:00Z
 featured: false
 draft: false
@@ -87,4 +87,16 @@ made of 832 30-kHz analog channels.
 - IS-136 D-AMPS
 - GSM
 - IS-95 CDMA
--
+
+### D-AMPS
+
+![](/src/assets/image/celluar-telephony-1697082325233.jpeg)
+digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌다.
+
+### GSM
+
+- Global System for Mobile Communcation
+- reuse factor: 3
+
+![](/src/assets/image/celluar-telephony-1697082403892.jpeg)
+![](/src/assets/image/celluar-telephony-1697082424305.jpeg)
