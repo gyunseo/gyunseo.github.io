@@ -55,3 +55,9 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 - make before break
   (중간 구역에서는 양다리를 걸친다.)
+- 딴 구역으로 들어가는 순간, 이전의 통신을 끊는다.
+  현재는 대부분 Soft Handoff를 사용한다.
+
+## Roaming
+
+- Neighboring service providers can provide extended coverage through a roaming contract
