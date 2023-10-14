@@ -17,44 +17,34 @@ description: giscus는 GitHub 계정이 없는 사람의 경우 이용할 수가
 giscus는 GitHub 계정을 가진 사람만이 댓글을 달 수 있어서, 아무래도 일반인들에게는 댓글 작성에 있어 어려움이 존재한다.  
 그래서 이번 포스트에서는 [isso](https://github.com/posativ/isso/)를 이용해, blog에 comment 기능을 추가하려고 한다.
 
-## isso를 docker를 이용하여, 로컬에서 돌려 보기
+## [isso](https://github.com/posativ/isso/)Repository git clone하기
 
-일단은 isso를 본격적으로 서버에 돌리기 전에, 내 로컬 laptop에서 돌려 보며 어떻게 작동하는지 알아 보자.
-
-일단 하기 명령어로 local machine에 `/var/lib/isso` directory를 만들어야 한다.
+하기 명령어로 git clone을 하자.
 
 ```zsh
-sudo mkdir /var/lib/isso
+git clone https://github.com/posativ/isso.git
 ```
 
-그 다음, `/var/lib/isso/isso.cfg` file을 만들어, 하기와 같이 설정 파일에 내용을 기록한다.
-`sudo nvim /var/lib/isso/isso.cfg`로 configuration file을 만들어서, 수정한다.
+그 다음 vscode를 이용하든, 그대로 shell에서 편집을 하든 마음대로 repo의 file들과 repository들을 수정 및 변경하면 된다.
 
-```
-[general]
-dbpath = /db/comments.db
-host = http://localhost/
-[server]
-listen = http://localhost:8080/
-```
+## `$PWD/config`, `$PWD/db` Directory 생성
 
-그런 다음, 하기 명령어로 isso의 offical docker image를 pull한다.
+하기 명령어로, isso repository에 `config`와 `db` directory를 생성하자.
 
 ```zsh
-docker pull ghcr.io/isso-comments/isso:latest
+# isso repository에서...
+pwd
+# outputs: /home/gyunseo/isso
+mkdir config db
+ls | grep config db
+# outputs: db
+ls | grep config config
+# outputs: config
 ```
 
-`docker image ls` 명령어로 pull 받아 온, docker image를 확인할 수 있다.
+##
 
-그 다음, 하기 명령어로 docker conatiner를 만들어, docker isso server를 run한다.
-
-```zsh
-docker run -d --rm --name isso -p 127.0.0.1:8080:8080 \
-    -v /var/lib/isso:/config -v /var/lib/isso:/db \
-    ghcr.io/isso-comments/isso:latest
-```
-
-`docker ps -a`로 docker container들의 정보를 확인할 수 있다.
+## docker compose를 이용하여, 로컬에서 돌려 보기
 
 ## 참고 문서
 
