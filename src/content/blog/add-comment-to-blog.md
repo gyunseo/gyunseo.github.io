@@ -51,8 +51,10 @@ docker pull ghcr.io/isso-comments/isso:latest
 ```zsh
 docker run -d --rm --name isso -p 127.0.0.1:8080:8080 \
     -v /var/lib/isso:/config -v /var/lib/isso:/db \
-    ghcr.io/isso-comments/isso:lates
+    ghcr.io/isso-comments/isso:latest
 ```
+
+`docker ps -a`로 docker container들의 정보를 확인할 수 있다.
 
 ## 참고 문서
 
