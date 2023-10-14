@@ -19,12 +19,59 @@ description: docker compose를 이용해 nginx를 띄워 보자.
 
 ## Docker로 Nginx 서비스 띄우기
 
+하기 명령어로 `nginx` docker image를 pull해 오자.
+
 ```zsh
 docker pull nginx
 ```
 
+그런 다음, 하기 명령어로 `nginx` docker container를 `nginx-server`라는 이름으로 띄우자.
+
 ```zsh
 docker run --name nginx-server -d -p 80:80 nginx
+```
+
+80번 port로 container가 잘 띄워졌는지, 하기 명령어로 확인하자.
+
+```zsh
+curl -X GET 127.0.0.1:80
+```
+
+하기와 같이 html 문서가 나오면 잘 된 것이다.
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to nginx!</title>
+    <style>
+      html {
+        color-scheme: light dark;
+      }
+      body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to nginx!</h1>
+    <p>
+      If you see this page, the nginx web server is successfully installed and
+      working. Further configuration is required.
+    </p>
+
+    <p>
+      For online documentation and support please refer to
+      <a href="http://nginx.org/">nginx.org</a>.<br />
+      Commercial support is available at
+      <a href="http://nginx.com/">nginx.com</a>.
+    </p>
+
+    <p><em>Thank you for using nginx.</em></p>
+  </body>
+</html>
 ```
 
 ## Webapp을 위한 Nginx Docker Image Build하기
