@@ -13,4 +13,4 @@ description: giscus는 GitHub 계정이 없는 사람의 경우 이용할 수가
 
 ## 들어가며
 
-최근에 
+최근에 블로그에 giscus를 이용해 댓글 기능을 달았었다. (giscus를 블로그에 달기 포스트 작성하기)
