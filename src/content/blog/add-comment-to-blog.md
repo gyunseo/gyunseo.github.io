@@ -15,7 +15,7 @@ description: giscus는 GitHub 계정이 없는 사람의 경우 이용할 수가
 
 최근에 블로그에 giscus를 이용해 댓글 기능을 달았었다. (giscus를 블로그에 달기 포스트 작성하기)
 giscus는 GitHub 계정을 가진 사람만이 댓글을 달 수 있어서, 아무래도 일반인들에게는 댓글 작성에 있어 어려움이 존재한다.  
-그래서 이번 포스트에서는 [isso](https://github.com/posativ/isso/)를 이용해, blog에 comment 기능을 추가하려고 한다.
+그래서 이번 포스트에서는 [isso](https://github.com/posativ/isso/)를 이용해, 일반인들도 댓글을 달 수 있게 하기 위해, blog에 comment 기능을 추가하려고 한다.
 
 ## [isso](https://github.com/posativ/isso/)Repository git clone하기
 
@@ -42,7 +42,45 @@ ls | grep config config
 # outputs: config
 ```
 
-##
+## `$PWD/config/isso.cfg`를 추가하고, 수정하기
+
+하기 명령어로, `$PWD/config/isso.cfg` file을 생성하자.
+
+```zsh
+touch config/isso.cfg
+```
+
+그리고 하기와 같은 내용으로 file을 수정하자.
+
+```
+[general]
+; database location, check permissions,
+; automatically created if it does not exist
+dbpath = /db/comments.db
+
+; your website or blog (not the location of Isso!)
+host = https://yourdomain.tld/
+
+[admin]
+; admin interface in /admin
+enabled = true
+password = abc123
+
+[guard]
+; basic spam protection
+enabled = true
+
+; limit to N new comments per minute.
+ratelimit = 5
+
+; how many comments directly to the thread
+direct-reply = 3
+
+; allow commenters to reply to their own comments when they could still edit the comment.
+reply-to-self = false
+require-author = false
+require-email = false
+```
 
 ## docker compose를 이용하여, 로컬에서 돌려 보기
 
