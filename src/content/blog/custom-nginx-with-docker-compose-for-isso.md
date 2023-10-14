@@ -1,5 +1,5 @@
 ---
-title: Docker Compose로 Nginx 띄우기
+title: Isso를 위해 Docker Compose로 Custom Nginx 띄우기
 pubDatetime: 2023-10-15T00:25:00Z
 featured: true
 draft: false
@@ -74,7 +74,46 @@ curl -X GET 127.0.0.1:80
 </html>
 ```
 
-## Webapp을 위한 Nginx Docker Image Build하기
+## `isso`를 위한 Custom Nginx Docker Image Build하기
+
+`isso`를 위해 custom nginx docker image를 build할 것이다.  
+일단 이를 위해 작업 directory 하나를 만든다.
+
+```zsh
+mkdir custom-nginx-for-isso
+cd custom-nginx-for-isso
+```
+
+`default.conf`:
+
+```nginx
+upstream app {
+	server isso:8080 # server container name
+
+}
+server {
+    listen 8080;
+
+    location / {
+        proxy_pass http://app;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+`Dockerfile`:
+
+```dockerfile
+FROM nginx:latest
+
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+`docker build -t custom-nginx-for-isso .`로 `custom-nginx-for-isso` docker image를 build한다.
 
 ## 참고 문서
 
