@@ -27,11 +27,31 @@ giscus는 GitHub 계정을 가진 사람만이 댓글을 달 수 있어서, 아�
 sudo mkdir /var/lib/isso
 ```
 
-그 다음 `/var/lib/isso/isso.cfg` file을 만들어, 하기와 같이 설정 파일에 내용을 기록한다.
+그 다음, `/var/lib/isso/isso.cfg` file을 만들어, 하기와 같이 설정 파일에 내용을 기록한다.
+`sudo nvim /var/lib/isso/isso.cfg`로 configuration file을 만들어서, 수정한다.
 
 ```
-dbpath=/db/comments.db
-host
+[general]
+dbpath = /db/comments.db
+host = http://localhost/
+[server]
+listen = http://localhost:8080/
+```
+
+그런 다음, 하기 명령어로 isso의 offical docker image를 pull한다.
+
+```zsh
+docker pull ghcr.io/isso-comments/isso:latest
+```
+
+`docker image ls` 명령어로 pull 받아 온, docker image를 확인할 수 있다.
+
+그 다음, 하기 명령어로 docker conatiner를 만들어, docker isso server를 run한다.
+
+```zsh
+docker run -d --rm --name isso -p 127.0.0.1:8080:8080 \
+    -v /var/lib/isso:/config -v /var/lib/isso:/db \
+    ghcr.io/isso-comments/isso:lates
 ```
 
 ## 참고 문서
