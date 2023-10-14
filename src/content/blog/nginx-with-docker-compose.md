@@ -20,11 +20,11 @@ description: docker compose를 이용해 nginx를 띄워 보자.
 ## Docker로 Nginx 서비스 띄우기
 
 ```zsh
-docker pull nginx
+docker pull nginx
 ```
 
 ```zsh
-docker run --name nginx-server -d -p 80:80 nginx
+docker run --name nginx-server -d -p 80:80 nginx
 ```
 
 ## Webapp을 위한 Nginx Docker Image Build하기
