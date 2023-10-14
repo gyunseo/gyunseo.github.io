@@ -60,4 +60,5 @@ docker run -d --rm --name isso -p 127.0.0.1:8080:8080 \
 
 - <https://isso-comments.de/docs/reference/installation/#using-docker>
 - <https://isso-comments.de/docs/reference/server-config/>
--
+- <https://djangocas.dev/blog/hugo/isso-static-blog-comments-setup-and-internal/>
+- <https://oktomus.com/posts/2020/add-comments-to-a-static-blog-with-isso/>
