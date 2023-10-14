@@ -21,6 +21,21 @@ giscus는 GitHub 계정을 가진 사람만이 댓글을 달 수 있어서, 아�
 
 일단은 isso를 본격적으로 서버에 돌리기 전에, 내 로컬 laptop에서 돌려 보며 어떻게 작동하는지 알아 보자.
 
+일단 하기 명령어로 local machine에 `/var/lib/isso` directory를 만들어야 한다.
+
+```zsh
+sudo mkdir /var/lib/isso
+```
+
+그 다음 `/var/lib/isso/isso.cfg` file을 만들어, 하기와 같이 설정 파일에 내용을 기록한다.
+
+```
+dbpath=/db/comments.db
+host
+```
+
 ## 참고 문서
 
 - <https://isso-comments.de/docs/reference/installation/#using-docker>
+- <https://isso-comments.de/docs/reference/server-config/>
+-
