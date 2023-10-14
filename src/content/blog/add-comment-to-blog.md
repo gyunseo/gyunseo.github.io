@@ -20,3 +20,7 @@ giscus는 GitHub 계정을 가진 사람만이 댓글을 달 수 있어서, 아�
 ## isso를 docker를 이용하여, 로컬에서 돌려 보기
 
 일단은 isso를 본격적으로 서버에 돌리기 전에, 내 로컬 laptop에서 돌려 보며 어떻게 작동하는지 알아 보자.
+
+## 참고 문서
+
+- <https://isso-comments.de/docs/reference/installation/#using-docker>
