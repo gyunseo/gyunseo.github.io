@@ -75,3 +75,8 @@ curl -X GET 127.0.0.1:80
 ```
 
 ## Webapp을 위한 Nginx Docker Image Build하기
+
+## 참고 문서
+
+- <https://hub.docker.com/_/nginx>
+- <https://basketdeveloper.tistory.com/37>
