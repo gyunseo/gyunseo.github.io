@@ -6,6 +6,8 @@ draft: false
 tags:
   - blog
   - Comment
+  - Docker
+  - Docker-Compose
 description: giscus는 GitHub 계정이 없는 사람의 경우 이용할 수가 없다...
 ---
 
