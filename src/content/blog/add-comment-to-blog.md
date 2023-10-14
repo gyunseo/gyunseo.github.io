@@ -82,7 +82,34 @@ require-author = false
 require-email = false
 ```
 
-## docker compose를 이용하여, 로컬에서 돌려 보기
+- `dbpath` and `host` is mandatory.
+- `dbpath` is the full path of sqlite3 database.
+- `host` is your site URL (include `http://` or `https://`). It can have multiple values. config it correctly to avoid cross domain attack (CORS).
+- Enable admin to manage comment through web interface.
+- Enable guard to avoid spam.
+
+## docker image build
+
+`isso` repo에서 하기 명령어로 docker image를 build하자.
+
+```zsh
+make docker
+```
+
+그러면 `isso`라는 이름의 docker image가 생성된다.  
+`docker image ls`로 확인하자.
+
+## docker run
+
+하기 명령어로 docker container를 run하자.
+
+```zsh
+docker run -d --rm --name isso -p 127.0.0.1:8080:8080 \
+    -v $PWD/config:/config -v $PWD/db:/db \
+    isso
+```
+
+`docker ps -a` 명령어로 실행 중인 docker container를 확인할 수 있다.
 
 ## 참고 문서
 
