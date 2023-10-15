@@ -18,7 +18,7 @@ title: "About Me"
 ## Game
 
 ## Web Service
-[코드당](https://github.com/skkuding/codedang)
+- [코드당](https://github.com/skkuding/codedang)
 ---
 
 # Information
