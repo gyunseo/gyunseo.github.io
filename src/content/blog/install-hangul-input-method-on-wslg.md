@@ -20,7 +20,7 @@ description: WSLg에서 한글 폰트 렌더링이 잘 안되고, 입력이 안�
 
 ## Bash 명령어
 
-```bash
+```zsh
 # 한국어 언어 팩 설치 (ko_KR.UTF-8 설치)
 sudo apt install -y language-pack-ko
 
@@ -50,7 +50,7 @@ sudo apt install -y fcitx fcitx-hangul dbus-x11
 
 # 아래 내용을 .bashrc에 추가하고, source ~/.bashrc로 bashrc 변경사항을 적용해 준다.
 ---
-#!/bin/bash
+#!/usr/bin/bash
 export QT_IM_MODULE=fcitx
 export GTK_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
