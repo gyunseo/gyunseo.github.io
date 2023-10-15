@@ -82,4 +82,5 @@ gitkraken
 
 ## 참고 문서
 
-<https://julialang.kr/?p=3174>
+- <https://julialang.kr/?p=3174>
+- <https://freetome.tistory.com/493>
