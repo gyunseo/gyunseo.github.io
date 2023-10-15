@@ -1,5 +1,5 @@
 ---
-title: 블로그에 Comment 추가하기
+title: 블로그에 Isso Comment 추가하기
 pubDatetime: 2023-10-14T20:22:00Z
 featured: true
 draft: false
