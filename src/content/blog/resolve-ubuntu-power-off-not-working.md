@@ -10,6 +10,8 @@ tags:
 description: Yoga Slim 7 ProX 14ARH7에 Ubuntu를 처음 설치하면, power off를 했을 때 벽돌이 된다...
 ---
 
+px
+
 ## Table of contents
 
 ## 들어가며
@@ -20,7 +22,7 @@ Yoga Slim 7 ProX 14ARH7 (내 노트북) 에 Ubuntu를 Native로 설치했다.
 그래서 이 문제를 해결 하려고 엄청 찾아 봤다.  
 그 과정을 공유하려 한다.
 
-##
+## dddd
 
 ```zsh
 apt search nvidia-driver
