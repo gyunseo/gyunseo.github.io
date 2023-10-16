@@ -10,7 +10,7 @@ tags:
 description: Yoga Slim 7 ProX 14ARH7에 Ubuntu를 처음 설치하면, power off를 했을 때 벽돌이 된다...
 ---
 
-px
+이 글은 Ubuntu-22.04 기준으로 작성됐습니다.
 
 ## Table of contents
 
