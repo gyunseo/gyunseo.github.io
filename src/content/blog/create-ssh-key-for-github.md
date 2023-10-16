@@ -7,7 +7,7 @@ tags:
   - ssh
   - GitHub
   - git
-description: this is template
+description: http말고 SSH로 GitHub에 연결하자...
 ---
 
 ## Table of contents
