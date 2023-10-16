@@ -13,6 +13,7 @@ description: this is template
 ## 들어가며
 
 갑자기 랜카드 인식이 안됨..;;;
+BIOS 모드 진입해서 , secure booting과 fast booting을 끄니깐 해결됨 ㅁㅊ;;
 
 # 참고 문서
 
