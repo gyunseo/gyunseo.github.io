@@ -12,6 +12,8 @@ description: this is template
 
 ## 들어가며
 
+갑자기 랜카드 인식이 안됨..;;;
+
 # 참고 문서
 
 - <https://www.linux.org/threads/solved-wifi-adaptator-not-found-mediatek-wi-fi-6-mt7921-wireless-lan-card.37699/page-2>
