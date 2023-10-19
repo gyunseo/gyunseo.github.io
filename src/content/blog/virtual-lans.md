@@ -1,5 +1,5 @@
 ---
-title: Hello, World!
+title: Virtual LANs
 pubDatetime: 2023-10-19T12:02:00Z
 featured: false
 draft: false
@@ -7,7 +7,7 @@ tags:
   - Computer-Network
   - Computer-Science
   - VLANs
-description: this is template
+description: VLANs 공부한 것 정리
 ---
 
 ## Table of contents
