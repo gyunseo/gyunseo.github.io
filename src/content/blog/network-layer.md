@@ -50,3 +50,12 @@ chrome에 www.naver.com -> ip address로 변환 -> pc에 있는 routing table이
 
 the network layer at the switch or router is **responsible for routing the packet**
 
+ip packet은 ethernet frame 입장에서는 data이다.
+
+
+- Error control
+	- checksum may prevent any changes or corruptions in the header of the datagram.
+	- the internet uses an auxiliary protocol, **ICMP**, that provides some kind of error control
+- Flow control
+	- it regulates the amount of data a source can send without overwhelming the receiver
+
