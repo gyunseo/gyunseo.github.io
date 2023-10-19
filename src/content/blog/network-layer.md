@@ -59,3 +59,29 @@ ip packet은 ethernet frame 입장에서는 data이다.
 - Flow control
 	- it regulates the amount of data a source can send without overwhelming the receiver
 
+- Contestion control (혼잡 제어)
+	- a1,a2,a3,a4가 네트워크에 들어오면 혼잡해진다.
+	- datagrams are dropped, the situation may become worse because, 재전송을 계쏙하게 돼서.
+ ![](/src/assets/image/network-layer-1697687226265.jpeg)
+- **Quality of Service**
+	- <u>the ability to provied different priority to different applications, users, or data flows, or to guarantee a certain level of performance to a data flow. </u> (dataflow마다 우선순위를 다르게 하는 것)
+	- Ethernet이 QoS가 있는가? 가능한가? 없다. (Qos 기능이 없다.)
+
+- Security
+	- to provide security for a connectionless network layer, we need to have another virtual level that changes the connectionless service **to a connection-oriented service.**
+
+## Packet Switching
+
+- router: a switch that creates a connection between an input port and an output port
+- switching: circuit switching, **packet switching (virtual circuit approach(가상 회선), datagram approach)** (network layer는 주로 packet에 대해 다룬다.)
+
+
+## Datagram approach: connectionless service
+
+![](/src/assets/image/network-layer-1697687787184.jpeg)
+
+- datagram-> 아 connectionless구나
+- network layer protocol **treats each packet independently**, with each packet **having no relationship to any other packet.**
+- the packet in a message **may or may not travel the same path to their destination.**
+- 그냥 편지 보내는 거랑 비유, 겉에 주소 쓰고, 우체국 가서 보낸다. (연결 설정을 해서, 상대방이 받아야 보내는 것은 connection oriented 예를 들어 전화걸 때 받는 거) 
+- 
