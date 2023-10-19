@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+                "file": "src/content/blog/analyze-cause-of-bsod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+                "file": "src/content/blog/analyze-cause-of-bsod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md"
+                "file": "src/content/blog/analyze-cause-of-bsod.md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3cc7e4de7eff1575",
+  "active": "0cebbe9e9101356a",
   "lastOpenFiles": [
-    "src/content/blog/analyze-cause-of-bsod.md",
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+    "src/content/blog/analyze-cause-of-bsod.md",
     "src/assets/image/resolve-font-rendering-issue-on-windows-1697732807935.jpeg",
     "src/content/blog/network-layer.md",
     "src/assets/image/network-layer-1697688294327.jpeg",
