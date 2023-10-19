@@ -13,23 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/analyze-cause-of-bsod.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de38beb1cb261bfc",
+            "id": "3cc7e4de7eff1575",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md"
+                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/network-layer.md"
+                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md"
               }
             }
           }
@@ -157,13 +160,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0cebbe9e9101356a",
+  "active": "3cc7e4de7eff1575",
   "lastOpenFiles": [
+    "src/content/blog/analyze-cause-of-bsod.md",
+    "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+    "src/assets/image/resolve-font-rendering-issue-on-windows-1697732807935.jpeg",
+    "src/content/blog/network-layer.md",
     "src/assets/image/network-layer-1697688294327.jpeg",
     "src/assets/image/network-layer-1697687787184.jpeg",
     "src/assets/image/network-layer-1697687226265.jpeg",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
-    "src/content/blog/network-layer.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/assets/image/network-layer-1697686563197.jpeg",
@@ -174,8 +180,6 @@
     "src/content/blog/virtual-lans.md",
     "src/assets/image/virtual-lans-1697685000548.jpeg",
     "src/assets/image/virtual-lans-1697684931390.jpeg",
-    "src/assets/image/virtual-lans-1697684816040.jpeg",
-    "src/assets/image/image/virtual-lans-1697684714948.jpeg",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs",
     "Untitled.md"

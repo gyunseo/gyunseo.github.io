@@ -25,9 +25,10 @@ description: 대체 내 노트북은 왜 이러는 걸까..?
 
 ## 해결 방법
 
-그래서 `MacType`과 `PowerToys`를 삭제했다.
-폰트 렌더링 문제는 해결이 됐다만, BSOD 문제는 해결이 되는지는 지켜봐야 할 것 같다.
+그래서 `PowerToys`를 삭제했다.
+BSOD 문제는 해결이 되는지는 지켜봐야 할 것 같다.
 <https://github.com/microsoft/WSL/issues/6982#issuecomment-901255679> 같은 사람이 있는 걸 보면, `PowerToys`는 분명 문제가 있는 게 분명하다. (`PowerToys`가 Windows Vmmem Memory Leak을 일으킨다는 Issue이다.)
+폰트 렌더링 이슈는 그냥 
 
 ## 참고 문서
 
