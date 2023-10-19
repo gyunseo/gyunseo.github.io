@@ -34,9 +34,6 @@ pnpm-debug.log*
 !.yarn/versions
 .pnp.*
 
-#obsidian
-.obsidian/
-
 # logseq
 logseq/
 journal/
