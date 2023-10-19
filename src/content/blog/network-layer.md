@@ -83,6 +83,11 @@ ip packet은 ethernet frame 입장에서는 data이다.
 - datagram-> 아 connectionless구나
 - network layer protocol **treats each packet independently**, with each packet **having no relationship to any other packet.**
 - the packet in a message **may or may not travel the same path to their destination.**
-- 그냥 편지 보내는 거랑 비유, 겉에 주소 쓰고, 우체국 가서 보낸다. (연결 설정을 해서, 상대방이 받아야 보내는 것은 connection oriented 예를 들어 전화걸 때 받는 거) 
-- 1GB 파일을 업로드 한다. 1500B로 fragmention돼서 1,2,3,4로 나간다. (각자를 차라고 생각하면, 각자의 길을 선택해서 간다. 목적지에는 패킷이 순서대로 도착하지 않을 수 있다. 상기 그림에서는 1,3,4,2순)
-- 이메일을 도착한 순서대로 도착한다. 그렇다면 어디선가 이 순서를 맞춘다. (transport layer에서 순서대로 맞춘다.) -> 그렇다면 network layer는 이 방식을 선택했을까? 항상 network를 효율적으로 쓸 수 있어서, 매 패킷마다 가장 빠른 길로 갈 수 있음을 보장한다.
+- 그냥 편지 보내는 거랑 비유, 겉에 주소 쓰고, 우체국 가서 보낸다. (연결 설정을 해서, 상대방이 받아야 보내는 것은 connection oriented 예를 들어 전화걸 때 받는 거)  
+- 1GB 파일을 업로드 한다. 1500B로 fragmention돼서 1,2,3,4로 나간다. (각자를 차라고 생각하면, 각자의 길을 선택해서 간다. 목적지에는 패킷이 순서대로 도착하지 않을 수 있다. 상기 그림에서는 1,3,4,2순)  
+- 이메일을 도착한 순서대로 도착한다. 그렇다면 어디선가 이 순서를 맞춘다. (transport layer에서 순서대로 맞춘다.) -> 그렇다면 network layer는 이 방식을 선택했을까? 항상 network를 효율적으로 쓸 수 있어서, 매 패킷마다 가장 빠른 길로 갈 수 있음을 보장한다.  
+- it doest not need call setup
+- the router routes the packet basd only on the destnation address.
+	- the reason: the internet is made of so many heterogeneous networks.
+
+![](/src/assets/image/network-layer-1697688294327.jpeg)
