@@ -198,6 +198,14 @@ cat $PWD/.tool-versions
 # outputs: python 3.11.6
 ```
 
+## `java` Plugin 설치
+
+하기 명령어를 입력하여 `java` plugin을 설치하자.
+
+```zsh
+asdf plugin-add java https://github.com/halcyon/asdf-java.git
+```
+
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정
@@ -208,3 +216,5 @@ cat $PWD/.tool-versions
 - <https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf>
 - <https://github.com/asdf-vm/asdf-nodejs>
 - <https://github.com/asdf-community/asdf-python>
+- <https://github.com/halcyon/asdf-java>
+-
