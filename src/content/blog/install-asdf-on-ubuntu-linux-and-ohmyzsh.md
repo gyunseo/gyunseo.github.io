@@ -280,10 +280,29 @@ cat $HOME/.tool-versions
 
 ## `JAVA_HOME` 설정
 
-`JAVA_HOME`을 `zsh` initialization에서 설정하려면, 하기 명령어를 추가하자.
+`JAVA_HOME`을 `zsh` initialization에서 설정하려면, 하기 명령어를 `~/.zshrc`에 추가하자.
+
+```zsh
+nvim ~/.zshrc
+```
+
+하기 명령어를 `~/.zshrc`에 추가하자.
 
 ```zsh
 . ~/.asdf/plugins/java/set-java-home.zsh
+```
+
+`~/.zshrc` 변경 사항을 하기 명령어를 통해 현재 shell session에서 바로 반영하자.
+
+```zsh
+source ~/.zshrc
+```
+
+하기 명령어로 `JAVA_HOME`이 제대로 설정됐는지 확인하자.
+
+```zsh
+echo $JAVA_HOME
+# outputs: /home/gyunseo/.asdf/installs/java/temurin-17.0.9+9
 ```
 
 ## `reshim`
