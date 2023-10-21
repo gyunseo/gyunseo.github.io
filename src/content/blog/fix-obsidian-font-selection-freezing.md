@@ -6,7 +6,7 @@ draft: false
 tags:
   - Obsidian
   - Font
-description: this is template
+description: 너무나 많이 깔린 font들이 문제였다...
 ---
 
 ## Table of contents
@@ -16,7 +16,7 @@ description: this is template
 Windows Obsidian에서 Settings - Appearance - Fonts 메뉴에 진입하여, Font를 고를 때 Obsidian freeze되는 현상이 있었다.  
 이를 해결하고자 한다.
 
-## 글꼴 초기화 하기
+## Windows 글꼴 초기화 하기
 
 [Windows 기본 System 폰트 제외 전부 삭제하는 방법](remove-all-fonts-except-windows-system-fonts.md) 포스트를 참고하자.  
 원인은 Windows에 너무나 많이 깔린 글꼴 때문이다.  
