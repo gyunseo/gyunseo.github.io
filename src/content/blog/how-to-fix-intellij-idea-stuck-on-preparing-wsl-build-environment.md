@@ -16,7 +16,7 @@ description: Windows Defender가 문제였다...
 
 ## 들어가며
 
-Windows Intellij Idea와 함께 Ubuntu 22.04를 사용하고 있다.  
+<https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html>에 나온대로, Windows Intellij IDEA Ultimate와 함께 Ubuntu 22.04를 사용하고 있다. (Remote Development - WSL이 아니다.)  
 ![](/src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899532148.jpeg)
 여기서 초록색 Run 버튼을 눌러, `Main.main()`을 실행하려 하면, `Preparing WSL build environment...`가 나오며 IntelliJ가 멈춰 버린다.  
 이를 해결해 보고자 한다.
@@ -47,3 +47,4 @@ Windows Intellij Idea와 함께 Ubuntu 22.04를 사용하고 있다.
 - <https://stackoverflow.com/questions/74450189/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment>
 - <https://github.com/microsoft/WSL/issues/8995#issuecomment-1380187901>
 - <https://youtrack.jetbrains.com/issue/IDEA-293604/IntelliJ-is-slow-hanging-when-working-with-WSL-filesystem#focus=Comments-27-6180537.0-0>
+- <https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html>
