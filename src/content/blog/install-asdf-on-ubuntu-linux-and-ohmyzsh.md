@@ -278,6 +278,47 @@ cat $HOME/.tool-versions
 # java temurin-17.0.9+9
 ```
 
+## `JDK` Local Version 설정하기
+
+하기 명령어로 `temurin-11`의 latest version을 설치하자.
+
+```zsh
+asdf install java latest:temurin-11
+```
+
+하기 명령어로 잘 설치가 됐는지 확인하자.
+
+```zsh
+asdf list java
+```
+
+하기와 같이 output이 나오면 잘 된 것이다.
+
+```zsh
+  temurin-11.0.21+9
+ *temurin-17.0.9+9
+```
+
+하기 명령어로 원하는 directory에서 local `JDK`를 `temurin-11.0.21+9`으로 설정하자.
+
+```zsh
+mkdir asdf-java-local-test
+cd asdf-java-local-test
+asdf local java temurin-11.0.21+9
+```
+
+하기 명령어로 제대로 설정이 됐는지 확인하자.
+
+```zsh
+cat .tool-versions
+# outputs: java temurin-11.0.21+9
+java --version
+# outputs:
+# openjdk 11.0.21 2023-10-17
+# OpenJDK Runtime Environment Temurin-11.0.21+9 (build 11.0.21+9)
+# OpenJDK 64-Bit Server VM Temurin-11.0.21+9 (build 11.0.21+9, mixed mode)
+```
+
 ## `JAVA_HOME` 설정
 
 `JAVA_HOME`을 `zsh` initialization에서 설정하려면, 하기 명령어를 `~/.zshrc`에 추가하자.
@@ -299,11 +340,22 @@ source ~/.zshrc
 ```
 
 하기 명령어로 `JAVA_HOME`이 제대로 설정됐는지 확인하자.
+(global `JDK`가 제대로 설정된 것을 확인할 수 있다.)
 
 ```zsh
 echo $JAVA_HOME
 # outputs: /home/gyunseo/.asdf/installs/java/temurin-17.0.9+9
 ```
+
+그렇다면, 앞에서 만들었던 `asdf-java-local-test`에서 `JAVA_HOME`을 확인해 보자.
+
+```zsh
+cd asdf-java-local-test
+echo $JAVA_HOME
+# outputs: /home/gyunseo/.asdf/installs/java/temurin-11.0.21+9
+```
+
+local `JDK`가 `temurin-11.0.21+9`로 잘 설정되었음을 확인할 수 있다.
 
 ## `reshim`
 
