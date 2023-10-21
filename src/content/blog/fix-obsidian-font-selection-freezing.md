@@ -4,7 +4,8 @@ pubDatetime: 2023-10-22T00:05:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - Obsidian
+  - Font
 description: this is template
 ---
 
