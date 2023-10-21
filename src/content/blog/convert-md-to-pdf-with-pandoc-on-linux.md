@@ -35,7 +35,7 @@ pandoc --pdf-engine=xelatex -V CJKmainfont="Sarasa Mono K" test.md -o test.pdf
 ```
 
 상기와 같이 입력하면 CJK main font만 지정된 폰트로 변환된다.  
-그래서 모든 폰트를 원하는 폰트로 설정하려면 하기와 같이 md 파일을 수정하면 된다.
+그래서 모든 폰트를 원하는 폰트로 설정하려면 하기와 같이, md 파일 가장 상단에 font를 지정하면 된다.
 
 ```md
 ---
@@ -46,7 +46,13 @@ CJKmonofont: Sarasa Mono K
 ---
 ```
 
-참고로, `\newpage`나 `\pagebreak`를 사용하면, 새 페이지로 넘어간다.
+참고로, `\newpage`나 `\pagebreak`를 사용하면, 새 페이지로 넘어간다.  
+이렇게 설정한 후, 하기 명령어를 입력하면,
+`main`, `mono`, `CJKmain`, `CJKmono` font가 모두 `Sarasa Mono K`로 설정이 된다.
+
+```zsh
+pandoc --pdf-engine=xelatex test.md -o test.pdf
+```
 
 ## 한글 지원 폰트 확인하는 Bash Script
 
