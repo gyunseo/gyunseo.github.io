@@ -39,6 +39,9 @@ Windows Intellij Idea와 함께 Ubuntu 22.04를 사용하고 있다.
 폴더: `\\wsl.localhost\Ubuntu`, `C:\Users\[사용자명]\AppData\Local\JetBrains`
 프로세스: `fsnotifier.exe`, `idea64.exe`
 
+상기와 같이 제외 사항을 추가하면, 더 이상 Intellij에서 멈춤 현상이 일어나지 않는다.  
+이 방법이 잘 안되면, 그냥 Windows Defender를 끄면 된다.
+
 ## 참고 문서
 
 - <https://stackoverflow.com/questions/74450189/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment>
