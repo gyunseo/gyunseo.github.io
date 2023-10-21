@@ -206,6 +206,40 @@ cat $PWD/.tool-versions
 asdf plugin-add java https://github.com/halcyon/asdf-java.git
 ```
 
+하기 명령어로 `java` plugin이 잘 설치됐는지 확인하자.
+
+```zsh
+asdf plugin list
+# outputs:
+# java
+# nodejs
+```
+
+## `open-jdk` vendor 확인
+
+필자는 `temurin-17` version을 이용할 것이므로 하기와 같이 명령어를 입력하여 확인한다.
+
+```zsh
+asdf list-all java | grep temurin-17
+```
+
+그러면 하기와 같은 output이 나온다.
+
+```zsh
+temurin-17.0.0+35
+temurin-17.0.1+12
+temurin-17.0.2+8
+temurin-17.0.3+7
+temurin-17.0.4+8
+temurin-17.0.4+101
+temurin-17.0.5+8
+temurin-17.0.6+10
+temurin-17.0.7+7
+temurin-17.0.8+7
+temurin-17.0.8+101
+temurin-17.0.9+9
+```
+
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정
@@ -217,4 +251,3 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git
 - <https://github.com/asdf-vm/asdf-nodejs>
 - <https://github.com/asdf-community/asdf-python>
 - <https://github.com/halcyon/asdf-java>
--
