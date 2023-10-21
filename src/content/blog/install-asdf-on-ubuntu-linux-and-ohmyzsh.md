@@ -278,6 +278,14 @@ cat $HOME/.tool-versions
 # java temurin-17.0.9+9
 ```
 
+## `JAVA_HOME` 설정
+
+`JAVA_HOME`을 `zsh` initialization에서 설정하려면, 하기 명령어를 추가하자.
+
+```zsh
+. ~/.asdf/plugins/java/set-java-home.zsh
+```
+
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정
