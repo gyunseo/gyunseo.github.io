@@ -13,7 +13,7 @@ description: Font가 너무 많아서, Application에서 Font를 로딩할 때 �
 
 ## 들어가며
 
-Font가 너무 많아서, Application에서 Font를 로딩할 때 렉이 걸린다...
+Font가 너무 많아서, Application에서 Font를 로딩할 때 렉이 걸린다... (특히 Obsidian과 IntelliJ에서는 Program이 먹통이 된다..!)
 그래서 Windows System Fonts만 남기고 다 삭제하려고 한다.
 
 ## 제어판 - 글꼴
