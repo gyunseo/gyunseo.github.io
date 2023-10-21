@@ -215,9 +215,9 @@ asdf plugin list
 # nodejs
 ```
 
-## `open-jdk` vendor 확인
+## `OpenJDK` Vendor 및 Version 확인
 
-필자는 `temurin-17` version을 이용할 것이므로 하기와 같이 명령어를 입력하여 확인한다.
+필자는 jdk로 ADOPTIUM의 `temurin-17` version을 이용할 것이므로 하기와 같이 명령어를 입력하여 확인한다.
 
 ```zsh
 asdf list-all java | grep temurin-17
@@ -240,6 +240,44 @@ temurin-17.0.8+101
 temurin-17.0.9+9
 ```
 
+필자는 여기서 Linux에서 `17 - LTS Version`에 해당하는 `17.09+9`을 설치할 것이다. (하기 링크 참조)  
+<https://adoptium.net/temurin/releases/?os=linux&arch=x64&package=jdk&version=17>
+![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg)
+
+## `temurin-17.0.9+9` `JDK` 설치하기
+
+하기 명령어로 `temurin-17.0.9+9` JDK를 설치하자.
+
+```zsh
+asdf install java temurin-17.0.9+9
+```
+
+하기 명령어로 제대로 설치가 됐는지 확인하자.
+
+```zsh
+asdf list java
+# outputs: temurin-17.0.9+9
+```
+
+## `JDK` Global Version 설정하기
+
+일단은 설치한 `temurin-17.0.9+9`을 메인 `JDK`로 사용할 것이다.  
+그래서 `temurin-17.0.9+9` version의 `JDK`를 global로 설정하자.  
+하기 명령어를 통해 해당 버전의 `JDK` global `JDK`로 설정하자.
+
+```zsh
+asdf global java temurin-17.0.9+9
+```
+
+하기 명령어로 해당 버전의 `JDK`가 global로 설정됐는지 확인할 수 있다.
+
+```zsh
+cat $HOME/.tool-versions
+# outputs:
+# nodejs 18.18.2
+# java temurin-17.0.9+9
+```
+
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정
@@ -251,3 +289,4 @@ temurin-17.0.9+9
 - <https://github.com/asdf-vm/asdf-nodejs>
 - <https://github.com/asdf-community/asdf-python>
 - <https://github.com/halcyon/asdf-java>
+- <https://adoptium.net/temurin/releases/?os=linux&arch=x64&package=jdk&version=17>
