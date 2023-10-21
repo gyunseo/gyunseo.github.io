@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "60c017edeebc439a",
+        "id": "1adc16f189d97c0d",
         "type": "tabs",
         "children": [
           {
-            "id": "0cebbe9e9101356a",
+            "id": "cbe7d65017c1eb28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cc7e4de7eff1575",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/resolve-font-rendering-issue-on-windows.md",
+                "file": "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
+                "file": "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
+                "file": "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md"
+                "file": "src/content/blog/remove-all-fonts-except-windows-system-fonts.md"
               }
             }
           }
@@ -159,8 +147,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0cebbe9e9101356a",
+  "active": "cbe7d65017c1eb28",
   "lastOpenFiles": [
+    "src/assets/image/remove-all-fonts-except-windows-system-fonts-1697893581064.jpeg",
+    "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
+    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg",
     "src/content/blog/analyze-cause-of-bsod.md",
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
@@ -179,7 +170,6 @@
     "Excalidraw",
     "src/content/blog/virtual-lans.md",
     "src/assets/image/virtual-lans-1697685000548.jpeg",
-    "src/assets/image/virtual-lans-1697684931390.jpeg",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs",
     "Untitled.md"
