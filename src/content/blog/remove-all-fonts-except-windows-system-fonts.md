@@ -1,5 +1,5 @@
 ---
-title: Windows 기본 Sytem 폰트 제외 전부 삭제하는 방법
+title: Windows 기본 System 폰트 제외 전부 삭제하는 방법
 pubDatetime: 2023-10-21T22:04:00Z
 featured: false
 draft: false

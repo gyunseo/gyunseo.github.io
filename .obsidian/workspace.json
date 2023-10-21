@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a25a0fb4132382a6",
+            "id": "f0bfeec251b17a9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/fix-obsidian-font-selection-freezing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efd8e82ef9823107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/fix-obsidian-font-selection-freezing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/fix-obsidian-font-selection-freezing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md"
+                "file": "src/content/blog/fix-obsidian-font-selection-freezing.md"
               }
             }
           }
@@ -147,15 +159,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a25a0fb4132382a6",
+  "active": "f0bfeec251b17a9a",
   "lastOpenFiles": [
+    "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
+    "src/content/blog/fix-obsidian-font-selection-freezing.md",
+    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899742499.jpeg",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899532148.jpeg",
     "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
-    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
-    "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
     "src/assets/image/remove-all-fonts-except-windows-system-fonts-1697893581064.jpeg",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg",
@@ -169,7 +182,6 @@
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
-    "src/assets/image/network-layer-1697686563197.jpeg",
     "Excalidraw",
     "src/content/blog/virtual-lans.md",
     "src/assets/image/image",
