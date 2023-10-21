@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbe7d65017c1eb28",
+            "id": "a25a0fb4132382a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
+                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
+                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
+                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md"
+                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md"
               }
             }
           }
@@ -147,8 +147,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbe7d65017c1eb28",
+  "active": "a25a0fb4132382a6",
   "lastOpenFiles": [
+    "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg",
+    "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg",
+    "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899742499.jpeg",
+    "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899532148.jpeg",
+    "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
+    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
     "src/assets/image/remove-all-fonts-except-windows-system-fonts-1697893581064.jpeg",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
@@ -164,9 +170,6 @@
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/assets/image/network-layer-1697686563197.jpeg",
-    "src/assets/image/network-layer-1697686506932.jpeg",
-    "src/assets/image/network-layer-1697686079139.jpeg",
-    "src/assets/image/network-layer-1697686274993.jpeg",
     "Excalidraw",
     "src/content/blog/virtual-lans.md",
     "src/assets/image/image",
