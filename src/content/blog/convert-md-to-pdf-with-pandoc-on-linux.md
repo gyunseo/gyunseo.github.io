@@ -21,7 +21,7 @@ WSL에서 google-chrome을 깔아도 도저히 md가 pdf로 변환이 안된다.
 
 ## 설치 Bash Script
 
-```bash
+```zsh
 sudo apt install -y \
   pandoc \
   texlive-full
@@ -56,13 +56,13 @@ pandoc --pdf-engine=xelatex test.md -o test.pdf
 
 ## 한글 지원 폰트 확인하는 Bash Script
 
-```bash
+```zsh
 fc-list :lang=ko
 ```
 
 ## 실행 결과
 
-```bash
+```zsh
 /usr/share/fonts/truetype/nanum/NanumSquare_acR.ttf: 나눔스퀘어_ac,NanumSquare_ac:style=Regular
 /usr/share/fonts/truetype/nanum/NanumSquareRoundB.ttf: 나눔스퀘어라운드,NanumSquareRound,NanumSquareRound Bold,나눔스퀘어라운드 Bold:style=Bold,Regular
 /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc: Noto Serif CJK SC:style=Bold
