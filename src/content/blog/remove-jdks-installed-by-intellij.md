@@ -16,7 +16,7 @@ description: 흐음....
 
 Windows IntelliJ를 쓰면 편하다.  
 알아서 JDK도 설치해주고, Project에 쓰일 JDK도 마우스 딸깍 딸깍 몇 번이면, 알아서 다 잡아 준다.  
-그런데 필자는 앞으로 Windows에서 JDK Version Manager로 [jabba](https://github.com/shyiko/jabba)를 쓸 것이기 때문에, IntelliJ에서 설치해준 JDK들을 다 삭제하려고 한다.
+그런데 필자는 앞으로 Windows에서 ~~JDK Version Manager로 [jabba](https://github.com/shyiko/jabba)를 쓸 것이기 때문에~~ powershell script를 이용하여 JDK Version Management를 할 것이기 때문에, IntelliJ에서 설치해준 JDK들을 다 삭제하려고 한다.
 
 ## `%USERPROFILE%\.jdks`에 설치된 `JDK` 삭제
 

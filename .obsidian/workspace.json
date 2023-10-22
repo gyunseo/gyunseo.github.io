@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md"
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md"
               }
             }
           }
@@ -159,10 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aa692bbc842c9006",
+  "active": "601710d183ee5ba3",
   "lastOpenFiles": [
-    "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
+    "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
