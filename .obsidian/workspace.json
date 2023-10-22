@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d9fede10c0c0a8fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md"
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md"
               }
             }
           }
@@ -160,11 +172,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "601710d183ee5ba3",
+  "active": "d9fede10c0c0a8fc",
   "lastOpenFiles": [
+    "src/content/blog/remove-jdks-installed-by-intellij.md",
+    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
     "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
     "src/assets/image/start-windows-terminal-default-profile-with-multiple-panes-1697956503446.jpeg",
