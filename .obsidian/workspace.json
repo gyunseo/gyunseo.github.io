@@ -174,9 +174,9 @@
   },
   "active": "d9fede10c0c0a8fc",
   "lastOpenFiles": [
-    "src/content/blog/remove-jdks-installed-by-intellij.md",
-    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
     "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
+    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+    "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",

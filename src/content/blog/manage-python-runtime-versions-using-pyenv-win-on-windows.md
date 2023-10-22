@@ -28,3 +28,7 @@ Powershell 종료 후, 다시 Powershell 열기.
 pyenv --version
 # outputs: pyenv 3.1.1
 ```
+
+## 참고 문서
+
+- <https://github.com/pyenv-win/pyenv-win>

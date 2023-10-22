@@ -15,3 +15,7 @@ description: jabba야!!! 업데이트 좀 해!!
 ## 들어가며
 
 ㅇㅇㅇ
+
+## 참고 문서
+
+- <https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/>
