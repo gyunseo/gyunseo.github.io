@@ -59,6 +59,8 @@ pyenv versions
 
 ```powershell
 pyenv global 3.12.0
+python3 --version
+# outputs: Python 3.12.0
 ```
 
 ## 설치된 Python Rutime Version을 Local Runtime Version으로 설정하기
