@@ -74,7 +74,44 @@ OpenJDK Runtime Environment Temurin-17.0.8.1+1 (build 17.0.8.1+1)
 OpenJDK 64-Bit Server VM Temurin-17.0.8.1+1 (build 17.0.8.1+1, mixed mode, sharing)
 ```
 
+## `.jabbarc` 사용
+
+project 내에서 다른 JDK version을 이용하려면,
+
+```powershell
+echo "temurin@11.0.21" > .jabbarc
+# jabba use는 .jabbarc를 읽어 옴
+jabba use
+```
+
 ## `default -> C:\Users\rbstj\.jabba\jdk\temurin@17.0.8`
+
+```powershell
+# 앞으로 jabba use default를 하면 jabba use temurin@17.0.8과 동일하게 됨
+# Administrator에서 실행안 하면 오류남
+jabba alias default temurin@17.0.8
+```
+
+# `$PROFILE` 수정
+
+```powershell
+nvim $PROFILE
+```
+
+```powershell
+code $PROFILE
+```
+
+하기 `ps1` 코드 추가
+
+```powershell
+# 이미 default JDK version이 alias가 된 상태에서
+jabba use default
+```
+
+그러면 새 PowerShell 인스턴스가 매번 `jabba use default`를 실행한다.
+
+## `%JAVA_HOME%` 설정
 
 ## Uninstallation
 
@@ -86,3 +123,4 @@ OpenJDK 64-Bit Server VM Temurin-17.0.8.1+1 (build 17.0.8.1+1, mixed mode, shari
 ## 참고 문서
 
 - <https://github.com/shyiko/jabba>
+- <https://kwonnam.pe.kr/wiki/java/jabba>
