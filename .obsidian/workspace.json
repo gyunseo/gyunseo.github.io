@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "704896afbc5a9c78",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "5a5152a8aaffb1a9",
+            "id": "4515e7a570587a23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md"
+                "file": "src/content/blog/remove-jdks-installed-by-intellij.md"
               }
             }
           }
@@ -156,15 +147,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a5152a8aaffb1a9",
+  "active": "4515e7a570587a23",
   "lastOpenFiles": [
-    "src/assets/image/start-windows-terminal-default-profile-with-multiple-panes-1697956503446.jpeg",
+    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+    "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
+    "src/assets/image/start-windows-terminal-default-profile-with-multiple-panes-1697956503446.jpeg",
     "src/content/blog/terminal-development.md",
     "src/content/blog/nvm-for-windows.md",
     "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
     "src/assets/image/resolve-icon-spacing-issue-on-windows-1697952811442.jpeg",
-    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/fix-obsidian-font-selection-freezing.md",
     "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg",
@@ -180,7 +172,6 @@
     "src/assets/image/resolve-font-rendering-issue-on-windows-1697732807935.jpeg",
     "src/content/blog/network-layer.md",
     "src/assets/image/network-layer-1697688294327.jpeg",
-    "src/assets/image/network-layer-1697687787184.jpeg",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
