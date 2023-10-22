@@ -6,6 +6,7 @@ draft: false
 tags:
   - Windows
   - terminal-customization
+  - WSL
 description: windows terminal을 눌렀을 때 위에는 Powershell, 아래에는 WSL이 나오게 하고 싶었다...
 ---
 
