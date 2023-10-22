@@ -1,10 +1,13 @@
 ---
-title: Hello, World!
+title: Windows에서 Icon Spacing Issue를 해결하자
 pubDatetime: 2023-10-22T10:10:00Z
 featured: false
 draft: false
 tags:
-  - test
+  - Windows
+  - Registry
+  - Icon
+  - UI
 description: this is template
 ---
 
