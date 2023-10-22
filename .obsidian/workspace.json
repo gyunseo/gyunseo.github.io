@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99d440c6b4650535",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aa692bbc842c9006",
             "type": "leaf",
             "state": {
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
+                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
+                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md"
+                "file": "src/content/blog/switch-multiple-jdk-versions-on-windows.md"
               }
             }
           }
@@ -171,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99d440c6b4650535",
+  "active": "aa692bbc842c9006",
   "lastOpenFiles": [
-    "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
+    "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
