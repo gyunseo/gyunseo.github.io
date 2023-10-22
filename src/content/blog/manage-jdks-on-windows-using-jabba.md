@@ -10,6 +10,8 @@ tags:
 description: IntelliJ + WSL 조합이 잘 안 돼서, Windows에 직접 JDK를 설치하자...
 ---
 
+jabba project 업데이트가 없어서 더 이상 jabba로 jdk version management 안 합니다.
+
 ## Table of contents
 
 ## 들어가며
