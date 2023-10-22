@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
+                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
+                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md",
+                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/remove-jdks-installed-by-intellij.md"
+                "file": "src/content/blog/manage-jdks-on-windows-using-jabba.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "d9fede10c0c0a8fc",
   "lastOpenFiles": [
-    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
+    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
     "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
