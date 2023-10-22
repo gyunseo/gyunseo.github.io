@@ -11,6 +11,7 @@ description: IntelliJ + WSL 조합이 잘 안 돼서, Windows에 직접 JDK를 �
 ---
 
 jabba project 업데이트가 없어서 더 이상 jabba로 jdk version management 안 합니다.
+[Powershell Script를 이용해 Windows에서 JDK Version Manage하기](switch-multiple-jdk-versions-on-windows.md) 포스트 참고.
 
 ## Table of contents
 
