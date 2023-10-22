@@ -8,7 +8,7 @@ tags:
   - Registry
   - Icon
   - UI
-description: this is template
+description: registry가 문제구나...
 ---
 
 ## Table of contents
