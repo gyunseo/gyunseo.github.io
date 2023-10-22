@@ -113,6 +113,42 @@ jabba use default
 
 ## `%JAVA_HOME%` 설정
 
+powershell을 administrator 권한으로 실행 후,
+
+```powershell
+# modify global PATH & JAVA_HOME
+$envRegKey =[Microsoft.Win32.Registry]::LocalMachine.OpenSubKey('SYSTEM\CurrentControlSet\Control\Session Manager\Environment', $true)
+$envPath=$envRegKey.GetValue('Path', $null, "DoNotExpandEnvironmentNames").replace('%JAVA_HOME%\bin;', '')
+[Environment]::SetEnvironmentVariable('JAVA_HOME', "$(jabba which $(jabba current))", 'Machine')
+[Environment]::SetEnvironmentVariable('PATH', "%JAVA_HOME%\bin;$envPath", 'Machine')
+```
+
+powershell 종료 후, 다시 들어 가서
+
+```powershell
+echo $ENV:JAVA_HOME
+```
+
+```powershell
+C:\Users\rbstj\.jabba\jdk\temurin@17.0.8
+```
+
+그런데 생각해 보니, default alias를 바꿀 때마다, 저 global PATH와 JAVA_HOME을 변경하는 script를 실행하면 되니,
+
+```powershell
+nvim $PROFILE
+```
+
+```powershell
+# modify global PATH & JAVA_HOME
+$envRegKey = [Microsoft.Win32.Registry]::LocalMachine.OpenSubKey('SYSTEM\CurrentControlSet\Control\Session Manager\Environment', $true)
+$envPath=$envRegKey.GetValue('Path', $null, "DoNotExpandEnvironmentNames").replace('%JAVA_HOME%\bin;', '')
+[Environment]::SetEnvironmentVariable('JAVA_HOME', "$(jabba which $(jabba current))", 'Machine')
+[Environment]::SetEnvironmentVariable('PATH', "%JAVA_HOME%\bin;$envPath", 'Machine')
+```
+
+추가해서 매번 새 PowerShell 인스턴스가 생성될 때마다, 실행시켜 주면 된다.
+
 ## Uninstallation
 
 > `%USERPROFILE%\.jabba` (on Windows).  
