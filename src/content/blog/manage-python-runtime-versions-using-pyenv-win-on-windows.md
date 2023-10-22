@@ -29,6 +29,36 @@ pyenv --version
 # outputs: pyenv 3.1.1
 ```
 
+## Python Runtime Versions 확인하기
+
+하기 명령어로 python runtime version들을 확인하자.
+
+```powershell
+pyenv install -l
+```
+
+## Python Runtime Version Install
+
+하기 명령어로 원하는 python runtime versione들을 install하자.
+
+```powershell
+pyenv install 3.12.0
+pyenv install 3.11.6
+```
+
+하기 명령어로 제대로 python runtime version들이 설치됐는지 확인하자.
+
+```powershell
+pyenv versions
+# outputs:
+# 3.11.6
+# 3.12.0
+```
+
+## 설치된 Python Runtime Version을 Global Runtime Version으로 설정하기
+
+## 설치된 Python Rutime Version을 Local Runtime Version으로 설정하기
+
 ## 참고 문서
 
 - <https://github.com/pyenv-win/pyenv-win>
