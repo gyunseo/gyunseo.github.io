@@ -36,3 +36,13 @@ Invoke-Expression (
 jabba --version
 # outputs: 0.11.2
 ```
+
+## Uninstallation
+
+> `%USERPROFILE%\.jabba` (on Windows).  
+> If at any point of time you decide to uninstall **jabba** - just remove this directory.
+
+`%USERPROFILE%\.jabba` folder를 지우면 된다.
+
+
+## 
