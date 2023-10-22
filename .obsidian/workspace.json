@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d675c90045d1248f",
+            "id": "4da023c8ce9be90d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+                "file": "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md"
+                "file": "src/content/blog/resolve-icon-spacing-issue-on-windows.md"
               }
             }
           }
@@ -147,11 +147,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d675c90045d1248f",
+  "active": "4da023c8ce9be90d",
   "lastOpenFiles": [
+    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
+    "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
     "src/content/blog/fix-obsidian-font-selection-freezing.md",
     "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
-    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg",
     "src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899742499.jpeg",
