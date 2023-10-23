@@ -61,6 +61,14 @@ jabba install temurin@17.0.8=zip+https://github.com/adoptium/temurin17-binaries/
 jabba install temurin@11.0.21=zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.21_9.zip
 ```
 
+```powershell
+jabba install azul@11.0.21=zip+file://C:\Users\rbstj\Downloads\zulu11.68.17-ca-jdk11.0.21-win_x64.zip
+```
+
+```powershell
+jabba install azul@17.0.9=zip+file://C:\Users\rbstj\Downloads\zulu17.46.19-ca-jdk17.0.9-win_x64.zip
+```
+
 ## Switch to a Different Version of JDK
 
 ```powershell
