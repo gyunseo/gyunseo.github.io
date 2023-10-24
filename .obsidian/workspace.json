@@ -45,22 +45,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "2c877bda2768e039",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "57b743d082dbbcbd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ostep-pdfs/39_interlude-file-directory.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -190,8 +174,9 @@
   },
   "active": "a45e45533d971e45",
   "lastOpenFiles": [
-    "ostep-pdfs/39_interlude-file-directory.pdf",
+    "src/content/blog/ostep-38-raid.md",
     "src/content/blog/ostep-39-files-and-directories.md",
+    "ostep-pdfs/39_interlude-file-directory.pdf",
     "src/assets/image/ostep-39-files-and-directories-1698109027956.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108907689.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108885279.jpeg",
@@ -202,7 +187,6 @@
     "src/assets/image/ostep-39-files-and-directories-1698108786245.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108759516.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108737435.jpeg",
-    "src/content/blog/ostep-38-raid.md",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
