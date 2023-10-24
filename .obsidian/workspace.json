@@ -6,7 +6,6 @@
       {
         "id": "e0c6ec84d82e2625",
         "type": "tabs",
-        "dimension": 45.72147651006711,
         "children": [
           {
             "id": "179b8d12f8846a57",
@@ -31,34 +30,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "893ef34e0c1e0ff5",
-        "type": "tabs",
-        "dimension": 54.27852348993289,
-        "children": [
-          {
-            "id": "382894aa89c6203f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf"
-              }
-            }
-          },
-          {
-            "id": "2d29054de85bdae6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
