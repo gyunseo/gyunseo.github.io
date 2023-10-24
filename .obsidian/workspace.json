@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e40434006b74fcc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/internet-protocol.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "893ef34e0c1e0ff5",
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/packet-switching.md",
+                "file": "src/content/blog/internet-protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/packet-switching.md",
+                "file": "src/content/blog/internet-protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/packet-switching.md"
+                "file": "src/content/blog/internet-protocol.md"
               }
             }
           }
@@ -176,8 +189,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "179b8d12f8846a57",
+  "active": "e40434006b74fcc9",
   "lastOpenFiles": [
+    "src/content/blog/packet-switching.md",
+    "src/content/blog/internet-protocol.md",
     "src/assets/image/packet-switching-1698123367188.jpeg",
     "src/assets/image/packet-switching-1698123325541.jpeg",
     "src/assets/image/packet-switching-1698122961304.jpeg",
@@ -185,7 +200,6 @@
     "src/assets/image/packet-switching-1698122693757.jpeg",
     "src/assets/image/packet-switching-1698122451416.jpeg",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "src/content/blog/packet-switching.md",
     "src/assets/image/packet-switching-1698122375237.jpeg",
     "src/assets/image/packet-switching-1698122175849.jpeg",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
@@ -195,7 +209,6 @@
     "ostep-pdfs/39_interlude-file-directory.pdf",
     "src/assets/image/ostep-39-files-and-directories-1698109027956.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108907689.jpeg",
-    "src/assets/image/ostep-39-files-and-directories-1698108885279.jpeg",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
