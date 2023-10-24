@@ -73,4 +73,15 @@ R3에서도 고민을 한다. (현재 상태에서는 R4로 보내는 게 빠르
 
 - 단위 시간 당 처리량
 
-![](/src/assets/image/packet-switching-1698123325541.jpeg)
+![](/src/assets/image/packet-switching-1698123325541.jpeg)![](/src/assets/image/packet-switching-1698123367188.jpeg)
+고속 장치로 backbone을 구성.
+
+### Packet Loss
+
+- 큐에 packet을 넣어 놨다. 예를 들어 100까지 저장해 놨는데, 101개가 새로 들어오면 잃어 버린다.
+- 이때
+
+## Internet Protocol Version 4
+
+- IPv4 is the fourth version of the Internet Protocol
+- it is one of the core protocols of standars-based internetworking methods in the Internet and other packet-switching networks.
