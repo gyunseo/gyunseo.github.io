@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/packet-switching.md",
+                "file": "src/content/blog/internet-protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,16 +24,13 @@
             "id": "e40434006b74fcc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/content/blog/internet-protocol.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "893ef34e0c1e0ff5",
@@ -189,9 +186,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e40434006b74fcc9",
+  "active": "179b8d12f8846a57",
   "lastOpenFiles": [
+    "src/assets/image/internet-protocol-1698123806915.jpeg",
     "src/content/blog/packet-switching.md",
+    "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "src/content/blog/internet-protocol.md",
     "src/assets/image/packet-switching-1698123367188.jpeg",
     "src/assets/image/packet-switching-1698123325541.jpeg",
@@ -225,7 +224,6 @@
     "src/content/blog/analyze-cause-of-bsod.md",
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
     "src/content/blog/network-layer.md",
-    "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "Excalidraw",
     "src/content/blog/virtual-lans.md",
     "src/assets/image/image",
