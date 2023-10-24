@@ -52,5 +52,21 @@ the first address is called the network address and defines the organization net
 prefix|suffix
 <- 32bits ->
 
-prefix는 network
-suffix는 host
+![](/src/assets/image/internet-protocol-1698124841723.jpeg)
+prefix는 network,
+suffix는 host 부분
+kisa 같은 곳에서 앞 부분을 할당해서 나눠주고, 각 기관 네트워크 관리자가 뒷 부분이 겹치지 않게 관리한다.
+
+## Classful Addressing
+
+![](/src/assets/image/internet-protocol-1698124867936.jpeg)
+
+Class D는 one to many
+Class E 앞으로 어떤일이 생길지 몰라서 예약
+
+Class A는 나눠 줄 건 별로 없고, 받은 사람이 분배할 건 많다.  
+Class B는 나눠 줄 건 조금 있는데, 받은 사람이 분배할 건 조금 있다.
+
+## Classless Addressing
+
+지금 ipv4와 ipv6가 공존하는 상황이다.
