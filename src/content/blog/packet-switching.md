@@ -55,3 +55,22 @@ R3에서도 고민을 한다. (현재 상태에서는 R4로 보내는 게 빠르
 ![](/src/assets/image/packet-switching-1698122961304.jpeg)
 이제 고정된 경로로 packet이 간다.  
 모든 network protocol은 connectionless이거나 connection-oriented이다. (IP이든 X.25이든 뭐든)
+
+## Performance
+
+- delay, throughput, and packet ....
+
+### delay
+
+- transmission delay
+- propagation delay (상수)
+- processing delay ($Delay_{pr}$=Time required to process a packet in a system, 라우터도 컴퓨터다.)
+- queuing delay (큐에 들어가서 기다리는 시간)
+- total delay
+-
+
+### throughput
+
+- 단위 시간 당 처리량
+
+![](/src/assets/image/packet-switching-1698123325541.jpeg)
