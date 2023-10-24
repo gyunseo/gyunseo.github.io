@@ -28,3 +28,5 @@ description: this is template
 전화 번호는 PSTN의 network address이다.
 
 - ICANN(the Internet Corporation for Assigned Names and Numbers)에서 ip가 중복되지 않도록 관리한다.
+
+우리나라는 Korea Internet & Security Agency (한국인터넷진흥원)에서 관리 (.kr 도메인)
