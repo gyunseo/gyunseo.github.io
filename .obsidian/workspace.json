@@ -45,6 +45,22 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "c979e5095b6131cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffbd309490b17d5a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ostep-pdfs/39_interlude-file-directory.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,9 +190,9 @@
   },
   "active": "a45e45533d971e45",
   "lastOpenFiles": [
-    "src/content/blog/ostep-38-raid.md",
-    "src/content/blog/ostep-39-files-and-directories.md",
     "ostep-pdfs/39_interlude-file-directory.pdf",
+    "src/content/blog/ostep-39-files-and-directories.md",
+    "src/content/blog/ostep-38-raid.md",
     "src/assets/image/ostep-39-files-and-directories-1698109027956.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108907689.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108885279.jpeg",
