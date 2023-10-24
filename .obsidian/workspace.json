@@ -30,9 +30,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a45e45533d971e45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/ostep-39-files-and-directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "7f95ff6a945674d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57b743d082dbbcbd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ostep-pdfs/39_interlude-file-directory.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/ostep-38-raid.md",
+                "file": "src/content/blog/ostep-39-files-and-directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/ostep-38-raid.md",
+                "file": "src/content/blog/ostep-39-files-and-directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/ostep-38-raid.md"
+                "file": "src/content/blog/ostep-39-files-and-directories.md"
               }
             }
           }
@@ -160,10 +188,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "de94d9fe846439cc",
+  "active": "a45e45533d971e45",
   "lastOpenFiles": [
-    "src/content/blog/configure-intellij-formatter.md",
+    "ostep-pdfs/39_interlude-file-directory.pdf",
+    "src/content/blog/ostep-39-files-and-directories.md",
+    "src/assets/image/ostep-39-files-and-directories-1698107766753.jpeg",
     "src/content/blog/ostep-38-raid.md",
+    "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/assets/image/manage-jdks-on-windows-using-jabba-1697993673393.jpeg",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
@@ -188,7 +219,6 @@
     "src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg",
     "src/content/blog/analyze-cause-of-bsod.md",
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
-    "src/assets/image/resolve-font-rendering-issue-on-windows-1697732807935.jpeg",
     "src/content/blog/network-layer.md",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
