@@ -4,63 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "d2523ff252691a08",
+        "id": "e0c6ec84d82e2625",
         "type": "tabs",
+        "dimension": 45.72147651006711,
         "children": [
           {
-            "id": "45ffb921f8e40380",
+            "id": "40373d3a26698758",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/configure-intellij-formatter.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "de94d9fe846439cc",
+            "id": "179b8d12f8846a57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/ostep-38-raid.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a45e45533d971e45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/ostep-39-files-and-directories.md",
+                "file": "src/content/blog/packet-switching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "c979e5095b6131cb",
+        "id": "893ef34e0c1e0ff5",
         "type": "tabs",
+        "dimension": 54.27852348993289,
         "children": [
           {
-            "id": "ffbd309490b17d5a",
+            "id": "382894aa89c6203f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ostep-pdfs/39_interlude-file-directory.pdf"
+                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf"
+              }
+            }
+          },
+          {
+            "id": "2d29054de85bdae6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/ostep-39-files-and-directories.md",
+                "file": "src/content/blog/packet-switching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/ostep-39-files-and-directories.md",
+                "file": "src/content/blog/packet-switching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/ostep-39-files-and-directories.md"
+                "file": "src/content/blog/packet-switching.md"
               }
             }
           }
@@ -188,11 +185,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a45e45533d971e45",
+  "active": "179b8d12f8846a57",
   "lastOpenFiles": [
-    "ostep-pdfs/39_interlude-file-directory.pdf",
-    "src/content/blog/ostep-39-files-and-directories.md",
+    "src/assets/image/packet-switching-1698122375237.jpeg",
+    "src/assets/image/packet-switching-1698122175849.jpeg",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
+    "src/content/blog/packet-switching.md",
+    "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/ostep-38-raid.md",
+    "src/content/blog/ostep-39-files-and-directories.md",
+    "ostep-pdfs/39_interlude-file-directory.pdf",
     "src/assets/image/ostep-39-files-and-directories-1698109027956.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108907689.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108885279.jpeg",
@@ -202,8 +205,6 @@
     "src/assets/image/ostep-39-files-and-directories-1698108795952.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108786245.jpeg",
     "src/assets/image/ostep-39-files-and-directories-1698108759516.jpeg",
-    "src/assets/image/ostep-39-files-and-directories-1698108737435.jpeg",
-    "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
@@ -221,8 +222,6 @@
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
     "src/content/blog/network-layer.md",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "Excalidraw",
     "src/content/blog/virtual-lans.md",
     "src/assets/image/image",
