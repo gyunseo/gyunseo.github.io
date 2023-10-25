@@ -11,3 +11,5 @@ description: this is template
 ## Table of contents
 
 ## 소감문
+
+프로그램의 구현 자체는 그렇게 어렵지 않았습니다.
