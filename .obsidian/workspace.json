@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "268d78030b4e9196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/wooteco-1st-thoughts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e40434006b74fcc9",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/internet-protocol.md",
+                "file": "src/content/blog/wooteco-1st-thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/internet-protocol.md",
+                "file": "src/content/blog/wooteco-1st-thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/internet-protocol.md"
+                "file": "src/content/blog/wooteco-1st-thoughts.md"
               }
             }
           }
@@ -157,10 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "179b8d12f8846a57",
+  "active": "268d78030b4e9196",
   "lastOpenFiles": [
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "src/content/blog/internet-protocol.md",
+    "src/content/blog/wooteco-1st-thoughts.md",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "src/assets/image/internet-protocol-1698124867936.jpeg",
     "src/assets/image/internet-protocol-1698124841723.jpeg",
     "src/assets/image/internet-protocol-1698123806915.jpeg",
