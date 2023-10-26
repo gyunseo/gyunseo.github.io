@@ -119,10 +119,12 @@ echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ br
 sudo apt update
 sudo apt install bruno
 bruno
-# 잘 되네
+# 잘 안 되네
 ```
 
 ## 참고 문서
 
 - <https://julialang.kr/?p=3174>
 - <https://freetome.tistory.com/493>
+- [WSL2에서 한글 입력 (velog.io)](https://velog.io/@alyac/wsl2-Korean-input)
+-
