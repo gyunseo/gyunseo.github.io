@@ -149,8 +149,10 @@
   },
   "active": "09e635736a91b428",
   "lastOpenFiles": [
-    "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
+    "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
+    "src/content/blog/install-hangul-input-method-on-wslg.md",
+    "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
     "src/content/blog/ubuntu-hangul-keyboard.md",
     "src/content/blog/internet-protocol.md",
     "src/content/blog/wooteco-1st-thoughts.md",
@@ -167,7 +169,6 @@
     "src/assets/image/packet-switching-1698122961304.jpeg",
     "src/assets/image/packet-switching-1698122908816.jpeg",
     "src/assets/image/packet-switching-1698122693757.jpeg",
-    "src/assets/image/packet-switching-1698122451416.jpeg",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/ostep-38-raid.md",
@@ -187,7 +188,6 @@
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/content/blog/analyze-cause-of-bsod.md",
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
-    "src/content/blog/network-layer.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"
