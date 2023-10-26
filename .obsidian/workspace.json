@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c6ec84d82e2625",
+        "id": "fcf8fd470abcca79",
         "type": "tabs",
         "children": [
           {
-            "id": "179b8d12f8846a57",
+            "id": "09e635736a91b428",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/internet-protocol.md",
+                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "268d78030b4e9196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/wooteco-1st-thoughts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd823c03f70f3b41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/git-guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e40434006b74fcc9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/git-guide.md",
+                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/git-guide.md",
+                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/git-guide.md"
+                "file": "src/content/blog/install-hangul-input-method-on-wslg.md"
               }
             }
           }
@@ -182,11 +147,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd823c03f70f3b41",
+  "active": "09e635736a91b428",
   "lastOpenFiles": [
-    "src/content/blog/wooteco-1st-thoughts.md",
-    "src/content/blog/git-guide.md",
+    "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
+    "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
+    "src/content/blog/ubuntu-hangul-keyboard.md",
     "src/content/blog/internet-protocol.md",
+    "src/content/blog/wooteco-1st-thoughts.md",
+    "ostep-pdfs/39_interlude-file-directory.pdf",
+    "src/content/blog/git-guide.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "src/assets/image/internet-protocol-1698124867936.jpeg",
     "src/assets/image/internet-protocol-1698124841723.jpeg",
@@ -199,12 +168,10 @@
     "src/assets/image/packet-switching-1698122908816.jpeg",
     "src/assets/image/packet-switching-1698122693757.jpeg",
     "src/assets/image/packet-switching-1698122451416.jpeg",
-    "src/assets/image/packet-switching-1698122375237.jpeg",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/ostep-38-raid.md",
     "src/content/blog/ostep-39-files-and-directories.md",
-    "ostep-pdfs/39_interlude-file-directory.pdf",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
     "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
@@ -222,9 +189,7 @@
     "src/content/blog/resolve-font-rendering-issue-on-windows.md",
     "src/content/blog/network-layer.md",
     "Excalidraw",
-    "src/content/blog/virtual-lans.md",
     "src/assets/image/image",
-    "data-communications-and-networking-pdfs",
-    "Untitled.md"
+    "data-communications-and-networking-pdfs"
   ]
 }
