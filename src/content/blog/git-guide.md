@@ -6,7 +6,7 @@ draft: false
 tags:
   - git
   - GitHub
-description: this is template
+description: git 전략ㅔ
 ---
 
 ## Table of contents
