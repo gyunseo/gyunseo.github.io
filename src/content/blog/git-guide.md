@@ -6,7 +6,7 @@ draft: false
 tags:
   - git
   - GitHub
-description: git 전략ㅔ
+description: git 전략
 ---
 
 ## Table of contents
