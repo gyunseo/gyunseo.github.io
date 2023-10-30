@@ -18,3 +18,4 @@ description: Cloudinary로 업로드를 어떻게 할까..?
 ## 참고 문서
 
 - <https://jordanhandy.github.io/obsidian-cloudinary-uploader/configuring-cloudinary/>
+- <https://github.com/jordanhandy/obsidian-cloudinary-uploader/issues/9#issuecomment-1784980421>
