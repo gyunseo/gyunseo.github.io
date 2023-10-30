@@ -8,14 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "963cc53f2b903d4a",
+            "id": "1e99153de33cac7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/powershell-text-replacement.md",
+                "file": "src/content/blog/ostep-40-file-system-implementation.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f2321aece0438cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af3bce511c156095",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ostep-pdfs/40_FS-implementation.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/powershell-text-replacement.md",
+                "file": "src/content/blog/ostep-40-file-system-implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/powershell-text-replacement.md",
+                "file": "src/content/blog/ostep-40-file-system-implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/powershell-text-replacement.md"
+                "file": "src/content/blog/ostep-40-file-system-implementation.md"
               }
             }
           }
@@ -147,12 +163,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "963cc53f2b903d4a",
+  "active": "1e99153de33cac7c",
   "lastOpenFiles": [
+    "ostep-pdfs/40_FS-implementation.pdf",
+    "src/content/blog/ostep-40-file-system-implementation.md",
+    "src/content/blog/cloudinary-upload-setting.md",
+    "src/content/blog/powershell-text-replacement.md",
     "src/content/blog/ostep-32-concurrency-bugs.md",
     "replace_text.ps1",
     "src/content/blog/nvm-for-windows.md",
-    "src/content/blog/powershell-text-replacement.md",
     "src/content/blog/install-hangul-input-method-on-wslg.md",
     "src/content/blog/ostep-36-file-devices.md",
     "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
@@ -162,7 +181,6 @@
     "src/content/blog/custom-nginx-with-docker-compose-for-isso.md",
     "src/content/blog/create-ssh-key-for-github.md",
     "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
-    "src/content/blog/cloudinary-upload-setting.md",
     "src/content/blog/change-apt-get-source-server.md",
     "src/content/blog/add-isso-comment-to-blog.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
@@ -187,8 +205,6 @@
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/ostep-38-raid.md",
     "src/content/blog/ostep-39-files-and-directories.md",
-    "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/remove-jdks-installed-by-intellij.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"
