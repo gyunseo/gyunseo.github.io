@@ -33,7 +33,7 @@ sudo apt install -y curl wget git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755087617.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755087617.jpeg)
 설치가 완료되면 상기 사진과 같이 shell이 나온다.
 
 ## `.zshrc` 설정
@@ -48,14 +48,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 locale
 ```
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755283145.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755283145.jpeg)
 상기 이미지와 같이 모든 locale이 `ko_KR.UTF-8`로 돼있는 것을 알 수 있다.
 
 ```zsh
 vim ~/.zshrc
 ```
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755380622.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755380622.jpeg)
 `vim`으로 `.zshrc` 마지막 line에
 
 ```zsh
@@ -69,7 +69,7 @@ source ~/.zshrc
 ```
 
 상기 명령어로 logout하지 않고, 현재 shell session에 설정을 바로 반영하자.
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755481464.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755481464.jpeg)
 
 `LC_MESSAGES`만 `en_US.UTF-8`로 잘 설정이 된 것을 알 수 있다.
 
@@ -80,8 +80,8 @@ vim ~/.zshrc
 ```
 
 `ZSH_THEME`을 `agnoster`로 변경한다.
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755659805.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696755690229.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755659805.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696755690229.jpeg)
 
 ```zsh
 source ~/.zshrc
@@ -103,24 +103,24 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 nvim ~/.zshrc
 ```
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763490631.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763490631.jpeg)
 
 ```zsh
 source ~/.zshrc
 ```
 
 이제부터 `Powerlevel10k configuration wizard`가 실행된다.
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763564811.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763580252.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763654657.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763671554.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763691713.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696763718715.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763564811.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763580252.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763654657.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763671554.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763691713.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696763718715.jpeg)
 처음 몇 번은 폰트가 제대로 렌더링 되는지 확인을 한다.  
 그 이후에는 계속 어떤 설정을 할 것인지 물어 본다.  
 본인의 기호에 맞게 설정하면 된다.
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696764202962.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696764202962.jpeg)
 
 ## `~/.p10k.zsh`
 
@@ -129,8 +129,8 @@ nvim ~/.p10k.zsh
 ```
 
 상기 명령어로 `~/.p10k.zsh` 파일을 수정하여, prompt에 나오는 segments를 customizing할 수 있다.
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696772955102.jpeg)
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696773064121.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696772955102.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696773064121.jpeg)
 
 ## Plugin
 
@@ -164,7 +164,7 @@ plugins=(
 )
 ```
 
-![](/src/assets/image/install-ohmyzsh-on-zsh-1696775854824.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-ohmyzsh-on-zsh-1696775854824.jpeg)
 
 ```zsh
 source ~/.zshrc

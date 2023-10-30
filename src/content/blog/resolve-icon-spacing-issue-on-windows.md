@@ -26,7 +26,7 @@ description: registry가 문제구나...
 주소창에 `컴퓨터\HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics`를 입력한다.  
 그러면 하기 이미지와 같이 레지스트리값들이 표시된다.  
 여기서 `IconSpacing`과 `IconVerticalSpacing` 값을 `-1125`로 바꾸고 재부팅한다.  
-![](/src/assets/image/resolve-icon-spacing-issue-on-windows-1697952811442.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/resolve-icon-spacing-issue-on-windows-1697952811442.jpeg)
 
 ## 참고 문서
 

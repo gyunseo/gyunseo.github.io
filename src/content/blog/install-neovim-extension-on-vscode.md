@@ -32,18 +32,18 @@ Powershell Core에서 상기 커맨드를 입력해 `winget`으로 neovim을 설
 
 ## `nvim` binary 환경변수에 등록
 
-![](/src/assets/image/install-neovim-extension-on-vscode-1695832925388.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695832925388.jpeg)
 
 상기 이미지에서 환경 변수를 클릭한다.
 
 시스템 변수 `PATH`에 `nvim` binary가 위치한 directory path를 추가합니다.
-![](/src/assets/image/install-neovim-extension-on-vscode-1695833078369.jpeg)
-![](/src/assets/image/install-neovim-extension-on-vscode-1695833307604.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695833078369.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695833307604.jpeg)
 상기 이미지와 같이 하면 된다.
 
 ## vscode에서 neovim executable paths 등록
 
-![](/src/assets/image/install-neovim-extension-on-vscode-1695833833572.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695833833572.jpeg)
 
 vscode settings에서 상기 그림과 같이 neovim executable paths를 등록한다.
 
@@ -55,8 +55,8 @@ Linux의 경우: `/usr/bin/nvim (apt package manager로 설치했을 경우, 필
 neovim `init.vim`이라는 설정 파일을 사용한다.
 `nvim.exe`를 실행하고, `:echo stdpath("config")`를 입력하여, Windows에서 `init.vim` path를 확인하자.
 
-![](/src/assets/image/install-neovim-extension-on-vscode-1695877500411.jpeg)
-![](/src/assets/image/install-neovim-extension-on-vscode-1695877517915.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695877500411.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695877517915.jpeg)
 
 `C:\Users\[사용자 이름]\AppData\Local\nvim`으로 나오는 것을 볼 수 있다.
 해당 directory에 `init.vim` 파일을 만들고, 하기와 같이 작성한다.
@@ -90,7 +90,7 @@ endif
 
 ## vscode settings에서 `init.vim` path 설정
 
-![](/src/assets/image/install-neovim-extension-on-vscode-1695879355411.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695879355411.jpeg)
 vscode에서 상기 이미지와 같이 `init.vim` path를 설정한다.
 
 ## 참고 문서

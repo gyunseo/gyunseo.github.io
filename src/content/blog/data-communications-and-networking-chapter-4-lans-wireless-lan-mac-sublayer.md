@@ -16,7 +16,7 @@ description: Wireless LAN MAC Sublayer 공부한 거 정리
 
 ## MAC Sublayer
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-wireless-lan-mac-sublayer-1696274581593.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-wireless-lan-mac-sublayer-1696274581593.jpeg)
 
 IEEE 802.11에서는 두 개의 MAC Sublayer를 정의했다.
 

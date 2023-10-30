@@ -15,7 +15,7 @@ description: 행렬 곱셈을 어떻게 해야할까...?
 ## 들어가며
 
 조건: 행렬이 $n \times n$이며 `n`은 2의 거듭제곱
-![](/src/assets/image/strassens-matrix-multiplication-1697001558964.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/strassens-matrix-multiplication-1697001558964.jpeg)
 우리가 아는 일반적인 방법:
 
 $$

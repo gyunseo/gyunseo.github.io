@@ -21,7 +21,7 @@ description: Yoga Slim 7 ProX 14ARH7은 전설이다...
 
 ## 잔류 전원 방전시키기
 
-![](/src/assets/image/fix-windows-external-monitor-not-detected-1696692517090.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/fix-windows-external-monitor-not-detected-1696692517090.jpeg)
 
 문의 결과 상기 이미지와 같은 답변을 받았다.
 그래서 말한 대로 비사용재설정 구멍에 USIM 교체 사용하는 핀을 이용하여 5초 간 누르고, 전원 버튼을 15초 누르고 다시 AC어댑터를 연결하여 부팅을 해보니 감지가 잘 됐다.

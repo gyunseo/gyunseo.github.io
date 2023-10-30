@@ -55,8 +55,8 @@ locale
 sudo dpkg-reconfigure locales
 ```
 
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696746663971.jpeg)
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696746702104.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696746663971.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696746702104.jpeg)
 상기 이미지처럼 선택
 
 ```bash
@@ -65,8 +65,8 @@ sudo dpkg-reconfigure locales
 locale
 ```
 
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696746775436.jpeg)
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696746790937.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696746775436.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696746790937.jpeg)
 `locale` 명령어로 system locale이 모두 `ko_KR.UTF-8`로 변한 것을 알 수 있고, `ddd`와 같이 잘못된 명령어를 입력해도, `LC_MESSAGES`가 한글로 나오는 것을 알 수 있다.  
 그런데 필자는 알파벳으로 `LC_MESSAGES`를 확인하고 싶다.  
 그래서 `LC_MESSAGES`는 `en_US.UTF-8`로 변경할 것이다.
@@ -77,13 +77,13 @@ locale
 vim ~/.bashrc
 ```
 
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696747076958.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696747076958.jpeg)
 
 ```bash
 source ~/.bashrc
 ```
 
-![](/src/assets/image/change-system-locales-in-ubuntu-linux-1696747096422.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/change-system-locales-in-ubuntu-linux-1696747096422.jpeg)
 이제 `LC_MESSAGES`도 알파벳으로 잘 나오는 걸 확인할 수 있다.
 
 ## 참고 문서

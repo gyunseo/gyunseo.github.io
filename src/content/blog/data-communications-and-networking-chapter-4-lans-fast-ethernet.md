@@ -29,8 +29,8 @@ description: Fast Ethernet 공부한 거 정리
 
 ## Implementation
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265660260.jpeg)
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265637883.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265660260.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265637883.jpeg)
 
 - 100Base-TX: two wires category 5 UTP or STP, 100m
 - 100Base-FX: two wires fiber, 185m
@@ -42,6 +42,6 @@ cable의 max length는 250m이다. (CSMA/CD protocol과 최소 frame size를 그
 
 ## Encoding
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265878803.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-fast-ethernet-1696265878803.jpeg)
 저 그림을 보면 왜 100Base-T4가 왜 half-duplex인지 알 수 있다.
 (검정색 2개 wire가 송/수신 시 모두 쓰인다. )

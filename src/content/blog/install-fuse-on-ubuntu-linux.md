@@ -27,7 +27,7 @@ lsb_release -a
 
 상기 명령어로 Ubuntu의 버전을 확인하자.
 필자는 하기와 같이 나왔다.
-![](/src/assets/image/install-fuse-on-ubuntu-linux-1695839485146.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-fuse-on-ubuntu-linux-1695839485146.jpeg)
 
 ## `FUSE 2.x` 설치
 
@@ -40,7 +40,7 @@ dpkg -l | grep fuse3
 
 `ii fuse3`로 시작하는 line이 있는지 확인한다. (해당 line이 없으면 `fuse3`가 설치돼 있지 않은 것이다.)
 
-![](/src/assets/image/install-fuse-on-ubuntu-linux-1695839873427.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-fuse-on-ubuntu-linux-1695839873427.jpeg)
 상기 이미지와 같이 나오면 package가 잘 설치돼 있는 것이다.
 
 ```bash

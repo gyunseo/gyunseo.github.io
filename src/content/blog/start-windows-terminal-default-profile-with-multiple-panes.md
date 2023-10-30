@@ -30,7 +30,7 @@ Windows Terminal `settings.json`에 하기 값을 추가한다.
 각자 본인의 Profile 이름에 맞게 적으면 된다.  
 그러면 Windows Terminal 실행했을 때, 하기 이미지와 같이 나온다.
 
-![](/src/assets/image/start-windows-terminal-default-profile-with-multiple-panes-1697956503446.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/start-windows-terminal-default-profile-with-multiple-panes-1697956503446.jpeg)
 
 ## 참고 문서
 

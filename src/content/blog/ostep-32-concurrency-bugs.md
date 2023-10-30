@@ -32,7 +32,7 @@ description: OS:TEP 32장 공부한 거 정리
 대표적인 오픈 소스 프로그램 4개를 예로 들어 설명한다.
 
 `MySQL` , `Apache`, `Mozilla`, `OpenOffice`
-![](/src/assets/image/ostep-32-concurrency-bugs-1695656687000.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695656687000.jpeg)
 상기 표는 예로 든 병행 프로그램에서의 병행성 오류들을 표로 나타낸 것이다.
 비교착 상태와 교착 상태의 오류로 나뉜 것을 알 수 있다.
 
@@ -48,7 +48,7 @@ description: OS:TEP 32장 공부한 거 정리
 
 ### 원자성 위반 오류 (atomicity violation)
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695656996684.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695656996684.jpeg)
 상기 예제는 MySQL에서 발견한 간단한 예제이다.
 `thd` 자료 구조의 `proc_info` 필드를 두 개의 딴 쓰레드들이 접근한다.
 첫 번째 쓰레드는 그 필드가 NULL인지 검사하고, 두 번째 쓰레드는 그 필드를 NULL로 바꾼다.
@@ -71,11 +71,11 @@ NULL값 검사와 `fputs` 호출 시 `proc_info`를 인자로 사용할 때, 원
 
 락을 추가해, 어느 쓰레드든 `proc_info` 필드 접근 시, `proc_info_lock` 락 변수를 획득토록 한다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695658112849.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695658112849.jpeg)
 
 ### 순서 위반 오류 (order violation)
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695658149124.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695658149124.jpeg)
 상기 코드에서 쓰레드 2의 코드는 `mThread`가 이미 NULL이 아닌 어떤 값으로 초기화 됐다고 가정했다.
 하지만, 만약 쓰레드 1이 먼저 실행되지 않았다면, 쓰레드 2는 NULL 포인터를 사용하기 때문에 프로그램이 크래시될 것이다. (`mThread`의 초기값이 NULL이라고 가정했는데, NULL 값이 아닌 다른 값이라 한다면, 더 이상한 일이 발생한다. 임의의 메모리 주소를 접근하는 재앙이... NULL이라고 가정하여 크래시되는 게 낫다.)
 
@@ -86,7 +86,7 @@ NULL값 검사와 `fputs` 호출 시 `proc_info`를 인자로 사용할 때, 원
 이런 오류를 수정하는 방법은 순서를 강제하는 것이다.
 이런 종류의 동기화에는 컨디션 변수가 딱이다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695658465160.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695658465160.jpeg)
 쓰레드 간의 순서가 문제가 된다면, 컨디션 변수 (또는 세마포어)를 사용하여 해결할 수 있다.
 
 ## 교착 상태 오류
@@ -94,7 +94,7 @@ NULL값 검사와 `fputs` 호출 시 `proc_info`를 인자로 사용할 때, 원
 락 L1을 갖고 있는 쓰레드 1 또 다른 락 L2를 기다리는 상황에서, 불행히도 락 L2를 갖고 있는 쓰레드 2가 락 L1이 해제되기를 기다리고 있을 때 교착 상태가 발생한다.
 교착 상태가 발생할 가능성이 있는 코드 다음에 나타냈다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695658932509.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695658932509.jpeg)
 상기 코드는 교착 상태가 나타날 수 있는 코드를 나타낸다.
 이 코드에서는 교착 상태가 발생할 수 있다.
 발생하는 경우를 살펴보자.
@@ -107,7 +107,7 @@ NULL값 검사와 `fputs` 호출 시 `proc_info`를 인자로 사용할 때, 원
 이 그림이 문제를 명확히 해줄 것이다.
 교착 상태를 방지하기 위해서는 어떻게 코드를 작성해야 할까?
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695659204882.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695659204882.jpeg)
 
 ### 교착 상태는 왜 발생하는가?
 
@@ -176,13 +176,13 @@ v1.AddAll(v2);
 이런 경우를 회피하기 위해, 주소의 값을 사용하여 락 획득 순서를 정하기도 한다.
 오름차순이나 내림차순으로 락 획득 순서를 정하면 `do_something()` 문장에 인자를 어떤 순서로 넣어 호출하든 락 획득 순서는 변하지 않게 된다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695664873340.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695664873340.jpeg)
 
 ### 점유 및 대기 (Hold-and-Wait)
 
 점유 및 대기는 원자적으로 모든 락을 단번에 획득하도록 하면 예방 가능하다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695664986102.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695664986102.jpeg)
 
 상기의 코드를 보자.
 이 코드에서 제일 먼저 prevention 락을 획득하여, 락을 획득하는 과정 중에 쓰레드의 context switch가 발생하는 것을 막고, 결과적으로 교착 상태의 발생 가능성을 차단한다.
@@ -202,7 +202,7 @@ v1.AddAll(v2);
 `trylock()` 루틴의 경우 (획득 가능하다면) 락을 획득하거나 현재 락이 점유된 상태니, 락을 획득하기 원하면 나중에 다시 시도하라는 것을 알리는 -1 값을 return한다.
 이 interface (`trylock()`) 를 이용하면, 교착 상태 가능성이 없고, 획득 순서에 영향을 받지 않는 락 획득 방법을 만들 수 있다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695665533591.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695665533591.jpeg)
 
 딴 쓰레드가 같은 프로토콜을 사용하면서 락을 다른 순서 (L2 먼저 L1을 그 다음) 로 획득하려고 해도 교착 상태는 발생하지 않는다.
 근데, 무한반복(livelock)이라는 새로운 문제가 생긴다.
@@ -229,17 +229,17 @@ v1.AddAll(v2);
 **대기없는(wait-free)** 자료 구조를 고안한다.
 명시적 락이 필요 없는 강력한 하드웨어 명령어를 사용해, 자료 구조를 만들면 된다.
 간단한 예제로 다음과 같이 동작하는 Compare-And-Swap 명령어를 가정해 보자.
-![](/src/assets/image/ostep-32-concurrency-bugs-1695666286448.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695666286448.jpeg)
 
 어떤 한 값을 원자적으로 임의의 크기만큼 증가하는 경우를 생각해 보자.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695666425021.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695666425021.jpeg)
 
 락을 획득해 값을 갱신한 후에 락을 해제하는 대신, 이 코드에서는 Compare-And-Swap 명령어를 사용해 값에 새로운 값을 갱신하도록 반복적으로 시도한다.
 이와 같은 방식을 사용하면, 락을 획득할 필요가 없으며 교착 상태가 발생할 수도 없다. (무한반복은 여전히 발생 가능성이 있긴 한다. ~~대체 무슨 소리지?~~)
 좀 더 복잡한 리스트에 삽입 예제를 보자.
 리스트 헤드에 개체를 삽입하는 코드이다.
-![](/src/assets/image/ostep-32-concurrency-bugs-1695666523821.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695666523821.jpeg)
 간단한 삽입문을 실행하는 이 코드가 만약 여러 쓰레드에 의해 "동시에" 호출이 되면, race condition이 발생된다.
 삽입문 앞뒤에 락의 획득과 해제 코드를 두어 해결하는 방법이 있긴 하다.
 이번에는 단순히 Compare-And-Swap 명령어를 사용하여 대기 없이 삽입 명령어를 처리해 보자.
@@ -268,21 +268,21 @@ void insert(int value) {
 예를 들어, 쓰레드 네 개가 프로세서 두 개에서 스케줄링된다고 하자.
 그리고 추가로 쓰레드 1(T1)이 L1과 L2 락을, (실행 중일 때 임의의 순서로 획득), T2도 L1과 L2락을, T3는 L2를 필요로 하고, T4는 락이 필요없다고 하자.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695667208900.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695667208900.jpeg)
 쓰레드들의 락 요청에 관한 정보를 상기 표로 정리할 수 있다.
 똑똑한 스케줄러라면 T1과 T2가 동시에 실행되게 되지 않는다면 교착 상태가 절대로 발생하지 않도록 할 수 있다.
 그와 같이 스케줄링된 예는 하기와 같다.
-![](/src/assets/image/ostep-32-concurrency-bugs-1695667308501.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695667308501.jpeg)
 (T3, T1) 또는 (T3, T2) 끼리는 겹쳐서 실행이 되도 괜찮다.
 T3는 절대로 교착 상태를 유발하지 않는다.
 왜냐면, 단 하나의 락만 필요하기 때문이다.
 또 다른 예를 보자.
 이번에는 하기의 표에 나온 것처럼 동일한 자원 (마찬가지로 L1과 L2 락 사용) 에 대해 경쟁이 심해졌다고 해 보자.
-![](/src/assets/image/ostep-32-concurrency-bugs-1695667481795.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695667481795.jpeg)
 쓰레드 T1, T2, 그리고 T3가 실행 중 어느 시점에 모두 L1과 L2 락을 획득하는 경우를 예로 들어 보자.
 그런 경우에 교착 상태가 절대로 발생하지 않도록 하는 가능한 스케줄링은 하기와 같다.
 
-![](/src/assets/image/ostep-32-concurrency-bugs-1695667536922.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/ostep-32-concurrency-bugs-1695667536922.jpeg)
 이와 같이, 정적 스케줄링은 T1, T2, T3가 모두 한 프로세서에서 실행되도록 보수적인 방법을 택하기 때문에, 전체 작업이 끝나기까지 상당히 오랜 시간이 걸리게 된다.
 병행이 가능할 수도 있겠지만, 교착 상태가 발생할 수 있기 때문에, 그렇게 할 수 없으며, 어쩔 수 없이 성능 하락을 수반한다.
 유명한 예로 다익스트라의 은행원 알고리즘이 있다. (그러나 상당히 제한적인 환경에서만 유용하다. 예를 들어 전체 작업에 대한 모든 지식을 알고 있는 임베디드 시스템에서 작업을 실행 하면서 필요한 락을 획득하는 경우이다. 더 나아가 이러한 방법들은 두 번째 예에서 본 것과 같이 병행성에 제약을 가져 올 수도 있다. 때문에 스케줄링으로 교착 상태를 회피하는 것은 보편적으로 사용되는 방법은 아니다.)

@@ -115,7 +115,7 @@ export default defineConfig({
 
 잘 나온다.
 
-![](/src/assets/image/render-math-in-astro-markdown-pages-with-katex-1696235073061.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/render-math-in-astro-markdown-pages-with-katex-1696235073061.jpeg)
 
 ## 참고 문서
 

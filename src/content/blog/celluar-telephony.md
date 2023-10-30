@@ -20,11 +20,11 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - The MSC coordinates communication between all the base stations and the telephone central office
   - it is responsible for <u>connetcing calls, recording call information, and billing</u>
 
-![](/src/assets/image/celluar-telephony-1697080731772.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697080731772.jpeg)
 
 휴대폰의 무선 연결은 BS까지
 
-![](/src/assets/image/celluar-telephony-1697080852481.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697080852481.jpeg)
 
 각 셀마다 주파수를 다른 주파수를 사용한다. (왼쪽 그림은 최소한 네개의 서로 다른 주파수가 있어야 한다.  
 그래도 혹시 파란 1번이 회색 1번까지 갈 수 있으니, 오른쪽 그림은 7개 셀을 사용한다.)
@@ -72,7 +72,7 @@ description: Celluar Telephony에 대해서 공부한 거 정리
   - AMPS operates in the 800MHz band
   - the system uses two separate analog channels for forward and reverse.
 
-![](/src/assets/image/celluar-telephony-1697081996594.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697081996594.jpeg)
 
 상기 그림에서
 Each band is 25 MHz,
@@ -80,7 +80,7 @@ made of 832 30-kHz analog channels.
 이론상 832대가 동시에 통화가 가능하다.
 채널을 할당해 주고, 그것으로 소통한다.
 
-![](/src/assets/image/celluar-telephony-1697082165826.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082165826.jpeg)
 
 ## Second Generation (2G)
 
@@ -90,7 +90,7 @@ made of 832 30-kHz analog channels.
 
 ### D-AMPS
 
-![](/src/assets/image/celluar-telephony-1697082325233.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082325233.jpeg)
 digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌다.
 
 ### GSM
@@ -98,12 +98,12 @@ digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌�
 - Global System for Mobile Communcation
 - reuse factor: 3
 
-![](/src/assets/image/celluar-telephony-1697082403892.jpeg)
-![](/src/assets/image/celluar-telephony-1697082424305.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082403892.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082424305.jpeg)
 GSM은 8명이 들어올 수 있다.
 
 내부 프레임 구조:
-![](/src/assets/image/celluar-telephony-1697082457601.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082457601.jpeg)
 
 ### IS-95
 
@@ -114,10 +114,10 @@ GSM은 8명이 들어올 수 있다.
   - first set: 9600, 4800, 2400, 1200bps
   - second set: 14400, 7200, 3600, 1800bps
 
-![](/src/assets/image/celluar-telephony-1697082584604.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082584604.jpeg)
 
 - 휴대폰 ESN으로 사용자 식별 (이거와 음성을 섞어 채널로 쏜다.)
-  ![](/src/assets/image/celluar-telephony-1697082662309.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082662309.jpeg)
 - 받을 때에도 ESN이 관련된다.
 
 ## Third Generation
@@ -130,7 +130,7 @@ GSM은 8명이 들어올 수 있다.
 - a band of 2GHz
 - 2MHz
 - 인터넷 사용가능
-  ![](/src/assets/image/celluar-telephony-1697082809953.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082809953.jpeg)
 
 ## Fourth Generation (4G)
 

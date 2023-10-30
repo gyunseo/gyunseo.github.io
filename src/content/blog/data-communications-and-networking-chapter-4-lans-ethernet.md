@@ -23,9 +23,9 @@ Ethernet: a family of wired computer networking technologies commonly used in LA
 
 ISO에서는 또한 이걸 **ISO 8802** 표준으로 승인.
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173798651.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part1-1696173798651.jpeg)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part1-1696173925385.jpeg)
 MAC이라 불리는 sublayer는 각 LAN에 대해 specific한 media access method (protocol)를 정의한다.
 
 Ethernet MAC은 CSMA/CD가 Ethernet LANs를 위한 media access method (protocol)라고 정의한다.
@@ -43,7 +43,7 @@ LLC는 **protocol data unit (PDU)** 을 정의한다.
 
 근데 most upper-layer protocol들은 LLC를 안 쓴다. (복잡하고 끼어들면 속도가 느려진다.)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696175216740.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part1-1696175216740.jpeg)
 
 DSAP: Destination Service Access Point
 SSAP: Source Service Access Point
@@ -53,14 +53,14 @@ SSAP는 source (나), DSAP (상대방 이메일)
 
 (HDLC는 WAN Protocol)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696175792874.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part1-1696175792874.jpeg)
 
 - Standard Ethernet: 10Mbps
 - Fast Ethernet: 100Mbps
 - Gigabit Ethernet: 1Gbps
 - 10 Gigabit (Ten-Gigabit) Ethernet: 10Gbps
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part1-1696176038888.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part1-1696176038888.jpeg)
 
 - 802.1Q: Virtual LANs (VLANs)
 - **802.2: Logical Link Control**

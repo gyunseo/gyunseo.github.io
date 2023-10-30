@@ -27,8 +27,8 @@ WSL에 설치된 neovim version을 봤는데 너무 outdated됐다.
 dpkg --list | grep "검색하려는 package 이름"
 ```
 
-![](/src/assets/image/delete-package-on-ubuntu-linux-1695834986730.jpeg)
-![](/src/assets/image/delete-package-on-ubuntu-linux-1695835050430.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/delete-package-on-ubuntu-linux-1695834986730.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/delete-package-on-ubuntu-linux-1695835050430.jpeg)
 
 ## package 삭제
 

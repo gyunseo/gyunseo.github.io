@@ -37,4 +37,4 @@ google-chrome
 
 ## google-chrome 실행 화면
 
-![](/src/assets/image/install-google-chrome-on-WSL.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-google-chrome-on-WSL.jpeg)

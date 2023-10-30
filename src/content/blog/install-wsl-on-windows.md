@@ -25,21 +25,21 @@ Powershell을 관리자 권한으로 실행한 후, 하기 명령어를 입력�
 wsl --install
 ```
 
-![](/src/assets/image/install-wsl-on-windows-1696743830305.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-wsl-on-windows-1696743830305.jpeg)
 상기 이미지처럼 나온다면 설치가 잘 된 것이다.
 이미지에 나온 대로 재부팅을 하자.
 
 ## 재부팅 후
 
-![](/src/assets/image/install-wsl-on-windows-1696744165825.jpeg)
-![](/src/assets/image/install-wsl-on-windows-1696744175895.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-wsl-on-windows-1696744165825.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-wsl-on-windows-1696744175895.jpeg)
 상기 이미지처럼 Ubuntu 설치를 마무리하고, username을 설정하라고 한다.
 username과 password를 잘 설정을 하고 나면, 하기 이미지와 같이 설정이 완료된다.
-![](/src/assets/image/install-wsl-on-windows-1696744245267.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-wsl-on-windows-1696744245267.jpeg)
 
 ## Windows 기능 켜기/끄기 확인
 
-![](/src/assets/image/install-wsl-on-windows-1696744570177.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-wsl-on-windows-1696744570177.jpeg)
 [Windows에서 WSL을 완전히 삭제하자.](uninstall-wsl-completely-on-windows.md)에서
 
 - Hyper-V

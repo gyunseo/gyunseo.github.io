@@ -22,7 +22,7 @@ description: Standard Ethernet 공부한 거 정리
 
 ## Ethernet Frame
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696177248832.jpeg)
 
 ## Physical-layer Header
 
@@ -67,7 +67,7 @@ Maximum은 왜 있냐? 만약 1GB가 frame length라고 하면, 1GB를 보내는
 
 앞의 3B는 Vendor Address (제조사)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696220119713.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696220119713.jpeg)
 전송은 left-to-right byte-to-byte. 하지만 각 byte에서는 LSB가 먼저 보내지고, MSB가 가장 나중에 보내진다.
 
 Unicast Address: only one recipient를 정의한다. (source address는 항상 Unicast Address이다.)
@@ -76,13 +76,13 @@ Broadcast Address: recipients가 netwrok에 있는 모든 stations라는 걸 의
 
 Broadcast Address는 Hexadecimal로 `FF-FF-FF-FF-FF-FF`이다.
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223467557.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696223467557.jpeg)
 상기 그림을 기반으로 다음과 결론을 도출할 수 있다.
 Source Address의 Byte 1의 LSB는 항상 0이고, Destination Address의 Byte 1 LSB는 Unicast Address일 경우에는 0이고, Multicast이거나 Broadcast Address일 경우에는 1이다.
 
 ## Distinguish Between Unicast, Multicast, and Broadcast Transmission
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696223903316.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696223903316.jpeg)
 상기 그림을 통해 어떻게 Unicast, Multicast, 그리고 Broadcast transmission들이 서로 구분되는지 알아 보자.
 
 Standard Ethernet은 기본적으로 coaxial cable (동축 케이블) 을 이용한 bus topology나 twisted pair cable (UTP or STP)과 hub를 이용한 star topology를 사용한다.
@@ -104,7 +104,7 @@ Ehternet에서 slot time은 bits로 정의된다.
 slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간이다. (Chapter 3의 CSMA/CD에서 왜 **512bits**를 보내는지 그 이유를 다뤘었다. $Minimum\;T_{fr}=2 \times T_p$이기 때문이다. 나중에 해당 블로그 글 링크로 걸기)
 그렇다면, 10Mbps의 Standard Ethernet에서는 Time Interval이 51.2$\mu s$가 걸린다. (중학교 때 배운 거속시로 계산해 보면 금방 나온다.)
 하기 그림을 보며 이해해 보자.
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696230966046.jpeg)
 
 ## 첫 번째 bit의 모험...
 
@@ -113,7 +113,7 @@ slot time은 한 station이 **512 bits**를 보내는 데에 요구되는 시간
 station A가 있고, frame을 보내려는 destination station B가 있다고 하자.
 두 station은 shared media에서 가장 양 끝단에 존재한다고 하자.
 network는 10Mbps의 data rate를 가지고, Slot time이 512bits이고, Time interval (transmission delay)이 $51.2\mu s$인 상황을 가정해 보자.
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696235756573.jpeg)
 위 그림과 같은 상황이 발생하게 된다.
 그러니깐, collision은 slot time의 first half 동안에만 일어날 수 있게 된다.
 이유는 위의 최악의 상황을 가정한 위의 그림을 보며 생각해 보자. (1bit가 B에 도달하기 직전에 B가 carrier sense를 하여, 자기도 512bits 중 1bit를 보내기 시작하고, 그래서 결국 Maximum $T_p$ 에 수렴한 시간 즉, half of slot time인 25.6$\mu s$에 collision이 발생하게 되는 것이다. 근데 왜 half of slot time과 Maximum $T_p$가 같을까? 왜냐면 slot time을 $2 \times Maximum\;T_p$로 구했기 때문이다..)
@@ -130,8 +130,8 @@ $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
 
 ## Implementation
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696250622335.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696250662099.jpeg)
 
 - 10Base5: data rate가 10Mbps, Baseband (digital) signal 사용, 500m thick coaxial케이블 사용 (500m니깐 5개 연결 가능)
 - 10Base2: data rate가 10Mbps, Baseband (digital) signal 사용, 200m에 준하는 185m thin coaxial 케이블 사용
@@ -140,11 +140,11 @@ $$MaxLength=(2*10^8)*({51.2}*10^{-6}/2) = 5120m$$
 
 ## Encoding and Decoding
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696250805426.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696250805426.jpeg)
 
 ## 10Base5: Thick Ethernet
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696251379388.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696251379388.jpeg)
 
 - Transceiver: a transmitter and a receiver
 
@@ -155,9 +155,9 @@ Station에는 **Transceiver cable**을 통해 연결된다. (maximum 50m)
 멀리 갈수록 신호가 줄어든다.
 그만큼 감쇠되는 걸 막으려면 power를 많이 써야 하기 때문에, 그러면 전력소모가 너무 심해서 500m로 끊은 것이다.
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696252202825.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696252202825.jpeg)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696252356082.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696252356082.jpeg)
 
 (~~교수님이 그냥 별로 안 중요하게 설명하고 넘어간 정보들. 근데 시험에는 나올지도 모름 ㅋㅋ~~)
 
@@ -173,13 +173,13 @@ transceiver가 NIC의 일부이다. 즉, station 안에 있다는 말이다.
 동축 케이블을 사용한다.
 T connector를 사용해, 케이블과 케이블을 연결해 나가는 구조이다. (지금은 잘 안 씀.)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696254045937.jpeg)
 
 ## 10Base-T: Twisted-Pair Ethernet
 
 physical star topology를 이용한다. (Hub를 사용해서)
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257278724.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696257278724.jpeg)
 
 ## 10Base-F: Fiber Ethernet
 
@@ -190,7 +190,7 @@ physical star topology를 이용한다. (Hub를 사용해서)
 Broadband는 Analog
 Baseband는 Digital (Manchester Encoding 사용)
 ~~1Base5는 뭐지?~~
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-part2-1696257478333.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-part2-1696257478333.jpeg)
 
 ## Changes in the Standard
 
@@ -208,7 +208,7 @@ bridge는 bandwidth를 raise하고 collision domain을 분리한다.
 
 ## Raising Bandwidth
 
-![](src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258472204.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258472204.jpeg)
 unbridged된 하나의 네트워크가 있다고 생각해 보자.
 CSMA/CD 방식을 이용하기 때문에, 어떤 하나의 station이 frame을 보내고 있으면, 또 다른 하나의 station은 frame을 못 보낸다.
 즉, total capacity (10Mbps) 가 두 station 사이서 공유된다는 것이다.
@@ -216,7 +216,7 @@ CSMA/CD 방식을 이용하기 때문에, 어떤 하나의 station이 frame을 �
 결국 평균적으로 각 station은 5Mbps의 rate로 data를 보내게 된다.
 상기 그림이 그 예시를 보여준다.
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258804889.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696258804889.jpeg)
 상기 그림 같이 12개의 station을 6개로 나눴다고 해 보자.
 bridge로 나뉜 각 network는 bandwidthwise적으로 독립적이다. (각 segment마다 bandwidth가 독립적이라는 말 같다.)
 나뉜 각 네트워크는 10Mbps의 capacity를 갖게된다.
@@ -225,7 +225,7 @@ bridge로 나뉜 각 network는 bandwidthwise적으로 독립적이다. (각 seg
 
 ## Separating Collision Domains
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260310961.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260310961.jpeg)
 
 상기 그림을 보자.
 bridge로 collision domain의 separation이 없을 때는 12개의 station이 모두 medium을 access하기 위해 contend한다.
@@ -238,14 +238,14 @@ repeater는 그냥 신호를 더 멀리 갈 수 있게 만들어 주는 것이�
 
 ## Switched Ethernet
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260647694.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260647694.jpeg)
 <u>dumb hub</u>는 network hardware의 가장 basic이다.
 네트워크에서 한 노드로부터 정보를 받으면, 그 정보를 같은 네트워크에 있는 다른 모든 노드에게 다 보내 준다.
 상기 그림을 보며 이해해 보자.
 A->E로 보낼 때, 동시에 B->C로 보낼 수 있게 할 수 없을까?
 그렇게 할 수 있는 통신 software를 넣어 보자 -> 그게 switch
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260840461.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696260840461.jpeg)
 
 N개의 station이 있는 네트워크에서, N개의 네트워크를 갖는 건 어떨까? 라는 의문에서 Switched Ethernet은 시작한다.
 bridged ethernet에서 각 segment가 bridge를 station을 포함해서 bandwidth를 공유한 거 처럼 switch 또한 각 domain에서 10Mbps를 switch와 station이 공유하여, 각 5Mbps의 대역폭을 갖는다.
@@ -263,7 +263,7 @@ bridge처럼 알고리즘을 이용해 address를 학습한다.
 
 ## Full-Duplex Ethernet
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696261627798.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-standard-ethernet-1696261627798.jpeg)
 
 (10Base5와 10Base2는 half-duplex이고, 10Base-T는 항상 full-duplex이다.)
 

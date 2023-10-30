@@ -23,7 +23,7 @@ description: this is template
 - uniquely identify each device on the internet.
 - ip는 conneciton당 하나씩 할당한다.
 
-![](/src/assets/image/internet-protocol-1698123806915.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/internet-protocol-1698123806915.jpeg)
 위에 그림은 IP 주소가 두 개 필요하다.  
 전화 번호는 PSTN의 network address이다.
 
@@ -52,14 +52,14 @@ the first address is called the network address and defines the organization net
 prefix|suffix
 <- 32bits ->
 
-![](/src/assets/image/internet-protocol-1698124841723.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/internet-protocol-1698124841723.jpeg)
 prefix는 network,
 suffix는 host 부분
 kisa 같은 곳에서 앞 부분을 할당해서 나눠주고, 각 기관 네트워크 관리자가 뒷 부분이 겹치지 않게 관리한다.
 
 ## Classful Addressing
 
-![](/src/assets/image/internet-protocol-1698124867936.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/internet-protocol-1698124867936.jpeg)
 
 Class D는 one to many
 Class E 앞으로 어떤일이 생길지 몰라서 예약

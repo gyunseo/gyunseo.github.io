@@ -143,7 +143,7 @@ C:\Users\rbstj\.jabba\jdk\temurin@17.0.8
 
 ~~그런데 생각해 보니, default alias를 바꿀 때마다, 저 global PATH와 JAVA_HOME을 변경하는 script를 실행하면 되니,~~ (안되네 ㅋㅋ)
 
-![](/src/assets/image/manage-jdks-on-windows-using-jabba-1697993673393.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/manage-jdks-on-windows-using-jabba-1697993673393.jpeg)
 
 ## Uninstallation
 

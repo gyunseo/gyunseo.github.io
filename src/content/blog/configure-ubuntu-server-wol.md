@@ -31,7 +31,7 @@ sudo apt install -y net-tools ethtool wakeonlan
 
 `ifconfig`로 NIC 이름을 확인한다.
 
-![](/src/assets/image/configure-ubuntu-server-wol-1696839462822.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/configure-ubuntu-server-wol-1696839462822.jpeg)
 `enp3s0`가 NIC 이름이다.
 
 ## WOL enable
@@ -43,7 +43,7 @@ sudo ethtool -s enp3s0 wol g
 sudo ethtool enp3s0
 ```
 
-![](/src/assets/image/configure-ubuntu-server-wol-1696839605440.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/configure-ubuntu-server-wol-1696839605440.jpeg)
 
 `Wake-on` 항목이 `g`로 set돼 있으면 정상적으로 작동한 것이다.  
 방금 `ethtool`로 설정했던 건 재부팅하면 초기화된다.  
@@ -63,7 +63,7 @@ network:
   renderer: NetworkManager
 ```
 
-![](/src/assets/image/configure-ubuntu-server-wol-1696839991455.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/configure-ubuntu-server-wol-1696839991455.jpeg)
 하기 명령어를 입력하여, 위 변경사항을 적용한다.
 
 ```zsh
@@ -75,7 +75,7 @@ Failed to reload network settings: No such file or directory
 Falling back to a hard restart of systemd-networkd.service
 ```
 
-![](/src/assets/image/configure-ubuntu-server-wol-1696840435975.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/configure-ubuntu-server-wol-1696840435975.jpeg)
 이런 오류가 날 것인데, 명령어를 똑같이 한번 더 실행시켜 주면 된다.
 
 ## 테스트

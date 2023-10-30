@@ -54,8 +54,8 @@ description: Gigabit Ethernet 공부한 거 정리
 
 ## Implementation
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267129485.jpeg)
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696266973254.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267129485.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696266973254.jpeg)
 
 - 1000Base-SX: two-wire short-wave fiber, 550m
 - 1000Base-LX: two-wire long-wave fiber, 5000m
@@ -64,6 +64,6 @@ description: Gigabit Ethernet 공부한 거 정리
 
 ## Encoding
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267212787.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-gigabit-ethernet-1696267212787.jpeg)
 
 화살표 양방향으로 있으면 동시에 송/수신 안된다.

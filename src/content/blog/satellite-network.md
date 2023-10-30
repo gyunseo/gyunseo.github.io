@@ -12,7 +12,7 @@ description: this is template
 
 ## Satellite network
 
-![](/src/assets/image/satellite-network-1697083175366.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083175366.jpeg)
 
 ## Operation
 
@@ -25,21 +25,21 @@ description: this is template
   - van allen belt is a layer that contains charged particles
 - MEO
 - LEO
-  ![](/src/assets/image/satellite-network-1697083437810.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083437810.jpeg)
   MEO, LEO는 자전속도보다 훨씬 빠르게...
 
 ## Frequency Bands for Satellite Communication
 
 - transmission from the earth to the satellite is called **uplink**
 - transmission from the satellite to the earth is called **downlink**
-  ![](/src/assets/image/satellite-network-1697083505915.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083505915.jpeg)
 
 ## GEO Satellites
 
 - Geostationary Earth Orbit (정지 궤도 위성)
 - 지구 전체를 모니터링 하려면 세개를 쏘아 올려야 한다.
 
-![](/src/assets/image/satellite-network-1697083611509.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083611509.jpeg)
 
 ## MEO Satellites
 
@@ -51,12 +51,12 @@ description: this is template
 - 24개의 위성, 6개의 궤도
 - 한 궤도에 4개의 위성
 - four satellites are visible from any point on Earth.
-  ![](/src/assets/image/satellite-network-1697083722299.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083722299.jpeg)
 - GPS is based on a principle called **trilateration**
-  ![](/src/assets/image/satellite-network-1697083879367.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083879367.jpeg)
 - On a plane,
 - In space
-  ![](/src/assets/image/satellite-network-1697083936977.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/satellite-network-1697083936977.jpeg)
 
 ## LEO
 

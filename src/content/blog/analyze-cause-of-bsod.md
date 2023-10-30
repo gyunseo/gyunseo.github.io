@@ -16,7 +16,7 @@ description: 대체 내 노트북은 왜 이러는 걸까..?
 ## 들어가며
 
 오늘 저녁에 갑자기 내 노트북 (Yoga Slim 7 ProX 14ARH7) 에서 하기 그림과 같은 폰트 렌더링 오류가 발생하고, 갑자기 팬이 엄청 돌면서 무한 BSOD (블루스크린) 오류가 발생했다.
-![](/src/assets/image/analyze-cause-of-bsod-1696158899126.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/analyze-cause-of-bsod-1696158899126.jpeg)
 
 > 하... 그냥 밀고 Ubuntu를 설치할까?
 

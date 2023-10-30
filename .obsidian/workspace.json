@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fcf8fd470abcca79",
+        "id": "0b4589f2b649c379",
         "type": "tabs",
         "children": [
           {
-            "id": "09e635736a91b428",
+            "id": "963cc53f2b903d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14e6210e4ff39fa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/powershell-text-replacement.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/powershell-text-replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/powershell-text-replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md"
+                "file": "src/content/blog/powershell-text-replacement.md"
               }
             }
           }
@@ -160,10 +147,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14e6210e4ff39fa3",
+  "active": "963cc53f2b903d4a",
   "lastOpenFiles": [
-    "src/content/blog/cloudinary-upload-setting.md",
+    "src/content/blog/ostep-32-concurrency-bugs.md",
+    "replace_text.ps1",
+    "src/content/blog/nvm-for-windows.md",
+    "src/content/blog/powershell-text-replacement.md",
     "src/content/blog/install-hangul-input-method-on-wslg.md",
+    "src/content/blog/ostep-36-file-devices.md",
+    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+    "src/content/blog/install-docker-engine-on-ubuntu-server.md",
+    "src/content/blog/feature-to-do-list-to-implement-on-my-blog.md",
+    "src/content/blog/download-and-install-new-fonts-on-WSL-ubuntu-linux.md",
+    "src/content/blog/custom-nginx-with-docker-compose-for-isso.md",
+    "src/content/blog/create-ssh-key-for-github.md",
+    "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
+    "src/content/blog/cloudinary-upload-setting.md",
+    "src/content/blog/change-apt-get-source-server.md",
+    "src/content/blog/add-isso-comment-to-blog.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
@@ -188,19 +189,6 @@
     "src/content/blog/ostep-39-files-and-directories.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
     "src/content/blog/remove-jdks-installed-by-intellij.md",
-    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
-    "src/content/blog/switch-multiple-jdk-versions-on-windows.md",
-    "src/content/blog/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment.md",
-    "src/content/blog/start-windows-terminal-default-profile-with-multiple-panes.md",
-    "src/content/blog/terminal-development.md",
-    "src/content/blog/nvm-for-windows.md",
-    "src/content/blog/resolve-icon-spacing-issue-on-windows.md",
-    "src/content/blog/fix-obsidian-font-selection-freezing.md",
-    "src/content/blog/remove-all-fonts-except-windows-system-fonts.md",
-    "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
-    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
-    "src/content/blog/analyze-cause-of-bsod.md",
-    "src/content/blog/resolve-font-rendering-issue-on-windows.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"

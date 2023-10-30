@@ -72,7 +72,7 @@ $y=y_1B^m+y_0$
   - 4번의 곱셈
   - `n`의 자리의 3번에 덧셈
 
-![](/src/assets/image/karastuba-algorithm-1697000260795.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/karastuba-algorithm-1697000260795.jpeg)
 
 - 카라추바 알고리즘인 경우
 

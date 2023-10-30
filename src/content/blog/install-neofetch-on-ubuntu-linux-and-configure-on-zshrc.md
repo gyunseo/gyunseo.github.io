@@ -34,12 +34,12 @@ nvim ~/.zshrc
 ```
 
 상기 명령어로 `~/.zshrc`를 수정하여, 매번 terminal shell session이 시작될 때마다 `neofetch`가 실행되도록한다.
-![](/src/assets/image/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696773882315.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696773882315.jpeg)
 
 ## `powerlevel10k` warning
 
 하지만 그렇게 한다면 하기 이미지와 같은 warning을 마주하게 된다.
-![](/src/assets/image/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696773948814.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696773948814.jpeg)
 나는 굳이 `powerlevel10k` theme 일찍 안 봐도 상관 없으니깐,  
 ` typeset -g POWERLEVEL9K_INSTANT_PROMPT=off`를 해줄 것이다.
 
@@ -50,7 +50,7 @@ nvim ~/.p10k.zsh
 ```
 
 `neovim`으로 하기 이미지와 같이 `~/.p10k.zsh` 파일을 수정한다.
-![](/src/assets/image/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696774087393.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696774087393.jpeg)
 
 ```zsh
 source ~/.p10k.zsh
@@ -61,4 +61,4 @@ neofetch가 먼저 보이고, 그 다음에 `powerlevel10k` theme prompt가 나�
 
 ## Shell Sessiong Login 화면
 
-![](/src/assets/image/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696774546411.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neofetch-on-ubuntu-linux-and-configure-on-zshrc-1696774546411.jpeg)

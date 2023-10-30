@@ -14,6 +14,8 @@
 
 const cloudinary = require('cloudinary');
 const dotenv = require('dotenv');
+const fs = require('fs');
+const path = require('path');
 
 cloudinary.v2.config({
   cloud_name: 'gyunseo-blog',
@@ -22,6 +24,29 @@ cloudinary.v2.config({
   secure: true,
 });
 
-cloudinary.v2.uploader.upload("https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
-  { public_id: "olympic_flag" }, 
-  function(error, result) {console.log(result); });
+// upload all images in src/assets/image/ directory
+
+
+
+const dir = path.join(__dirname, 'src/assets/image');
+
+fs.readdir(dir, (err, files) => {
+    if (err) throw err;
+    files.forEach((file) => {
+        cloudinary.v2.uploader.upload(
+        path.join(dir, file),
+        {
+            public_id: file.split('.')[0],
+            overwrite: false,
+            tags: ['blog'],
+        },
+        (error, result) => {
+            if (error) throw error;
+            console.log(result);
+        },
+        );
+    });
+    });
+
+// upload all images in src/assets/image/ directory
+

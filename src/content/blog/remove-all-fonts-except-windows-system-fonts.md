@@ -19,7 +19,7 @@ Font가 너무 많아서, Application에서 Font를 로딩할 때 렉이 걸린�
 ## 제어판 - 글꼴
 
 글꼴 삭제의 경우 만약, 기본 글꼴만 놔두고 모두 삭제하길 원하다면, 글꼴 메뉴에서 표시되는 글꼴을 모두 선택 (Ctrl+A)하여 삭제하면,  하기와 같이 사용 중인 글꼴 및 시스템 글꼴은 삭제되지 않는다.  
-![](/src/assets/image/remove-all-fonts-except-windows-system-fonts-1697893581064.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/remove-all-fonts-except-windows-system-fonts-1697893581064.jpeg)
 
 그리고 다 삭제했으면, 재부팅한다.
 

@@ -26,7 +26,7 @@ description: zsh의 framework의 세계는 엄청나다.
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765333415.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765333415.jpeg)
 
 ## `asdf` 활성화하기
 
@@ -36,7 +36,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 nvim ~/.zshrc
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765514519.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765514519.jpeg)
 상기 이미지처럼
 `plugins=(asdf)`를 추가한다.
 그러면 `asdf`가 `ohmyzsh` framework에 통합이 되어, `asdf`를 사용할 수 있게 된다.
@@ -45,7 +45,7 @@ nvim ~/.zshrc
 asdf --version
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765667860.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696765667860.jpeg)
 
 ## Plugin Dependencies 설치
 
@@ -104,7 +104,7 @@ asdf install nodejs 18.18.0
 asdf list nodejs
 ```
 
-![](src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696766814971.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696766814971.jpeg)
 
 ## `nodejs` Version 설정하기
 
@@ -125,7 +125,7 @@ global defaults는 `$HOME/.tool-versions`에서 관리된다.
 cat $HOME/.tool-versions
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767200085.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767200085.jpeg)
 
 ## `nodejs` Local version 설정하기
 
@@ -137,7 +137,7 @@ asdf local nodejs 18.17.1
 cat $PWD/.tool-versions
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767644582.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696767644582.jpeg)
 
 ## `python` Plugin 설치
 
@@ -170,7 +170,7 @@ asdf global python 3.12.0
 cat $HOME/.tool-versions
 ```
 
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696769147862.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1696769147862.jpeg)
 
 하기 명령어를 입력하자.
 
@@ -242,7 +242,7 @@ temurin-17.0.9+9
 
 필자는 여기서 Linux에서 `17 - LTS Version`에 해당하는 `17.09+9`을 설치할 것이다. (하기 링크 참조)  
 <https://adoptium.net/temurin/releases/?os=linux&arch=x64&package=jdk&version=17>
-![](/src/assets/image/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-asdf-on-ubuntu-linux-and-ohmyzsh-1697887610416.jpeg)
 
 ## `temurin-17.0.9+9` `JDK` 설치하기
 

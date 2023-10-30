@@ -17,7 +17,7 @@ description: Windows Defender가 문제였다...
 ## 들어가며
 
 <https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html>에 나온대로, Windows Intellij IDEA Ultimate와 함께 WSL Ubuntu를 사용하고 있다. (Remote Development - WSL이 아니다.)  
-![](/src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899532148.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899532148.jpeg)
 여기서 초록색 Run 버튼을 눌러, `Main.main()`을 실행하려 하면, `Preparing WSL build environment...`가 나오며 IntelliJ가 멈춰 버린다.  
 이를 해결해 보고자 한다.
 
@@ -25,14 +25,14 @@ description: Windows Defender가 문제였다...
 
 하기 이미지와 같이 `Windows 보안 - 바이러스 및 위협 방지 - 바이러스 위협 방지 설정 - 설정 관리`를 눌러서 메뉴에 진입한다.
 
-![](/src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899742499.jpeg)
-![](src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899742499.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg)
 
 ## 제외 - 제외 추가 또는 제거
 
 `Windows 보안 - 바이러스 및 위협 방지 - 바이러스 위협 방지 설정 - 설정 관리`에 진입했다면, 하기 이미지와 같이 `제외 추가 또는 제거` 메뉴에 진입한다.
-![](src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg)
-![](/src/assets/image/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899819740.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/how-to-fix-intellij-idea-stuck-on-preparing-wsl-build-environment-1697899855742.jpeg)
 
 ## 제외 사항 추가
 

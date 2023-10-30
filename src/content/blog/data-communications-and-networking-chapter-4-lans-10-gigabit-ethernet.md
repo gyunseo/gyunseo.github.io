@@ -29,4 +29,4 @@ description: 10 Gigabit Ethernet 공부한 거 정리
 
 ## Implementation
 
-![](/src/assets/image/data-communications-and-networking-chapter-4-lans-10-gigabit-ethernet-1696267800246.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/data-communications-and-networking-chapter-4-lans-10-gigabit-ethernet-1696267800246.jpeg)

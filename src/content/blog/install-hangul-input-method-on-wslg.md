@@ -69,7 +69,7 @@ export DefaultIMModule=fcitx
 fcitx-autostart &>/dev/null
 ```
 
-![](/src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-hangul-input-method-on-wslg-1698338240755.jpeg)
 
 ## `gnome-language-selector` 설치
 
@@ -83,7 +83,7 @@ sudo gnome-language-selector
 한국어가 없으면 Install / Remove Languages...에 들어가 설치하자.
 keyboard input method system: `Fcitx 4`로 설정
 
-![](/src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-hangul-input-method-on-wslg-1698337781758.jpeg)
 
 ## `fcitx` 설정
 
