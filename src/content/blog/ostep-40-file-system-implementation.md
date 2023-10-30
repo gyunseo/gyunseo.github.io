@@ -64,3 +64,10 @@ description: OSTEP 40장 공부한 거 정리
 - 블럭이 64개 있는 작은 디스크를 가정하자.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1698686308/image_x1rlbt.png)
+
+- 파일 시스템을 생성하기 위해서, 이들 블럭에 어떤 것을 저장할지 생각하자.
+- 가장 먼저 떠오르는 것은 사용자 데이터이다.
+- 사실, 파일 시스템의 대부분의 공간은 사용자 데이터로 이루어져 있다. (또한 그렇게 되어야 한다.)
+- 사용자 데이터가 있는 디스크 공간을 데이터 영역(data region) 이라고 하자.
+- 간단하게 **64개**의 디스크 블럭 중, **마지막 56개**의 블럭처럼 디스크의 일정 부분을 데이터 영역으로서 확보하자. (하기 그림 확인.)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1698686438/image_vk3no0.png)
