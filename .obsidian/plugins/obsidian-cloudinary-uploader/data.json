@@ -1,7 +1,7 @@
 {
   "cloudName": "gyunseo-blog",
-  "uploadPreset": "zy7ox8cy",
-  "folder": null,
-  "f_auto": false,
+  "uploadPreset": "obsidian_cloudinary_uploader",
+  "folder": "",
+  "f_auto": true,
   "transformParams": null
 }
