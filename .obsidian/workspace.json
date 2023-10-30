@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/cloudinary-upload-setting.md",
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/cloudinary-upload-setting.md",
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/cloudinary-upload-setting.md",
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/cloudinary-upload-setting.md"
+                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "14e6210e4ff39fa3",
   "lastOpenFiles": [
-    "src/content/blog/install-hangul-input-method-on-wslg.md",
     "src/content/blog/cloudinary-upload-setting.md",
+    "src/content/blog/install-hangul-input-method-on-wslg.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",

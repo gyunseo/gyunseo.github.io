@@ -65,6 +65,10 @@ python3 --version
 
 ## 설치된 Python Rutime Version을 Local Runtime Version으로 설정하기
 
+```powershell
+pyenv local 3.11.6
+```
+
 ## 참고 문서
 
 - <https://github.com/pyenv-win/pyenv-win>
