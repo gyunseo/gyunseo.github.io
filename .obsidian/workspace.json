@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14e6210e4ff39fa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/cloudinary-upload-setting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
+                "file": "src/content/blog/cloudinary-upload-setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/install-hangul-input-method-on-wslg.md",
+                "file": "src/content/blog/cloudinary-upload-setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/install-hangul-input-method-on-wslg.md"
+                "file": "src/content/blog/cloudinary-upload-setting.md"
               }
             }
           }
@@ -147,11 +160,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "09e635736a91b428",
+  "active": "14e6210e4ff39fa3",
   "lastOpenFiles": [
+    "src/content/blog/install-hangul-input-method-on-wslg.md",
+    "src/content/blog/cloudinary-upload-setting.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
-    "src/content/blog/install-hangul-input-method-on-wslg.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
     "src/content/blog/ubuntu-hangul-keyboard.md",
     "src/content/blog/internet-protocol.md",
@@ -168,7 +182,6 @@
     "src/assets/image/packet-switching-1698123325541.jpeg",
     "src/assets/image/packet-switching-1698122961304.jpeg",
     "src/assets/image/packet-switching-1698122908816.jpeg",
-    "src/assets/image/packet-switching-1698122693757.jpeg",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/ostep-38-raid.md",

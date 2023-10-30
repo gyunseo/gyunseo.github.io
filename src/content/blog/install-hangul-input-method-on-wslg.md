@@ -128,4 +128,3 @@ bruno
 - <https://julialang.kr/?p=3174>
 - <https://freetome.tistory.com/493>
 - [WSL2에서 한글 입력 (velog.io)](https://velog.io/@alyac/wsl2-Korean-input)
--
