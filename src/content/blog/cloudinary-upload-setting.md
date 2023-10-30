@@ -13,8 +13,6 @@ description: Cloudinary로 업로드를 어떻게 할까..?
 
 ## 들어가며
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1698665869/image_jbkesw.png)
-
 ## 참고 문서
 
 - <https://jordanhandy.github.io/obsidian-cloudinary-uploader/configuring-cloudinary/>
