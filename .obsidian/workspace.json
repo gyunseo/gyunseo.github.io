@@ -8,30 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ece60e1cb55c148f",
+            "id": "b1280e4641a9d5c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/ostep-40-file-system-implementation.md",
+                "file": "src/content/blog/wooteco-2nd-thoughts.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cbb6f0669cad767d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f8dd92a2a70d12c9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ostep-pdfs/40_FS-implementation.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/ostep-40-file-system-implementation.md",
+                "file": "src/content/blog/wooteco-2nd-thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/ostep-40-file-system-implementation.md",
+                "file": "src/content/blog/wooteco-2nd-thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/ostep-40-file-system-implementation.md"
+                "file": "src/content/blog/wooteco-2nd-thoughts.md"
               }
             }
           }
@@ -163,10 +147,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ece60e1cb55c148f",
+  "active": "b1280e4641a9d5c0",
   "lastOpenFiles": [
-    "ostep-pdfs/40_FS-implementation.pdf",
     "src/content/blog/ostep-40-file-system-implementation.md",
+    "src/content/blog/wooteco-2nd-thoughts.md",
+    "ostep-pdfs/40_FS-implementation.pdf",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/cloudinary-upload-setting.md",
     "public/favicon.svg",
