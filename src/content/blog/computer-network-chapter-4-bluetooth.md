@@ -63,6 +63,7 @@ description: Bluetooth 공부한 거 정리
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699087517/image_hgbmyw.png)
 
 - Radio layer: 무선으로 쏘는 부분
+- Baseband layer: radio layer 바로 위에 있는 layer. 데이터를 어떻게 보낼 것인가.
 
 ## Radio Layer
 
@@ -73,4 +74,13 @@ description: Bluetooth 공부한 거 정리
 - Bluetooth는 1초에 1600번 도약한다(hop).
 - bit를 signal로 변환하기 위해 bluetooth는 **GFSK(FSK with Gaussian bandwidth filtering)** 라는 정교한 버전의 FSK를 사용한다.
 
-##
+## Baseband Layer
+
+- Radio layer 바로 위에 있는 layer.
+- 데이터를 어떻게 보낼 것인가에 관심이 있는 layer.
+- access method는 TDMA이다.
+- <u>primary station과 secondary station는 time slot을 이용하여 서로 통신한다.</u>
+  - time slot의 길이는 dwell time $625\mu s$와 정확히 같다.
+  - <u>secondary station들은 서로 직접 소통할 수 없습니다.</u>
+- 블루투스는 **TDD-TDMA(time-division duplex TDMA)** 라고 불리는 TDMA의 형태를 사용한다.
+- secondary station과 수신기가 데이터를 주고 받지만, 동시에 데이터를 받지 못하는 <u>half-duplex communication</u>의 일종이다.
