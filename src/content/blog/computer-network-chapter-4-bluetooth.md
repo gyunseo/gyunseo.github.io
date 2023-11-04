@@ -84,10 +84,16 @@ description: Bluetooth 공부한 거 정리
   - <u>secondary station들은 서로 직접 소통할 수 없습니다.</u>
 - 블루투스는 **TDD-TDMA(time-division duplex TDMA)** 라고 불리는 TDMA의 형태를 사용한다.
 - secondary station과 수신기가 데이터를 주고 받지만, 동시에 데이터를 받지 못하는 <u>half-duplex communication</u>의 일종이다.
-- 그렇다면 **TDD-TDM(time-division duplex TDMA)** 가 어떻게 동작하느냐? 하기 내용에서 계속.
+- 그렇다면 **TDD-TDMA(time-division duplex TDMA)** 가 어떻게 동작하느냐? 하기 내용에서 계속.
 
 ## Single-secondary Communication
 
 - primary station은 짝수 슬롯을 사용하고, secondary station은 홀수 슬롯을 사용한다.
   ![Single-secondary communication](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699094221/image_kgax0k.png)
 - 스마트폰이 Primary, 블루투스 헤드폰이 Secondary라고 생각하면 된다.
+- 동시에 주고 받는 것은 안된다. 한 번 주고, 한 번 받아야 한다. (<u>half-duplex communication</u>)
+- $625ms$단위로 time slot을 나누어 놓았다.
+- 데이터를 실제로 보내는 것은 $366ms$이다.
+- 그러면서 동시에 주파수가 달라진다.($f0$~$f78$까지 있다.) (1초에 1600번을 hop한다.)
+
+## Multiple-secondary Communication
