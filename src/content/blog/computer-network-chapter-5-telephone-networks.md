@@ -16,4 +16,5 @@ description: Telephone networks
 ## Telephone Networks
 
 - telephone networks는 **plain old telephone system (POTS)** 로 불리며, 회선 교환(circuit switching)을 사용한다.
-- telephone networks에는 end offices, tandem offices, regional offices와 같은 여러 레벨의 교환 오피스가 있다.
+- telephone networks에는 end offices, tandem offices, regional offices와 같은 여러 레벨의 switching offices가 있다.
+- **PSTN**은 **Public Switched Telephone Network** 를 의미하며, 이 단어를 **POTS** 보다 더 많이 쓴다.
