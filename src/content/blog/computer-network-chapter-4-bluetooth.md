@@ -35,9 +35,9 @@ description: Bluetooth 공부한 거 정리
 
 ### Bluetooh Classic
 
-| Bluetooth version | Maximum range | Date rates | Message capacity | Throughput | Power consumption |
-| ----------------- | ------------- | ---------- | ---------------- | ---------- | ----------------- |
-| Bluetooth Classic | 10m           | 1mbps      | 31bytes          | 700kbps    | Very high         |
-| Bluetooth v4.x    |               |            |                  |            |                   |
-| Bluetooth v5.0    |               |            |                  |            |                   |
-|                   |               |            |                  |            |                   |
+| Bluetooth version     | Maximum range | Date rates | Message capacity | Throughput | Power consumption |
+| --------------------- | ------------- | ---------- | ---------------- | ---------- | ----------------- |
+| **Bluetooth Classic** | 10m           | 1mbps      | 31bytes          | 700kbps    | Very high         |
+| **Bluetooth v4.x**    | 30m           | 1mbps      | 31bytes          | 300kbps    | high              |
+| **Bluetooth v5.0**    | 200m          | 2mbps      | 255bytes         | 1400kbps   | low               |
+| **Bluetooth v5.2**    | 200m          | 2mbps      | 255bytes         | 1400kbps   | very low          |
