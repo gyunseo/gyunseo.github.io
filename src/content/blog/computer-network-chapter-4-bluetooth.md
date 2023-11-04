@@ -127,8 +127,8 @@ description: Bluetooth 공부한 거 정리
 
 ## L2CAP
 
-- **The Logicla Link Control and Adaptation Protocol**, 또는 **L2CAP**는 LAN에서 LLC sublayer과 거의 동일하다.
-- L2CAP은 multiplexing, segmentation 및 reassembly, QOS(Quality of Service), group management 등의 구체적인 임무를 수행한다.
+- **The Logical Link Control and Adaptation Protocol**, 또는 **L2CAP**는 LAN에서 LLC sublayer과 거의 동일하다.
+- L2CAP은 multiplexing(다중화, 여러 개의 디바이스를 하나로 묶는 것) , segmentation(메시지를 자른다.) 및 reassembly, QOS(Quality of Service), group management 등의 구체적인 임무를 수행한다.
 - ACL link에서 데이터 교환을 위해 사용되며, <u>SCO 채널은 L2CAP을 사용하지 않는다</u>.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699120427/image_snamza.png)
