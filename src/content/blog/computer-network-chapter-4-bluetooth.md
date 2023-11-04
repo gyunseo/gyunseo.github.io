@@ -30,5 +30,13 @@ description: Bluetooth 공부한 거 정리
 
 - Bluetooth는 **piconet**와 **scatternet**의 두 가지 네트워크 유형을 정의한다.
 - 블루투스 장치에는 근거리 무선 송신기가 내장되어 있다.
-- 버전 5.2의 현재 date rate는 $2.4GHz$ 대역폭을 가진 $2Mbps$이다.
+- 버전 **5.2**의 현재 date rate는 $2.4GHz$ 대역폭을 가진 $2Mbps$이다.
   - 이는 IEEE 802.11b 무선랜과 블루투스 랜 사이에 간섭이 발생할 가능성이 있음을 의미한다.
+
+### Bluetooh Classic
+
+| Maximum range | Date rates | Message capacity | Throughput | Power consumption |
+| ------------- | ---------- | ---------------- | ---------- | ----------------- |
+| 10m           | 1mbps      | 31bytes          | 700kbps    | Very high         |
+|               |            |                  |            |                   |
+|               |            |                  |            |                   |
