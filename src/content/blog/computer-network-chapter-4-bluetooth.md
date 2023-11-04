@@ -27,7 +27,7 @@ description: Bluetooth 공부한 거 정리
 - Bluetooth는 **piconet**와 **scatternet**의 두 가지 네트워크 유형을 정의한다.
 - 블루투스 장치에는 근거리 무선 송신기가 내장되어 있다.
 - 버전 **5.2**의 현재 date rate는 $2.4GHz$ 대역폭을 가진 $2Mbps$이다.
-  - 이는 IEEE 802.11b 무선랜과 블루투스 랜 사이에 간섭이 발생할 가능성이 있음을 의미한다.(그래서 frequency hopping이라s는, 무선 주파수를 뛰어 넘는 방법을 사용한다.)
+  - 이는 IEEE 802.11be 무선랜과 블루투스 랜 사이에 간섭이 발생할 가능성이 있음을 의미한다.(그래서 frequency hopping이라s는, 무선 주파수를 뛰어 넘는 방법을 사용한다.)
 
 | Bluetooth version     | Maximum range | Date rates | Message capacity | Throughput | Power consumption |
 | --------------------- | ------------- | ---------- | ---------------- | ---------- | ----------------- |
@@ -42,9 +42,7 @@ description: Bluetooth 공부한 거 정리
 ## Piconets
 
 - piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)**라고 불리고, 나머지는 **secondary(slaves)**라고 불린다.(하나는 primary, 나머지 7개는 secondary) (추가적으로 8대를 더 붙일 수 있다. 그렇게 하더라도, active한 station은 8개만 가능하다. 결국 동시에 가능한 거는 8개이다.)
-- all the secondary stations synchronize their clocks and 0PP1ng sequence with the primary.
-- lconet can have 01규y one prlmary station.
-- he commumcation between the primary and the secondaries
-- an be one-to-one or one-to-many.
-- lthough a piconet can have a maxlmum Of seven secondaries,
-- n additional ht secondaries can be ⅲ the arked state.
+- 모든 secondary station들은 그들의 clock과 hopping sequence를 primary와 동기화한다.
+- piconet은 오직 하나의 primary station을 가질 수 있다.
+- primary와 secondary 사이의 통신은 1대1 또는 1대다가 될 수 있다.
+- piconet은 최대 7개의 secondary station을 가질 수 있지만, 추가로 8개의 secondary station이 parked station에 있을 수 있다.

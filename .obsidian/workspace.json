@@ -20,6 +20,32 @@
             }
           }
         ]
+      },
+      {
+        "id": "2ff3ca3161a8d90c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da0d612ccf47c5a1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf"
+              }
+            }
+          },
+          {
+            "id": "c4303b7171decd18",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,11 +170,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "818ade6393ed2d57",
   "lastOpenFiles": [
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
@@ -185,11 +214,8 @@
     "src/content/blog/wooteco-1st-thoughts.md",
     "ostep-pdfs/39_interlude-file-directory.pdf",
     "src/content/blog/git-guide.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "src/assets/image/internet-protocol-1698124867936.jpeg",
     "src/content/blog/packet-switching.md",
-    "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"
