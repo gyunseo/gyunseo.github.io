@@ -41,7 +41,7 @@ description: Bluetooth 공부한 거 정리
 
 ## Piconets
 
-- piconet can have up t0 eight stafions, 011e ofwhich is called the primary(master); the rest are called secondaries(slaves).
+- piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)**라고 불리고, 나머지는 **secondary(slaves)**라고 불린다.
 - all the secondary stations synchronize their clocks and 0PP1ng sequence with the primary.
 - lconet can have 01규y one prlmary station.
 - he commumcation between the primary and the secondaries
