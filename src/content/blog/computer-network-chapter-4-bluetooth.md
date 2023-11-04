@@ -45,4 +45,4 @@ description: Bluetooth 공부한 거 정리
 - 모든 secondary station들은 그들의 clock과 hopping sequence를 primary와 동기화한다.
 - piconet은 오직 하나의 primary station을 가질 수 있다.
 - primary와 secondary 사이의 통신은 1대1 또는 1대다가 될 수 있다.
-- piconet은 최대 7개의 secondary station을 가질 수 있지만, 추가로 8개의 secondary station이 parked station에 있을 수 있다.
+- piconet은 최대 7개의 secondary station을 가질 수 있지만, **추가로 8개의 secondary station이 parked station에 있을 수 있다.**
