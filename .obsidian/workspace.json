@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e815be22b53bee2b",
+        "id": "46140ef150e86509",
         "type": "tabs",
         "children": [
           {
-            "id": "b1280e4641a9d5c0",
+            "id": "818ade6393ed2d57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,8 +147,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b1280e4641a9d5c0",
+  "active": "818ade6393ed2d57",
   "lastOpenFiles": [
+    "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
     "src/content/blog/ostep-40-file-system-implementation.md",
@@ -189,7 +190,6 @@
     "src/content/blog/packet-switching.md",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
-    "src/content/blog/ostep-38-raid.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"

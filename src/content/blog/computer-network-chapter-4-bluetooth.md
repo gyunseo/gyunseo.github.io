@@ -24,7 +24,7 @@ description: Bluetooth 공부한 거 정리
 
   - 때때로 gadget이라고 불리는 장치들은 서로를 찾아서 **piconet**라고 불리는 네트워크를 만든다.
 
-- IEEE 802.15 statndard fines a
+- The **IEEE 802.15** statndard defines a wireless **personal-area network (PAN)**
 
 ## Architecture
 
