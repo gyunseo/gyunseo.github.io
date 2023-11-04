@@ -106,3 +106,13 @@ description: Bluetooth 공부한 거 정리
 - Primary는 스마트폰, Secondary 1은 블루투스 헤드폰, Secondary 2는 블루투스 키보드라고 생각하면 쉽다.
 - 한 번씩 Primary가 Secondary 1에게 데이터를 보내고, 다시 Secondary 1이 다시 Primary에게 데이터를 보내고, 그 다음 Primary가 Secondary 2에게 데이터를 보내고, 다시 Secondary 2가 Primary에게 데이터를 보낸다.
 - 그러니 당연히 장치를 많이 붙이면, 순번이 늦게 오게 되고, 결국 속도가 느려진다. 한 번씩 돌아가면서 기회를 줄 수밖에 없으니, 느릴 수밖에 없다.
+
+## Physical Links
+
+- Two types of links can be created between a primary and a secondary: SCO links and ACL links.
+- **Synchronous Connection-Oriented (SCO) link**
+  - It is used when <u>avoiding latency (delay in data delivery)</u> is more important than integrity (error-free delivery).
+  - <u>If a packet is damaged, it is never retransmitted.</u>
+  - SCO is used for real-time audio where avoiding delay is all-important.
+- **Asynchronous Connectionless Link (ACL)**
+  - It is used when <u>data integrity is more important</u> than avoiding latency.
