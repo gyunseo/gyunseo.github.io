@@ -84,3 +84,7 @@ description: Bluetooth 공부한 거 정리
   - <u>secondary station들은 서로 직접 소통할 수 없습니다.</u>
 - 블루투스는 **TDD-TDMA(time-division duplex TDMA)** 라고 불리는 TDMA의 형태를 사용한다.
 - secondary station과 수신기가 데이터를 주고 받지만, 동시에 데이터를 받지 못하는 <u>half-duplex communication</u>의 일종이다.
+
+## Single-secondary Communication
+
+- primary station은 짝수 슬롯을 사용하고, secondary station은 홀수 슬롯을 사용한다.
