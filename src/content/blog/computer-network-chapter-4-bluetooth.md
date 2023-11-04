@@ -60,9 +60,15 @@ description: Bluetooth 공부한 거 정리
 
 ## Bluetooth Layers
 
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699087517/image_hgbmyw.png)
+
+## Radio Layer
+
 - Bluetooth device는 <u>저전력(low-power)이며 범위는 10m이다.</u>
   - 범위는 power-class-dependant이지만, 실제로는 $1m$에서 $100m$까지 다양하다.
-- Bluetooth는 $2.4-GHz$ ISM 대역을 각각 $1MHz$의 79개 채널로 분할하여 사용한다.
+- Bluetooth는 $2.4-GHz$ ISM band를 각각 $1MHz$의 79개 채널로 분할하여 사용한다. (FHSS를 사용하며, 주파수를 뛰어다니기 위해, 79개의 채널로 분할한다.)
 - Bluetooth는 다른 디바이스 또는 다른 네트워크로부터의 간섭을 피하기 위해, physical layer에서 **frequency-hopping spread spectrum (FHSS)** 방법을 사용한다.
 - Bluetooth는 1초에 1600번 도약한다(hop).
 - bit를 signal로 변환하기 위해 bluetooth는 **GFSK(FSK with Gaussian bandwidth filtering)** 라는 정교한 버전의 FSK를 사용한다.
+
+##
