@@ -20,7 +20,7 @@ description: Bluetooth 공부한 거 정리
 - <u>A Bluetooth LAN은 ad hoc network(AP가 따로 존재하지 않는다.)이다.</u>
   - 네트워크는 자발적(spontaneously)으로 형성된다.
   - 때때로 gadget이라고 불리는 장치들은 서로를 찾아서 **piconet**라고 불리는 네트워크를 만든다.
-- **IEEE 802.15** 표준은 무선 **개인 영역 네트워크(PAN)**를 정의한다.
+- **IEEE 802.15** 표준은 무선 **개인 영역 네트워크(PAN)** 를 정의한다.
 
 ## Architecture
 
@@ -41,7 +41,7 @@ description: Bluetooth 공부한 거 정리
 
 ## Piconets
 
-- piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)**라고 불리고, 나머지는 **secondary(slaves)**라고 불린다.(하나는 primary, 나머지 7개는 secondary) (추가적으로 8대를 더 붙일 수 있다. 그렇게 하더라도, active한 station은 8개만 가능하다. 결국 동시에 가능한 거는 8개이다.)
+- piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)** 라고 불리고, 나머지는 **secondary(slaves)** 라고 불린다.(하나는 primary, 나머지 7개는 secondary) (추가적으로 8대를 더 붙일 수 있다. 그렇게 하더라도, active한 station은 8개만 가능하다. 결국 동시에 가능한 거는 8개이다.)
 - 모든 secondary station들은 그들의 clock과 hopping sequence를 primary와 동기화한다.
 - piconet은 오직 하나의 primary station을 가질 수 있다.
 - primary와 secondary 사이의 통신은 1대1 또는 1대다가 될 수 있다.
