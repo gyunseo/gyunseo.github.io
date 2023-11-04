@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "46140ef150e86509",
+        "id": "2ff3ca3161a8d90c",
         "type": "tabs",
-        "dimension": 56.124161073825505,
         "children": [
           {
-            "id": "818ade6393ed2d57",
+            "id": "7e6effa1f21d6934",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,23 +16,6 @@
                 "file": "src/content/blog/computer-network-chapter-4-bluetooth.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2ff3ca3161a8d90c",
-        "type": "tabs",
-        "dimension": 43.875838926174495,
-        "children": [
-          {
-            "id": "da0d612ccf47c5a1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf"
               }
             }
           },
@@ -176,11 +158,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "818ade6393ed2d57",
+  "active": "7e6effa1f21d6934",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
+    "src/assets/Pasted Image 20231104173119_699.png",
+    "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
     "src/content/blog/ostep-40-file-system-implementation.md",
@@ -215,9 +200,6 @@
     "src/content/blog/internet-protocol.md",
     "src/content/blog/wooteco-1st-thoughts.md",
     "ostep-pdfs/39_interlude-file-directory.pdf",
-    "src/content/blog/git-guide.md",
-    "src/assets/image/internet-protocol-1698124867936.jpeg",
-    "src/content/blog/packet-switching.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"
