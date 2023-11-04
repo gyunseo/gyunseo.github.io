@@ -90,3 +90,4 @@ description: Bluetooth 공부한 거 정리
 
 - primary station은 짝수 슬롯을 사용하고, secondary station은 홀수 슬롯을 사용한다.
   ![Single-secondary communication](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699094221/image_kgax0k.png)
+- 스마트폰이 Primary, 블루투스 헤드폰이 Secondary라고 생각하면 된다.
