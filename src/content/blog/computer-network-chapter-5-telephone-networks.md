@@ -45,3 +45,6 @@ end office와 전화기 사이 선을 local loop 혹은 subscriber(가입자) li
 Trunk는 (전화)국간 전송로(전화국-전화국)이다.  
 Trunk line은 고속 전송로이다.  
 local loop은 그렇지 않다.
+
+- **local loop**는 subscriber telephone을 가장 가까운 end office에 연결하는 twisted-pair 케이블이다.
+- trunks는 <u>office 사이의 통신을 다루는 전송 매체</u>이다.
