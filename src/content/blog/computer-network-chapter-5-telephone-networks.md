@@ -14,3 +14,6 @@ description: Telephone networks
 ## Table of contents
 
 ## Telephone Networks
+
+- Telephone networks, which is referred to as the **plain old telephone system (POTS)** , use circuit switching.
+- The telephone network has several levels of switching offices such as end offices, tandem offices, and regional offices.
