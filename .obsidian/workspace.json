@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/wooteco-2nd-thoughts.md",
+                "file": "src/content/blog/computer-network-chapter-4-bluetooth.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/wooteco-2nd-thoughts.md",
+                "file": "src/content/blog/computer-network-chapter-4-bluetooth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/wooteco-2nd-thoughts.md",
+                "file": "src/content/blog/computer-network-chapter-4-bluetooth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/wooteco-2nd-thoughts.md"
+                "file": "src/content/blog/computer-network-chapter-4-bluetooth.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "b1280e4641a9d5c0",
   "lastOpenFiles": [
-    "src/content/blog/ostep-40-file-system-implementation.md",
+    "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
+    "src/content/blog/ostep-40-file-system-implementation.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "src/content/blog/configure-intellij-formatter.md",
     "src/content/blog/cloudinary-upload-setting.md",
@@ -189,7 +190,6 @@
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/ostep-38-raid.md",
-    "src/content/blog/ostep-39-files-and-directories.md",
     "Excalidraw",
     "src/assets/image/image",
     "data-communications-and-networking-pdfs"
