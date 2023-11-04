@@ -46,5 +46,16 @@ Trunk는 (전화)국간 전송로(전화국-전화국)이다.
 Trunk line은 고속 전송로이다.  
 local loop은 그렇지 않다.
 
-- **local loop**는 subscriber telephone을 가장 가까운 end office에 연결하는 twisted-pair 케이블이다.
-- trunks는 <u>office 사이의 통신을 다루는 전송 매체</u>이다.
+- **local loop**는 subscriber telephone을 가장 가까운 end office에 연결하는 twisted-pair 케이블이다. (가입자 선로)
+- trunks는 <u>office 사이의 통신을 다루는 전송 매체(transmission media)</u>이다.
+
+## LATAs
+
+- 미국은 200개 이상의 local access transport areas(LATAs)로 나뉘었다.
+- Intra-LATA services
+  - **common carriers**(telephone companies)가 LATA 내에서 제공하는 서비스를 intra-LATA services라고 한다.
+- Inter-LATA services
+  - LATA 간의 서비스는 interexchange carriers(IXCs)가 담당한다.
+  - 이런 carriers는 long-distance companies라고 불리기도 한다.
+- 미국은 땅이 커서, 지역마다 통신 사업자가 다르게 커버한다. (AT&T, Verizon, Sprint 그 전화 회사만 200개)
+- 그 전화 회사를 common carrier라고 부른다. (telephone company)
