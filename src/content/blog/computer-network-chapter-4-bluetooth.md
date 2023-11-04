@@ -44,5 +44,7 @@ description: Bluetooth 공부한 거 정리
 - piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)** 라고 불리고, 나머지는 **secondary(slaves)** 라고 불린다.(하나는 primary, 나머지 7개는 secondary) (추가적으로 8대를 더 붙일 수 있다. 그렇게 하더라도, active한 station은 8개만 가능하다. 결국 동시에 가능한 거는 8개이다.)
 - 모든 secondary station들은 그들의 clock과 hopping sequence를 primary와 동기화한다.
 - piconet은 오직 하나의 primary station을 가질 수 있다.
-- primary와 secondary 사이의 통신은 1대1 또는 1대다가 될 수 있다.
+- primary와 secondary 사이의 통신은 1대1 또는 1대多가 될 수 있다.
 - piconet은 최대 7개의 secondary station을 가질 수 있지만, **추가로 8개의 secondary station이 parked station에 있을 수 있다.**
+- A secondary in a parked state cannot take part in commumcatlon until it is moved from the parked state.
+- **only eight statlons can be active in a plconet.**
