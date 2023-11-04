@@ -62,6 +62,8 @@ description: Bluetooth 공부한 거 정리
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699087517/image_hgbmyw.png)
 
+- Radio layer: 무선으로 쏘는 부분
+
 ## Radio Layer
 
 - Bluetooth device는 <u>저전력(low-power)이며 범위는 10m이다.</u>
