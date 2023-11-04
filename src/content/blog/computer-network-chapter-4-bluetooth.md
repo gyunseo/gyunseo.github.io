@@ -48,3 +48,4 @@ description: Bluetooth 공부한 거 정리
 - piconet은 최대 7개의 secondary station을 가질 수 있지만, **추가로 8개의 secondary station이 parked state에 있을 수 있다.**
 - parked state의 secondary station은 parked state로부터 이동될 때까지 통신에 참여할 수 없다.
 - **piconet에서 8개의 station만이 활성화될 수 있다.**
+  ![piconet](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699084869/image_po3pgh.png)
