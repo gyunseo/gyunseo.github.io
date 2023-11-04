@@ -97,3 +97,8 @@ description: Bluetooth 공부한 거 정리
 - 그러면서 동시에 주파수가 달라진다.($f0$~$f78$까지 있다.) (1초에 1600번을 hop한다.)
 
 ## Multiple-secondary Communication
+
+- 이 방법은 reservation 있는 poll/select 작업과 유사하다.
+- <u>primary station은 secondary station을 선택할 때도 poll합니다.</u>
+  - polled된 station은 프레임을 전송하기 위해 다음 time slot이 예약된다.
+- polled된 secondary station이 전송할 프레임이 없는 경우, 채널은 silent 상태가 된다.
