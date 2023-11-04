@@ -115,6 +115,20 @@ description: Bluetooth 공부한 거 정리
   - <u>패킷이 손상되면 재전송되지 않는다.</u>
   - SCO는 지연을 피하는 것이 가장 중요한 실시간 오디오에 사용된다.
   - 음악의 경우 데이터가 조금 깨져도 상관없고, 끊임 없이 듣는 것이 중요하기 때문에, SCO link로 통신한다.
-- **Asynchronous Connectionless Link (ACL)**
+- **Asynchronous Connection-Less(ACL) Link **
   - 지연 시간을 피하는 것보다 <u>데이터 무결성이 더 중요할 때</u> 사용된다.
   - 키보드의 경우 데이터 무결성이 중요하기 때문에 (타이핑한 대로 입력이 안된다면...), 조금 늦게 가도 에러가 안 나는 것이 중요하다. 그래서 ACL link로 통신한다.
+
+## Frame Format
+
+- 강의 내용 상으로는 참고만 하라고 했다.
+- A frame in the baseband layer can be one of three types: one-slot, three-slot, or flve-slot.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699120017/image_aclxlb.png)
+
+## L2CAP
+
+- **The Logicla Link Control and Adaptation Protocol**, 또는 **L2CAP**는 LAN에서 LLC sublayer과 거의 동일하다.
+- L2CAP은 multiplexing, segmentation 및 reassembly, QOS(Quality of Service), group management 등의 구체적인 임무를 수행한다.
+- ACL link에서 데이터 교환을 위해 사용되며, <u>SCO 채널은 L2CAP을 사용하지 않는다</u>.
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699120427/image_snamza.png)
