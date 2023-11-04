@@ -20,8 +20,9 @@ description: Bluetooth 공부한 거 정리
 
 - <u>A Bluetooth LAN은 ad hoc network이다.</u>
 
-  - formed spontaneously
-  - make a network called a piconet
+  - 네트워크는 자발적(spontaneously)으로 형성된다.
+
+  - 때때로 gadget이라고 불리는 장치들은 서로를 찾아서 **piconet**라고 불리는 네트워크를 만든다.
 
 - IEEE 802.15 statndard fines a
 
