@@ -7,7 +7,7 @@ tags:
   - Computer-Network
   - Computer-Science
   - WAN
-  - Telephone-Network
+  - Telephone-Networks
 description: Telephone networks
 ---
 
@@ -15,5 +15,5 @@ description: Telephone networks
 
 ## Telephone Networks
 
-- Telephone networks, which is referred to as the **plain old telephone system (POTS)** , use circuit switching.
-- The telephone network has several levels of switching offices such as end offices, tandem offices, and regional offices.
+- telephone networks는 **plain old telephone system (POTS)** 로 불리며, 회선 교환(circuit switching)을 사용한다.
+- telephone networks에는 end offices, tandem offices, regional offices와 같은 여러 레벨의 교환 오피스가 있다.
