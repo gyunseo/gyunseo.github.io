@@ -1,5 +1,5 @@
 ---
-title: Data Communications and Networking Chapter 4 LANs Bluetotth
+title: Chapter 4 Bluetooth
 pubDatetime: 2023-10-05T11:59:00Z
 featured: false
 draft: false
