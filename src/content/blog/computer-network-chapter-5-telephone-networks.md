@@ -42,3 +42,6 @@ description: Telephone networks
 또 그 선에서 선을 따라가면 혜화 전화국이 나온다.  
 혜화 전화국에 switch(교환기)가 있다.(end office)  
 end office와 전화기 사이 선을 local loop 혹은 subscriber(가입자) line(선로)이라고 한다.
+Trunk는 (전화)국간 전송로(전화국-전화국)이다.  
+Trunk line은 고속 전송로이다.  
+local loop은 그렇지 않다.
