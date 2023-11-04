@@ -41,7 +41,7 @@ description: Bluetooth 공부한 거 정리
 
 ## Piconets
 
-- piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)**라고 불리고, 나머지는 **secondary(slaves)**라고 불린다.
+- piconet은 최대 8개의 station을 가질 수 있으며, 그 중 하나는 **primary(master)**라고 불리고, 나머지는 **secondary(slaves)**라고 불린다.(하나는 primary, 나머지 7개는 secondary) (추가적으로 8대를 더 붙일 수 있다. 그렇게 하더라도, active한 station은 8개만 가능하다. 결국 동시에 가능한 거는 8개이다.)
 - all the secondary stations synchronize their clocks and 0PP1ng sequence with the primary.
 - lconet can have 01규y one prlmary station.
 - he commumcation between the primary and the secondaries
