@@ -38,3 +38,7 @@ description: Telephone networks
 그런데 전화 수요가 늘게 되면, 하나의 전자 switch로 전화를 감당할 수 없었고, 새로운switch를 두어서 해결했다.  
 그러나 계층을 두지 않고, 초기 telephone network의 전화기들 처럼 switch를 둔다면, 그때와 똑같이 mesh형태로 switch를 연결하는 사태가 발생하게 되기 때문에, 아래의 그림처럼 계층을 두었다.  
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699122869/image_qqjsgi.png)
+학교 사무실에 있는 전화선을 쫓아 가면 600주년기념관이 나온다.  
+또 그 선에서 선을 따라가면 혜화 전화국이 나온다.  
+혜화 전화국에 switch(교환기)가 있다.(end office)  
+end office와 전화기 사이 선을 local loop 혹은 subscriber(가입자) line(선로)이라고 한다.
