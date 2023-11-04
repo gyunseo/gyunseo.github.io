@@ -51,3 +51,7 @@ description: Bluetooth 공부한 거 정리
   ![piconet](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699084869/image_po3pgh.png)
 
 ## Scatternet
+
+- <u>piconet은 scatternet이라고 불리는 것을 형성하기 위해 결합될 수 있다.</u>
+- 하나의 piconet 내의 secondary station은 다른 piconet 내의 primary station이 될 수 있다.
+- 이 스테이션은(slave로서) 첫 번째 piconet의 primary station으로부터 메시지를 수신할 수 있고, primary station으로서 동작하여 두 번째 piconet의secondary들에게 전달할 수 있다.
