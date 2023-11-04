@@ -109,10 +109,12 @@ description: Bluetooth 공부한 거 정리
 
 ## Physical Links
 
-- Two types of links can be created between a primary and a secondary: SCO links and ACL links.
-- **Synchronous Connection-Oriented (SCO) link**
-  - It is used when <u>avoiding latency (delay in data delivery)</u> is more important than integrity (error-free delivery).
-  - <u>If a packet is damaged, it is never retransmitted.</u>
-  - SCO is used for real-time audio where avoiding delay is all-important.
+- primary station과 secondary station 사이에는 SCO link와 ACL link라는 두 가지 유형의 링크를 만들 수 있다.
+- **Synchronous Connection-Oriented(SCO) link**
+  - <u>지연 방지(데이터 전달 지연)</u>가 무결성(무오류 전달)보다 더 중요할 때 사용된다.
+  - <u>패킷이 손상되면 재전송되지 않는다.</u>
+  - SCO는 지연을 피하는 것이 가장 중요한 실시간 오디오에 사용된다.
+  - 음악의 경우 데이터가 조금 깨져도 상관없고, 끊임 없이 듣는 것이 중요하기 때문에, SCO link로 통신한다.
 - **Asynchronous Connectionless Link (ACL)**
-  - It is used when <u>data integrity is more important</u> than avoiding latency.
+  - 지연 시간을 피하는 것보다 <u>데이터 무결성이 더 중요할 때</u> 사용된다.
+  - 키보드의 경우 데이터 무결성이 중요하기 때문에 (타이핑한 대로 입력이 안된다면...), 조금 늦게 가도 에러가 안 나는 것이 중요하다. 그래서 ACL link로 통신한다.
