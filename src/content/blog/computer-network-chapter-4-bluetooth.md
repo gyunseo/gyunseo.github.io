@@ -49,3 +49,5 @@ description: Bluetooth 공부한 거 정리
 - parked state의 secondary station은 parked state로부터 이동될 때까지 통신에 참여할 수 없다.
 - **piconet에서 8개의 station만이 활성화될 수 있다.**
   ![piconet](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699084869/image_po3pgh.png)
+
+## Scatternet
