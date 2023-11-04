@@ -57,5 +57,10 @@ local loop은 그렇지 않다.
 - Inter-LATA services
   - LATA 간의 서비스는 interexchange carriers(IXCs)가 담당한다.
   - 이런 carriers는 long-distance companies라고 불리기도 한다.
-- 미국은 땅이 커서, 지역마다 통신 사업자가 다르게 커버한다. (AT&T, Verizon, Sprint 그 전화 회사만 200개)
+- 미국은 땅이 커서, 구역마다 통신 사업자가 다르게 커버한다. (AT&T, Verizon, Sprint 등등 전화 회사만 200개)
 - 그 전화 회사를 common carrier라고 부른다. (telephone company)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699124155/image_lwfwt0.png)
+
+760(국번, 혜화 전화국 교환기의 번호)-0671(학과 사무실 번호)
+이론적으로 하나의 국번에는 000~999번까지 가능하다.  
+그런데 실제로는 한 교환기가 여러 개의 국번을 갖고, 여러 개의 전화번호를 수용한다.
