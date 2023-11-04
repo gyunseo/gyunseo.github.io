@@ -18,6 +18,22 @@
                 "source": false
               }
             }
+          }
+        ]
+      },
+      {
+        "id": "28cf4ca4d3627043",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "115940006c972d0a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf"
+              }
+            }
           },
           {
             "id": "c4303b7171decd18",
@@ -160,12 +176,12 @@
   },
   "active": "7e6effa1f21d6934",
   "lastOpenFiles": [
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
+    "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/assets/Pasted Image 20231104173119_699.png",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "src/content/blog/computer-network-chapter-4-bluetooth.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
     "src/content/blog/ostep-40-file-system-implementation.md",

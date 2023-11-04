@@ -57,3 +57,12 @@ description: Bluetooth 공부한 거 정리
 - 이 스테이션은(slave로서) 첫 번째 piconet의 primary station으로부터 메시지를 수신할 수 있고, primary station으로서 동작하여 두 번째 piconet의secondary들에게 전달할 수 있다.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699086717/image_ym9fit.png)
 - 상기 그림처럼 오른쪽 Piconet에 있는 Secondary가 동그라민 친 station을 타고 왼쪽 Primary와 통신을 한다.(대신 많이 느리다.)
+
+## Bluetooth Layers
+
+- Bluetooth device는 <u>저전력(low-power)이며 범위는 10m이다.</u>
+  - 범위는 power-class-dependant이지만, 실제로는 $1m$에서 $100m$까지 다양하다.
+- Bluetooth는 $2.4-GHz$ ISM 대역을 각각 $1MHz$의 79개 채널로 분할하여 사용한다.
+- Bluetooth는 다른 디바이스 또는 다른 네트워크로부터의 간섭을 피하기 위해, physical layer에서 **frequency-hopping spread spectrum (FHSS)** 방법을 사용한다.
+- Bluetooth는 1초에 1600번 도약한다(hop).
+- bit를 signal로 변환하기 위해 bluetooth는 **GFSK(FSK with Gaussian bandwidth filtering)** 라는 정교한 버전의 FSK를 사용한다.
