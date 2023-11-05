@@ -140,3 +140,13 @@ local loop은 그렇지 않다.
   - A **CSU/DSU (Channel Service Unit/Data(or Digital) Service Unit)** is a digital-interface device used to connect a router to a digital circuit such as a T1 or T3 line.
   - **CSU/DSU**는 디지털 신호를 디지털 신호로 바꿔서 보낸다.(멀리 가도록 할 수 있게 line coding을 한다.)
     ![csu-dsu](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194053/image_lgoajh.png)
+
+## Dial-up Service
+
+- traditional telephone lines can carry frequencies between $300Hz$ and $3300Hz$, giving them a bandwidth of $3000Hz$.
+  - 너무 높은 이상한 소리를 수화기에 갖다 대면, 교환기에서 $300Hz$이하 $3300Hz$이상 주파수를 다 자른다. (수화기에 대고 노래를 틀면 음질이 안 좋은 것이 그 이유이다.)
+- All this range is used for transmitting volce.
+- However, the edges of this range are not used for data communications because of a higher degree of accuracy to ensure integrity in data signals.
+- <u>The effective bandwidth of a telephone line being used for data transmission is $2400Hz$, covering the range from $600Hz$ to $3000Hz$</u>.
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194469/image_utgyxf.png)
