@@ -150,5 +150,8 @@ local loop은 그렇지 않다.
 - <u>The effective bandwidth of a telephone line being used for data transmission is $2400Hz$, covering the range from $600Hz$ to $3000Hz$</u>.
 - 데이터 용으로 쓰려하니 600에서 3000정도만 쓸 수 있다. 안전하게 digital data를 전송하는 데에 쓰려면 600~3000이 효과적이다.(하기 그림 참고)  
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194469/image_utgyxf.png)
-- **Modem** stands for **modulator/demodulator**. - TELCO는 Telephone Company, 전화 회사 (KT, SKT) (탈코 아님 ㅋ) - A modulator creates a bandpass analog signal from binary data. - A demodulator recovers the binary data from the modulated signal.
-  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699195259/image_quz1yw.png)
+- **Modem** stands for **modulator/demodulator**.
+  - TELCO는 Telephone Company, 전화 회사 (KT, SKT)
+  - A modulator creates a bandpass analog signal from binary data.
+  - A demodulator recovers the binary data from the modulated signal.
+    ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699195259/image_quz1yw.png)
