@@ -66,3 +66,8 @@ local loop은 그렇지 않다.
 그런데 실제로는 한 교환기가 여러 개의 국번을 갖고, 여러 개의 전화번호를 수용한다.
 
 ## Points of Presence (POPs)
+
+- 여러 IXC는 **Point of Presence**(POP)라고 하는 **switching office**를 통해 inter-LATA service를 제공할 수 있다.
+- <u>POP은 통신 entity들 사이의 인위적인 분계점(demarcation) 또는 interface point이다.</u>
+  - telephone system에서 POP는 long-distance carrier가 서비스를 종료하고 local telephone network에 접속을 제공할 수 있는 장소이다.
+  - Internet에서 POP는 인터넷에 대한 액세스 포인트로서, <u>서로 다른 ISP가 mutual peering agreements에 의해 그들의 network 간에 Internet traffic을 교환</u>할 수 있게 하고, 이는 비용 없이 traffic을 교환할 수 있게 한다.
