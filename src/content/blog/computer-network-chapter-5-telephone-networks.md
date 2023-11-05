@@ -106,3 +106,21 @@ local loop은 그렇지 않다.
 - SP, STP, SCP는 외울 필요 X.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699192730/image_xpoxvs.png)
 - 상기 그림도 참고로만 볼 것.
+
+## Services provided by telephone networks
+
+- Analog switched service is the familiar **dial-up service**.
+  - With switched line, **dial-up line**, when the caller dials a number, the call is conveyed to a switch at the exchange.
+  - The switch connects the two lines for the duration of the call.
+- 전화기 수화기를 들면 뚜- 소리가 들린다.
+- 760-0672를 누르면 call information이 간다.
+- 전화를 걸 때마다 매번 연결되는 길이 달라질 수 있다. (전화 품질이 안 좋은 경우, 끊었다가 다시 걸면 품질이 좋아질 수 있는 이유가 이것때문이다.)
+- 그때 그때마다 선이 할당되는 서비스가 **dial-up service**, **dial-up line**
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699193202/image_bzzj3b.png)
+
+- An analog leased service offers customers the opportunity to lease a line, sometimes called a <u>leased(dedicated) line, that is permanently connected to another customer</u>.
+- 예를 들어, 남북한 직통 전화.
+- 임대해서 사용하는 선 (leased line)
+- 600주년 기념관과 수원성대까지 선이 연결돼 있다. 그 선은 KT가 깔아 놓은 것을 성대에서 매달 사용료를 내고 쓴다. 이것을 임대회선, leased line, 전용회선이라고 부른다.  
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699193333/image_e6z0fj.png)
