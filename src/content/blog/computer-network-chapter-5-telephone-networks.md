@@ -89,7 +89,13 @@ local loop은 그렇지 않다.
 - 결국 제어 정보를 주고 받는 것이 signaling이라고 한다.
   - There are **in-band** and **out-of-band signaling**.
 - In-band signaling is <u>the exchange of signaling (call control) information within the same channel that the telephone call itself is using</u>.
+
   - It is a an example of **Dial-tone multi-frequency (DTMF)**.
   - 데이터를 주고 받는 채널로, 제어 정보를 주고 받는 것을 말한다.
+  - 전화를 할 때, 다이얼을 누르는 소리가 같이 들린다. 이것이 데이터를 주고 받는 채널로 제어 정보를 주고 받는 것을 의미한다. (하기 그림 참고)
+    ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699188945/image_eiu97w.png)
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699188945/image_eiu97w.png)
+- These complex tasks resulted in the provision of a separate network for signaling.
+- **Out-of-band signaling** is the exchange of information in order to control a telephone call that is done <u>on a channel that is dedicated</u> for the purpose and separate from the channels used for the telephone call.
+  - Out-of-band signaling is used in **Signaling System #7 (SS7 or SSN7)**.
+- <u>The tasks of data transfer and signaling are separated in modern telephone networks</u>.
