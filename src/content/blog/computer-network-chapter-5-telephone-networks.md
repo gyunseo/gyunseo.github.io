@@ -135,4 +135,6 @@ local loop은 그렇지 않다.
   - The digital version ofan analog switched line
   - **Digital Service Unit (DSU)**
 - Digital Data Service (DDS)
-  - The digital version 0f analog leased line
+  - The digital version of analog leased line
+- **Leased lines** can be used for telephone, data, or Internet services.
+  - A **CSU/DSU (Channel Service Unit/Data(or Digital) Service Unit)** is a digital-interface device used to connect a router to a digital circuit such as a T1 or T3 line.
