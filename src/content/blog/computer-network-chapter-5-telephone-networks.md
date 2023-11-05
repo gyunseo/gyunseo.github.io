@@ -96,6 +96,13 @@ local loop은 그렇지 않다.
     ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699188945/image_eiu97w.png)
 
 - These complex tasks resulted in the provision of a separate network for signaling.
+- 사용자가 보낼 때는 in-band로 간다.
+- 국간 전송을 할 때에는 control information과 data를 가는 것은 channel을 따로 쓴다. (Out-of-band signaling)
+- 이때 쓰는 protocol이 **Signaling System #7**
 - **Out-of-band signaling** is the exchange of information in order to control a telephone call that is done <u>on a channel that is dedicated</u> for the purpose and separate from the channels used for the telephone call.
   - Out-of-band signaling is used in **Signaling System #7 (SS7 or SSN7)**.
 - <u>The tasks of data transfer and signaling are separated in modern telephone networks</u>.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699192664/image_eqtb8y.png)
+- SP, STP, SCP는 외울 필요 X.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699192730/image_xpoxvs.png)
+- 상기 그림도 참고로만 볼 것.
