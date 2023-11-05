@@ -90,3 +90,6 @@ local loop은 그렇지 않다.
   - There are **in-band** and **out-of-band signaling**.
 - In-band signaling is <u>the exchange of signaling (call control) information within the same channel that the telephone call itself is using</u>.
   - It is a an example of **Dial-tone multi-frequency (DTMF)**.
+  - 데이터를 주고 받는 채널로, 제어 정보를 주고 받는 것을 말한다.
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699188945/image_eiu97w.png)
