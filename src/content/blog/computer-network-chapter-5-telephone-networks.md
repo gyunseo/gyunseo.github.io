@@ -138,3 +138,5 @@ local loop은 그렇지 않다.
   - The digital version of analog leased line
 - **Leased lines** can be used for telephone, data, or Internet services.
   - A **CSU/DSU (Channel Service Unit/Data(or Digital) Service Unit)** is a digital-interface device used to connect a router to a digital circuit such as a T1 or T3 line.
+  - **CSU/DSU**는 디지털 신호를 디지털 신호로 바꿔서 보낸다.(멀리 가도록 할 수 있게 line coding을 한다.)
+    ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194053/image_lgoajh.png)
