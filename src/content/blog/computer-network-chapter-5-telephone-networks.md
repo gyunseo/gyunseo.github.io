@@ -151,9 +151,20 @@ local loop은 그렇지 않다.
 - 데이터 용으로 쓰려하니 600에서 3000정도만 쓸 수 있다. 안전하게 digital data를 전송하는 데에 쓰려면 600~3000이 효과적이다.(하기 그림 참고)  
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194469/image_utgyxf.png)
 - **Modem** stands for **modulator/demodulator**.
+
   - TELCO는 Telephone Company, 전화 회사, 통신 회사 (KT, SKT)
   - A modulator creates a bandpass analog signal from binary data.
   - A demodulator recovers the binary data from the modulated signal.
   - Telephone network에는 digital 신호가 갈 수 없으니, 사람 목소리처럼 analog 신호로 바꿔 줘야한다. 원격지에서는 analog를 digital로 바꿔줘야 한다.
   - digital -> analog -> digital (<u>mo</u>dulator + <u>dem</u>odulator)
-  - ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699195259/image_quz1yw.png)
+
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699195259/image_quz1yw.png)
+
+## Modem Standards
+
+- <u>V-series standards</u> published by the ITU-T
+- V.90 ($56K$ Modem)
+  - Traditional modems have a limitation on the data rate (maximum of $33.6Kbps$), as determined by the Shannon formula.
+  - Ⅵ90 modems provides a bit rate of $56Kbps$.
+  - These modems may be used only if one party is using digital signaling.
+  - <u>Downloading rate is a maximum of $56Kbps$, while the uploading rate can be a maximum of $33.6Kbps$</u>.
