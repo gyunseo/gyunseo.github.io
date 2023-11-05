@@ -148,7 +148,7 @@ local loop은 그렇지 않다.
 - All this range is used for transmitting volce.
 - However, the edges of this range are not used for data communications because of a higher degree of accuracy to ensure integrity in data signals.
 - <u>The effective bandwidth of a telephone line being used for data transmission is $2400Hz$, covering the range from $600Hz$ to $3000Hz$</u>.
-- 데이터 용으로 쓰려하니 600에서 3000정도만 쓸 수 있다. 안전하게 digital data를 전송하는 데에 쓰려면 600~3000이 효과적이다.(하기 그림 참고)  
+- 데이터 용으로 쓰려하니 $600Hz$에서 $3000Hz$정도만 쓸 수 있다. 안전하게 digital data를 전송하는 데에 쓰려면 $600Hz$~$3000Hz$이 효과적이다.(하기 그림 참고)  
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699194469/image_utgyxf.png)
 - **Modem** stands for **modulator/demodulator**.
 
@@ -163,8 +163,23 @@ local loop은 그렇지 않다.
 ## Modem Standards
 
 - <u>V-series standards</u> published by the ITU-T
-- V.90 ($56K$ Modem)
+- V.90 ($56K$ Modem) -> 이론적으로 최대 가능한 속도, 전화 네트워크에서
   - Traditional modems have a limitation on the data rate (maximum of $33.6Kbps$), as determined by the Shannon formula.
   - Ⅵ90 modems provides a bit rate of $56Kbps$.
   - These modems may be used only if one party is using digital signaling.
   - <u>Downloading rate is a maximum of $56Kbps$, while the uploading rate can be a maximum of $33.6Kbps$</u>.
+- 원래 변환을 하면 $33.6Kbps$가 최대인데, 변환이 없으면 $56Kbps$가 가능하다.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699195829/image_enfvo4.png)
+
+## Digital Subscriber Line
+
+- subsriber line 케이블 품질이 점점 좋아져서, 나머지 남는 주파수가 많이 남게 됐다.
+- 그래서 남는 주파수로 digital data를 보내보자해서 나온 것.
+- 전화선의 주파수를 다르게 써보자.
+- 음성이 나가는 부분과 디지털 신호가 나가는 부분을 따로 쓰자.
+- After traditional modems reached their peak data rate, telephone companies developed another technology, DSL to rovide higher-speed access tO the lnternet.
+- DSL technology is 01교 ofthe most pronusing for supporting igh-speed digital communication over the existing 10ca110이”.
+- DSL technology is a set oftechnologies, each differing ⅲ the first letter (ADSL, VDSL, HDSL, and SDSL).
+- The set is often referred to as xDSL.
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699196115/image_rqrdnc.png)
