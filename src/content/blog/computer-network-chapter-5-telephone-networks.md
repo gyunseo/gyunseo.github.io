@@ -121,6 +121,18 @@ local loop은 그렇지 않다.
 
 - An analog leased service offers customers the opportunity to lease a line, sometimes called a <u>leased(dedicated) line, that is permanently connected to another customer</u>.
 - 예를 들어, 남북한 직통 전화.
-- 임대해서 사용하는 선 (leased line)
-- 600주년 기념관과 수원성대까지 선이 연결돼 있다. 그 선은 KT가 깔아 놓은 것을 성대에서 매달 사용료를 내고 쓴다. 이것을 임대회선, leased line, 전용회선이라고 부른다.  
+- 임대해서 사용하는 선 (**leased line**)
+- 600주년 기념관과 수원성대까지 선이 연결돼 있다. 그 선은 KT가 깔아 놓은 것을 성대에서 매달 사용료를 내고 쓴다. 이것을 임대회선, **leased line**, 전용회선이라고 부른다.  
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699193333/image_e6z0fj.png)
+
+## Digital Services
+
+- 선에 아날로그 신호를 쏘면 아날로그 신호가 가는 것이고, 디지털 신호를 쏘면 디지털 신호가 간다. 선 자체에는 아무런 의미가 없다. (품질의 차이가 존재할 뿐이다.)
+- 아날로그에 쓰이는 선 따로 있고, 디지털 신호에 쓰이는 선이 따로 있는 것이 아니다.
+- 그래서 기존에 깔아 놓은 선을 이용해 디지털 통신을 하자.
+- 그런데 디지털 신호들이 멀리 가지 못했다. 멀리 가도록 특별한 장비를 이용하고자 했다. 그러면서 나온 장비들이 DSU, CSU이다.
+- Switched/56 service
+  - The digital version ofan analog switched line
+  - **Digital Service Unit (DSU)**
+- Digital Data Service (DDS)
+  - The digital version 0f analog leased line
