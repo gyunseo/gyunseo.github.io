@@ -75,3 +75,10 @@ local loop은 그렇지 않다.
   - common carrier: telephone company
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699188202/image_tta6di.png)
+
+## Signaling
+
+- Signaling means <u>the information exchange concerning the establishment and control of a connection and the management of the network</u>, in contrast to user information transfer.
+  - There are **in-band** and **out-of-band signaling**.
+- In-band signaling is <u>the exchange of signaling (call control) information within the same channel that the telephone call itself is using</u>.
+  - It is a an example of **Dial-tone multi-frequency (DTMF)**.
