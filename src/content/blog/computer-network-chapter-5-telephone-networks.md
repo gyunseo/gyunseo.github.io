@@ -86,6 +86,7 @@ local loop은 그렇지 않다.
 - 760-0672로 가야 하려면 어떻게 해야되지? 이 정보를 주고 받는 것은 data가 아니다.
 - 전화 수화기를 들었을 때, 여보세요, 안녕하세요가 데이터이다.
 - 유저 인포메이션을 보내기 전에 연결을 설정하고, control하는 정보를 주고 받는 것 혹은 call transfer도 포함한다.
+- 결국 제어 정보를 주고 받는 것이 signaling이라고 한다.
   - There are **in-band** and **out-of-band signaling**.
 - In-band signaling is <u>the exchange of signaling (call control) information within the same channel that the telephone call itself is using</u>.
   - It is a an example of **Dial-tone multi-frequency (DTMF)**.
