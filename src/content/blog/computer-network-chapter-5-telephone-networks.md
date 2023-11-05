@@ -79,6 +79,13 @@ local loop은 그렇지 않다.
 ## Signaling
 
 - Signaling means <u>the information exchange concerning the establishment and control of a connection and the management of the network</u>, in contrast to user information transfer.
+- 연결을 설정하고, 연결을 제어하는 것에 대한 정보를 주고 받는 것
+- 네트워크 관리하는 데에 사용되는 정보를 주고 받는 것
+- 유저 인포메이션 transfer가 아니다.
+- 760-0672로 전화를 걸었을 때, 그 정보가 교환기로 간다.
+- 760-0672로 가야 하려면 어떻게 해야되지? 이 정보를 주고 받는 것은 data가 아니다.
+- 전화 수화기를 들었을 때, 여보세요, 안녕하세요가 데이터이다.
+- 유저 인포메이션을 보내기 전에 연결을 설정하고, control하는 정보를 주고 받는 것 혹은 call transfer도 포함한다.
   - There are **in-band** and **out-of-band signaling**.
 - In-band signaling is <u>the exchange of signaling (call control) information within the same channel that the telephone call itself is using</u>.
   - It is a an example of **Dial-tone multi-frequency (DTMF)**.
