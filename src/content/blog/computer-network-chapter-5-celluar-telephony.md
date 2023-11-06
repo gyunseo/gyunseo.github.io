@@ -221,4 +221,4 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - Smooth handoff across heterogeneous networks.
   High QoS for next generation multimedia support.
 - Interoperability with existing wireless standards
-- All IP, packet-switched. networks.
+- **All IP**, <u>packet-switched. networks</u>.
