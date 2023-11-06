@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/satellite-network.md",
+                "file": "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/satellite-network.md",
+                "file": "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/satellite-network.md",
+                "file": "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/satellite-network.md"
+                "file": "src/content/blog/computer-network-chapter-5-celluar-telephony.md"
               }
             }
           }
@@ -177,6 +177,7 @@
   },
   "active": "115940006c972d0a",
   "lastOpenFiles": [
+    "src/content/blog/satellite-network.md",
     "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
     "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "src/content/blog/Untitled.md",
@@ -213,7 +214,6 @@
     "src/content/blog/create-ssh-key-for-github.md",
     "src/content/blog/convert-md-to-pdf-with-pandoc-on-linux.md",
     "src/content/blog/change-apt-get-source-server.md",
-    "src/content/blog/add-isso-comment-to-blog.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
