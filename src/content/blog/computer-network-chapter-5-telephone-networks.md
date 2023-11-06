@@ -187,6 +187,8 @@ local loop은 그렇지 않다.
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699196115/image_rqrdnc.png)
 
 - 대역을 똑같이 나누지 않고, 비대칭으로 나눈다.
+- 컴퓨터에서는 ADSL modem을 사용해서 이용했다.
+- 전화국에서는 **DSLAM(Digital subscriber line access multiplexer)** 을 이용해서, 아날로그는 뽑아서 전화선으로 넘기고, 나머지는 디지털을 뽑아서 인터넷으로 보내줬다.
 - The service is <u>not suitable</u> for business customers who need a large bandwidth in both directions.
 - ADSL uses the existmg local loop.
 - The twisted-pair local loop is actually capable of handling bandwidths up to $1.1 MHz$.
@@ -194,7 +196,7 @@ local loop은 그렇지 않다.
   - Factors such as the <u>distance</u> between the residence and the switching office, the <u>size of the cable</u>, the <u>signaling</u> used, and so on affect the bandwidth.
 - <u>The data rate of ADSL is not fixed</u>; it changes based on the condition and type of the local loop cable.
 
-Actual bit rate
+- Actual bit rate
 
 > Because ofthe high signal/noise rati0, the actual bit rate is much
 > lower.
