@@ -27,7 +27,7 @@ description: Cable Networks
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699263699/image_tnwrz1.png)
 - receiving antenna로 깨끗한 방송을 받는다.
 - head end에서 동축 케이블(coaxial cable)로 받는다.
-- utp 케이블보다 bandwidth가 넓어서, 화질이 더 좋다. 그래서 동축 케이블로 전파를 쏜다.
+- utp 케이블보다 동축 케이블이 bandwidth가 넓어서, 화질이 더 좋다. 그래서 동축 케이블로 전파를 쏜다.
 - 근데 동축 케이블로 쏘면 멀리 못간다.
 - 증폭기(amplifier)를 달아서 멀리 보낸다.
 - TV를 잘 보기 위해서 꾸민 네트워크이다.
@@ -45,3 +45,12 @@ description: Cable Networks
 - **Hybrid fiber-coaxial (HFC)** network uses a combination of fiber-optic and coaxial cable.
 - **The regional cable head (RCH)** normally serves up to 400,000 subscribers.
 - The RCHs feed the **distribution hubs**, each of which serves up to 40,000 subscribers.
+- 그러다가 여기서 인터넷을 쓸 수 있도록 할 수 없을까?
+
+## Cable TV for Data Transfer
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699264738/image_hwg3yh.png)
+
+- The coaxial cable has a bandwidth that ranges from 5 to 750MHz.
+  - The cable company has divided this bandwidth into three bands.
+  - Each TV channel occupies 6 MHz, this can accommodate more than 80 channels.
