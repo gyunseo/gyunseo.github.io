@@ -122,7 +122,7 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 상기 그림에서
 
-- Each band is $25MHz$, made of 832 $30kHz$ analog channels.
+- Each band is $25MHz$, made of **832** $30kHz$ analog channels.
 - 이론상 **832대**가 동시에 통화가 가능하다.
 - 채널을 할당해 주고, 그것으로 소통한다.
 - 원래 목적이 subscriber line을 대체하는 것이라, $300Hz$~$3300Hz$ 사이의 사람 목소리 주파수 대역이 $3kHz$라 그리 설정했다.
@@ -131,6 +131,10 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 ## Second Generation (2G)
 
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699298174/image_odfors.png)
+
+- the second generation was mainly <u>designed for digitized voice</u>.
+
 - IS-136 D-AMPS
 - GSM
 - IS-95 CDMA
@@ -138,32 +142,49 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 ### D-AMPS
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082325233.jpeg)
-digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌다.
+
+- digital로 변환하면서 기존에 비해 최대 3배 수용이 가능해졌다.
+- 832개의 채널을 하나 뽑아서, 3대를 연결한다.
+- time division multiple access (TDMA)를 사용해서 3배 수용이 가능해졌다.
+- The evolution of the analog AMPS into a digital system is digital AMPS.
+- D-AMPS uses the same bands and channels as AMPS.
+- D-AMPS, or IS-136, is a di ital cellular hone s stem usingTDMA and FDMA.
 
 ### GSM
 
-- Global System for Mobile Communcation
+- **Global System for Mobile Communcation** (유럽 표준)
 - reuse factor: 3
-
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082403892.jpeg)
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082424305.jpeg)
-GSM은 8명이 들어올 수 있다.
+- The Global System for Mobile Communication (GSM) is a
+  European standard.
+  The aim was to replace a number of incompatible 1G
+  technologies.
+- Because of the complex error correction mechanism, GSM allows a reuse factor as low as 3.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082403892.jpeg)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082424305.jpeg)
+- GSM은 8명이 들어올 수 있다.
+- $25MHz$ 채널을 **124개**의 채널로 나누고, 한 채널은 $200kHz$이다.
+- 한 채널에 8명이 들어 온다.
 
 내부 프레임 구조:
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082457601.jpeg)
 
 ### IS-95
 
-- Interim Standaard 95, based on CDMA and DSSS
-- GPS 지원
-- pilot channel sends a continuous stream of 1s to mobile station
+-
+- Interim Standaard 95, based on CDMA and DSSS (Direct Sequence Spread Spectrum)
+- 이때 부터 GPS 지원
+- **Pilot channel** sends a continuous stream of 1s to mobile station
+- 디지털 통신이 가능했다.
 - IS-95 defines two data rate sets
   - first set: 9600, 4800, 2400, 1200bps
   - second set: 14400, 7200, 3600, 1800bps
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082584604.jpeg)
 
-- 휴대폰 ESN으로 사용자 식별 (이거와 음성을 섞어 채널로 쏜다.)
+- 휴대폰 **ESN(electornic serial number)** 으로 사용자 식별 (이거와 음성을 섞어 채널로 쏜다.)
+- 20개의 채널이 있다. 한 채널에 64명의 사용자를 수용할 수 있었다.
+- 음성은 3kHz로 가정한다.
+- 음성과
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082662309.jpeg)
 - 받을 때에도 ESN이 관련된다.
 
