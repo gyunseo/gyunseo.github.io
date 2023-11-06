@@ -107,23 +107,27 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699297762/image_cb0qj4.png)
 
+- 와이브로는 지금 거의 사용되지 않음
+
 ## First Generation
 
+- subscriber line을 없애서 통신하려고 나온 것.
 - it was designed for voice communication using analog signals.
-- Advanced Mobile Phone System (AMPS)
-  - it uses FMDA to separate channels in a link
-  - AMPS operates in the 800MHz band
+- **Advanced Mobile Phone System** (AMPS)
+  - it uses **FDMA(Frequency Division Multiple Access)** to separate channels in a link
+  - AMPS operates in the $800MHz$ band
   - the system uses two separate analog channels for forward and reverse.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697081996594.jpeg)
 
 상기 그림에서
-Each band is 25 MHz,
-made of 832 30-kHz analog channels.
-이론상 832대가 동시에 통화가 가능하다.
-채널을 할당해 주고, 그것으로 소통한다.
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082165826.jpeg)
+- Each band is $25MHz$, made of 832 $30kHz$ analog channels.
+- 이론상 **832대**가 동시에 통화가 가능하다.
+- 채널을 할당해 주고, 그것으로 소통한다.
+- 원래 목적이 subscriber line을 대체하는 것이라, $300Hz$~$3300Hz$ 사이의 사람 목소리 주파수 대역이 $3kHz$라 그리 설정했다.
+- frequency modulation이라는 것을 사용하면, 폭이 $30kHz$로 늘어난다.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082165826.jpeg)
 
 ## Second Generation (2G)
 
