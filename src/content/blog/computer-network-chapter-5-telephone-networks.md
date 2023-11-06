@@ -188,7 +188,7 @@ local loop은 그렇지 않다.
 
 - 대역을 똑같이 나누지 않고, 비대칭으로 나눈다.
 - 컴퓨터에서는 ADSL modem을 사용해서 이용했다.
-- 전화국에서는 **DSLAM(Digital subscriber line access multiplexer)** 을 이용해서, 아날로그는 뽑아서 전화선으로 넘기고, 나머지는 디지털을 뽑아서 인터넷으로 보내줬다.
+- 전화국에서는 **DSLAM(Digital subscriber line access multiplexer)** 을 이용해서, voice 대역을 뽑아서 전화 네트워크로 넘기고, 나머지 upstream, downstream 대역을 뽑아서 인터넷으로 보내줬다.
 - The service is <u>not suitable</u> for business customers who need a large bandwidth in both directions.
 - ADSL uses the existmg local loop.
 - The twisted-pair local loop is actually capable of handling bandwidths up to $1.1 MHz$.
@@ -203,12 +203,16 @@ local loop은 그렇지 않다.
 
 ## Other DSL Technologies
 
-- HDSL대igh-bit-rate DigitaI Subscriber Line)
-- lt was designed as an alternatlve tO the T-I line.
-- lt is less susceptible t0 attenuatlon and gets more length.
-- SDSL(Symmetric DigitaI Subscriber Line)
-- provides full-duplex symmetric commumcatlon supportmg up to 768Kbps ⅲ each direction.
-- VDSL(Very-high-bit-rate DigitaI Subscriber Line)
-- lt is an alternative approach that is similar tO ADSL.
-- lt uses coaxial fiber-opfic, or twisted-pair cable for sh011 distances.
-- provides 25 to 55Mbps downstream and 3.2Mbps upstream normally.
+- **HDSL(High-bit-rate Digital Subscriber Line)**
+
+  - It was designed as an alternatlve to the T-1 line.
+  - It is less susceptible to attenuation and gets more length.
+
+- **SDSL(Symmetric Digital Subscriber Line)**
+
+  - It provides full-duplex symmetric commumcation supporting up to $768Kbps$ in each direction.
+
+- **VDSL(Very-high-bit-rate Digital Subscriber Line)**
+  - It is an alternative approach that is similar to ADSL.
+  - It uses coaxial, fiber-opfic, or twisted-pair cable for short distances.
+  - It provides $25Mbps$ to $55Mbps$ downstream and $3.2Mbps$ upstream normally.
