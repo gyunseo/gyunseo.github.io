@@ -137,3 +137,76 @@ the system.
 - STS, OC는 SONET에서 사용하는 것.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699267465/image_qqdljv.png)
 - STS-1, OC-1의 기본 속도 하나만 기억하면 된다.
+- 혜화성대와 수원성대가 연결된 네트워크가 2.5Gbps가 하면 STM-16이라고 생각하면 된다.
+
+## ATM
+
+- Asynchronous Transfer Mode (ATM) is the cell relay protocol
+  designed by the ATM Forum and adopted by the ITU-T.
+- Design Goals
+  Foremost is the need for a transmission system to optimize the
+  use of high-data-rate transmission media, in particular optical
+  fiber.
+  The system must interface with existing systems and provide
+  wide area interconnectivity.
+  The design must be implemented inexpensively.
+  The new system must be able to work with and support the
+  existing telecommunications hierarchies.
+  The new system must be connection-oriented to ensure accurate
+  and predictable delivery.
+  It is to move as many of the functions to hardware as possible (for
+  speed).
+- ATM은 거의 사용하지 않는다.
+- cell relay protocol이다.
+- ATM이 나오기 전의 WAN 네트워크는 대부분 구리선으로 연결돼 있었다.
+- 그러다가 광네트워크가 발전을 하게 되고, SONET과 SDH와 같은 것들이 나오게 됐다.
+- 광통신을 이용한 네트워크이 구성이 됐는데, 그 위에 올라가 있는 protocol들은 구리선 위에서 썼던 것들을 사용했다.
+- 광전송에 적합한 protocol을 만들어 보자.
+- 광케이블은 구리선에 비해 에러가 거의 나지 않는다는 것이다.
+- 그에 비해 구리선은 에러 복구하는 것에 프로토콜들이 동작을 했다.
+- 그래서 이에 적합한 프로토콜을 만들어보자해서 나온 것이다.
+- 기존의 프로토콜과의 호환성도 유지하며...
+
+## Problems
+
+- As networks become more complex, the information that must
+  be carried in the header becomes more extensive.
+- Large header has inefficiency.
+  To improve utilization, some protocols provide variable frame
+  sizes to users.
+- Mixed network traffic
+  The variety of frame sizes makes traffic unpredictable.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699268024/image_syoyyq.png)
+- 프로토콜에 이것 저것을 넣다 보니, header가 커졌다.
+- 데이터를 전송하는 데에 있어 overhead로 작용한다.
+- 데이터가 상대적으로 작아기게 됐다.
+- 트래픽이 믹스되면 문제가 더 커졌다. (트래픽이 큰 것이 들어오면, 그것을 처리하느라 빨리 처리할 수 있는 작은 트래픽이 너무 나중에 처리되는 문제가 생겼다.)
+
+## Cell Networks
+
+- A cell is a small data unit of fixed size.
+- A cell network can handle real-time transmissions.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699268144/image_jpcggb.png)
+- 그럼 그렇게 하지말고 fixed size로 자잘하게 자르자.
+- ethernet frame은 가변이다.
+
+## Cells
+
+- 이에 반해 ATM은 fixed size로 하겠다.
+- A cell is only 53 bytes long with 5 bytes allocated to header
+  and 48 bytes carrying payload.
+- 헤더는 5B, Payload는 48B이다. (무조건 53B 작아도 더미데이터를 넣어서라도 53B)
+- 그래서 ATM cell relay network이다.
+- 그런데 아무도 안 쓴다. (TCP/IP 천하)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699268288/image_aex5rj.png)
+
+## ATM Layers
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699268473/image_olglvl.png)
+
+- physical layer는 SONET과 SDH를 사용한다.
+- ATM layer에서는 53B cell로 만든다.
+- AAL layer는 올라가는 application의 종류에 따라 어떤 종류의 AAL을 쓰는지 정해주는 adaption을 해준다.
+- 위 3개가 우리가 기억해야 할 것. (근데 지금 안 쓴다.)
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699268596/image_oq7zdr.png)
