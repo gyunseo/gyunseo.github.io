@@ -83,13 +83,19 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - break before make connection
   (통화가 안될 가능성이 생김)
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699270325/image_uacqox.png)
+- hard handoff는 위험 부담이 있다.
+- 새로 connection을 맺으려는 BS에 더 이상 선이 없어서, 수용이 안될 수도 있다.
 
 - Soft Handoff
-
-- make before break
+  A mobile station can communicate with two base stations at the
+  same time. During handoff, a station may continue with the new
+  base station before breaking from the old one. (a "make before
+  break" connection)
+- make connection before break
   (중간 구역에서는 양다리를 걸친다.)
 - 딴 구역으로 들어가는 순간, 이전의 통신을 끊는다.
   현재는 대부분 Soft Handoff를 사용한다.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699270441/image_qmujo3.png)
 
 ## Roaming
 
