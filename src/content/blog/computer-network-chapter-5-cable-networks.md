@@ -94,3 +94,46 @@ Cable Television Laboratories, also called CableLabs, is a non-
 profit research and development consortium.
 DOCSISI.O was ratified as ITU-T J. 112 and ITU-T J.222 for
 DOCSIS 3.0.
+
+- 케이블 네트워크에서 인터넷을 쓰기 위한 국제 표준이다.
+- <u>DOCSIS defines all the protocols necessary to transport data from a CMTS to a CM.</u>
+- 최근 표준은 4.0이고, 속도는 $10Gbps$ (downstream), $6Gbps$ (upstream)
+
+## SONET
+
+The ANSI standard is called the **Synchronous Optical
+Network (SONET)**.
+The ITU-T standard is called the **Synchronous Digital
+Hierarchy (SDH)**.
+SONET/SDH is a **synchronous network**.
+A single clock is used to handle the timing of transmissions.
+Network-wide synchronization adds a level of predictability to
+the system.
+
+- 대부분 SONET/SDH 이렇게 병행 표기 돼 있다.
+- 동기식 네트워크 synchronous network이다.
+- 전화 네트워크 동기식이 아니다.
+- 전송을 빨리 하기 위해서 동기식 네트워크가 개발됐다.
+- 네트워크에서 노드들이 갖고 있는 시각이 모두 동일하다.
+- SONET은 미국(북미) 표준이고, SDH는 국제표준이다.
+- 근데 서로 호환이 되긴한다.
+
+## Architecture (signals, devices, and connections)
+
+- SONET defines a hierarchy of electrical signaling levels called
+  synchronous transport signals (STSs).
+  STS is the basic unit of framing in SONET.
+- The corresponding optical signals are called optical carriers
+  (OCs).
+  OC levels describe the conceptual and physical
+  specifications of the links required to support each level of
+  signaling.
+- SDH specifies a similar system called a synchronous transport
+  module (STM).
+
+- STS는 속도를 내려고 할 때 소넷에서, msg frame을 만든다. frame의 구조를 STS라고 한다. (frame format)
+- 이거(STS)를 광신호로 어떻게 보낼 것인가 하는 것을 OC(optical carrier)라고 한다.
+- STM은 SDH에서 사용하는 것.
+- STS, OC는 SONET에서 사용하는 것.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699267465/image_qqdljv.png)
+- STS-1, OC-1의 기본 속도 하나만 기억하면 된다.
