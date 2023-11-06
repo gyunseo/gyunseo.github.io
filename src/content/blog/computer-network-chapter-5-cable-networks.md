@@ -51,9 +51,9 @@ description: Cable Networks
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699264738/image_hwg3yh.png)
 
-- The coaxial cable has a bandwidth that ranges from 5 to 750MHz.
+- The coaxial cable has a bandwidth that ranges from $5MHZ$ to $750MHz$.
   - The cable company has divided this bandwidth into three bands.
-  - Each TV channel occupies 6 MHz, this can accommodate more than 80 channels.
+  - Each TV channel occupies $6MHz$, this can accommodate more than 80 channels.
 - 어차피 TV 방송을 하는 곳을 정해져 있으니, 나머지 대역폭을 Data Transfer를 위해 사용하자.
 - DSL과 똑같이 선을 그대로 이용하면서, 인터넷을 사용하자.
 - Downstream data band is divided into $6MHz$ channels
@@ -78,3 +78,5 @@ description: Cable Networks
 ## CMTS(Cable Modem Transmission System)
 
 - **a cable modem termination (or transmission) system or CMTS** is equipment typically found in a cable company's headend, or at cable company hubsite and is used to **provide high speed data services**, such as cable internet or VoIP, to cable subscribers.
+- ADSL modem과 CM이 비슷하다. DSLAM과 CMTS가 비슷하다.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699265625/image_oglnao.png)
