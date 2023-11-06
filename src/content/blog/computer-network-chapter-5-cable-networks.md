@@ -54,3 +54,23 @@ description: Cable Networks
 - The coaxial cable has a bandwidth that ranges from 5 to 750MHz.
   - The cable company has divided this bandwidth into three bands.
   - Each TV channel occupies 6 MHz, this can accommodate more than 80 channels.
+- 어차피 TV 방송을 하는 곳을 정해져 있으니, 나머지 대역폭을 Data Transfer를 위해 사용하자.
+- DSL과 똑같이 선을 그대로 이용하면서, 인터넷을 사용하자.
+- Downstream data band is divided into $6MHz$ channels
+  - Theoretically, downstream data can be received at $30Mbps$. The standard specifies only $27Mbps$.
+- Upstream data can be sent at $12Mbps$.
+
+## Sharing
+
+- Upstream Sharing
+  - The upstream data bandwidth is only $37MHz$.
+  - There are only 6 $6MHz$ channels available.
+  - **Time sharing** is used.
+    - If one subscriber want to send data, she or he contends for the channel with others who want access; the subscriber must wait until the channel is available.
+- Downstream Sharing
+  - The downstream band has 33 channels of $6MHz$.
+
+## CM(Cable Modem)
+
+- A cable modem is a type of modem that provides access to a data signal sent over the cable television infrastructure.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699265460/image_ljkqpk.png)
