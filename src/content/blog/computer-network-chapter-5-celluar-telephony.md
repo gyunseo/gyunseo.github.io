@@ -184,7 +184,7 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - 휴대폰 **ESN(electornic serial number)** 으로 사용자 식별 (이거와 음성을 섞어 채널로 쏜다.)
 - 20개의 채널이 있다. 한 채널에 64명의 사용자를 수용할 수 있었다.
 - 음성은 3kHz로 가정한다.
-- 음성과
+- 음성과 ESN을 섞어서 채널로 쏘는 구조였다.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082662309.jpeg)
 - 받을 때에도 ESN이 관련된다.
 
