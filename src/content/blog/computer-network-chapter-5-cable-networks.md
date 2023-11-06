@@ -32,9 +32,16 @@ description: Cable Networks
 - 증폭기(amplifier)를 달아서 멀리 보낸다.
 - TV를 잘 보기 위해서 꾸민 네트워크이다.
 - 증폭해서 가다 보니, 화질이 안 좋아진다.
-- 현족하는 매체 중에 noise가 가장 안 끼는 것이 광케이블이다.
+
+## HFC Network
+
+- 현존하는 매체 중에 noise가 가장 안 끼는 것이 광케이블이다.
+- 광 케이블을 쓰면 빛으로 가면 화질도 깨끗하고, 거리도 멀리 간다.
 - 그래서 광케이블로 대체한다.  
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699263878/image_gemveo.png)
 - 그러면 TV에서도 광케이블로 바꿔야 하는데, 그것을 바꾸려는 가정집은 아무도 없다.
 - 그래서 동네 근처까지만 광케이블로 오고, 집에서만 동축 케이블을 쓰게 된다.
 - 광 케이블도 쓰고, 동축 케이블도 쓴다하여, **Hybrid fiber-coaxial network (HFC network)** 가 된다.
+- **Hybrid fiber-coaxial (HFC)** network uses a combination of fiber-optic and coaxial cable.
+- **The regional cable head (RCH)** normally serves up to 400,000 subscribers.
+- The RCHs feed the **distribution hubs**, each of which serves up to 40,000 subscribers.
