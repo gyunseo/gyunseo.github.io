@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2ff3ca3161a8d90c",
+        "id": "28cf4ca4d3627043",
         "type": "tabs",
         "children": [
           {
-            "id": "47c55248d8538a96",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "a0c4853a4bd318f5",
+            "id": "115940006c972d0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,28 +18,15 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "22cfd3bd016c5b24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "28cf4ca4d3627043",
+        "id": "d332b610cae8c430",
         "type": "tabs",
         "children": [
           {
-            "id": "115940006c972d0a",
+            "id": "85452d4ad04e289f",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -68,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,15 +174,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0c4853a4bd318f5",
+  "active": "115940006c972d0a",
   "lastOpenFiles": [
-    "src/content/blog/Untitled.md",
-    "src/content/blog/computer-network-chapter-5-telephone-networks.md",
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
-    "src/content/blog/computer-network-chapter-4-bluetooth.md",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
+    "src/content/blog/computer-network-chapter-5-telephone-networks.md",
     "src/content/blog/celluar-telephony.md",
+    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
+    "src/content/blog/Untitled.md",
+    "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "src/assets/Pasted Image 20231104173119_699.png",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "src/content/blog/computer-network-chapter-4.md",
@@ -239,7 +215,6 @@
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
-    "src/content/blog/ubuntu-hangul-keyboard.md",
     "ostep-pdfs/39_interlude-file-directory.pdf",
     "Excalidraw",
     "src/assets/image/image",

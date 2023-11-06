@@ -173,13 +173,42 @@ local loop은 그렇지 않다.
 
 ## Digital Subscriber Line
 
-- subsriber line 케이블 품질이 점점 좋아져서, 나머지 남는 주파수가 많이 남게 됐다.
-- 그래서 남는 주파수로 digital data를 보내보자해서 나온 것.
+- subscriber line 케이블 품질이 점점 좋아져서, 나머지 남는 주파수가 많이 남게 됐다.
+- 그래서 남는 주파수로 digital data를 보내 보자해서 나온 것이다.
 - 전화선의 주파수를 다르게 써보자.
 - 음성이 나가는 부분과 디지털 신호가 나가는 부분을 따로 쓰자.
-- After traditional modems reached their peak data rate, telephone companies developed another technology, DSL to rovide higher-speed access tO the lnternet.
-- DSL technology is 01교 ofthe most pronusing for supporting igh-speed digital communication over the existing 10ca110이”.
-- DSL technology is a set oftechnologies, each differing ⅲ the first letter (ADSL, VDSL, HDSL, and SDSL).
-- The set is often referred to as xDSL.
+- After traditional modems reached their peak data rate, telephone companies developed another technology, DSL to provide higher-speed access to the Internet.
+- DSL technology is one of the most promising for supporting high-speed digital communication <u>over the existing local loops</u>.
+- DSL technology is a set of technologies, each differing in the first letter (**ADSL**, **VDSL**, **HDSL**, and **SDSL**).
+- The set is often referred to as **xDSL**.
+
+## ASDL (Asymmetrical DSL)
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699196115/image_rqrdnc.png)
+
+- 대역을 똑같이 나누지 않고, 비대칭으로 나눈다.
+- The service is <u>not suitable</u> for business customers who need a large bandwidth in both directions.
+- ADSL uses the existmg local loop.
+- The twisted-pair local loop is actually capable of handling bandwidths up to $1.1 MHz$.
+  - $1.1MHz$ is Just the theoretical bandwidth.
+  - Factors such as the <u>distance</u> between the residence and the switching office, the <u>size of the cable</u>, the <u>signaling</u> used, and so on affect the bandwidth.
+- <u>The data rate of ADSL is not fixed</u>; it changes based on the condition and type of the local loop cable.
+
+Actual bit rate
+
+> Because ofthe high signal/noise rati0, the actual bit rate is much
+> lower.
+> Upstream : 64Kbps to 1 Mbps
+> Downstream .• 500 Kbps to 8 Mbps
+
+## Other DSL Technologies
+
+- HDSL대igh-bit-rate DigitaI Subscriber Line)
+- lt was designed as an alternatlve tO the T-I line.
+- lt is less susceptible t0 attenuatlon and gets more length.
+- SDSL(Symmetric DigitaI Subscriber Line)
+- provides full-duplex symmetric commumcatlon supportmg up to 768Kbps ⅲ each direction.
+- VDSL(Very-high-bit-rate DigitaI Subscriber Line)
+- lt is an alternative approach that is similar tO ADSL.
+- lt uses coaxial fiber-opfic, or twisted-pair cable for sh011 distances.
+- provides 25 to 55Mbps downstream and 3.2Mbps upstream normally.
