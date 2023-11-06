@@ -141,7 +141,7 @@ the system.
 
 ## ATM
 
-- Asynchronous Transfer Mode (ATM) is the cell relay protocol
+- **Asynchronous Transfer Mode (ATM)** is the cell relay protocol
   designed by the ATM Forum and adopted by the ITU-T.
 - Design Goals
   Foremost is the need for a transmission system to optimize the

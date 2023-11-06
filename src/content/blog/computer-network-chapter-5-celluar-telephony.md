@@ -103,6 +103,10 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - 예: 호주에 있는 사람이 영국으로 가도 서로 통신이 되는 구조
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699296486/image_icooc7.png)
 
+## 이동통신 서비스의 진화
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699297762/image_cb0qj4.png)
+
 ## First Generation
 
 - it was designed for voice communication using analog signals.
