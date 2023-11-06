@@ -74,3 +74,7 @@ description: Cable Networks
 
 - A cable modem is a type of modem that provides access to a data signal sent over the cable television infrastructure.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699265460/image_ljkqpk.png)
+
+## CMTS(Cable Modem Transmission System)
+
+- **a cable modem termination (or transmission) system or CMTS** is equipment typically found in a cable company's headend, or at cable company hubsite and is used to **provide high speed data services**, such as cable internet or VoIP, to cable subscribers.
