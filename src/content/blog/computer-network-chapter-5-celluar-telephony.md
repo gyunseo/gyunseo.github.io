@@ -190,13 +190,19 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 ## Third Generation
 
+- The 3G can provide <u>both digital data and voice
+  communication</u>.
+- The 3G concept started in 1992, when ITU issued a blueprint
+  called Internet Mobile Communication for year 2000 (IMT-
+  2000).
+- Some criteria for 3G technology as outlined the next slide.
 - provide both digital data and voice communication
 - Internet Mobile Communication for 2000 (IMT-2000)
 
 - voice quality comparable to that of the existing public telephone network
 - 144Kbps, 384Kbps, 2Mbps
 - a band of 2GHz
-- 2MHz
+- bandwidth: 2MHz
 - 인터넷 사용가능
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082809953.jpeg)
 
@@ -204,3 +210,15 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 - data rate 100Mbps (moving car), 1Gbps for stationary user
 - 모든 걸 IP packet으로 바꿔서 보내겠다. All IP, packet-switched, networks
+- Some of the objectives defined by the 4G working group are
+  as follows:
+  A spectrally efficient system
+  High network capacity
+- Data rate of 100Mbps for access in a moving car and I Gbps
+  for stationary users.
+- Data rate of at least 100Mbps between any two points in the
+  world.
+- Smooth handoff across heterogeneous networks.
+  High QoS for next generation multimedia support.
+- Interoperability with existing wireless standards
+- All IP, packet-switched. networks.
