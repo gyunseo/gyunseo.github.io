@@ -45,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,10 +177,10 @@
   },
   "active": "115940006c972d0a",
   "lastOpenFiles": [
-    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
-    "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
-    "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
+    "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
+    "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
+    "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "src/content/blog/computer-network-chapter-5-telephone-networks.md",
     "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
