@@ -80,3 +80,17 @@ description: Cable Networks
 - **a cable modem termination (or transmission) system or CMTS** is equipment typically found in a cable company's headend, or at cable company hubsite and is used to **provide high speed data services**, such as cable internet or VoIP, to cable subscribers.
 - ADSL modem과 CM이 비슷하다. DSLAM과 CMTS가 비슷하다.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699265625/image_oglnao.png)
+
+## Data Transmission Schmes: DOCSIS
+
+Several schemes have been designed to create <u>a standard for
+data transmission over an HFC network</u>.
+Prevalent is the one devised by Multimedia Cable Network
+Systems (MCSN), called **Data over Cable Service Interface
+Specification (DOCSIS)**.
+<u>DOCSIS is an international standard</u> developed by CableLabs
+and contributing companies.
+Cable Television Laboratories, also called CableLabs, is a non-
+profit research and development consortium.
+DOCSISI.O was ratified as ITU-T J. 112 and ITU-T J.222 for
+DOCSIS 3.0.
