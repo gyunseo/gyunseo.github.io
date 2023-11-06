@@ -170,7 +170,6 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 
 ### IS-95
 
--
 - Interim Standaard 95, based on CDMA and DSSS (Direct Sequence Spread Spectrum)
 - 이때 부터 GPS 지원
 - **Pilot channel** sends a continuous stream of 1s to mobile station
@@ -186,7 +185,7 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - 음성은 3kHz로 가정한다.
 - 음성과 ESN을 섞어서 채널로 쏘는 구조였다.
   ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697082662309.jpeg)
-- 받을 때에도 ESN이 관련된다.
+- 전화를 받을 때에도 ESN이 관련된다.
 
 ## Third Generation
 
