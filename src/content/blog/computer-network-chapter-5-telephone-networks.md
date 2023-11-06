@@ -197,11 +197,9 @@ local loop은 그렇지 않다.
 - <u>The data rate of ADSL is not fixed</u>; it changes based on the condition and type of the local loop cable.
 
 - Actual bit rate
-
-> Because ofthe high signal/noise rati0, the actual bit rate is much
-> lower.
-> Upstream : 64Kbps to 1 Mbps
-> Downstream .• 500 Kbps to 8 Mbps
+  - Because of the high signal/noise ratio, the actual bit rate is much lower.
+  - Upstream: $64Kbps$ to $1Mbps$
+  - Downstream: $500Kbps$ to $8Mbps$
 
 ## Other DSL Technologies
 
