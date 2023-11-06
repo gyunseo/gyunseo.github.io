@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/computer-network-chapter-7-network-layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/computer-network-chapter-7-network-layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/network-layer.md",
+                "file": "src/content/blog/computer-network-chapter-7-network-layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/network-layer.md"
+                "file": "src/content/blog/computer-network-chapter-7-network-layer.md"
               }
             }
           }

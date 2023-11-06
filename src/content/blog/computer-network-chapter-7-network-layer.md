@@ -40,7 +40,7 @@ routing을 전문적으로 해주는 장치인 router가 중요함.
 목적지 A인 것은 output interface 1번으로 보내라.
 목적지 B인 것은 output interface 2번으로 보내라.
 상기 그림은 routing table이다.
-routing protocol이 하는 일은 routing table을 만드는 일을 한다. (routing tabl는 packet을 forward를 한다, 어느 인터페이스로 보낼지를)
+routing protocol이 하는 일은 routing table을 만드는 일을 한다. (routing table는 packet을 forward를 한다, 어느 인터페이스로 보낼지를)
 
 chrome에 www.naver.com -> ip address로 변환 -> pc에 있는 routing table이 있어서, 그것을 참조함. -> 패킷으로 만들어서 보냄 -> 최종 목적지에서는 header를 보고, ip 어드레스를 확인한다.
 
