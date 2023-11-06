@@ -17,41 +17,74 @@ description: Celluar Telephony에 대해서 공부한 거 정리
 - Each celluar service area is divided into small regions called **cell**s
 - Each cell contains an antenna and is controlled by a small office, called the **base station (BS) (기지국)**
 - Each base station is controlled by a switching office, called a **mobile switching center (MSC)**
+  - MSC는 기지국을 control한다.
+  - MSC가 핵심적인 역할을 한다. 전화를 연결하고, 전화를 얼마나 했는지, 데이터를 얼마나 썼는지 등
+  - 그거에 따라 과금을 하기도 한다.
 - The MSC coordinates communication between all the base stations and the telephone central office
-  - it is responsible for <u>connetcing calls, recording call information, and billing</u>
+  - It is responsible for <u>connetcing calls, recording call information, and billing</u>
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697080731772.jpeg)
 
-휴대폰의 무선 연결은 BS까지
+- 휴대폰의 무선 연결은 BS까지
+- 기지국과 연결이 되는 범위가 Cell이다. (가상의 공간)
+- BS과 MSC는 유선으로 연결이 된다. (서울-부산이면 기지국까지만 무선으로 연결된다.)
+- 하나의 MSC에 연결의 Cell들이 연결돼 있다.
+- BS는 생각보다 하는 역할이 없다.
+
+## Frequency-reuse Principle
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/celluar-telephony-1697080852481.jpeg)
 
-각 셀마다 주파수를 다른 주파수를 사용한다. (왼쪽 그림은 최소한 네개의 서로 다른 주파수가 있어야 한다.  
-그래도 혹시 파란 1번이 회색 1번까지 갈 수 있으니, 오른쪽 그림은 7개 셀을 사용한다.)
-위의 설명을 reuse factor라고 한다. (7개 말고도 더 늘릴 수 있다.)
+- In a pattern with reuse factor 4, only one cell separates the cells using the same set of frequencies.
+- 각 셀마다 주파수를 다른 주파수를 사용한다. (왼쪽 그림은 최소한 네 개의 서로 다른 주파수가 있어야 한다.)
+- 같은 주파수를 사용하면 통신을 하는 데에 방해를 받는다.
+- 그래도 혹시 파란 1번이 회색 1번까지 갈 수 있으니, 조금 더 안심하게 하기 위해서, 오른쪽 그림은 7개 셀을 사용한다.)
+- 위의 설명을 reuse factor라고 한다. (7개 말고도 더 늘릴 수 있다.)
+- 서울과 지방 SBS radio 주파수가 다른 것이 그 원리이다.
+- 차를 몰고 가다 보면, 점점 다른 지역으로 가게 되면 라디오가 지직거린다. (각 지역의 주파수를 찾아서 맞추어야 한다.)
 
 ## Transmitting
 
-- the mobile station scans the band
-- the base station relays the data to the MSC
-- the MSC sends the data on to the telephone central office.
-- if the called the party is available, a connection is made and the result is relayed back to the MSC.
+- The mobile station scans the band, seeking a setup channel
+  with a strong signal, and sends the data (phone number) to the
+  closest base station using that channel.
+- The base station relays the data to the MSC.
+- The MSC sends the data on to the telephone central office.
+- If the called party is available, a connection is made and the
+  result is relayed back to the MSC.
+- mobile station이 band를 스캔한다. (나의 기지국이 어디있지?)
+- 인접 기지국들에서 신호가 잡히는데, strong signal이 오는 곳의 기지국과 연결을 한다.
+- 휴대전화에서 이제 data를 보내면, BS에서 그 data를 MSC로 relay한다.
+- MSC는 다시 telephone central office로 data를 전송하고, 알맞은 원격지로 data가 찾아가게 된다.
 
 ## Receiving
 
+- MSC는 자기 자신이 관장하는 cell들에게 paging이라는 것을 보낸다.
+- 통상적으로 그 번호가 어디 있는지 알고 있다. (전화를 했는데, 상대 전화기가 꺼져 있다면 그 어느 MSC에도 존재하지 않는 것이다.)
+- 내가 전화하려는 mobile station은 어느 기지국에 있는 것인가? (paging)
+- 어느 곳에 있다는 것을 알게 되면, call setup이 연결되고, 전화가 된다.
 - MSC searches for the location of the mobile station by **sending query signals to each cell** in a process called **paging**
 - MSC transmits a ringing signal and, **when the mobile station answers**, assigns a voice channel to the call.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699270250/image_ttrr4n.png)
 
 ## Handoff
 
-- the mobile station moves form one cell to another
+- The mobile station moves from one cell to another.
+  When it does, the signal may become weak.
+  The MSC seeks a new cell that can better accommodate the
+  communication.
+- 한 셀에서 다른 셀로 가는 것을 handoff라고 한다.
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699270266/image_ul3yqg.png)
 
-### Hard Handoff
-
+- Hard Handoff
+- Communication must first be broken with the previous base
+  station before communication can be established with the new
+  one. (a "break before make" connection)
 - break before make connection
   (통화가 안될 가능성이 생김)
+  ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1699270325/image_uacqox.png)
 
-### Soft Handoff
+- Soft Handoff
 
 - make before break
   (중간 구역에서는 양다리를 걸친다.)
