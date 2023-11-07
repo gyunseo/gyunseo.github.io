@@ -16,7 +16,9 @@ description: packet switching
 ## Datagram approach: Connectionless ...
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/packet-switching-1698122175849.jpeg)
-DA가 없으면 그냥 버린다.
+
+- DA가 없으면 그냥 버린다. (routing table에 없으면)
+- L2 스위치는 local area network일 뿐이다.
 
 ## Virtual-circuit approach: Connection-oriented service
 
