@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-packet-switching.md",
+                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-packet-switching.md",
+                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-packet-switching.md",
+                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-packet-switching.md"
+                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md"
               }
             }
           }
@@ -178,8 +178,8 @@
   },
   "active": "115940006c972d0a",
   "lastOpenFiles": [
-    "src/content/blog/computer-network-chapter-5-satellite-network.md",
     "src/content/blog/computer-network-chapter-7-packet-switching.md",
+    "src/content/blog/computer-network-chapter-5-satellite-network.md",
     "src/content/blog/computer-network-chapter-7-network-layer.md",
     "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
     "src/content/blog/computer-network-chapter-5-cable-networks.md",
