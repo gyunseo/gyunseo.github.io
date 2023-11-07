@@ -50,13 +50,15 @@ R3에서도 고민을 한다. (현재 상태에서는 R4로 보내는 게 빠르
 연결 설정하는 packet이 테이블을 완성해 나가면서 B로 간다.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/packet-switching-1698122908816.jpeg)
-그러면 B에서 다시 ackknowledgment packet을 보낸다.  
-이제 테이블을 고정시킨다.
-이제 data packet이 떠난다.
+
+- 그러면 B에서 다시 ackknowledgment packet을 보낸다.
+- 이제 테이블을 고정시킨다.
+- 이제 data packet이 떠난다.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/packet-switching-1698122961304.jpeg)
-이제 고정된 경로로 packet이 간다.  
-모든 network protocol은 connectionless이거나 connection-oriented이다. (IP이든 X.25이든 뭐든)
+
+- 이제 고정된 경로로 packet이 간다.
+- 모든 network protocol은 connectionless이거나 connection-oriented이다. (IP이든 X.25이든 뭐든)
 
 ## Performance
 
@@ -66,10 +68,9 @@ R3에서도 고민을 한다. (현재 상태에서는 R4로 보내는 게 빠르
 
 - transmission delay
 - propagation delay (상수)
-- processing delay ($Delay_{pr}$=Time required to process a packet in a system, 라우터도 컴퓨터다.)
+- processing delay ($Delay_{pr}$ = Time required to process a packet in a system, 라우터도 컴퓨터다.)
 - queuing delay (큐에 들어가서 기다리는 시간)
 - total delay
--
 
 ### throughput
 
@@ -81,4 +82,4 @@ R3에서도 고민을 한다. (현재 상태에서는 R4로 보내는 게 빠르
 ### Packet Loss
 
 - 큐에 packet을 넣어 놨다. 예를 들어 100까지 저장해 놨는데, 101개가 새로 들어오면 잃어 버린다.
-- 이때
+-
