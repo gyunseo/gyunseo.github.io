@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
+                "file": "src/content/blog/computer-network-chapter-5-satellite-network.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #Computer-Network  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
+                "file": "src/content/blog/computer-network-chapter-5-satellite-network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md",
+                "file": "src/content/blog/computer-network-chapter-5-satellite-network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/computer-network-chapter-7-internet-protocol.md"
+                "file": "src/content/blog/computer-network-chapter-5-satellite-network.md"
               }
             }
           }
@@ -178,6 +178,7 @@
   },
   "active": "115940006c972d0a",
   "lastOpenFiles": [
+    "src/content/blog/computer-network-chapter-7-internet-protocol.md",
     "src/content/blog/computer-network-chapter-7-packet-switching.md",
     "src/content/blog/computer-network-chapter-5-satellite-network.md",
     "src/content/blog/computer-network-chapter-7-network-layer.md",
@@ -214,7 +215,6 @@
     "src/content/blog/feature-to-do-list-to-implement-on-my-blog.md",
     "src/content/blog/download-and-install-new-fonts-on-WSL-ubuntu-linux.md",
     "src/content/blog/custom-nginx-with-docker-compose-for-isso.md",
-    "src/content/blog/create-ssh-key-for-github.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
