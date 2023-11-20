@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1c525a3da6efbee2",
+            "id": "026842471fda7449",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/heap-sort-algorithms.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/heap-sort-algorithms.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/heap-sort-algorithms.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/heap-sort-algorithms.md"
+                "file": "src/content/blog/red-black-tree.md"
               }
             }
           }
@@ -148,10 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c525a3da6efbee2",
+  "active": "026842471fda7449",
   "lastOpenFiles": [
-    "src/assets/Pasted Image 20231104173119_699.png",
     "src/content/blog/heap-sort-algorithms.md",
+    "src/content/blog/red-black-tree.md",
+    "src/assets/Pasted Image 20231104173119_699.png",
     "src/content/blog/lcm-algorithm.md",
     "redirect",
     "src/content/blog/lg-cns-24-winter-internship-apply.md",
