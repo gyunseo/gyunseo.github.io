@@ -789,3 +789,73 @@ CLRS에는 하기 5가지의 속성을 RB Tree 속성으로 규정하고 있다.
 3. 삽입 후 RB Tree 속성 위반 여부 확인
 4. RB Tree 속성을 위반했다면 재조정
 5. 다시 RB Tree 속성을 모두 만족
+
+RB Tree에서 새로운 노드는 항상 RED이다. (RB Tree의 5번 속성을 만족하기 위해서다.)
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1700509418/image_y3bsts.png)
+
+그래서 7을 삽입하게 되면, 위의 그림처럼 된다. (RED 노드가 연속 두개가 있게 되어, 4번 속성을 위반하게 된다.) (세모는 부모가 포함된 sub tree이다.)
+그러면 4번 속성을 만족하게 만들면 된다.  
+RED 노드들을 퍼지게 만들면 된다.  
+즉, 1은 빨강, 6은 검정으로 바꾸면 된다. (하기 그림 처럼럼)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1700509770/image_l1kusk.png)
+
+그런데 이러면 하나 부모 sub tree와 4번 속성을 위반할 여지가 생긴다.  
+그래서 BST의 속성도 유지하면서, RB Tree의 4번 속성을 유지하려면, 1을 기준으로 left rotate를 해야한다. (하기 그림처럼 변한다.)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1700510366/image_t3mt0t.png)
+
+`rb_insert_fixup`의 코드를 살펴 보자.
+
+```c
+        else
+
+        {
+
+            Node *y = z->p->p->left;
+
+            if (y->color == RED)
+
+            {
+
+                z->p->color = BLACK;
+
+                y->color = BLACK;
+
+                z->p->p->color = RED;
+
+                z = z->p->p;
+
+            }
+
+            else if (z == z->p->left)
+
+            {
+
+                z = z->p;
+
+                right_rotate(T, z);
+
+            }
+
+            else
+
+            {
+
+                z->p->color = BLACK;
+
+                z->p->p->color = RED;
+
+                left_rotate(T, z->p->p);
+
+            }
+
+        }
+```
+
+아버지와 할아버지가 좌상단에서 우하단으로 내려오는 대각선 형태를 지녔다.  
+그래서 `rb_insert_fixup` 함수에서 상기 코드와 같은 분기로 오게 된다.
+`y`는 할아버지의 왼쪽 아들(삼촌)이다.
+지금의 경우는 일단 삼촌이 `NIL`이다.  
+그리고 `z->p->left` 아버지의 왼쪽 아들(형제)도 없는 상태이다.  
+그래서 마지막 `else` 분기로 오게 된다.  
+말한 대로 아버지를 BLACK으로, 할아버지를 RED로 색칠하고, 할아버지를 기준으로 left_rotate를한다.

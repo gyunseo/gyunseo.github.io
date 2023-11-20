@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "dd6ecd3caf48d949",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81e388d486022cbc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,8 +166,9 @@
   },
   "active": "026842471fda7449",
   "lastOpenFiles": [
-    "src/content/blog/heap-sort-algorithms.md",
+    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/content/blog/red-black-tree.md",
+    "src/content/blog/heap-sort-algorithms.md",
     "src/assets/Pasted Image 20231104173119_699.png",
     "src/content/blog/lcm-algorithm.md",
     "redirect",
@@ -167,7 +184,6 @@
     "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
     "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "src/content/blog/computer-network-chapter-5-telephone-networks.md",
-    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "src/content/blog/computer-network-chapter-4.md",
