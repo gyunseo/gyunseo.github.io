@@ -8,6 +8,7 @@ tags:
   - BST
   - Red-Black-Tree
   - Data-Structure
+  - Self-Balancing-BST
 description: Red Black Tree에 대해 알아 보자.
 ---
 
