@@ -773,3 +773,19 @@ Root: 13(B)
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1700506957/image_bq3ruf.png)
 
 ## 7이 삽입됐을 때의 과정
+
+CLRS에는 하기 5가지의 속성을 RB Tree 속성으로 규정하고 있다.
+
+> 1. Every node is either red or black.
+> 2. The root is black.
+> 3. Every leaf (NIL) is black.
+> 4. If a node is red, then both its children are black.
+> 5. For each node, all simple paths from the node to descendant leaves contain thesame number of black nodes.
+
+하기 대전제들을 지키며 삽입이 이뤄진다.
+
+1. 삽입 전에는 CLRS에 나온 RB Tree 속성을 모두 만족한다.
+2. 삽입 방식은 여느 BST와 동일
+3. 삽입 후 RB Tree 속성 위반 여부 확인
+4. RB Tree 속성을 위반했다면 재조정
+5. 다시 RB Tree 속성을 모두 만족
