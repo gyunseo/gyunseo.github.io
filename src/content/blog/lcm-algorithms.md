@@ -70,6 +70,24 @@ pipenv --python 3.11.6
 pipenv run python3 main.py
 ```
 
+```zsh
+LCM(Least Common Multiple) 테스트 시작
+
+test_lcm (__main__.LCMTest.test_lcm)
+1071과 1029의 최소공배수를 구하는 테스트 ...
+테스트 소요 시간: 0.000016s
+ok
+
+LCM(Least Common Multiple) 테스트 종료
+
+1071과 1029의 최소공배수: 52479
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+```
+
 ## Execution Image
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1700503303/image_ojxjx4.png)
