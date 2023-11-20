@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/lcm-algorithms.md",
+                "file": "src/content/blog/heap-sort-algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/lcm-algorithms.md",
+                "file": "src/content/blog/heap-sort-algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/lcm-algorithms.md",
+                "file": "src/content/blog/heap-sort-algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/lcm-algorithms.md"
+                "file": "src/content/blog/heap-sort-algorithms.md"
               }
             }
           }
@@ -150,7 +150,10 @@
   },
   "active": "1c525a3da6efbee2",
   "lastOpenFiles": [
-    "src/content/blog/lcm-algorithms.md",
+    "src/assets/Pasted Image 20231104173119_699.png",
+    "src/content/blog/heap-sort-algorithms.md",
+    "src/content/blog/lcm-algorithm.md",
+    "redirect",
     "src/content/blog/lg-cns-24-winter-internship-apply.md",
     "src/content/blog/computer-network-chapter-5-satellite-network.md",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
@@ -165,7 +168,6 @@
     "src/content/blog/computer-network-chapter-5-telephone-networks.md",
     "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
-    "src/assets/Pasted Image 20231104173119_699.png",
     "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "src/content/blog/computer-network-chapter-4.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
@@ -185,8 +187,6 @@
     "src/content/blog/nvm-for-windows.md",
     "src/content/blog/install-hangul-input-method-on-wslg.md",
     "src/content/blog/ostep-36-file-devices.md",
-    "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
-    "src/content/blog/install-docker-engine-on-ubuntu-server.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",

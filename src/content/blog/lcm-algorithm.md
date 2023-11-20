@@ -1,5 +1,5 @@
 ---
-title: LCM(Least Common Multiple) 알고리즘
+title: LCM(Least Common Multiple) Algorithm
 pubDatetime: 2023-11-21T02:59:00Z
 featured: false
 draft: false
