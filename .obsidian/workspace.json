@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/red-black-tree.md",
+                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1fbf3b60d9f18930",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "960f34118b9feb3a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ostep-pdfs/26_threads-intro.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/red-black-tree.md",
+                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/red-black-tree.md",
+                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/red-black-tree.md"
+                "file": "src/content/blog/ostep-26-concurrency-and-threads.md"
               }
             }
           }
@@ -150,8 +166,12 @@
   },
   "active": "026842471fda7449",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
+    "ostep-pdfs/26_threads-intro.pdf",
+    "src/content/blog/ostep-26-concurrency-and-threads.md",
+    "ostep-pdfs/27_threads-api.pdf",
+    "ostep-pdfs/28_threads-locks.pdf",
     "src/content/blog/red-black-tree.md",
+    "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/content/blog/heap-sort-algorithms.md",
     "src/assets/Pasted Image 20231104173119_699.png",
     "src/content/blog/lcm-algorithm.md",
@@ -186,14 +206,10 @@
     "src/content/blog/ostep-32-concurrency-bugs.md",
     "replace_text.ps1",
     "src/content/blog/nvm-for-windows.md",
-    "src/content/blog/install-hangul-input-method-on-wslg.md",
-    "src/content/blog/ostep-36-file-devices.md",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
     "ostep-pdfs/39_interlude-file-directory.pdf",
-    "Excalidraw",
-    "src/assets/image/image",
-    "data-communications-and-networking-pdfs"
+    "Excalidraw"
   ]
 }
