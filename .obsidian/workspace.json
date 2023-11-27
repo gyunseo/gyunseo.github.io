@@ -8,30 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "026842471fda7449",
+            "id": "e1f665ce2c557f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
+                "file": "src/content/blog/install-aqua-on-windows.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "1fbf3b60d9f18930",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "960f34118b9feb3a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ostep-pdfs/26_threads-intro.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
+                "file": "src/content/blog/install-aqua-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/ostep-26-concurrency-and-threads.md",
+                "file": "src/content/blog/install-aqua-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/ostep-26-concurrency-and-threads.md"
+                "file": "src/content/blog/install-aqua-on-windows.md"
               }
             }
           }
@@ -164,10 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "026842471fda7449",
+  "active": "e1f665ce2c557f77",
   "lastOpenFiles": [
-    "ostep-pdfs/26_threads-intro.pdf",
     "src/content/blog/ostep-26-concurrency-and-threads.md",
+    "src/content/blog/install-aqua-on-windows.md",
+    "ostep-pdfs/26_threads-intro.pdf",
     "ostep-pdfs/27_threads-api.pdf",
     "ostep-pdfs/28_threads-locks.pdf",
     "src/content/blog/red-black-tree.md",
