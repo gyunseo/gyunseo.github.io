@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa5efc5e0dd841c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/merge-sort-algorithms.md",
+                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/merge-sort-algorithms.md",
+                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/merge-sort-algorithms.md"
+                "file": "src/content/blog/binary-tree-traversal-algorithms.md"
               }
             }
           }
@@ -148,10 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "334b1e4f0ac65767",
+  "active": "fa5efc5e0dd841c1",
   "lastOpenFiles": [
-    "src/content/blog/quick-sort-algorithms.md",
     "src/content/blog/merge-sort-algorithms.md",
+    "src/content/blog/binary-tree-traversal-algorithms.md",
+    "src/content/blog/quick-sort-algorithms.md",
     "src/content/blog/heap-sort-algorithms.md",
     "src/content/blog/count-to-infinity.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
@@ -183,7 +197,6 @@
     "src/content/blog/ostep-40-file-system-implementation.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "src/content/blog/configure-intellij-formatter.md",
-    "src/content/blog/cloudinary-upload-setting.md",
     "public/favicon.svg",
     "public/doggo-og.png",
     "public/assets/dev.svg",
