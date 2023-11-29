@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "38ce06364982be8c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "383d02e4a7134ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/merge-sort-algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

@@ -36,11 +36,11 @@ class SortingAlgorithmTest(unittest.TestCase):
         print("0~1000까지의 정수 1000개를 랜덤으로 생성합니다.")
         cls.random_numbers = [random.randint(0, 1000) for _ in range(50)]
         cls.sorted_random_numbers = sorted(cls.random_numbers)
-        print("Sorting Algorithms 테스트 시작")
+        print("Selection Sort Algorithms 테스트 시작")
 
     @classmethod
     def tearDownClass(cls) -> None:
-        print("\nSorting Algorithms 테스트 종료\n")
+        print("\nSelection Sort Algorithms 테스트 종료\n")
 
     def setUp(self) -> None:
         self.start_time = time.time()
@@ -48,6 +48,7 @@ class SortingAlgorithmTest(unittest.TestCase):
     def tearDown(self) -> None:
         self.end_time = time.time()
         print(f"\n테스트 소요 시간: {self.end_time - self.start_time:4f}s")
+        print(f"정렬 결과: {get_selection_sorted(SortingAlgorithmTest.random_numbers)}")
 
     def test_selection_sort(self):
         self.assertEqual(
@@ -58,6 +59,7 @@ class SortingAlgorithmTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
 ```
 
 ## How to Run
@@ -77,12 +79,13 @@ pipenv run python3 main.py
 ```zsh
 Loading .env environment variables...
 0~1000까지의 정수 1000개를 랜덤으로 생성합니다.
-Sorting Algorithms 테스트 시작
+Selection Sort Algorithms 테스트 시작
 test_selection_sort (__main__.SortingAlgorithmTest.test_selection_sort) ...
-테스트 소요 시간: 0.000049s
+테스트 소요 시간: 0.000048s
+정렬 결과: [14, 17, 22, 22, 41, 96, 134, 140, 141, 172, 185, 193, 246, 246, 272, 280, 280, 308, 317, 333, 339, 340, 354, 395, 404, 406, 420, 516, 525, 538, 540, 554, 615, 626, 629, 680, 695, 696, 700, 715, 717, 730, 763, 796, 815, 819, 852, 888, 928, 935]
 ok
 
-Sorting Algorithms 테스트 종료
+Selection Sort Algorithms 테스트 종료
 
 
 ----------------------------------------------------------------------
@@ -93,4 +96,4 @@ OK
 
 ## Execution Image
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1701240290/image_osh1rj.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1701241044/image_gmu4ue.png)
