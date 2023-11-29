@@ -134,4 +134,4 @@ OK
 
 ## Execution Image
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1701238004/image_nrtgzl.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1701252698/image_ikz5qe.png)
