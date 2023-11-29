@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efb42812a298694b",
+        "id": "add5e6fc8de19d2d",
         "type": "tabs",
         "children": [
           {
-            "id": "334b1e4f0ac65767",
+            "id": "383d02e4a7134ad8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "fa5efc5e0dd841c1",
+            "id": "7339f86fdf69f313",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
+                "file": "src/content/blog/sorting-algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
+                "file": "src/content/blog/sorting-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/binary-tree-traversal-algorithms.md",
+                "file": "src/content/blog/sorting-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/binary-tree-traversal-algorithms.md"
+                "file": "src/content/blog/sorting-algorithm.md"
               }
             }
           }
@@ -161,9 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa5efc5e0dd841c1",
+  "active": "7339f86fdf69f313",
   "lastOpenFiles": [
     "src/content/blog/merge-sort-algorithms.md",
+    "src/content/blog/sorting-algorithm.md",
     "src/content/blog/binary-tree-traversal-algorithms.md",
     "src/content/blog/quick-sort-algorithms.md",
     "src/content/blog/heap-sort-algorithms.md",
@@ -196,7 +197,6 @@
     "src/content/blog/wooteco-2nd-thoughts.md",
     "src/content/blog/ostep-40-file-system-implementation.md",
     "ostep-pdfs/40_FS-implementation.pdf",
-    "src/content/blog/configure-intellij-formatter.md",
     "public/favicon.svg",
     "public/doggo-og.png",
     "public/assets/dev.svg",
