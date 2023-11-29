@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4eedfc8af8daf0da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/brute-force-traveling-salesman-problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/brute-force-string-matching-algorithm.md",
+                "file": "src/content/blog/brute-force-traveling-salesman-problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/brute-force-string-matching-algorithm.md",
+                "file": "src/content/blog/brute-force-traveling-salesman-problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/brute-force-string-matching-algorithm.md"
+                "file": "src/content/blog/brute-force-traveling-salesman-problem.md"
               }
             }
           }
@@ -173,10 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6fbbee9a24d1559",
+  "active": "4eedfc8af8daf0da",
   "lastOpenFiles": [
-    "src/content/blog/sequential-search-algorithm.md",
     "src/content/blog/brute-force-string-matching-algorithm.md",
+    "src/content/blog/brute-force-traveling-salesman-problem.md",
+    "src/content/blog/sequential-search-algorithm.md",
     "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/bubble-sort-algorithm.md",
     "src/content/blog/sorting-algorithm.md",
@@ -207,7 +220,6 @@
     "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
     "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "src/content/blog/computer-network-chapter-5-telephone-networks.md",
-    "src/content/blog/computer-network-chapter-4-bluetooth.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "public/favicon.svg",
     "public/doggo-og.png",
