@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6fbbee9a24d1559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/brute-force-string-matching-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/sequential-search-algorithm.md",
+                "file": "src/content/blog/brute-force-string-matching-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/sequential-search-algorithm.md",
+                "file": "src/content/blog/brute-force-string-matching-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/sequential-search-algorithm.md"
+                "file": "src/content/blog/brute-force-string-matching-algorithm.md"
               }
             }
           }
@@ -161,10 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7104ebd07a87deac",
+  "active": "e6fbbee9a24d1559",
   "lastOpenFiles": [
-    "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/sequential-search-algorithm.md",
+    "src/content/blog/brute-force-string-matching-algorithm.md",
+    "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/bubble-sort-algorithm.md",
     "src/content/blog/sorting-algorithm.md",
     "src/content/blog/merge-sort-algorithms.md",
@@ -195,7 +208,6 @@
     "src/content/blog/computer-network-chapter-5-cable-networks.md",
     "src/content/blog/computer-network-chapter-5-telephone-networks.md",
     "src/content/blog/computer-network-chapter-4-bluetooth.md",
-    "Excalidraw/Drawing 2023-10-19 12.26.53.excalidraw.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "public/favicon.svg",
     "public/doggo-og.png",
