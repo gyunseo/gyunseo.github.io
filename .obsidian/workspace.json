@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc54324a42217194",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/sorting-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/selection-sort.md",
+                "file": "src/content/blog/sorting-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/selection-sort.md",
+                "file": "src/content/blog/sorting-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/selection-sort.md"
+                "file": "src/content/blog/sorting-algorithm.md"
               }
             }
           }
@@ -148,10 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9dc743d5699e7a50",
+  "active": "bc54324a42217194",
   "lastOpenFiles": [
-    "src/content/blog/merge-sort-algorithms.md",
     "src/content/blog/selection-sort.md",
+    "src/content/blog/merge-sort-algorithms.md",
     "src/content/blog/sorting-algorithm.md",
     "src/content/blog/binary-tree-traversal-algorithms.md",
     "src/content/blog/quick-sort-algorithms.md",
