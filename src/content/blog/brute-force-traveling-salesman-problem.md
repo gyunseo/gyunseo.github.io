@@ -101,7 +101,7 @@ python version: `3.11.6`
 ```
 pip install pipenv
 pipenv --python 3.11.6
-pipenv run python3 main.py < input.txt
+pipenv run python3 main.py
 ```
 
 ### Input
