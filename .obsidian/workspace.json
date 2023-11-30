@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f356621551ee9ddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/brute-force-knapsack-problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/brute-force-traveling-salesman-problem.md",
+                "file": "src/content/blog/brute-force-knapsack-problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/brute-force-traveling-salesman-problem.md",
+                "file": "src/content/blog/brute-force-knapsack-problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/brute-force-traveling-salesman-problem.md"
+                "file": "src/content/blog/brute-force-knapsack-problem.md"
               }
             }
           }
@@ -185,10 +197,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4eedfc8af8daf0da",
+  "active": "f356621551ee9ddf",
   "lastOpenFiles": [
-    "src/content/blog/brute-force-string-matching-algorithm.md",
     "src/content/blog/brute-force-traveling-salesman-problem.md",
+    "src/content/blog/brute-force-knapsack-problem.md",
+    "src/assets/template/oakgorithms-report-template.md",
+    "src/content/blog/brute-force-string-matching-algorithm.md",
     "src/content/blog/sequential-search-algorithm.md",
     "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/bubble-sort-algorithm.md",
@@ -218,8 +232,6 @@
     "src/content/blog/computer-network-chapter-7-packet-switching.md",
     "src/content/blog/computer-network-chapter-7-network-layer.md",
     "src/content/blog/computer-network-chapter-5-celluar-telephony.md",
-    "src/content/blog/computer-network-chapter-5-cable-networks.md",
-    "src/content/blog/computer-network-chapter-5-telephone-networks.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "public/favicon.svg",
     "public/doggo-og.png",
