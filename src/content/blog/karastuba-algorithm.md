@@ -89,3 +89,65 @@ $$
 
 `L = 20`, `N = 20`, `M = 20 + 24 - (4 - 8)(5 - 3) = 52`
 `xy = 20 * 10^2 + 52 * 10^1 + 24 = 2000 + 520 + 24 = 2544`
+
+## `python` 코드
+
+```python
+import sys
+
+sys.setrecursionlimit(10**9)
+
+
+def get_karatsuba(x, y):
+    if x < 10 or y < 10:
+        return x * y
+
+    n = max(len(str(x)), len(str(y)))
+    n2 = n // 2
+
+    a = x // 10**n2
+    b = x % 10**n2
+    c = y // 10**n2
+    d = y % 10**n2
+
+    ac = get_karatsuba(a, c)
+    bd = get_karatsuba(b, d)
+    ad_bc = get_karatsuba(a + b, c + d) - ac - bd
+
+    result = ac * 10 ** (2 * n2) + ad_bc * 10**n2 + bd
+
+    return result
+
+
+if __name__ == "__main__":
+    x = 2462
+    y = 8014
+    print(get_karatsuba(x, y))
+
+```
+
+## How to Run
+
+python version: `3.11.6`
+
+### Run `main.py`
+
+```
+pip install pipenv
+pipenv --python 3.11.6
+pipenv run python3 main.py
+```
+
+### Input
+
+`2462`와 `8014`를 곱하는 상황
+
+### Output
+
+```zsh
+19730468
+```
+
+## Execution Image
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1701878947/image_yltmt8.png)
