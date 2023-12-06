@@ -453,8 +453,7 @@ RED 노드들을 퍼지게 만들면 된다.
 
 `rb_insert_fixup`의 코드를 살펴 보자.
 
-````c
- `rb_insert_fixup`의 코드를 살펴 보자.
+`rb_insert_fixup`의 코드를 살펴 보자.
 
 ```c
 void rb_insert_fixup(RBTree *T, Node *z)
@@ -508,7 +507,7 @@ void rb_insert_fixup(RBTree *T, Node *z)
     }
     T->root->color = BLACK;
 }
-````
+```
 
 아버지와 할아버지가 좌상단에서 우하단으로 내려오는 대각선 형태를 지녔다.  
 그래서 `rb_insert_fixup` 함수에서 상기 코드와 같은 분기로 오게 된다.
