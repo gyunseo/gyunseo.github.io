@@ -453,8 +453,6 @@ RED 노드들을 퍼지게 만들면 된다.
 
 `rb_insert_fixup`의 코드를 살펴 보자.
 
-`rb_insert_fixup`의 코드를 살펴 보자.
-
 ```c
 void rb_insert_fixup(RBTree *T, Node *z)
 {
