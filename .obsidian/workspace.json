@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/karastuba-algorithm.md",
+                "file": "src/content/blog/strassens-matrix-multiplication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b24ba2cb77326931",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/closest-pair-algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/karastuba-algorithm.md",
+                "file": "src/content/blog/closest-pair-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/karastuba-algorithm.md",
+                "file": "src/content/blog/closest-pair-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/karastuba-algorithm.md"
+                "file": "src/content/blog/closest-pair-algorithm.md"
               }
             }
           }
@@ -173,10 +185,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "07aa7999fa9f10a2",
+  "active": "b24ba2cb77326931",
   "lastOpenFiles": [
-    "src/content/blog/karastuba-al.md",
+    "src/content/blog/strassens-matrix-multiplication.md",
+    "src/content/blog/closest-pair-algorithm.md",
     "src/content/blog/karastuba-algorithm.md",
+    "src/content/blog/karastuba-al.md",
     "src/content/blog/brute-force-job-assignment-problem.md",
     "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/sequential-search-algorithm.md",
@@ -206,8 +220,6 @@
     "src/content/blog/lg-cns-24-winter-internship-apply.md",
     "src/content/blog/computer-network-chapter-5-satellite-network.md",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
-    "src/content/blog/computer-network-chapter-7-icmp.md",
-    "src/content/blog/computer-network-chapter-7-internet-protocol.md",
     "ostep-pdfs/40_FS-implementation.pdf",
     "public/favicon.svg",
     "public/doggo-og.png",
