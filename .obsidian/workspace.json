@@ -38,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53274b2b3caf83ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/binary-search-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/toplogical-sort-algorithm.md",
+                "file": "src/content/blog/binary-search-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/toplogical-sort-algorithm.md",
+                "file": "src/content/blog/binary-search-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/toplogical-sort-algorithm.md"
+                "file": "src/content/blog/binary-search-algorithm.md"
               }
             }
           }
@@ -169,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ea22a45e21c4464",
+  "active": "53274b2b3caf83ab",
   "lastOpenFiles": [
-    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/toplogical-sort-algorithm.md",
+    "src/content/blog/binary-search-algorithm.md",
+    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/brute-force-job-assignment-problem.md",
     "src/content/blog/strassens-matrix-multiplication.md",
@@ -202,7 +215,6 @@
     "src/content/blog/red-black-tree.md",
     "Excalidraw/Drawing 2023-11-04 17.31.04.excalidraw.md",
     "src/assets/Pasted Image 20231104173119_699.png",
-    "src/content/blog/lcm-algorithm.md",
     "redirect",
     "ostep-pdfs/40_FS-implementation.pdf",
     "public/favicon.svg",
