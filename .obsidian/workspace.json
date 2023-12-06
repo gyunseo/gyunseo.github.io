@@ -21,38 +21,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/dfs-and-bfs-algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ea22a45e21c4464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/toplogical-sort-algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53274b2b3caf83ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/binary-search-algorithm.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/binary-search-algorithm.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/binary-search-algorithm.md",
+                "file": "src/content/blog/red-black-tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/binary-search-algorithm.md"
+                "file": "src/content/blog/red-black-tree.md"
               }
             }
           }
@@ -181,11 +157,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "53274b2b3caf83ab",
+  "active": "c9fadb0b4f520d96",
   "lastOpenFiles": [
+    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/toplogical-sort-algorithm.md",
     "src/content/blog/binary-search-algorithm.md",
-    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/selection-sort-algorithm.md",
     "src/content/blog/brute-force-job-assignment-problem.md",
     "src/content/blog/strassens-matrix-multiplication.md",
