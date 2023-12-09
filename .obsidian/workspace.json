@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "40cf955f96315f95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/russian-peasant-multiplication-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/avl-tree.md",
+                "file": "src/content/blog/russian-peasant-multiplication-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/avl-tree.md",
+                "file": "src/content/blog/russian-peasant-multiplication-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/avl-tree.md"
+                "file": "src/content/blog/russian-peasant-multiplication-algorithm.md"
               }
             }
           }
@@ -161,10 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "616ed0019dfd2920",
+  "active": "40cf955f96315f95",
   "lastOpenFiles": [
-    "src/content/blog/red-black-tree.md",
     "src/content/blog/avl-tree.md",
+    "src/content/blog/russian-peasant-multiplication-algorithm.md",
+    "src/content/blog/red-black-tree.md",
     "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/toplogical-sort-algorithm.md",
     "src/content/blog/binary-search-algorithm.md",
@@ -190,7 +203,6 @@
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "src/content/blog/install-aqua-on-windows.md",
-    "src/content/blog/ostep-26-concurrency-and-threads.md",
     "ostep-pdfs/26_threads-intro.pdf",
     "ostep-pdfs/27_threads-api.pdf",
     "ostep-pdfs/28_threads-locks.pdf",
