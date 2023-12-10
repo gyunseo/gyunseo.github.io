@@ -82,3 +82,5 @@ pipenv run python3 main.py < input.txt
 ```
 
 ## Execution Image
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702213378/image_okvrjx.png)
