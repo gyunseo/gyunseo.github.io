@@ -38,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c43443f2cb5a5fdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/lcs-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/josephus-problem-algorithm.md",
+                "file": "src/content/blog/lcs-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/josephus-problem-algorithm.md",
+                "file": "src/content/blog/lcs-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/josephus-problem-algorithm.md"
+                "file": "src/content/blog/lcs-algorithm.md"
               }
             }
           }
@@ -169,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2994d776db89e40",
+  "active": "c43443f2cb5a5fdf",
   "lastOpenFiles": [
-    "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/josephus-problem-algorithm.md",
+    "src/content/blog/lcs-algorithm.md",
+    "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/red-black-tree.md",
     "src/content/blog/avl-tree.md",
     "src/content/blog/russian-peasant-multiplication-algorithm.md",
@@ -196,7 +209,6 @@
     "src/content/blog/sorting-algorithm.md",
     "src/content/blog/merge-sort-algorithms.md",
     "src/content/blog/binary-tree-traversal-algorithms.md",
-    "src/content/blog/quick-sort-algorithms.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
