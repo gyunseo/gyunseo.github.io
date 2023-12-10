@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d192da89497a1071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/mst-kruskal-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/mst-prim-algorithm.md",
+                "file": "src/content/blog/mst-kruskal-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/mst-prim-algorithm.md",
+                "file": "src/content/blog/mst-kruskal-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/mst-prim-algorithm.md"
+                "file": "src/content/blog/mst-kruskal-algorithm.md"
               }
             }
           }
@@ -233,10 +245,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25a8064c3920be52",
+  "active": "d192da89497a1071",
   "lastOpenFiles": [
-    "src/content/blog/dijkstra-algorithm.md",
     "src/content/blog/mst-prim-algorithm.md",
+    "src/content/blog/mst-kruskal-algorithm.md",
+    "src/content/blog/dijkstra-algorithm.md",
     "src/content/blog/huffan-encoding-algorithm.md",
     "src/content/blog/counting-money-algorithm.md",
     "src/content/blog/floyd-warshall-algorithm.md",
@@ -260,7 +273,6 @@
     "src/content/blog/closest-pair-algorithm.md",
     "src/content/blog/insertion-sort-algorithm.md",
     "src/content/blog/karastuba-algorithm.md",
-    "src/content/blog/karastuba-al.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
