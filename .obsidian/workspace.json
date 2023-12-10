@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d4c711791491f9e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "38570b3192f4665d",
             "type": "leaf",
             "state": {
@@ -28,55 +20,19 @@
             }
           },
           {
-            "id": "a2994d776db89e40",
+            "id": "1d7f5d18c548c436",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/josephus-problem-algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c43443f2cb5a5fdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/lcs-algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d6e729dc8141f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/n-queen-problem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0165db410bdb1d43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/maze-algorithm.md",
+                "file": "src/content/blog/bellmanford-algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/maze-algorithm.md",
+                "file": "src/content/blog/bellmanford-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/maze-algorithm.md",
+                "file": "src/content/blog/bellmanford-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/maze-algorithm.md"
+                "file": "src/content/blog/bellmanford-algorithm.md"
               }
             }
           }
@@ -205,13 +161,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0165db410bdb1d43",
+  "active": "1d7f5d18c548c436",
   "lastOpenFiles": [
+    "src/content/blog/interpolation-search-algorithm.md",
+    "src/content/blog/bellmanford-algorithm.md",
+    "src/content/blog/josephus-problem-algorithm.md",
+    "src/content/blog/lcs-algorithm.md",
     "src/content/blog/n-queen-problem.md",
     "src/content/blog/maze-algorithm.md",
-    "src/content/blog/lcs-algorithm.md",
-    "src/content/blog/josephus-problem-algorithm.md",
-    "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/red-black-tree.md",
     "src/content/blog/avl-tree.md",
     "src/content/blog/russian-peasant-multiplication-algorithm.md",
@@ -232,7 +189,6 @@
     "src/content/blog/brute-force-knapsack-problem.md",
     "src/assets/template/oakgorithms-report-template.md",
     "src/content/blog/bubble-sort-algorithm.md",
-    "src/content/blog/sorting-algorithm.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
