@@ -7,7 +7,7 @@ tags:
   - Greedy
   - Algorithms
   - Computer-Science
-description: this is template
+description: 거스름돈 계산기
 ---
 
 ## Table of contents
