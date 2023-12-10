@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d45b5938a512c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/floyd-warshall-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/0-1-knapsack-dp.md",
+                "file": "src/content/blog/floyd-warshall-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/0-1-knapsack-dp.md",
+                "file": "src/content/blog/floyd-warshall-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/0-1-knapsack-dp.md"
+                "file": "src/content/blog/floyd-warshall-algorithm.md"
               }
             }
           }
@@ -173,10 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "544ece9b50f8b0c1",
+  "active": "7d45b5938a512c5f",
   "lastOpenFiles": [
-    "src/content/blog/bellmanford-algorithm.md",
     "src/content/blog/0-1-knapsack-dp.md",
+    "src/content/blog/floyd-warshall-algorithm.md",
+    "src/content/blog/bellmanford-algorithm.md",
     "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/josephus-problem-algorithm.md",
     "src/content/blog/lcs-algorithm.md",
@@ -200,7 +213,6 @@
     "src/content/blog/brute-force-string-matching-algorithm.md",
     "src/content/blog/brute-force-traveling-salesman-problem.md",
     "src/content/blog/brute-force-knapsack-problem.md",
-    "src/assets/template/oakgorithms-report-template.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
