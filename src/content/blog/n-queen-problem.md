@@ -81,4 +81,3 @@ pipenv run python3 main.py
 ## Execution Image
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702207735/image_uibnlr.png)
-p
