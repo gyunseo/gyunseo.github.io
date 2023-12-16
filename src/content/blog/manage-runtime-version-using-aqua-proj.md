@@ -24,3 +24,14 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 
 ## `aqua` 설치
 
+### Download prebuilt binaries from GitHub Releases
+- <https://github.com/aquaproj/aqua/releases>
+
+상기 URI로 접속하여, Windows Binary를 다운로드 받는다.  
+
+
+## 환경 변수 `PATH` 설정
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727066/image_olpj61.png)
+
+상기 이미지처럼 `$env:LOCALAPPDATA\aquaproj-aqua\` 디렉터리에 `bat` 폴더와 `bin` 파일을 만들어 놓는다.  
