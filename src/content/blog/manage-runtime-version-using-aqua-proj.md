@@ -85,6 +85,25 @@ echo $env:PATH | findstr aquaproj-aqua
 하기 이미지처럼 `$HOME` 디렉터리에 `.config` 디렉터리를 생성한다.  
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702730263/image_bzjsee.png)
 
+그리고 `.config` 디렉터리 안에 `aquaproj-aqua` 디렉터리를 생성하고, `aqua.yml` 파일을 생성한다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702732298/image_iz9xye.png)
 
+```yaml
+---
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+# checksum:
+#   enabled: true
+#   require_checksum: true
+#   supported_envs:
+#   - all
+registries:
+  - type: standard
+    ref: v4.104.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+```
+
+그리고 User Session을 끊고, 
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
+- 
