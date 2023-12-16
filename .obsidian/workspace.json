@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-python-versions-using-pyenv-win.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md"
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md"
               }
             }
           }
@@ -185,13 +184,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ffa5c3419a1170af",
+  "active": "137fdd9ff21de5ca",
   "lastOpenFiles": [
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/manage-node-versions-using-nvm-windows.md",
-    "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
-    "src/content/blog/Untitled.md",
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
+    "src/content/blog/manage-python-versions-using-pyenv-win.md",
+    "src/content/blog/manage-node-versions-using-nvm-windows.md",
+    "src/content/blog/Untitled.md",
     "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/bellmanford-algorithm.md",
     "src/content/blog/0-1-knapsack-dp.md",

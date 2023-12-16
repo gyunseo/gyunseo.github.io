@@ -30,7 +30,10 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 그래도 `go`랑 `bun`은 설치가 되고, 뭔가 복잡한 설정을 하면 `jdk`도 설정이 가능합니다! (하기 discussion 참고)  
 - <https://github.com/orgs/aquaproj/discussions/1481>
 
-필자의 생각은 그냥 Windows면, nvm
+필자의 생각은 그냥 Windows면, `nvm-windows`, `pyenv-win`, `jabba`를 사용해서 runtime version managing을 하는 게 좋을 것 같다는 생각이 듭니다.(하기 포스트 참고)  
+- [Windows에서 NVM으로 Node 버전 관리하기](manage-node-versions-using-nvm-windows.md)
+- [jabba를 이용해 Windows에서 JDK 버전 관리하기](manage-jdks-on-windows-using-jabba)
+- [pyenv-win을 이용해 Windows에서 Python Runtime Version 관리하기](manage-python-versions-using-pyenv-win)
 
 ## `aqua` 설치
 
