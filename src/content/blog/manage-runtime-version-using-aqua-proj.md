@@ -49,3 +49,6 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 상기 이미지처럼 입력을 한다.  
 `PowerToys`에 들어가서 확인하니, 잘 바뀐 것을 알 수 있다.  
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727685/image_nzmx7o.png)
+
+## 참고 문서
+- <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
