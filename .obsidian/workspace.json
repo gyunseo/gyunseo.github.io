@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/nvm-for-windows.md",
+                "file": "src/content/blog/manage-node-versions-using-nvm-windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md",
+                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-python-runtime-versions-using-pyenv-win-on-windows.md"
+                "file": "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md"
               }
             }
           }
@@ -188,7 +188,8 @@
   "active": "ffa5c3419a1170af",
   "lastOpenFiles": [
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/nvm-for-windows.md",
+    "src/content/blog/manage-node-versions-using-nvm-windows.md",
+    "src/content/blog/manage-python-versions-using-pyenv-win-on-windows.md",
     "src/content/blog/Untitled.md",
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
     "src/content/blog/interpolation-search-algorithm.md",
@@ -212,7 +213,6 @@
     "src/content/blog/toplogical-sort-algorithm.md",
     "src/content/blog/binary-search-algorithm.md",
     "src/content/blog/selection-sort-algorithm.md",
-    "src/content/blog/brute-force-job-assignment-problem.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
