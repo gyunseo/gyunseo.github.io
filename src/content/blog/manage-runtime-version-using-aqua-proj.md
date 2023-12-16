@@ -88,6 +88,7 @@ echo $env:PATH | findstr aquaproj-aqua
 그리고 `.config` 디렉터리 안에 `aquaproj-aqua` 디렉터리를 생성하고, `aqua.yml` 파일을 생성한다.  
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702732298/image_iz9xye.png)
 
+`$HOME\.config\aquaproj-aqua\aqua.yml`:
 ```yaml
 ---
 # aqua - Declarative CLI Version Manager
@@ -103,7 +104,17 @@ registries:
 packages:
 ```
 
-그리고 User Session을 끊고, 
+그리고 User Session을 끊고, Administrator Session으로 Powershell에 접속한다.  
+
+```powershell
+$envAquaGlobalConfig = [System.Environment]::GetEnvironmentVariable("AQUA_GLOBAL_CONFIG", [System.EnvironmentVariableTarget]::Machine)
+$newAquaGlobalConfig = "$HOME\.config\aquaproj-aqua\aqua.yml;$envAquaGlobalConfig"
+[System.Environment]::SetEnvironmentVariable("AQUA_GLOBAL_CONFIG", $newAquaGlobalConfig, [System.EnvironmentVariableTarget]::Machine)
+```
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702732971/image_cs99vh.png)
+
+상기 이미지처럼 환경 변수 `AQUA_GLOBAL_CONFIG`가 잘 설정된 것을 알 수 있다.  
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
 - 
