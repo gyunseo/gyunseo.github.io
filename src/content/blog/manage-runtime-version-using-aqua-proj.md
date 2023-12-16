@@ -41,14 +41,22 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 그리고 `Powershell`에 Administrator 권한 session으로 접속한다.  
 
 ```powershell
-[System.Environment]::SetEnvironmentVariable("AQUA_ROOT_DIR", "$env:LOCALAPPDATA\aquaproj-aqua\", [System.EnvironmentVariableTarget]::Machine)
+[System.Environment]::SetEnvironmentVariable("AQUA_ROOT_DIR", "$env:LOCALAPPDATA\aquaproj-aqua", [System.EnvironmentVariableTarget]::Machine)
 ```
-
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727647/image_xxtqyc.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727944/image_aawcez.png)
 
 상기 이미지처럼 입력을 한다.  
 `PowerToys`에 들어가서 확인하니, 잘 바뀐 것을 알 수 있다.  
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727685/image_nzmx7o.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727960/image_pezbp6.png)
 
+그 다음 다시 일반 `User` Session으로 `Powershell`에 접속을 하고, 하기 명령어를 입력한다.  
+
+```powershell
+Set-Item Env:Path "$Env:AQUA_ROOT_DIR\bat;$Env:AQUA_ROOT_DIR\bin;$ENV:Path"
+```
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702728014/image_syi9vb.png)
+
+상기 이미지처럼 잘 환경 변수 `PATH`가 설정된 것을 알 수 있다.  
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
