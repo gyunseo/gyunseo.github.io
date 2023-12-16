@@ -80,6 +80,11 @@ echo $env:PATH | findstr aquaproj-aqua
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702729540/image_sfhbto.png)
 (잘 나오네 ㅎㅎ)
 
+## 환경 변수 `AQUA_GLOBAL_CONFIG` 설정
+
+하기 이미지처럼 `$HOME` 디렉터리에 `.config` 디렉터리를 생성한다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702730263/image_bzjsee.png)
+
 
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
