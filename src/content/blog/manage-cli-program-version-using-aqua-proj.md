@@ -21,7 +21,13 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 그래서 이것 저것 서칭을 해 보다가.  
 어떤 일본 분이 만드신 `aqua`라는 것을 알아 냈다.  
 그래서 이걸로 Windows에서 cli program version managing을 해 보려고 한다.  
-(~~아 이거 node랑 python 지원을 안 하네요 ㅋㅋ~~)
+(~~아 이거 node랑 python 지원을 안 하네 ㅋㅋ~~)
+- <https://zenn.dev/shunsuke_suzuki/books/aqua-handbook/viewer/what-aqua#aqua-%E3%81%AF%E5%85%A8%E3%81%A6%E3%82%92%E4%BB%A3%E6%9B%BF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B>  
+상기 링크가 개발자 분이 쓴 블로그 포스트인데 하기와 같은 코멘트가 있습니다.  
+> 特に asdf がサポートしている Python や Ruby, Node.js などは aqua はサポートしていません。
+
+번역하면 asdf가 지원하는 python, ruby, node.js는 aqua가 지원하지 않는다는 내용입니다.  
+그래도 `go`랑 `bun`은 설치가 되고, 뭔가 복잡한 설정을 하면 `jdk`도 설정이 가능합니다!
 
 ## `aqua` 설치
 
