@@ -123,4 +123,3 @@ Administrator Session을 끊고 나와서, 다시 User Session으로 Powershell�
 
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
-- 
