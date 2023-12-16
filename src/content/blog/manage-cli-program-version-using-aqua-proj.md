@@ -137,3 +137,5 @@ Administrator Session을 끊고 나와서, 다시 User Session으로 Powershell�
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>  
 - <https://aquaproj.github.io/docs/tutorial/global-config>
+- <https://zenn.dev/shunsuke_suzuki/books/aqua-handbook/viewer/what-aqua#aqua-%E3%81%AF%E5%85%A8%E3%81%A6%E3%82%92%E4%BB%A3%E6%9B%BF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B>
+- 
