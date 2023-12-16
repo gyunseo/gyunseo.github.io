@@ -58,5 +58,16 @@ Set-Item Env:Path "$Env:AQUA_ROOT_DIR\bat;$Env:AQUA_ROOT_DIR\bin;$ENV:Path"
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702728014/image_syi9vb.png)
 
 상기 이미지처럼 잘 환경 변수 `PATH`가 설정된 것을 알 수 있다.  
+그런데 이렇게 설정을 하면 Powershell Session이 종료되면, 다시 `$env:PATH`  값은 초기화 된다.  
+세션을 종료했다가, 다시 접속하면 하기 이미지처럼 다시 `$env:PATH` 값이 초기화 된 것을 알 수 있다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702729284/image_losnm8.png)
+
+그래서 초기화 되지 않게 하려면, **Administrator** 권한으로 Powershell에 접속하여, 하기 script를 입력한다.  
+
+```powershell
+$envPath = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)
+$newPath = "$Env:AQUA_ROOT_DIR\bat;$Env:AQUA_ROOT_DIR\bin;$envPath"
+[System.Environment]::SetEnvironmentVariable("Path", $newPath, [System.EnvironmentVariableTarget]::Machine)
+```
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
