@@ -122,4 +122,5 @@ Administrator Session을 끊고 나와서, 다시 User Session으로 Powershell�
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702737347/image_jrvlx4.png)
 
 ## 참고 문서
-- <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
+- <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>  
+- <https://aquaproj.github.io/docs/tutorial/global-config>
