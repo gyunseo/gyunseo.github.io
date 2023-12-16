@@ -11,24 +11,15 @@
             "id": "137fdd9ff21de5ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d9c72a88f77507b1",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/manage-runtime-version-using-aqua-proj.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-runtime-version-using-aqua-proj.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-runtime-version-using-aqua-proj.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-runtime-version-using-aqua-proj.md"
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj.md"
               }
             }
           }
@@ -157,9 +148,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d9c72a88f77507b1",
+  "active": "137fdd9ff21de5ca",
   "lastOpenFiles": [
-    "src/content/blog/manage-runtime-version-using-aqua-proj.md",
+    "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
     "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/bellmanford-algorithm.md",
     "src/content/blog/0-1-knapsack-dp.md",
