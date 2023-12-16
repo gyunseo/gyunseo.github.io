@@ -27,7 +27,9 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 > 特に asdf がサポートしている Python や Ruby, Node.js などは aqua はサポートしていません。
 
 번역하면 asdf가 지원하는 python, ruby, node.js는 aqua가 지원하지 않는다는 내용입니다.  
-그래도 `go`랑 `bun`은 설치가 되고, 뭔가 복잡한 설정을 하면 `jdk`도 설정이 가능합니다!
+그래도 `go`랑 `bun`은 설치가 되고, 뭔가 복잡한 설정을 하면 `jdk`도 설정이 가능합니다! (하기 discussion 참고)  
+- <https://github.com/orgs/aquaproj/discussions/1481>
+
 
 ## `aqua` 설치
 
