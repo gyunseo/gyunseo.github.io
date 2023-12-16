@@ -118,6 +118,8 @@ $newAquaGlobalConfig = "$env:LOCALAPPDATA\aquaproj-aqua\aqua.yaml;$envAquaGlobal
 상기 이미지처럼 환경 변수 `AQUA_GLOBAL_CONFIG`가 잘 설정된 것을 알 수 있다.  
 
 Administrator Session을 끊고 나와서, 다시 User Session으로 Powershell에 접속하여
+`gh version`을 입력하면 global로 설치가 되어, command가 잘 먹는 것을 알 수 있다.
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702737347/image_jrvlx4.png)
 
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
