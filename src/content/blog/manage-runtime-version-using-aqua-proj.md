@@ -108,13 +108,15 @@ packages:
 
 ```powershell
 $envAquaGlobalConfig = [System.Environment]::GetEnvironmentVariable("AQUA_GLOBAL_CONFIG", [System.EnvironmentVariableTarget]::Machine)
-$newAquaGlobalConfig = "$HOME\.config\aquaproj-aqua\aqua.yml;$envAquaGlobalConfig"
+$newAquaGlobalConfig = "$env:LOCALAPPDATA\aquaproj-aqua\aqua.yaml;$envAquaGlobalConfig"
 [System.Environment]::SetEnvironmentVariable("AQUA_GLOBAL_CONFIG", $newAquaGlobalConfig, [System.EnvironmentVariableTarget]::Machine)
 ```
 
-![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702732971/image_cs99vh.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702737133/image_zzbqeu.png)
 
 상기 이미지처럼 환경 변수 `AQUA_GLOBAL_CONFIG`가 잘 설정된 것을 알 수 있다.  
+
+
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
 - 
