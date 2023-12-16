@@ -30,7 +30,7 @@ Windows에는 Linux와 macOS에서 쓰이는 `asdf`라는 runtime version manage
 상기 URI로 접속하여, Windows Binary를 다운로드 받는다.  
 
 
-## 환경 변수 `PATH` 설정
+## 환경 변수 `AQUA_ROOT_DIR`, `PATH` 설정
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702727066/image_olpj61.png)
 
@@ -69,5 +69,17 @@ $envPath = [System.Environment]::GetEnvironmentVariable("Path", [System.Environm
 $newPath = "$Env:AQUA_ROOT_DIR\bat;$Env:AQUA_ROOT_DIR\bin;$envPath"
 [System.Environment]::SetEnvironmentVariable("Path", $newPath, [System.EnvironmentVariableTarget]::Machine)
 ```
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702729408/image_gb9qpw.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702729416/image_idw76o.png)
+그러면 상기 이미지 처럼 잘 변한 것을 확인할 수 있다.  
+다시 일반 User Session으로 Powershell에 접속하여, `$env:PATH`가 잘 설정됐는지 확인해 보자.  
+
+```powershell
+echo $env:PATH | findstr aquaproj-aqua
+```
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702729540/image_sfhbto.png)
+(잘 나오네 ㅎㅎ)
+
+
 ## 참고 문서
 - <https://aquaproj.github.io/docs/install#download-prebuilt-binaries-from-github-releases>
