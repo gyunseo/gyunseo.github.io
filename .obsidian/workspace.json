@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#들어가며",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "137fdd9ff21de5ca",
+  "active": "44ceb28487cc2383",
   "lastOpenFiles": [
     "src/content/blog/Untitled.md",
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
