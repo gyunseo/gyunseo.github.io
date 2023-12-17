@@ -97,4 +97,14 @@ export PATH=$(REMOVE_PART="/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/m
 ```
 
 상기 스크립트로 Windows `aqua` 경로를 삭제해 주자.  
-그리고 해당 스크립트를 `~/.zshrc`에 마지막에 추가해 주자.
+그리고 해당 스크립트를 `~/.zshrc`에 마지막에 추가해 주자.  
+그리고 이것 때문에 뭔가 꼬인 것 같으니, `aqua` binary가 있는 aqua root direcotyr와 `.config/aquaproj-aqua` directory를 모두 삭제해주자.  
+그리고 상기 과정을 다시 해주면 잘 실행이 된다.
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702802717/image_df0jfu.png)
+
+## 참고 문서
+
+- <https://aquaproj.github.io/docs/products/aqua-installer#shell-script>
+- <https://aquaproj.github.io/docs/tutorial/global-config>
+- <https://aquaproj.github.io/docs/reference/uninstall>
