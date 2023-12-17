@@ -26,6 +26,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5bb1e4f14ee2e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/install-neovim-appimage-on-ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -159,6 +171,7 @@
   },
   "active": "bbdcff5390286f2f",
   "lastOpenFiles": [
+    "src/content/blog/install-neovim-appimage-on-ubuntu.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
@@ -184,7 +197,6 @@
     "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/toplogical-sort-algorithm.md",
     "src/content/blog/binary-search-algorithm.md",
-    "src/content/blog/selection-sort-algorithm.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
