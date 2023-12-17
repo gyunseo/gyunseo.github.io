@@ -122,12 +122,6 @@ cd ~/.config/aquaproj-aqua/
 aqua update
 ```
 
-혹은
-
-```zsh
-aqua update -c
-```
-
 ## 참고 문서
 
 - <https://aquaproj.github.io/docs/products/aqua-installer#shell-script>
