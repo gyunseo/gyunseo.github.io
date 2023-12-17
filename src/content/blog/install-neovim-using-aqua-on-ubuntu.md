@@ -77,6 +77,18 @@ packages:
 
 상기와 같이 작성해 주자.
 그리고 `cd ~`를 하여 `$HOME`으로 돌아와, `aqua i -a`를 하여, global로 neovim을 install하자.
+그리고
+`export AQUA_GLOBAL_CONFIG=${AQUA_GLOBAL_CONFIG:-}:${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua/aqua.yaml` 명령어가 shell에 영구히 적용이 안됐으므로, `~/.zshrc` 에 적용을 해준다.
+
+```zsh
+vi ~/.zshrc
+```
+
+```zsh
+export AQUA_GLOBAL_CONFIG=${AQUA_GLOBAL_CONFIG:-}:${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua/aqua.yaml
+```
+
+상기 명령어를 `~/.zshrc` 맨 마지막에 추가한다.
 
 ## `nvim` command 실행 오류
 
@@ -102,6 +114,19 @@ export PATH=$(REMOVE_PART="/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/m
 그리고 상기 과정을 다시 해주면 잘 실행이 된다.
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702802717/image_df0jfu.png)
+
+# `registries`와 `package` update
+
+```zsh
+cd ~/.config/aquaproj-aqua/
+aqua update
+```
+
+혹은
+
+```zsh
+aqua update -c
+```
 
 ## 참고 문서
 
