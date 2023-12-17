@@ -34,7 +34,16 @@ chmod +x aqua-installer
 `aqua` binary 경로를 `PATH` 환경 변수에 추가해 달라니 추가해 주자.
 
 ```zsh
+vi ~/.zshrc
+```
+
+하기 명령어를 `~/.zshrc` 끝에 추가
+
+```zsh
 export PATH=${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH
+```
+
+```zsh
 source ~/.zshrc
 ```
 
@@ -84,7 +93,8 @@ packages:
 그래서 `:/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bin`를 삭제해 줘야 한다.
 
 ```
-PATH=$(REMOVE_PART="/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bin" sh -c 'echo ":$PATH:" | sed "s@:$REMOVE_PART:@:@g;s@^:\(.*\):\$@\1@"')
+export PATH=$(REMOVE_PART="/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bin" sh -c 'echo ":$PATH:" | sed "s@:$REMOVE_PART:@:@g;s@^:\(.*\):\$@\1@"')
 ```
 
-상기 스크립트로 Windows `aqua` 경로를 삭제해 주자.
+상기 스크립트로 Windows `aqua` 경로를 삭제해 주자.  
+그리고 해당 스크립트를 `~/.zshrc`에 마지막에 추가해 주자.
