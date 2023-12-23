@@ -30,3 +30,10 @@ npm i -g @nestjs/cli@latest
 ```
 
 저는 미리 `nestjs-prisma-deep-dive`라는 directory를 만들었습니다 ㅎㅎ
+
+```zsh
+cd nestjs-prisma-deep-dive
+nest new .
+```
+
+package manager로는 `pnpm`을 사용합니다.
