@@ -122,6 +122,13 @@ cd ~/.config/aquaproj-aqua/
 aqua update
 ```
 
+그러면 하기와 같은 로그가 뜨면서 update가 된다.
+
+```zsh
+INFO[0000] updating a package                            aqua_version=2.21.3 env=linux/amd64 new_version=v0.9.4 old_version=stable package_name=neovim/neovim program=aqua
+INFO[0000] updating a registry                           aqua_version=2.21.3 env=linux/amd64 new_version=v4.110.0 old_version=v4.104.0 program=aqua registry_name=standard
+```
+
 ## 참고 문서
 
 - <https://aquaproj.github.io/docs/products/aqua-installer#shell-script>
