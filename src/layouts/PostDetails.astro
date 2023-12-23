@@ -95,6 +95,10 @@ const ogUrl = new URL(
   .post-title {
     @apply text-2xl font-semibold text-skin-accent;
   }
+  /* This is fixing the dim color of katex in dark mode */
+  .prose {
+    color: var(--color-text-base);
+  }
 </style>
 
 <script is:inline>
