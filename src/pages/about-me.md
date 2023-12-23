@@ -11,14 +11,16 @@ title: "About Me"
 
 # Would-be Developer
 
----
+## [![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,astro,bash,azure,androidstudio,azure,c,cpp,discord,docker,dotnet,cs,electron,elixir,fastapi,figma,git,github,gradle,graphql,instagram,java,linux,neovim,nestjs,ps,powershell,prisma,py,react,wordpress,vscode,vite,visualstudio,vercel,unity,twitter,tailwind,sqlite,stackoverflow,selenium,postgres)](https://skillicons.dev)
 
 # Portfolio
 
 ## Game
 
 ## Web Service
+
 - [코드당](https://github.com/skkuding/codedang)
+
 ---
 
 # Information
