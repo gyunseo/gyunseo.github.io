@@ -1,7 +1,7 @@
 ---
 title: NestJS Prisma Deep Dive
 pubDatetime: 2023-12-24T01:51:00Z
-featured: false
+featured: true
 draft: false
 tags:
   - NestJS
