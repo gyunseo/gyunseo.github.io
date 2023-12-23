@@ -115,7 +115,7 @@ export PATH=$(REMOVE_PART="/mnt/c/Users/rbstj/AppData/Local/aquaproj-aqua/bat:/m
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1702802717/image_df0jfu.png)
 
-# `registries`와 `package` update
+## `registries`와 `package` update
 
 ```zsh
 cd ~/.config/aquaproj-aqua/
