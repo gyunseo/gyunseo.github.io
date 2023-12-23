@@ -19,8 +19,8 @@ description: NestJS + Prisma로 Web Backend API 서버 개발하기...
 
 - <https://www.youtube.com/watch?v=skQXoZ8chxk>
 
-상기의 좋은 강좌를 발견했다.  
-공부하면서 노트하는 포스트이다.
+상기 유튜브 링크의 좋은 강좌를 발견했습니다.  
+공부하면서 노트하는 포스트입니다. 😊
 
 ## NestJS 설치
 
@@ -28,3 +28,5 @@ description: NestJS + Prisma로 Web Backend API 서버 개발하기...
 # node version: v20.10.0
 npm i -g @nestjs/cli@latest
 ```
+
+저는 미리 `nestjs-prisma-deep-dive`라는 directory를 만들었습니다 ㅎㅎ
