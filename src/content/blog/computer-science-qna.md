@@ -1,7 +1,7 @@
 ---
 title: 방학에 공부할 만한 CS QnA
 pubDatetime: 2024-01-02T01:07:00Z
-featured: false
+featured: true
 draft: false
 tags:
   - Computer-Science
