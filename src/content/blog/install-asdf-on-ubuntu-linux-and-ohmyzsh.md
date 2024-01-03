@@ -41,6 +41,7 @@ nvim ~/.zshrc
 `plugins=(asdf)`를 추가한다.
 그러면 `asdf`가 `ohmyzsh` framework에 통합이 되어, `asdf`를 사용할 수 있게 된다.
 
+
 ```zsh
 asdf --version
 ```
