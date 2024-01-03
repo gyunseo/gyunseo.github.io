@@ -360,7 +360,8 @@ local `JDK`가 `temurin-11.0.21+9`로 잘 설정되었음을 확인할 수 있�
 
 ## macOS `JAVA_HOME` Integration
 
-Some applications in macOS use `/usr/libexec/java_home` to set java home.  Setting `java_macos_integration_enable` to yes on `.asdfrc` file enables this integration.  
+macOS의 일부 응용 프로그램은 `/usr/libexec/java_home`을 java home 설정에 사용한다.  
+`.asdfrc`에서 `java_macos_integration_enable`을 yes로 설정하면 이 통합이 가능해진다.  
 `$HOME/.asdfrc`:
 ```zsh
 java_macos_integration_enable=yes
