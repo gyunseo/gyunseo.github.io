@@ -358,6 +358,13 @@ echo $JAVA_HOME
 
 local `JDK`가 `temurin-11.0.21+9`로 잘 설정되었음을 확인할 수 있다.
 
+## macOS `JAVA_HOME` Integration
+
+Some applications in macOS use `/usr/libexec/java_home` to set java home.  Setting `java_macos_integration_enable` to yes on `.asdfrc` file enables this integration.  
+`$HOME/.asdfrc`:
+```zsh
+java_macos_integration_enable=yes
+```
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정
