@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
+                "file": "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
+                "file": "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
+                "file": "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/nestjs-prisma-deep-dive.md"
+                "file": "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md"
               }
             }
           }
@@ -150,11 +150,11 @@
   },
   "active": "1468c09736def4df",
   "lastOpenFiles": [
+    "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/content/blog/Untitled.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/content/blog/computer-science-qna.md",
-    "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
     "src/content/blog/install-aqua-on-windows.md",
