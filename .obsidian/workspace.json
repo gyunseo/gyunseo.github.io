@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "1468c09736def4df",
   "lastOpenFiles": [
+    "src/assets/스크린샷 2024-01-21 오후 11.58.40.png",
+    "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
     "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/content/blog/Untitled.md",
     "src/assets/template/obsidian-template.md",
@@ -174,8 +176,6 @@
     "src/content/blog/josephus-problem-algorithm.md",
     "src/content/blog/lcs-algorithm.md",
     "src/content/blog/n-queen-problem.md",
-    "src/content/blog/maze-algorithm.md",
-    "src/content/blog/red-black-tree.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
@@ -193,7 +193,6 @@
     "replace_text.ps1",
     "src/assets/image/install-hangul-input-method-on-wslg-1698338240755.jpeg",
     "src/assets/image/install-hangul-input-method-on-wslg-1698337746042.jpeg",
-    "src/assets/image/install-hangul-input-method-on-wslg-1698337781758.jpeg",
     "ostep-pdfs/39_interlude-file-directory.pdf",
     "Excalidraw"
   ]
