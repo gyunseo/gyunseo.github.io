@@ -111,7 +111,7 @@
     --color-border: 220, 152, 145;
   }
   html[data-theme="dark"] {
-    --color-fill: 33, 39, 55;
+    --color-fill: 33, 39, 55; /* lower contrast bgColor */
     --color-text-base: 234, 237, 243;
     --color-accent: 255, 107, 1;
     --color-card: 52, 63, 96;
