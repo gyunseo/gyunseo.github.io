@@ -1,6 +1,7 @@
 ---
 title: NestJS Prisma Deep Dive
 pubDatetime: 2023-12-24T01:51:00Z
+modDatetime: 2024-01-21T23:45:00Z
 featured: true
 draft: false
 tags:
@@ -19,8 +20,7 @@ description: NestJS + Prisma로 Web Backend API 서버 개발하기...
 
 - <https://www.youtube.com/watch?v=skQXoZ8chxk>
 
-상기 유튜브 링크의 좋은 강좌를 발견했습니다.  
-공부하면서 노트하는 포스트입니다. 😊
+nestjs를 공부하면서 노트하는 포스트입니다. 😊
 
 ## NestJS 설치
 

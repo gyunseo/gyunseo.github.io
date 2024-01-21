@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0d7f7517a3a9ff76",
+        "id": "12fa4e3c1a31b99a",
         "type": "tabs",
         "children": [
           {
-            "id": "0f313b04d0e39205",
+            "id": "1468c09736def4df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
+                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
+                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
+                "file": "src/content/blog/nestjs-prisma-deep-dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md"
+                "file": "src/content/blog/nestjs-prisma-deep-dive.md"
               }
             }
           }
@@ -148,8 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f313b04d0e39205",
+  "active": "1468c09736def4df",
   "lastOpenFiles": [
+    "src/content/blog/Untitled.md",
+    "src/assets/template/obsidian-template.md",
+    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/content/blog/computer-science-qna.md",
     "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
@@ -173,9 +176,6 @@
     "src/content/blog/n-queen-problem.md",
     "src/content/blog/maze-algorithm.md",
     "src/content/blog/red-black-tree.md",
-    "src/content/blog/avl-tree.md",
-    "src/content/blog/russian-peasant-multiplication-algorithm.md",
-    "src/content/blog/gcd-algorithm.md",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking with TCP_IP Protocol Suite-McGraw-Hill (2022).pdf",
     "data-communications-and-networking-pdfs/Behrouz A. Forouzan - Data Communications and Networking-McGraw Hill (2012).pdf",
     "ostep-pdfs/26_threads-intro.pdf",
