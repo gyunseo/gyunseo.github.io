@@ -8,9 +8,13 @@ export const SITE: Site = {
   ogImage: "doggo-og.png",
   lightAndDarkMode: true,
   postPerPage: 5,
+  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
-export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
+export const LOCALE = {
+  lang: "ko-KR", // html lang code. Set this empty and default will be "en"
+  langTag: ["ko-KR"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+} as const;
 
 export const LOGO_IMAGE = {
   enable: false,

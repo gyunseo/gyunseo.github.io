@@ -2,12 +2,13 @@
 title: How to add an estimated reading time in AstroPaper
 author: Sat Naing
 pubDatetime: 2023-07-21T10:11:06.130Z
-postSlug: how-to-add-estimated-reading-time
+modDatetime: 2024-01-03T14:53:25Z
+slug: how-to-add-estimated-reading-time
 featured: false
 draft: false
 tags:
   - FAQ
-description: How you can add an 'Reading time' in your blog posts of AstroPaper.
+description: How you can add an 'Estimated Reading time' in your blog posts of AstroPaper.
 ---
 
 As the [Astro docs](https://docs.astro.build/en/recipes/reading-time/) say, we can use remark plugin to add a reading time property in our frontmatter. However, for some reason, we can't add this feature by following what stated in Astro docs. Therefore, to achieve this, we have to tweak a little bit. This post will demonstrate how we can do that.
@@ -88,8 +89,8 @@ Step (5) Create a new file called `getPostsWithRT.ts` under `src/utils` director
 
 ```ts
 import type { MarkdownInstance } from "astro";
-import slugify from "./slugify";
 import type { CollectionEntry } from "astro:content";
+import { slugifyStr } from "./slugify";
 
 export const getReadingTime = async () => {
   // Get all posts using glob. This is to get the updated frontmatter
@@ -103,7 +104,10 @@ export const getReadingTime = async () => {
   await Promise.all(
     globPostsValues.map(async globPost => {
       const { frontmatter } = await globPost();
-      mapFrontmatter.set(slugify(frontmatter), frontmatter.readingTime);
+      mapFrontmatter.set(
+        slugifyStr(frontmatter.title),
+        frontmatter.readingTime
+      );
     })
   );
 
@@ -113,7 +117,7 @@ export const getReadingTime = async () => {
 const getPostsWithRT = async (posts: CollectionEntry<"blog">[]) => {
   const mapFrontmatter = await getReadingTime();
   return posts.map(post => {
-    post.data.readingTime = mapFrontmatter.get(slugify(post.data));
+    post.data.readingTime = mapFrontmatter.get(slugifyStr(post.data.title));
     return post;
   });
 };
@@ -137,8 +141,8 @@ export async function getStaticPaths() {
 
   const postsWithRT = await getPostsWithRT(posts); // replace reading time logic with this func
 
-  const postResult = postsWithRT.map(post => ({ // make sure to replace posts with postsWithRT
-    params: { slug: slugify(post.data) },
+   const postResult = postsWithRT.map(post => ({ // make sure to replace posts with postsWithRT
+    params: { slug: post.slug },
     props: { post },
   }));
 
@@ -157,8 +161,15 @@ export interface Props {
 
 const { post } = Astro.props;
 
-const { title, author, description, ogImage, pubDatetime, tags, readingTime } =
-  post.data; // we can now directly access readingTime from frontmatter
+const {
+  title,
+  author,
+  description,
+  ogImage,
+  readingTime, // we can now directly access readingTime from frontmatter
+  pubDatetime,
+  modDatetime,
+  tags } = post.data;
 
 // other codes
 ---
@@ -181,8 +192,12 @@ const getSortedPosts = async (posts: CollectionEntry<"blog">[]) => {
     .filter(({ data }) => !data.draft)
     .sort(
       (a, b) =>
-        Math.floor(new Date(b.data.pubDatetime).getTime() / 1000) -
-        Math.floor(new Date(a.data.pubDatetime).getTime() / 1000)
+        Math.floor(
+          new Date(b.data.modDatetime ?? b.data.pubDatetime).getTime() / 1000
+        ) -
+        Math.floor(
+          new Date(a.data.modDatetime ?? a.data.pubDatetime).getTime() / 1000
+        )
     );
 };
 
@@ -196,7 +211,9 @@ Files that use `getSortedPosts` function are as follow
 - src/pages/index.astro
 - src/pages/posts/index.astro
 - src/pages/rss.xml.ts
+- src/pages/posts/index.astro
 - src/pages/posts/[slug].astro
+- src/utils/getPostsByTag.ts
 
 All you have to do is like this
 
@@ -215,7 +232,7 @@ But in this section, I'm gonna show you how I would display `readingTime` in my 
 
 Step (1) Update `Datetime` component to display `readingTime`
 
-```ts
+```tsx
 import { LOCALE } from "@config";
 
 export interface Props {
@@ -234,7 +251,7 @@ export default function Datetime({
   return (
     // other codes
     <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
-      <FormattedDatetime datetime={datetime} />
+      <FormattedDatetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
       <span> ({readingTime})</span> {/* display reading time */}
     </span>
     // other codes
@@ -248,10 +265,14 @@ file: Card.tsx
 
 ```ts
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, description, readingTime } = frontmatter;
+  const { title, pubDatetime, modDatetime description, readingTime } = frontmatter;
   return (
     ...
-    <Datetime datetime={pubDatetime} readingTime={readingTime} />
+    <Datetime
+      pubDatetime={pubDatetime}
+      modDatetime={modDatetime}
+      readingTime={readingTime}
+    />
     ...
   );
 }
@@ -264,7 +285,8 @@ file: PostDetails.tsx
 <main id="main-content">
   <h1 class="post-title">{title}</h1>
   <Datetime
-    datetime={pubDatetime}
+    pubDatetime={pubDatetime}
+    modDatetime={modDatetime}
     size="lg"
     className="my-2"
     readingTime={readingTime}

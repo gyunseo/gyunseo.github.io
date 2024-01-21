@@ -6,17 +6,18 @@ import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import SearchBar from "@components/Search";
+import getSortedPosts from "@utils/getSortedPosts";
 
-// Retrieve all articles
+// Retrieve all published articles
 const posts = await getCollection("blog", ({ data }) => !data.draft);
+const sortedPosts = getSortedPosts(posts);
 
 // List of items to search in
-// SearchBar takes props as an array of SearchItem,
-// which is an object with title, description and CollectionEntry<"blog">.
-const searchList = posts.map(data => ({
-  title: data["data"].title,
-  description: data["data"].description,
+const searchList = sortedPosts.map(({ data, slug }) => ({
+  title: data.title,
+  description: data.description,
   data,
+  slug,
 }));
 ---
 
