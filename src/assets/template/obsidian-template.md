@@ -1,5 +1,5 @@
 ---
-author: Gyunseo Lee
+author: Gyunseo Lee
 title: Hello, World!
 pubDatetime: {{date}}T{{time}}:00Z
 modDatetime: {{date}}T{{time}}:00Z
