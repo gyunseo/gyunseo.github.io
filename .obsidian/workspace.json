@@ -18,21 +18,26 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "63793d0a7fcb123a",
+        "type": "tabs",
+        "children": [
           {
-            "id": "f8af584d36cc5e67",
+            "id": "4c97c07d0a41d0f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/test-test.md",
+                "file": "src/content/blog/how-to-configure-astropaper-theme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/test-test.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/test-test.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/test-test.md"
+                "file": "src/content/blog/how-to-configure-neovim.md"
               }
             }
           }
@@ -161,9 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8af584d36cc5e67",
+  "active": "0d437f4c4259caf9",
   "lastOpenFiles": [
+    "src/content/blog/how-to-configure-astropaper-theme.md",
     "src/content/blog/how-to-configure-neovim.md",
+    "dist/posts/how-to-use-git-hooks-to-set-created-and-modified-dates.png",
     "src/content/blog/test-test.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
@@ -184,7 +191,6 @@
     "dist/tags/registry/1",
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
-    "dist/posts/virtual-lans.png",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
     "src/content/blog/nestjs-prisma-deep-dive.md",
@@ -207,7 +213,6 @@
     "src/content/blog/mst-prim-algorithm.md",
     "src/content/blog/mst-kruskal-algorithm.md",
     "src/content/blog/josephus-problem-algorithm.md",
-    "src/content/blog/lcs-algorithm.md",
-    "src/content/blog/n-queen-problem.md"
+    "src/content/blog/lcs-algorithm.md"
   ]
 }
