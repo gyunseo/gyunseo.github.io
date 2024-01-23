@@ -1,6 +1,6 @@
 ---
-author: Gyunseo Lee
 title: Neovim 설정하기
+author: Gyunseo Lee
 pubDatetime: 2024-01-23T22:33:00Z
 featured: true
 draft: false
