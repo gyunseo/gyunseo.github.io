@@ -4,5 +4,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "src/content/blog",
   "showUnsupportedFiles": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "vimMode": true
 }

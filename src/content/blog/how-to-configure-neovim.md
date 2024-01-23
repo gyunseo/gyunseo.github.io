@@ -97,9 +97,11 @@ require("lazy").setup(plugins, opts)
 ```
 
 `:source %`, `:Lazy`
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706022623/image_ojfqlx.png)
 
 ## 참고 문서
 
 - <https://neovim.io/doc/user/lua-guide.html#lua-guide-config>
 - <https://github.com/folke/lazy.nvim?tab=readme-ov-file#-installation>
+- https://www.reddit.com/r/neovim/comments/3fricd/comment/i1mnu1a/?utm_source=share&utm_medium=web2x&context=3
 -
