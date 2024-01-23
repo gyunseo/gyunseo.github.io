@@ -1,0 +1,61 @@
+---
+author: "\bGyunseo Lee"
+title: Neovim 설정하기
+pubDatetime: 2024-01-23T22:33:00Z
+modDatetime: 2024-01-23T22:33:00Z
+featured: true
+draft: false
+tags:
+  - neovim
+  - zsh
+  - MacOS
+description: 조금 복잡하지만 하고 나면 뭔가 뿌듯...?!
+---
+
+## Table of contents
+
+## 들어가며
+
+최근에 맥북프로 💻🍎를 구입했습니다. 😀(행복)
+그래서 이것 저것 세팅을 했는데요.  
+아무래도 Windows랑 달리, MacOS는 UNIX이고, 또 기본 터미널이 Zsh이기도 하여서, 이참에 Neovim으로 개발환경 설정을 하면 좋을 것 같아서 설정을 하려고 합니다.
+참고로, Windows에서도 WSL2 Linux를 이용하면, 거의 비슷한 과정으로 neovim 설정이 가능합니다!
+
+## `neovim` 설치하기
+
+MacOS의 대표적인 Package Manager인 Homebrew 🍺를 이용해, `neovim`을 설치해 줍시다.
+
+```zsh
+brew install neovim
+```
+
+그러면 이제 터미널에서 `nvim` command를 통해, neovim 프로그램 실행이 가능해 집니다.(하기 이미지 참고)
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706017235/image_i80h4j.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706017251/image_ffdkeq.png)
+
+## `init.lua` file 만들기
+
+Neovim은 구성 파일로 `init.vim` 또는 `init.lua`를 사용 지원을 하지만, 동시에 두 가지를 모두 지원하지는 않습니다.  
+이는 일반적으로 Linux, BSD, macOS 및 Windows용 구성 디렉터리에 있어야 합니다.  
+거기에서 Lua 와 Vimscript를 사용할 수 있습니다.
+
+- Linux, BSD, MacOS의 구성 directory: `~/.config/nvim`
+- Windows의 구성 directory: `~/AppData/Local/nvim/`
+- configuration file 이름: `init.vim` 혹은 `init.lua`
+
+저희는 여기서 `~/.config/nvim`를 configuration directory로, `init.lua`를 configuration file로 사용할 겁니다.  
+그러면 configuration directory와 configuration file이 있는지를 먼저 확인해야 겠죠?✅  
+하기 명령어를 입력해 봅시다.
+
+```zsh
+ls ~/.config/nvim/init.lua
+```
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706019638/image_v2edi3.png)
+위 이미지처럼 구성 디렉터리와 구성 파일이 잘 있는 것이 확인이 됐다면, `nvim ~/.config/nvim/init.lua` 커맨드로 구성 파일을 편집해 줍시다. 📝  
+(구성 디렉터리와 구성 파일이 없다면, `mkdir`과 `touch` 커맨드로 적당히 만들면 되겠죠? `mkdir ~/.config/nvim && touch ~/.config/nvim/init.lua`)
+
+## 참고 문서
+
+- <https://neovim.io/doc/user/lua-guide.html#lua-guide-config>

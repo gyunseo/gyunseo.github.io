@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/configure-neovim.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/configure-neovim.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/configure-neovim.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/configure-neovim.md"
+                "file": "src/content/blog/how-to-configure-neovim.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "7ab50a683e57a9fc",
   "lastOpenFiles": [
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
-    "src/content/blog/configure-neovim.md",
+    "src/content/blog/how-to-configure-neovim.md",
     "src/assets/스크린샷 2024-01-21 오후 11.58.40.png",
     "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/assets/template/obsidian-template.md",
