@@ -65,16 +65,38 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
-#:source %
+vim.api.nvim_set_option("clipboard","unnamed")
 ```
 
-`:source %` 커맨드를 실행하여, 편집 중인 `init.lua` script를 실행해주면 됩니다.
+`:source %` 커맨드를 실행하여, 편집 중인 `init.lua` script를 실행해주면 됩니다.  
+(참고로, `vim.api.nvim_set_option("clipboard","unnamed")` 는 OS의 Clipboard를 사용하기 위해 넣은 것입니다.)
 
 ## `lazy.vim`을 package manager로 설치하기
 
 ```lua
-
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.api.nvim_set_option("clipboard","unnamed")
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+local plugins = {}
+local opts = {}
+require("lazy").setup(plugins, opts)
 ```
+
+`:source %`, `:Lazy`
 
 ## 참고 문서
 
