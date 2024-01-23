@@ -1,5 +1,5 @@
 ---
-author: "\bGyunseo Lee"
+author: Gyunseo Lee
 title: Neovim 설정하기
 pubDatetime: 2024-01-23T22:33:00Z
 modDatetime: 2024-01-23T22:33:00Z
@@ -104,4 +104,3 @@ require("lazy").setup(plugins, opts)
 - <https://neovim.io/doc/user/lua-guide.html#lua-guide-config>
 - <https://github.com/folke/lazy.nvim?tab=readme-ov-file#-installation>
 - https://www.reddit.com/r/neovim/comments/3fricd/comment/i1mnu1a/?utm_source=share&utm_medium=web2x&context=3
--
