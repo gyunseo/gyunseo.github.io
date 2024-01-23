@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "466aae9ce7804c8b",
+        "id": "67bb4ac54a7d4913",
         "type": "tabs",
         "children": [
           {
-            "id": "0d437f4c4259caf9",
+            "id": "cbcc1941206fbd1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "src/content/blog/how-to-configure-neovim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "63793d0a7fcb123a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4c97c07d0a41d0f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/how-to-configure-astropaper-theme.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,8 +148,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d437f4c4259caf9",
+  "active": "cbcc1941206fbd1e",
   "lastOpenFiles": [
+    "src/content/blog/how-to-configure-astropaper-theme.md",
+    "src/content/blog/how-to-configure-neovim.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
@@ -188,9 +172,6 @@
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
     "dist/posts/virtual-lans.png",
-    "dist/posts/windows에서-wsl을-완전히-삭제하자.png",
-    "src/content/blog/how-to-configure-astropaper-theme.md",
-    "src/content/blog/how-to-configure-neovim.md",
     "src/content/blog/test-test.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
