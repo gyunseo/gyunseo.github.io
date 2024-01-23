@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12fa4e3c1a31b99a",
+        "id": "466aae9ce7804c8b",
         "type": "tabs",
         "children": [
           {
-            "id": "7ab50a683e57a9fc",
+            "id": "0d437f4c4259caf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/how-to-configure-neovim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/assets/template/obsidian-template.md"
+                "file": "src/content/blog/how-to-configure-neovim.md"
               }
             }
           }
@@ -148,13 +148,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ab50a683e57a9fc",
+  "active": "0d437f4c4259caf9",
   "lastOpenFiles": [
+    "src/assets/template/obsidian-template.md",
     "src/content/blog/how-to-configure-neovim.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
     "src/assets/스크린샷 2024-01-21 오후 11.58.40.png",
     "src/content/blog/nestjs-prisma-deep-dive.md",
-    "src/assets/template/obsidian-template.md",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
     "src/content/blog/computer-science-qna.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
