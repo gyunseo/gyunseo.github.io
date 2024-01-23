@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8af584d36cc5e67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/test-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-configure-neovim.md",
+                "file": "src/content/blog/test-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-configure-neovim.md",
+                "file": "src/content/blog/test-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-configure-neovim.md"
+                "file": "src/content/blog/test-test.md"
               }
             }
           }
@@ -148,8 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d437f4c4259caf9",
+  "active": "f8af584d36cc5e67",
   "lastOpenFiles": [
+    "src/content/blog/how-to-configure-neovim.md",
+    "src/content/blog/test-test.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
@@ -170,9 +185,7 @@
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
     "dist/posts/virtual-lans.png",
-    "dist/posts/windows에서-wsl을-완전히-삭제하자.png",
     "src/assets/template/obsidian-template.md",
-    "src/content/blog/how-to-configure-neovim.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
     "src/content/blog/nestjs-prisma-deep-dive.md",
     "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
