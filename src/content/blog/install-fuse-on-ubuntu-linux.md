@@ -1,7 +1,7 @@
 ---
 title: Ubuntu Linux에 FUSE 설치하기
 postSlug: install-fuse-on-ubuntu-linux
-pubDatetime: 2023-09-28T03:25:00Z
+pubDatetime: 2023-09-28T03:25:00+09:00
 featured: false
 draft: false
 tags:

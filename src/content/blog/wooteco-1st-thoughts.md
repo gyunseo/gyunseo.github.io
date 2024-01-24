@@ -1,6 +1,6 @@
 ---
 title: 우테코 1차 소감문
-pubDatetime: 2023-10-25T13:28:00Z
+pubDatetime: 2023-10-25T13:28:00+09:00
 featured: false
 draft: false
 tags:

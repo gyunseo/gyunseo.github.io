@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Linux에 zsh을 설치하고, default shell을 zsh로 바꾸자.
-pubDatetime: 2023-10-08T16:39:00Z
+pubDatetime: 2023-10-08T16:39:00+09:00
 featured: false
 draft: false
 tags:

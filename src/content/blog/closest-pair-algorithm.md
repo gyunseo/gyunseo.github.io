@@ -1,6 +1,6 @@
 ---
 title: Cloest Pair Algorithm
-pubDatetime: 2023-12-07T01:32:00Z
+pubDatetime: 2023-12-07T01:32:00+09:00
 featured: false
 draft: false
 tags:

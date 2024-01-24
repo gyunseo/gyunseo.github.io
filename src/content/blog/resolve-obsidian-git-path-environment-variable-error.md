@@ -1,6 +1,6 @@
 ---
 title: Obsidian Git Plugin의 PATH 환경 변수 오류 해결하기
-pubDatetime: 2023-10-17T01:32:00Z
+pubDatetime: 2023-10-17T01:32:00+09:00
 featured: false
 draft: false
 tags:

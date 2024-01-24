@@ -1,6 +1,6 @@
 ---
 title: 0-1 Knapsack DP
-pubDatetime: 2023-12-10T22:01:00Z
+pubDatetime: 2023-12-10T22:01:00+09:00
 featured: false
 draft: false
 tags:

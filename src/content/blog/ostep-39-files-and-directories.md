@@ -1,6 +1,6 @@
 ---
 title: OSTEP 39 Files and Directories
-pubDatetime: 2023-10-24T09:31:00Z
+pubDatetime: 2023-10-24T09:31:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Linux에서 System Locale 변경하기
-pubDatetime: 2023-10-08T15:25:00Z
+pubDatetime: 2023-10-08T15:25:00+09:00
 featured: false
 draft: false
 tags:

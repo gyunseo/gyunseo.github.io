@@ -1,6 +1,6 @@
 ---
 title: git config 최초 설정
-pubDatetime: 2023-10-08T22:16:00Z
+pubDatetime: 2023-10-08T22:16:00+09:00
 featured: false
 draft: false
 tags:

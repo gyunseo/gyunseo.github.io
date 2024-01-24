@@ -1,6 +1,6 @@
 ---
 title: OSTEP 36 File Devices
-pubDatetime: 2023-10-09T22:05:00Z
+pubDatetime: 2023-10-09T22:05:00+09:00
 featured: false
 draft: false
 tags:

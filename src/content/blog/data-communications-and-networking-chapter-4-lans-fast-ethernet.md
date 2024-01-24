@@ -1,6 +1,6 @@
 ---
 title: Data Communications and Networking Chapter 4 LANs Fast Ethernet
-pubDatetime: 2023-10-03T01:33:00Z
+pubDatetime: 2023-10-03T01:33:00+09:00
 featured: false
 draft: false
 tags:

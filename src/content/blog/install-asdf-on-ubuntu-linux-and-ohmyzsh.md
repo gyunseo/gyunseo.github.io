@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Linux에 asdf를 설치하고, ohmyzsh에 asdf plugin을 추가하자.
-pubDatetime: 2023-10-08T20:30:00Z
+pubDatetime: 2023-10-08T20:30:00+09:00
 featured: false
 draft: false
 tags:
@@ -40,7 +40,6 @@ nvim ~/.zshrc
 상기 이미지처럼
 `plugins=(asdf)`를 추가한다.
 그러면 `asdf`가 `ohmyzsh` framework에 통합이 되어, `asdf`를 사용할 수 있게 된다.
-
 
 ```zsh
 asdf --version
@@ -363,9 +362,11 @@ local `JDK`가 `temurin-11.0.21+9`로 잘 설정되었음을 확인할 수 있�
 macOS의 일부 응용 프로그램은 `/usr/libexec/java_home`을 java home 설정에 사용한다.  
 `.asdfrc`에서 `java_macos_integration_enable`을 yes로 설정하면 이 통합이 가능해진다.  
 `$HOME/.asdfrc`:
+
 ```zsh
 java_macos_integration_enable=yes
 ```
+
 ## `reshim`
 
 이거는 좀 더 공부해서 적을 예정

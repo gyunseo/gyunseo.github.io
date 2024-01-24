@@ -1,6 +1,6 @@
 ---
 title: Binary Tree Traversal Algorithms
-pubDatetime: 2023-11-28T20:57:00Z
+pubDatetime: 2023-11-28T20:57:00+09:00
 featured: false
 draft: false
 tags:

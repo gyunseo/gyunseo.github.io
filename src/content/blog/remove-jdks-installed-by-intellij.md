@@ -1,6 +1,6 @@
 ---
 title: IntelliJ가 설치한 JDK 삭제하기
-pubDatetime: 2023-10-22T15:41:00Z
+pubDatetime: 2023-10-22T15:41:00+09:00
 featured: false
 draft: false
 tags:

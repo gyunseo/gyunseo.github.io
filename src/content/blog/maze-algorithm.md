@@ -1,6 +1,6 @@
 ---
 title: Maze Algorithm
-pubDatetime: 2023-12-10T20:53:00Z
+pubDatetime: 2023-12-10T20:53:00+09:00
 featured: false
 draft: false
 tags:

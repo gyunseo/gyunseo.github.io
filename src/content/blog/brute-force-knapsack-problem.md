@@ -1,6 +1,6 @@
 ---
 title: Brute Force Knapsack Problem
-pubDatetime: 2023-11-30T12:24:00Z
+pubDatetime: 2023-11-30T12:24:00+09:00
 featured: false
 draft: false
 tags:

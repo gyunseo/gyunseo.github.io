@@ -1,6 +1,6 @@
 ---
 title: Aqua를 이용해 WSL Ubuntu에 neovim을 설치하자
-pubDatetime: 2023-12-17T17:01:00Z
+pubDatetime: 2023-12-17T17:01:00+09:00
 featured: false
 draft: false
 tags:

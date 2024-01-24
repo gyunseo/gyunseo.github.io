@@ -1,7 +1,7 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+pubDatetime: 2022-09-23T15:22:00+09:00
+modDatetime: 2023-12-21T09:12:47.400+09:00
 title: Adding new posts in AstroPaper theme
 slug: adding-new-posts-in-astropaper-theme
 featured: true
@@ -68,7 +68,7 @@ Here is the sample frontmatter for a post.
 ---
 title: The title of the post
 author: your name
-pubDatetime: 2022-09-21T05:17:19Z
+pubDatetime: 2022-09-21T05:17:19+09:00
 slug: the-title-of-the-post
 featured: true
 draft: false

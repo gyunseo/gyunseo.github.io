@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Power Off Freezing 현상 해결하기
-pubDatetime: 2023-10-16T21:34:00Z
+pubDatetime: 2023-10-16T21:34:00+09:00
 featured: false
 draft: false
 tags:

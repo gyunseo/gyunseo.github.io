@@ -1,6 +1,6 @@
 ---
 title: Multiple Panes로 Windows Terminal Default Profile 시작하기
-pubDatetime: 2023-10-22T15:25:00Z
+pubDatetime: 2023-10-22T15:25:00+09:00
 featured: false
 draft: false
 tags:

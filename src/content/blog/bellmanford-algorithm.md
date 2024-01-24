@@ -1,6 +1,6 @@
 ---
 title: bellman ford Algorithm
-pubDatetime: 2023-12-10T21:56:00Z
+pubDatetime: 2023-12-10T21:56:00+09:00
 featured: false
 draft: false
 tags:

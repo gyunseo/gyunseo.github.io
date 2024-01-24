@@ -1,6 +1,6 @@
 ---
 title: Astro Paper의 slugify를 내 입맛에 맞게 수정하다.
-pubDatetime: 2023-09-29T01:50:00Z
+pubDatetime: 2023-09-29T01:50:00+09:00
 featured: false
 draft: false
 tags:

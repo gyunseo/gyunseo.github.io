@@ -1,6 +1,6 @@
 ---
 title: Data Communications and Networking Chapter 4 LANs Ethernet
-pubDatetime: 2023-10-02T00:04:00Z
+pubDatetime: 2023-10-02T00:04:00+09:00
 featured: false
 draft: false
 tags:

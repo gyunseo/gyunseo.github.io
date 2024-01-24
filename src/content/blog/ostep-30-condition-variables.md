@@ -1,5 +1,5 @@
 ---
-pubDatetime: 2023-09-18T01:39:00Z
+pubDatetime: 2023-09-18T01:39:00+09:00
 title: OSTEP 30 Condition Variables
 postSlug: ostep-30-condition-variables
 featured: false

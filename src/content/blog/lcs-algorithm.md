@@ -1,6 +1,6 @@
 ---
 title: LCS Algorithm
-pubDatetime: 2023-12-10T20:24:00Z
+pubDatetime: 2023-12-10T20:24:00+09:00
 featured: false
 draft: false
 tags:

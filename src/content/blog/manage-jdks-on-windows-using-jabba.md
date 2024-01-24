@@ -1,6 +1,6 @@
 ---
 title: jabba를 이용해 Windows에서 JDK 버전 관리하기
-pubDatetime: 2023-10-22T16:53:00Z
+pubDatetime: 2023-10-22T16:53:00+09:00
 featured: false
 draft: false
 tags:

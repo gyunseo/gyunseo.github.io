@@ -1,6 +1,6 @@
 ---
 title: Ubuntu 22.04에서 Chromium 기반의 웹브라우저를 돌리면, 멈춘다
-pubDatetime: 2023-10-17T02:04:00Z
+pubDatetime: 2023-10-17T02:04:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "[인턴_학사] 2024 동계 DX Core 인재 Academy (채용연계형) 자소서"
-pubDatetime: 2023-11-12T23:34:00Z
+pubDatetime: 2023-11-12T23:34:00+09:00
 featured: false
 draft: false
 tags:

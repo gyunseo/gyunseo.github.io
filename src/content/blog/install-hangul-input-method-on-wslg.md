@@ -1,6 +1,6 @@
 ---
 title: WSLg에 한글 입력 설정하기.
-pubDatetime: 2023-10-01T21:53:00Z
+pubDatetime: 2023-10-01T21:53:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: KaTex와 remark-math를 이용해 astro markdown page에서 수식을 렌더링하자.
-pubDatetime: 2023-10-02T17:14:00Z
+pubDatetime: 2023-10-02T17:14:00+09:00
 featured: false
 draft: false
 tags:

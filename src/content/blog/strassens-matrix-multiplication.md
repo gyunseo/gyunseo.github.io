@@ -1,6 +1,6 @@
 ---
 title: Strassen's Matrix Multiplication
-pubDatetime: 2023-10-11T14:17:00Z
+pubDatetime: 2023-10-11T14:17:00+09:00
 featured: false
 draft: false
 tags:

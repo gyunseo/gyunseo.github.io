@@ -1,7 +1,7 @@
 ---
 title: vscode에 neovim extension 설치하기
 postSlug: install-neovim-extension-on-vscode
-pubDatetime: 2023-09-28T01:15:00Z
+pubDatetime: 2023-09-28T01:15:00+09:00
 featured: false
 draft: false
 tags:

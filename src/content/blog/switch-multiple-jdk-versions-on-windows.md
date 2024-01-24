@@ -1,6 +1,6 @@
 ---
 title: Powershell Script를 이용해 Windows에서 JDK Version Manage하기
-pubDatetime: 2023-10-22T17:22:00Z
+pubDatetime: 2023-10-22T17:22:00+09:00
 featured: false
 draft: false
 tags:

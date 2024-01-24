@@ -1,7 +1,7 @@
 ---
 title: WSL에 font를 설치하자
 postSlug: install-font-on-wsl-ubuntu-linux
-pubDatetime: 2023-09-17T02:09:00Z
+pubDatetime: 2023-09-17T02:09:00+09:00
 featured: false
 draft: false
 tags:

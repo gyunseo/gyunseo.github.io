@@ -1,6 +1,6 @@
 ---
 title: Network Layer
-pubDatetime: 2023-10-19T12:22:00Z
+pubDatetime: 2023-10-19T12:22:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Windows에서 Font Rendering Issue를 해결하자
-pubDatetime: 2023-10-20T01:25:00Z
+pubDatetime: 2023-10-20T01:25:00+09:00
 featured: false
 draft: false
 tags:

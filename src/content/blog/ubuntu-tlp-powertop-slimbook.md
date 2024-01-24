@@ -1,6 +1,6 @@
 ---
 title: Ubuntu에 tlp, powertop 그리고 slimbook 설치하기
-pubDatetime: 2023-10-17T02:43:00Z
+pubDatetime: 2023-10-17T02:43:00+09:00
 featured: false
 draft: false
 tags:

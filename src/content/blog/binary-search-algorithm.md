@@ -1,6 +1,6 @@
 ---
 title: Binary Search Algorithm
-pubDatetime: 2023-12-07T03:19:00Z
+pubDatetime: 2023-12-07T03:19:00+09:00
 featured: false
 draft: false
 tags:

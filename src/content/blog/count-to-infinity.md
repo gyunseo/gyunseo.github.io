@@ -1,6 +1,6 @@
 ---
 title: Count to Infinity
-pubDatetime: 2023-11-28T13:41:00Z
+pubDatetime: 2023-11-28T13:41:00+09:00
 featured: false
 draft: false
 tags:

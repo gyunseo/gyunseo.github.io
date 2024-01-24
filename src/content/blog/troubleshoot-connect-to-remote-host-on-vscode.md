@@ -1,6 +1,6 @@
 ---
 title: vscode에서 ssh로 remote host에 접속할 때 생기는 오류 정리
-pubDatetime: 2023-10-09T18:08:00Z
+pubDatetime: 2023-10-09T18:08:00+09:00
 featured: false
 draft: false
 tags:

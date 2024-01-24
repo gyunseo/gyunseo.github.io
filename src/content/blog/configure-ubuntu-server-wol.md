@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Server Wake on LAN 설정하기
-pubDatetime: 2023-10-09T17:12:00Z
+pubDatetime: 2023-10-09T17:12:00+09:00
 featured: false
 draft: false
 tags:

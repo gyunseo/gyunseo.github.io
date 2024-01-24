@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Linux에 neofetch 설치하고, zshrc에서 설정하기
-pubDatetime: 2023-10-08T23:02:00Z
+pubDatetime: 2023-10-08T23:02:00+09:00
 featured: false
 draft: false
 tags:

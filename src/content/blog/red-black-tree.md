@@ -1,6 +1,6 @@
 ---
 title: Red Black Tree Data Structure
-pubDatetime: 2023-11-21T03:59:00Z
+pubDatetime: 2023-11-21T03:59:00+09:00
 featured: false
 draft: false
 tags:

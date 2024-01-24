@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Server에 Docker Engine 설치하기.
-pubDatetime: 2023-10-09T18:00:00Z
+pubDatetime: 2023-10-09T18:00:00+09:00
 featured: false
 draft: false
 tags:

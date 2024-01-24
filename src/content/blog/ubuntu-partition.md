@@ -1,6 +1,6 @@
 ---
 title: Ubuntu 설치 시 Partition 나누기
-pubDatetime: 2023-10-16T16:01:00Z
+pubDatetime: 2023-10-16T16:01:00+09:00
 featured: false
 draft: false
 tags:

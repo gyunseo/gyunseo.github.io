@@ -1,6 +1,6 @@
 ---
 title: DFS and BFS Algorithms
-pubDatetime: 2023-12-07T02:41:00Z
+pubDatetime: 2023-12-07T02:41:00+09:00
 featured: false
 draft: false
 tags:

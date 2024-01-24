@@ -1,6 +1,6 @@
 ---
 title: zsh에 ohmyzsh을 설치하자.
-pubDatetime: 2023-10-08T17:34:00Z
+pubDatetime: 2023-10-08T17:34:00+09:00
 featured: false
 draft: false
 tags:

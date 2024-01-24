@@ -1,6 +1,6 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-09-25T15:20:35Z
+pubDatetime: 2022-09-25T15:20:35+09:00
 title: Customizing AstroPaper theme color schemes
 featured: false
 draft: false

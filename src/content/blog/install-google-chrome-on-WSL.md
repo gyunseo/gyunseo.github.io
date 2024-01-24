@@ -1,7 +1,7 @@
 ---
 title: WSL에 Google Chrome을 설치하자
 postSlug: install-google-chrome-on-WSL
-pubDatetime: 2023-09-10T22:50:00Z
+pubDatetime: 2023-09-10T22:50:00+09:00
 featured: false
 draft: false
 tags:

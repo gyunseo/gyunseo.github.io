@@ -1,6 +1,6 @@
 ---
 title: MST Prim Algorithm
-pubDatetime: 2023-12-10T23:02:00Z
+pubDatetime: 2023-12-10T23:02:00+09:00
 featured: false
 draft: false
 tags:

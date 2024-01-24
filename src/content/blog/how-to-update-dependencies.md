@@ -1,7 +1,7 @@
 ---
 title: How to update dependencies of AstroPaper
 author: Sat Naing
-pubDatetime: 2023-07-20T15:33:05.569Z
+pubDatetime: 2023-07-20T15:33:05.569+09:00
 slug: how-to-update-dependencies
 featured: false
 draft: false

@@ -1,8 +1,8 @@
 ---
 title: NestJS Prisma Deep Dive
 author: Gyunseo Lee
-pubDatetime: 2023-12-24T01:51:00Z
-modDatetime: 2024-01-21T23:45:00Z
+pubDatetime: 2023-12-24T01:51:00+09:00
+modDatetime: 2024-01-21T23:45:00+09:00
 featured: true
 draft: false
 tags:

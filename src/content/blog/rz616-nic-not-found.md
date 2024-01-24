@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-pubDatetime: 2023-10-17T02:37:00Z
+pubDatetime: 2023-10-17T02:37:00+09:00
 featured: false
 draft: false
 tags:

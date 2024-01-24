@@ -1,6 +1,6 @@
 ---
 title: Interpolation Search Algorithm
-pubDatetime: 2023-12-10T18:44:00Z
+pubDatetime: 2023-12-10T18:44:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Brute Force Job Assignment Problem
-pubDatetime: 2023-11-30T13:19:00Z
+pubDatetime: 2023-11-30T13:19:00+09:00
 featured: false
 draft: false
 tags:

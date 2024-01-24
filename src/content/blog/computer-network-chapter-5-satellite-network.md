@@ -1,6 +1,6 @@
 ---
 title: computer-network-chapter-5-satellite-network
-pubDatetime: 2023-10-12T12:59:00Z
+pubDatetime: 2023-10-12T12:59:00+09:00
 featured: false
 draft: false
 tags:

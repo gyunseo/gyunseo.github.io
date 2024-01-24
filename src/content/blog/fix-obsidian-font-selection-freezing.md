@@ -1,6 +1,6 @@
 ---
 title: Windows Obsidian에서 font 선택 시 멈춤 현상 해결하기
-pubDatetime: 2023-10-22T00:05:00Z
+pubDatetime: 2023-10-22T00:05:00+09:00
 featured: false
 draft: false
 tags:

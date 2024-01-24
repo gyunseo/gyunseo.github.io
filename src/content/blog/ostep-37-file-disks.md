@@ -1,6 +1,6 @@
 ---
 title: OSTEP 37 File Disks
-pubDatetime: 2023-10-10T01:17:00Z
+pubDatetime: 2023-10-10T01:17:00+09:00
 featured: false
 draft: false
 tags:

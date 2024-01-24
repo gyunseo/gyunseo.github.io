@@ -1,6 +1,6 @@
 ---
 title: N-Queen Problem
-pubDatetime: 2023-12-10T20:28:00Z
+pubDatetime: 2023-12-10T20:28:00+09:00
 featured: false
 draft: false
 tags:

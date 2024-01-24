@@ -1,6 +1,6 @@
 ---
 title: LCM(Least Common Multiple) Algorithm
-pubDatetime: 2023-11-21T02:59:00Z
+pubDatetime: 2023-11-21T02:59:00+09:00
 featured: false
 draft: false
 tags:

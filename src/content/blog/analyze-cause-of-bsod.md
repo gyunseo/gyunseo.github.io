@@ -1,6 +1,6 @@
 ---
 title: 노트북 BSOD 원인을 분석하자.
-pubDatetime: 2023-10-01T20:07:00Z
+pubDatetime: 2023-10-01T20:07:00+09:00
 featured: false
 draft: false
 tags:

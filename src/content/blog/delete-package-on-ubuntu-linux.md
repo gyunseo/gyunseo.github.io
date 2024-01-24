@@ -1,7 +1,7 @@
 ---
 title: Ubuntu Linux에서 pacakge 삭제하기
 postSlug: delete-package-on-ubuntu-linux
-pubDatetime: 2023-09-28T02:07:00Z
+pubDatetime: 2023-09-28T02:07:00+09:00
 featured: false
 draft: false
 tags:

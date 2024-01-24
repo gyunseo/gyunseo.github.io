@@ -1,6 +1,6 @@
 ---
 title: Huffman Encoding Algorithm
-pubDatetime: 2023-12-10T22:30:00Z
+pubDatetime: 2023-12-10T22:30:00+09:00
 featured: false
 draft: false
 tags:

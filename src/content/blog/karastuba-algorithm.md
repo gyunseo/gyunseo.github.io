@@ -1,6 +1,6 @@
 ---
 title: Karastuba Algorithm (카라추바 알고리즘)
-pubDatetime: 2023-10-11T12:29:00Z
+pubDatetime: 2023-10-11T12:29:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: pyenv-win을 이용해 Windows에서 Python Runtime Version 관리하기
-pubDatetime: 2023-10-22T17:26:00Z
+pubDatetime: 2023-10-22T17:26:00+09:00
 featured: false
 draft: false
 tags:

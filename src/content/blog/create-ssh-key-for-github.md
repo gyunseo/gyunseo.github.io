@@ -1,6 +1,6 @@
 ---
 title: GitHub 연결을 위해 SSH Key 생성하기
-pubDatetime: 2023-10-17T01:33:00Z
+pubDatetime: 2023-10-17T01:33:00+09:00
 featured: false
 draft: false
 tags:

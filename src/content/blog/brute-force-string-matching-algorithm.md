@@ -1,6 +1,6 @@
 ---
 title: Brute Force String Matching Algorithm
-pubDatetime: 2023-11-29T21:33:00Z
+pubDatetime: 2023-11-29T21:33:00+09:00
 featured: false
 draft: false
 tags:

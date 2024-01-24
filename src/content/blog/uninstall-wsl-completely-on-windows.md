@@ -1,6 +1,6 @@
 ---
 title: Windows에서 WSL을 완전히 삭제하자.
-pubDatetime: 2023-10-08T13:07:00Z
+pubDatetime: 2023-10-08T13:07:00+09:00
 featured: false
 draft: false
 tags:

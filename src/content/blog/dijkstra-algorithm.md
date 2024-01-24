@@ -1,6 +1,6 @@
 ---
 title: Dijkstra Algorithm
-pubDatetime: 2023-12-10T22:57:00Z
+pubDatetime: 2023-12-10T22:57:00+09:00
 featured: false
 draft: false
 tags:

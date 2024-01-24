@@ -1,6 +1,6 @@
 ---
 title: Isso를 위해 Docker Compose로 Custom Nginx 띄우기
-pubDatetime: 2023-10-15T00:25:00Z
+pubDatetime: 2023-10-15T00:25:00+09:00
 featured: true
 draft: false
 tags:

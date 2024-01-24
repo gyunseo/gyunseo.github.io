@@ -1,6 +1,6 @@
 ---
 title: Windows에 WSL을 설치하자
-pubDatetime: 2023-10-08T14:39:00Z
+pubDatetime: 2023-10-08T14:39:00+09:00
 featured: false
 draft: false
 tags:

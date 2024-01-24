@@ -1,6 +1,6 @@
 ---
 title: IP Protocol
-pubDatetime: 2023-10-24T14:00:00Z
+pubDatetime: 2023-10-24T14:00:00+09:00
 featured: false
 draft: false
 tags:

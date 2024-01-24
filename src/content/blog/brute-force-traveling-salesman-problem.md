@@ -1,6 +1,6 @@
 ---
 title: Brute Force Traveling Salesman Problem
-pubDatetime: 2023-11-29T22:46:00Z
+pubDatetime: 2023-11-29T22:46:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Windows에서 Icon Spacing Issue를 해결하자
-pubDatetime: 2023-10-22T10:10:00Z
+pubDatetime: 2023-10-22T10:10:00+09:00
 featured: false
 draft: false
 tags:

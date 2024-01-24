@@ -1,6 +1,6 @@
 ---
 title: Powershell Text 변환
-pubDatetime: 2023-10-30T21:50:00Z
+pubDatetime: 2023-10-30T21:50:00+09:00
 featured: false
 draft: false
 tags:

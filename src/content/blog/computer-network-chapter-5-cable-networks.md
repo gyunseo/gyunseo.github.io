@@ -1,6 +1,6 @@
 ---
 title: Chapter 5 Cable Networks
-pubDatetime: 2023-11-05T23:19:00Z
+pubDatetime: 2023-11-05T23:19:00+09:00
 featured: false
 draft: false
 tags:

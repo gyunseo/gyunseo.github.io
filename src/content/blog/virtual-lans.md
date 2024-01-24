@@ -1,6 +1,6 @@
 ---
 title: Virtual LANs
-pubDatetime: 2023-10-19T12:02:00Z
+pubDatetime: 2023-10-19T12:02:00+09:00
 featured: false
 draft: false
 tags:

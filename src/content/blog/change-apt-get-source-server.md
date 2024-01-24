@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Linux의 apt-get source server를 변경하자.
-pubDatetime: 2023-10-09T16:09:00Z
+pubDatetime: 2023-10-09T16:09:00+09:00
 featured: false
 draft: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: IntelliJ와 WSL를 사용할 때 "Preparing WSL build environment..."에서 멈춤 현상 해결하기
-pubDatetime: 2023-10-21T23:41:00Z
+pubDatetime: 2023-10-21T23:41:00+09:00
 featured: false
 draft: false
 tags:

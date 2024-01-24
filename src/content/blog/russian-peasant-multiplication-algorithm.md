@@ -1,6 +1,6 @@
 ---
 title: Russian Peasant Multiplication Algorithm
-pubDatetime: 2023-12-10T02:43:00Z
+pubDatetime: 2023-12-10T02:43:00+09:00
 featured: false
 draft: false
 tags:
@@ -125,4 +125,4 @@ java의 BigInteger 클래스를 이용해 실험해 봐야 겠는데, 그것 또
 ## 참고 문서
 
 - [O(N^2) grade school multiplication algorithm for small numbers](http://hg.python.org/cpython/file/b514339e41ef/Objects/longobject.c#l2570)
- - [big numbers it uses Karatsuba algorithm](http://hg.python.org/cpython/file/b514339e41ef/Objects/longobject.c#l2694)
+   - [big numbers it uses Karatsuba algorithm](http://hg.python.org/cpython/file/b514339e41ef/Objects/longobject.c#l2694)

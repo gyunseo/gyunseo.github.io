@@ -1,6 +1,6 @@
 ---
 title: Bubble Sort Algorithm
-pubDatetime: 2023-11-29T19:29:00Z
+pubDatetime: 2023-11-29T19:29:00+09:00
 featured: false
 draft: false
 tags:

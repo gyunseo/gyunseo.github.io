@@ -1,6 +1,6 @@
 ---
 title: Chapter 5 Celluar Telephony
-pubDatetime: 2023-10-12T12:07:00Z
+pubDatetime: 2023-10-12T12:07:00+09:00
 featured: false
 draft: false
 tags:
