@@ -11,11 +11,28 @@
             "id": "097f8aec07d8e141",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/how-to-configure-neovim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "152e6204398693ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md"
+              }
             }
           }
         ]
@@ -140,10 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "097f8aec07d8e141",
+  "active": "152e6204398693ac",
   "lastOpenFiles": [
-    "src/assets/template/obsidian-template.md",
     "src/content/blog/how-to-configure-neovim.md",
+    "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
+    "src/assets/template/obsidian-template.md",
     "src/content/blog/test-test.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",

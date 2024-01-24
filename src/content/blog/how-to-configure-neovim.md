@@ -99,7 +99,15 @@ require("lazy").setup(plugins, opts)
 `:source %`, `:Lazy`
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706022623/image_ojfqlx.png)
 
-## 참고 문서
+## `telescope` 설치하기
+
+dependency 설치:
+
+```zsh
+brew install ripgrep
+```
+
+neovim에 `telescope` package를 설치하기 전에, 일단 MacOS에 `ripgrep`이라는 프로그램을 설치 합시다.(이게 없으면 livegrep이 안돼요...😨)
 
 - <https://neovim.io/doc/user/lua-guide.html#lua-guide-config>
 - <https://github.com/folke/lazy.nvim?tab=readme-ov-file#-installation>
