@@ -118,10 +118,44 @@ which nvim
 
 위 그림처럼 `nvim` 커맨드의 경로를 설정해주면 됩니다.
 
+## `init.lua` 설정
+
+```zsh
+if vim.g.vscode then
+
+  -- https://github.com/vscode-neovim/vscode-neovim/issues/298
+  vim.opt.clipboard:append("unnamedplus")
+end
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+require("vim-options")
+require("lazy").setup("plugins")
+
+
+```
+
+vscode neovim extension setting에서 하기와 같이 경로를 설정정합니다.  
+`~/.config/nvim/init.lua`가 neovim configure file의 entry file이므로, 경로 설정을 다음과 같이 하면 됩니다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706380752/image_jh72tf.png)
+`:set clipboard?`로 잘 설정이 됐는지 확인해 볼 수 있습니다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706380708/image_mcfgnk.png)
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706380719/image_c7rszu.png)
+
 ## 마치며
 
 MacOS에서는 `h`, `j`, `k`, `l` 이동 키가 계속 눌릴 때는 반복되지 않을 수 있습니다.  
-이 문제를 해결하려면 터미널을 열고 `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false` 명령을 실행해야 합다.  
+이 문제를 해결하려면 터미널을 열고 `defaults write com.microsoft.vscode applepressandholdenabled -bool false` 명령을 실행해야 합다.  
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706375235/image_oxhhlw.png)
 
 ## 참고 문서
