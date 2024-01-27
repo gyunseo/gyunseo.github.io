@@ -2,6 +2,7 @@
 title: vscode에 neovim extension 설치하기
 postSlug: install-neovim-extension-on-vscode
 pubDatetime: 2023-09-28T01:15:00+09:00
+modDatetime: 2024-01-28T01:12:00+09:00
 featured: false
 draft: false
 tags:
@@ -16,11 +17,12 @@ description: vscode에 neovim extension 설치 과정을 담았습니다.
 
 ## 들어가며
 
-이전에 vscode에 vim extension을 깔아서 잠깐 사용했었던 적이 있었다.
-하지만 한글 입력에 문제와 생각보다 불편했어서, 금방 삭제했던 기억이 있다.
-그런데 인터넷 서핑을 좀 해보니, vscode에 neovim extension을 붙여서 쓰면 생각보다 쓸 만하다고들 한다.
-그리고 chrome에서도 extension으로 vimium을 써보니 편하기도 했고, 코딩할 때 마우스에 손을 갖다 대지 않고, 키보드로만 코딩을 한다면 조금 더 딴 짓을 안 하고 코딩에 집중할 수 있지 않을까라는 막연한(?) 기대감이 있기도 하다.
-그래서 그 과정을 담은 post를 작성하려고 한다.
+이전에 vscode에 vim extension을 깔아서 잠깐 사용했었던 적이 있었습니다.
+하지만 한글 입력가 문제가 생각보다 불편했어서, 금방 삭제했던 기억이 있습니다.
+그런데 웹서핑을 좀 해보니, vscode에 neovim extension을 붙여서 쓰면 생각보다 쓸 만하다고 하네요😅.
+그리고 Chrome에서도 extension으로 vimium을 써보니 편하기도 했고, 코딩할 때 마우스에 손을 갖다 대지 않고, 키보드로만 코딩을 한다면 조금 더 딴 짓을 안 하고 코딩에 집중할 수 있지 않을까라는 막연한(?) 기대감이 있기도 합니다.
+그래서 그 과정을 담은 포스트를 작성하려고 합니다.
+Windows와 MacOS 둘 다 과정이 포함돼 있습니다.
 
 ## Windows에 neovim 설치
 
@@ -92,6 +94,35 @@ endif
 
 ![](https://res.cloudinary.com/gyunseo-blog/image/upload/v1698669625/install-neovim-extension-on-vscode-1695879355411.jpeg)
 vscode에서 상기 이미지와 같이 `init.vim` path를 설정한다.
+
+## MacOS에서 `neovim` 설치하기
+
+MacOS의 유명한 package manager인 Homebrew를 이용해, `neovim`을 설치해 줍시다.
+
+```zsh
+brew install neovim
+```
+
+## `nvim` 실행 경로 확인하기
+
+```zsh
+which nvim
+```
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706372513/image_ghvtdt.png)
+그러면 위의 이미지처럼 `nvim` 커맨드의 실행 경로가 나옵니다.
+
+## vscode에서 neovim executable paths 등록
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706372746/image_nm9rry.png)
+
+위 그림처럼 `nvim` 커맨드의 경로를 설정해주면 됩니다.
+
+## 마치며
+
+MacOS에서는 `h`, `j`, `k`, `l` 이동 키가 계속 눌릴 때는 반복되지 않을 수 있습니다.  
+이 문제를 해결하려면 터미널을 열고 `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false` 명령을 실행해야 합다.  
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1706375235/image_oxhhlw.png)
 
 ## 참고 문서
 

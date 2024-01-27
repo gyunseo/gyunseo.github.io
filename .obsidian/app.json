@@ -5,6 +5,6 @@
   "newFileFolderPath": "src/content/blog",
   "showUnsupportedFiles": true,
   "newLinkFormat": "absolute",
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": true
 }
