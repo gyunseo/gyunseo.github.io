@@ -8,7 +8,7 @@ draft: false
 tags:
   - neovim
   - MacOS
-description: Hammerspon이라는 프로그램을 처음 알았다 😮
+description: Hammerspoon이라는 프로그램을 처음 알았다 😮
 ---
 
 ## Table of contents
