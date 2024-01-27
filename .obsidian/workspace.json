@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "75f26fde097c2876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/summarize-the-frequently-used neovim-commands.md",
+                "file": "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/summarize-the-frequently-used neovim-commands.md",
+                "file": "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/summarize-the-frequently-used neovim-commands.md"
+                "file": "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md"
               }
             }
           }
@@ -161,10 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4e2703790be5fb60",
+  "active": "75f26fde097c2876",
   "lastOpenFiles": [
-    "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
     "src/content/blog/summarize-the-frequently-used neovim-commands.md",
+    "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md",
+    "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
     "src/content/blog/how-to-configure-neovim.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/test-test.md",
@@ -207,7 +220,6 @@
     "src/content/blog/counting-money-algorithm.md",
     "src/content/blog/huffan-encoding-algorithm.md",
     "src/content/blog/dijkstra-algorithm.md",
-    "src/content/blog/mst-prim-algorithm.md",
-    "src/content/blog/mst-kruskal-algorithm.md"
+    "src/content/blog/mst-prim-algorithm.md"
   ]
 }

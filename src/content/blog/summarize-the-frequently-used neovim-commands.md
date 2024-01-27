@@ -15,6 +15,8 @@ description: neovim 익숙해 지니깐 편한 거 같기도 🤭
 
 ## 들어가며
 
+`Mason`과 `Mason LSP config`
+
 ## LSP 서버와 통신하여 Omni Completion
 
 `i_CTRL-X_CTRL-O` insert mode에서 `Ctrl+x`,`Ctrl+o`를 연달아 누르면 된다.
