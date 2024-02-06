@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "faccb3da350a2983",
+        "id": "49c5e29b62129050",
         "type": "tabs",
         "children": [
           {
-            "id": "9621754016598f58",
+            "id": "e08276a9ecfe61ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,7 +148,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9621754016598f58",
+  "active": "e08276a9ecfe61ba",
   "lastOpenFiles": [
     "src/content/blog/software-maestro-application.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
