@@ -13,8 +13,6 @@ tags:
 description: vscode에 neovim extension 설치 과정을 담았습니다.
 ---
 
-## Table of contents
-
 ## 들어가며
 
 이전에 vscode에 vim extension을 깔아서 잠깐 사용했었던 적이 있었습니다.
