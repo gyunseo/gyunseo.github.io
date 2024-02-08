@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Seoul
+      # import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION
+      # refer to Layout.astro
       PUBLIC_GOOGLE_SITE_VERIFICATION: pDmHZYg6EtQlSaXpfiTWCcuYhCEOUTtwqBgCEXFQulo
     steps:
       - name: Checkout your repository using git
