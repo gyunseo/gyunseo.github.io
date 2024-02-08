@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Seoul
+      PUBLIC_GOOGLE_SITE_VERIFICATION: pDmHZYg6EtQlSaXpfiTWCcuYhCEOUTtwqBgCEXFQulo
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
