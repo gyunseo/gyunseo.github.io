@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-to-use-neovim-on-vscode.md",
+                "file": "src/content/blog/software-maestro-application.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a87f1a1b3b7b398e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-use-neovim-on-vscode.md",
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-use-neovim-on-vscode.md",
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-use-neovim-on-vscode.md"
+                "file": "src/content/blog/personal-statement-for-an-application.md"
               }
             }
           }
@@ -148,9 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7157eb0c3154643b",
+  "active": "a87f1a1b3b7b398e",
   "lastOpenFiles": [
     "src/content/blog/software-maestro-application.md",
+    "src/content/blog/personal-statement-for-an-application.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
     "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
     "src/content/blog/how-to-use-neovim-in-vscode.md",
@@ -194,7 +208,6 @@
     "src/content/blog/interpolation-search-algorithm.md",
     "src/content/blog/bellmanford-algorithm.md",
     "src/content/blog/0-1-knapsack-dp.md",
-    "src/content/blog/floyd-warshall-algorithm.md",
-    "src/content/blog/counting-money-algorithm.md"
+    "src/content/blog/floyd-warshall-algorithm.md"
   ]
 }
