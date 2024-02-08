@@ -22,6 +22,7 @@ jobs:
       # import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION
       # refer to Layout.astro
       PUBLIC_GOOGLE_SITE_VERIFICATION: pDmHZYg6EtQlSaXpfiTWCcuYhCEOUTtwqBgCEXFQulo
+      NAVER_SITE_VERIFICATION: ca18f3ec58fd0cb53c2c6c7a6ab72cd8a38f1de6
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
