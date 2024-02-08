@@ -4,7 +4,7 @@ import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
-
+const naverSiteVerification = import.meta.env.PUBLIC_NAVER_SITE_VERIFICATION;
 export interface Props {
   title?: string;
   author?: string;
@@ -109,6 +109,17 @@ const socialImageURL = new URL(
         <meta
           name="google-site-verification"
           content={googleSiteVerification}
+        />
+      )
+    }
+    {
+      // if PUBLIC_NAVER_SITE_VERIFICATION is set in the environment variable,
+      // include naver-site-verification tag in the heading
+      // Learn more: https://searchadvisor.naver.com/guide/seo-basic-verification
+      naverSiteVerification && (
+        <meta
+          name="naver-site-verification"
+          content={naverSiteVerification}
         />
       )
     }
