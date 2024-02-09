@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/personal-statement-for-an-application.md",
+                "file": "src/content/blog/dfs-and-bfs-algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9af251baf13d343b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/bfs-algorithm-technique.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/personal-statement-for-an-application.md",
+                "file": "src/content/blog/bfs-algorithm-technique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/personal-statement-for-an-application.md",
+                "file": "src/content/blog/bfs-algorithm-technique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/personal-statement-for-an-application.md"
+                "file": "src/content/blog/bfs-algorithm-technique.md"
               }
             }
           }
@@ -161,10 +173,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a87f1a1b3b7b398e",
+  "active": "9af251baf13d343b",
   "lastOpenFiles": [
-    "src/content/blog/software-maestro-application.md",
+    "src/content/blog/dfs-and-bfs-algorithms.md",
+    "src/content/blog/bfs-algorithm-technique.md",
     "src/content/blog/personal-statement-for-an-application.md",
+    "src/content/blog/software-maestro-application.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
     "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
     "src/content/blog/how-to-use-neovim-in-vscode.md",
@@ -206,8 +220,6 @@
     "src/content/blog/manage-python-versions-using-pyenv-win.md",
     "src/content/blog/manage-node-versions-using-nvm-windows.md",
     "src/content/blog/interpolation-search-algorithm.md",
-    "src/content/blog/bellmanford-algorithm.md",
-    "src/content/blog/0-1-knapsack-dp.md",
-    "src/content/blog/floyd-warshall-algorithm.md"
+    "src/content/blog/bellmanford-algorithm.md"
   ]
 }
