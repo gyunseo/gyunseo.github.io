@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "a87f1a1b3b7b398e",
+            "id": "4f5adbfbc9d56f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/dfs-and-bfs-algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9af251baf13d343b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/0-1-knapsack-dp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd577bc873a4841e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/dynamic-programming.md",
+                "file": "src/content/blog/go-study.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/dynamic-programming.md",
+                "file": "src/content/blog/go-study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/dynamic-programming.md",
+                "file": "src/content/blog/go-study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/dynamic-programming.md"
+                "file": "src/content/blog/go-study.md"
               }
             }
           }
@@ -185,14 +161,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fd577bc873a4841e",
+  "active": "4f5adbfbc9d56f8f",
   "lastOpenFiles": [
+    "src/content/blog/software-maestro-application.md",
+    "src/content/blog/go-study.md",
+    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/0-1-knapsack-dp.md",
     "src/content/blog/dynamic-programming.md",
     "src/content/blog/bfs-algorithm-technique.md",
-    "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/personal-statement-for-an-application.md",
-    "src/content/blog/software-maestro-application.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
     "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
     "src/content/blog/how-to-use-neovim-in-vscode.md",
@@ -231,7 +208,6 @@
     "src/content/blog/install-aqua-on-windows.md",
     "src/content/blog/install-neovim-appimage-on-ubuntu.md",
     "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/manage-python-versions-using-pyenv-win.md",
-    "src/content/blog/manage-node-versions-using-nvm-windows.md"
+    "src/content/blog/manage-python-versions-using-pyenv-win.md"
   ]
 }
