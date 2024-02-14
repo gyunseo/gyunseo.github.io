@@ -15,3 +15,7 @@ description: this is template
 ## Main Package
 
 entry point: `main.go`
+
+## Packages and Imports
+
+export 하려면 function name을 대문자로 시작
