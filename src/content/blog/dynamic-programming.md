@@ -6,7 +6,9 @@ modDatetime: 2024-02-13T21:33:00+09:00
 featured: true
 draft: false
 tags:
-  - test
+  - DP
+  - Algorithms
+  - PS
 description: 동적 계획법(DP)에 대해 알아 보자...
 ---
 
