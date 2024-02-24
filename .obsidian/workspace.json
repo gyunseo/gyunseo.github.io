@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06a49f1bb0e758f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/go-study.md",
+                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/go-study.md",
+                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/go-study.md"
+                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md"
               }
             }
           }
@@ -161,10 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f5adbfbc9d56f8f",
+  "active": "06a49f1bb0e758f6",
   "lastOpenFiles": [
-    "src/content/blog/software-maestro-application.md",
     "src/content/blog/go-study.md",
+    "src/content/blog/24-sw-maestro-1st-coding-test.md",
+    "src/content/blog/software-maestro-application.md",
     "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/0-1-knapsack-dp.md",
     "src/content/blog/dynamic-programming.md",
@@ -207,7 +220,6 @@
     "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
     "src/content/blog/install-aqua-on-windows.md",
     "src/content/blog/install-neovim-appimage-on-ubuntu.md",
-    "src/content/blog/manage-jdks-on-windows-using-jabba.md",
-    "src/content/blog/manage-python-versions-using-pyenv-win.md"
+    "src/content/blog/manage-jdks-on-windows-using-jabba.md"
   ]
 }
