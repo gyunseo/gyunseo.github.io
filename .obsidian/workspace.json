@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fad718a09196bef4",
+        "id": "c546f87478bb0f40",
         "type": "tabs",
         "children": [
           {
-            "id": "7157eb0c3154643b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/software-maestro-application.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f5adbfbc9d56f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/go-study.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06a49f1bb0e758f6",
+            "id": "6ef4637d653e13e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,11 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06a49f1bb0e758f6",
+  "active": "6ef4637d653e13e9",
   "lastOpenFiles": [
+    "src/content/blog/software-maestro-application.md",
     "src/content/blog/go-study.md",
     "src/content/blog/24-sw-maestro-1st-coding-test.md",
-    "src/content/blog/software-maestro-application.md",
     "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/0-1-knapsack-dp.md",
     "src/content/blog/dynamic-programming.md",
