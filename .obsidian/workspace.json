@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "ed2cc7886387bddc",
+            "id": "12e37c51339f3c1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/programmers-인기있는-아이스크림.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/programmers-인기있는-아이스크림.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/assets/template/obsidian-template.md",
+                "file": "src/content/blog/programmers-인기있는-아이스크림.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/assets/template/obsidian-template.md"
+                "file": "src/content/blog/programmers-인기있는-아이스크림.md"
               }
             }
           }
@@ -161,9 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed2cc7886387bddc",
+  "active": "12e37c51339f3c1d",
   "lastOpenFiles": [
     "src/content/blog/24-sw-maestro-1st-coding-test.md",
+    "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/ubuntu-partition.md",
     "src/content/blog/update-markdown-AST-node-url-value.md",
@@ -207,7 +208,6 @@
     "dist/posts/virtual-lans.png",
     "src/content/blog/how-to-configure-astropaper-theme.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
-    "src/content/blog/nestjs-prisma-deep-dive.md",
-    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md"
+    "src/content/blog/nestjs-prisma-deep-dive.md"
   ]
 }
