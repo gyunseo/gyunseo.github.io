@@ -7,6 +7,7 @@ featured: false
 draft: false
 tags: test
 description: this is template
+ogImage: ""
 ---
 
 ## Table of contents
