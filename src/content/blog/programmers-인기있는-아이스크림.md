@@ -21,6 +21,8 @@ ogImage: https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1708838398
 
 이 문제는 여러 개의 Column에서 ORDER BY 정렬 순서를 지정해 줄 수 있는지를 물어보는 문제입니다.
 
+- [인기있는 아이스크림 문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133024)
+
 ## SQL Query
 
 ```sql
