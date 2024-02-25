@@ -21,6 +21,8 @@ ogImage: https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1708839816
 
 이 문제는 집계 함수 중 `MAX`를 사용할줄 아는지 묻는 문제였다.
 
+- [가장 비싼 상품 구하기 문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131697)
+
 ## SQL Query
 
 ```sql
