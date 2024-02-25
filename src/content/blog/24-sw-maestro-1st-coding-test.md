@@ -8,11 +8,14 @@ draft: false
 tags:
   - Coding-Test
 description: SQL 공부를 해 놓을 걸...
+ogImage: https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1708837709/image_tedlzi.png
 ---
 
 ## Table of contents
 
 ## 들어가며
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1708837709/image_tedlzi.png)
 
 오늘 소마 1차 코테를 보고 왔습니다.  
 후기 남기 겠습니다...🥲 (별로 잘 본 것 같지는 않네요 하하)

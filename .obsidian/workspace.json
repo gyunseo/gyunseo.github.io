@@ -150,13 +150,19 @@
   },
   "active": "6ef4637d653e13e9",
   "lastOpenFiles": [
+    "src/content/blog/ubuntu-partition.md",
+    "src/content/blog/update-markdown-AST-node-url-value.md",
+    "src/content/blog/uninstall-wsl-completely-on-windows.md",
+    "src/content/blog/wooteco-2nd-thoughts.md",
+    "src/content/blog/wooteco-1st-thoughts.md",
     "src/content/blog/software-maestro-application.md",
-    "src/content/blog/go-study.md",
+    "src/content/blog/create-ssh-key-for-github.md",
+    "src/content/blog/bfs-algorithm-technique.md",
     "src/content/blog/24-sw-maestro-1st-coding-test.md",
+    "src/content/blog/go-study.md",
     "src/content/blog/dfs-and-bfs-algorithms.md",
     "src/content/blog/0-1-knapsack-dp.md",
     "src/content/blog/dynamic-programming.md",
-    "src/content/blog/bfs-algorithm-technique.md",
     "src/content/blog/personal-statement-for-an-application.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
     "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
@@ -189,12 +195,6 @@
     "src/content/blog/how-to-configure-astropaper-theme.md",
     "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md",
     "src/content/blog/nestjs-prisma-deep-dive.md",
-    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md",
-    "src/content/blog/computer-science-qna.md",
-    "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
-    "src/content/blog/manage-cli-program-version-using-aqua-proj.md",
-    "src/content/blog/install-aqua-on-windows.md",
-    "src/content/blog/install-neovim-appimage-on-ubuntu.md",
-    "src/content/blog/manage-jdks-on-windows-using-jabba.md"
+    "src/content/blog/install-asdf-on-ubuntu-linux-and-ohmyzsh.md"
   ]
 }
