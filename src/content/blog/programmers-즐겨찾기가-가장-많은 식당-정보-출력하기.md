@@ -33,4 +33,11 @@ ORDER BY food_type DESC;
 
 ## 틀린 첫번째 SQL Query
 
+```sql
+SELECT food_type, rest_id, rest_name, MAX(favorites) as favorites
+FROM rest_info
+GROUP BY food_type
+ORDER BY food_type DESC;
+```
+
 ## 틀린 두번째 SQL Query
