@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "24ec767780663650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/programmers-가장-비싼-상품-구하기.md",
+                "file": "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/programmers-가장-비싼-상품-구하기.md",
+                "file": "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/programmers-가장-비싼-상품-구하기.md"
+                "file": "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md"
               }
             }
           }
@@ -173,10 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "30a6f5166fbae7ac",
+  "active": "24ec767780663650",
   "lastOpenFiles": [
-    "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/content/blog/programmers-가장-비싼-상품-구하기.md",
+    "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
+    "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/content/blog/24-sw-maestro-1st-coding-test.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/ubuntu-partition.md",
@@ -219,7 +232,6 @@
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
     "dist/posts/virtual-lans.png",
-    "src/content/blog/how-to-configure-astropaper-theme.md",
-    "src/content/blog/resolve-obsidian-git-path-environment-variable-error.md"
+    "src/content/blog/how-to-configure-astropaper-theme.md"
   ]
 }
