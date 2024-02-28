@@ -123,7 +123,14 @@ ORDER BY food_type DESC;
 그래서 SQL Query를 다음과 같이 변경하면 더 좋은 쿼리문이 될 거 같네요.
 
 ```sql
-
+SELECT food_type, rest_id, rest_name, favorites
+FROM rest_info
+WHERE (food_type, favorites) in (
+    SELECT food_type, MAX(favorites)
+    FROM rest_info
+    GROUP BY food_type
+)
+ORDER BY food_type DESC;
 ```
 
 ## 틀린 첫번째 SQL Query
