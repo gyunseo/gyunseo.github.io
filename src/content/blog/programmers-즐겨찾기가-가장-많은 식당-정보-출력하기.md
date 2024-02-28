@@ -47,7 +47,7 @@ ogImage: ""
 
 ## SQL Query
 
-```|sql
+```sql
 SELECT food_type, rest_id, rest_name, favorites
 FROM rest_info
 WHERE favorites in (
