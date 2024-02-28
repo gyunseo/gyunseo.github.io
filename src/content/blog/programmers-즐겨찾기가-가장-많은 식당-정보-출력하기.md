@@ -79,6 +79,23 @@ ORDER BY food_type DESC;
 | 151            |
 | 20             |
 
+2. `WHERE favorites in "Sub Query 결과"`에서 rest_info에 있는 레코드 중에서 `favorites` 필드 값이 바로 위의 표에 있는 숫자에 있는 값 중에 하나라면, `WHERE` 조건에 걸려서 필터링됩니다.
+
+3. 필터링된 레코드들을 `food_type`으로 GROUP지어 줍니다. (`GROUP BY food_type`에 의해서)
+
+4. `ORDER BY food_type DESC`에 의해, 레코드들을 음식 종류를 기준으로 내림차순 정렬을 합니다.
+
+그런데 2번과 3번 과정에 약간의 논리적인 오류가 있습니다.  
+속된 말로 뽀록으로 맞은 것이죠.  
+그 과정을 설명하고 개선된 SQL Query를 설명하겠습니다.
+
+`favorites` 필드 값이 `230`인 경우는 두 레코드가 있습니다.
+
+| food_type | rest_id | rest_name        | favorites |
+| --------- | ------- | ---------------- | --------- |
+| 일식      | 00004   | 스시사카우스     | 230       |
+| 한식      | 00016   | 오대산산채전문점 | 230       |
+
 ## 틀린 첫번째 SQL Query
 
 ```sql
