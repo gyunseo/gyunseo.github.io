@@ -17,6 +17,13 @@ ogImage: ""
 
 ## 들어가며
 
+해당 문제에서 하기와 같은 SQL Query를 날리면, 아래 표와 같은 결과가 나옵니다.
+
+```sql
+SELECT food_type, rest_id, rest_name, favorites
+FROM rest_info;
+```
+
 | food_type | rest_id | rest_name          | favorites |
 | --------- | ------- | ------------------ | --------- |
 | 한식      | 00001   | 은돼지식당         | 734       |
@@ -45,6 +52,9 @@ ogImage: ""
 | 한식      | 00024   | 농실가찹쌀순대     | 12        |
 | 분식      | 00025   | 별미진             | 10        |
 
+문제에서 원하는 것은 각 음식 종류 별로 가장 즐겨찾기가 많은 레코드를 보여주라는 것입니다.  
+일단 제가 제출한 답을 보겠습니다.
+
 ## SQL Query
 
 ```sql
@@ -58,6 +68,15 @@ WHERE favorites in (
 GROUP BY food_type
 ORDER BY food_type DESC;
 ```
+
+1. 일단 Sub Query의 결과는 다음과 같습니다.  
+   |MAX(favorites)|
+   |----|
+   |734|
+   |230|
+   |102|
+   |151|
+   |20|
 
 ## 틀린 첫번째 SQL Query
 
