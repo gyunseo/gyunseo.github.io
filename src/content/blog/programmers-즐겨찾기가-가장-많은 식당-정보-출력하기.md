@@ -142,4 +142,4 @@ GROUP BY food_type
 ORDER BY food_type DESC;
 ```
 
-## 틀린 두번째 SQL Query
+이것은 `GROUP BY`가 됐을 때, 어떤 레코드가 집계 함수에 파라미터로 들어가 있는 필드이외의 필드들이 어떻게 출력되는지에 대한 이해가 없어서 비롯된 코드입니다.
