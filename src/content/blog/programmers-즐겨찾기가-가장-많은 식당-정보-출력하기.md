@@ -69,14 +69,15 @@ GROUP BY food_type
 ORDER BY food_type DESC;
 ```
 
-1. 일단 Sub Query의 결과는 다음과 같습니다.  
-   |MAX(favorites)|
-   |----|
-   |734|
-   |230|
-   |102|
-   |151|
-   |20|
+1. 일단 Sub Query의 결과는 다음과 같습니다.
+
+| MAX(favorites) |
+| -------------- |
+| 734            |
+| 230            |
+| 102            |
+| 151            |
+| 20             |
 
 ## 틀린 첫번째 SQL Query
 
