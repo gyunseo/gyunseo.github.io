@@ -10,12 +10,14 @@ tags:
   - SQL
   - Programmers
 description: 서브 쿼리 적극 이용하기
-ogImage: ""
+ogImage: https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1709300745/image_jmhaka.png
 ---
 
 ## Table of contents
 
 ## 들어가며
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1709300745/image_jmhaka.png)
 
 해당 문제에서 하기와 같은 SQL Query를 날리면, 아래 표와 같은 결과가 나옵니다.
 
