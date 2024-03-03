@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c546f87478bb0f40",
+        "id": "dc5b81a880849f63",
         "type": "tabs",
         "children": [
           {
-            "id": "6ef4637d653e13e9",
+            "id": "538465b4ebd32c64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
+                "file": "src/content/blog/boj-15649-N과-M-(1).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
+                "file": "src/content/blog/boj-15649-N과-M-(1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md",
+                "file": "src/content/blog/boj-15649-N과-M-(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/24-sw-maestro-1st-coding-test.md"
+                "file": "src/content/blog/boj-15649-N과-M-(1).md"
               }
             }
           }
@@ -148,12 +148,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ef4637d653e13e9",
+  "active": "538465b4ebd32c64",
   "lastOpenFiles": [
+    "src/content/blog/24-sw-maestro-1st-coding-test.md",
+    "src/content/blog/boj-15649-N과-M-(1).md",
     "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
     "src/content/blog/programmers-가장-비싼-상품-구하기.md",
-    "src/content/blog/24-sw-maestro-1st-coding-test.md",
     "src/assets/template/obsidian-template.md",
     "src/content/blog/ubuntu-partition.md",
     "src/content/blog/update-markdown-AST-node-url-value.md",
@@ -194,7 +195,6 @@
     "dist/tags/wsl/2",
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
-    "dist/posts/virtual-lans.png",
-    "src/content/blog/how-to-configure-astropaper-theme.md"
+    "dist/posts/virtual-lans.png"
   ]
 }
