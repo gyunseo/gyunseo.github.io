@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-15649-N과-M-(1).md",
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-15649-N과-M-(1).md",
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-15649-N과-M-(1).md",
+                "file": "src/content/blog/personal-statement-for-an-application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-15649-N과-M-(1).md"
+                "file": "src/content/blog/personal-statement-for-an-application.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "538465b4ebd32c64",
   "lastOpenFiles": [
-    "src/content/blog/24-sw-maestro-1st-coding-test.md",
+    "src/content/blog/software-maestro-application.md",
     "src/content/blog/boj-15649-N과-M-(1).md",
+    "src/content/blog/24-sw-maestro-1st-coding-test.md",
     "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
     "src/content/blog/programmers-가장-비싼-상품-구하기.md",
@@ -161,7 +162,6 @@
     "src/content/blog/uninstall-wsl-completely-on-windows.md",
     "src/content/blog/wooteco-2nd-thoughts.md",
     "src/content/blog/wooteco-1st-thoughts.md",
-    "src/content/blog/software-maestro-application.md",
     "src/content/blog/create-ssh-key-for-github.md",
     "src/content/blog/bfs-algorithm-technique.md",
     "src/content/blog/go-study.md",
