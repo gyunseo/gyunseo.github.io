@@ -26,4 +26,9 @@ sudo sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 
 참고로 이렇게 하고 나서 오류가 날 수 있는데, 이에 대해서 책임은 지지 않습니다 ㅎㅎ
 
+```zsh
+sudo sed -i 's/archive.ubuntu.com/ftp.kaist.ac.kr/g' /etc/apt/sources.list
+sudo sed -i 's/security.ubuntu.com/ftp.kaist.ac.kr/g' /etc/apt/sources.list
+```
+
 ## 참고 문서
