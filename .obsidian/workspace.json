@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b8afce159ea34dc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/change-apt-get-source-server.md",
+                "file": "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/change-apt-get-source-server.md",
+                "file": "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/change-apt-get-source-server.md"
+                "file": "src/content/blog/at-coder-beginner-contest-346-up-solve.md"
               }
             }
           }
@@ -149,8 +162,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c92c4f007ceca35",
+  "active": "b8afce159ea34dc6",
   "lastOpenFiles": [
+    "src/content/blog/change-apt-get-source-server.md",
+    "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
     "src/content/blog/personal-statement-for-an-application.md",
     "src/content/blog/software-maestro-application.md",
     "src/content/blog/boj-15649-N과-M-(1).md",
@@ -175,8 +190,6 @@
     "src/content/blog/how-to-use-neovim-in-vscode.md",
     "src/content/blog/summarize-the-frequently-used neovim-commands.md",
     "src/content/blog/switch-to-english-keyboard-when-entering-normal-mode-using-hammerspoon.md",
-    "src/content/blog/how-to-configure-neovim.md",
-    "src/content/blog/test-test.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",

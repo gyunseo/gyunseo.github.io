@@ -5,7 +5,7 @@
   "newFileFolderPath": "src/content/blog",
   "showUnsupportedFiles": true,
   "newLinkFormat": "absolute",
-  "vimMode": true,
+  "vimMode": false,
   "showLineNumber": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
