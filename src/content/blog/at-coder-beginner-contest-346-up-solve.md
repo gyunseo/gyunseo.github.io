@@ -15,7 +15,7 @@ ogImage: ""
 
 ## Table of contents
 
-## B
+## [B - Piano](https://atcoder.jp/contests/abc346/tasks/abc346_b)
 
 ### 목표: 무한으로 반복되는 키보드의 부분 문자열들 중에 `W`개의 흰 건반과 `B`개의 검은 건반으로 이뤄진 부분 문자열이 존재하는가?
 
@@ -77,3 +77,5 @@ int main() {
                 ++nb;
         }
 ```
+
+## [D - Gomamayo Sequence](https://atcoder.jp/contests/abc346/tasks/abc346_b)
