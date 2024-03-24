@@ -79,3 +79,7 @@ int main() {
 ```
 
 ## [D - Gomamayo Sequence](https://atcoder.jp/contests/abc346/tasks/abc346_b)
+
+### 목표: `00011`과 같은 수열에서 toggle cost를 최소로 하며, sub sequences에서 adjacent characters가 동일한 수열의 원소가 딱 두개만 되게 만드는 것
+
+$N = 2 \times 10^5$ 이라서 $O(NlogN)$ 이거나 $O(N)$ 근데 정렬을 시키거나 이분 탐색을 해서, 뭔가를 얻을 건덕지는 없어 보이고, 그러면 $O(N)$인데 이거는 그리디 말고 DP로 풀어야 할 거 같다는 느낌적인 느낌이 들었다.
