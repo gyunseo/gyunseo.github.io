@@ -8,17 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bca541d78e8a5948",
+            "id": "bde42f3009553499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-15649-N과-M-(1).md",
+                "file": "src/content/blog/boj-1026-보물.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a054e1855ac802e6",
+        "type": "tabs",
+        "children": [
           {
             "id": "b02d3b7f141e67fc",
             "type": "leaf",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-2230-수-고르기.md",
+                "file": "src/content/blog/boj-1026-보물.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-2230-수-고르기.md",
+                "file": "src/content/blog/boj-1026-보물.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-2230-수-고르기.md"
+                "file": "src/content/blog/boj-1026-보물.md"
               }
             }
           }
@@ -161,10 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b02d3b7f141e67fc",
+  "active": "bde42f3009553499",
   "lastOpenFiles": [
-    "src/content/blog/boj-15649-N과-M-(1).md",
     "src/content/blog/boj-2230-수-고르기.md",
+    "src/content/blog/boj-1026-보물.md",
+    "src/content/blog/boj-15649-N과-M-(1).md",
     "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
     "Excalidraw/Drawing 2024-03-24 18.59.55.excalidraw.md",
     "Excalidraw",
@@ -189,7 +195,6 @@
     "src/content/blog/dynamic-programming.md",
     "src/content/blog/how-to-use-neovim-on-vscode.md",
     "src/content/blog/how-to-survive-without-multiptle-cursors-in-neovim.md",
-    "src/content/blog/how-to-use-neovim-in-vscode.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
