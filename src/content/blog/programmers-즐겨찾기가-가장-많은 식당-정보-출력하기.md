@@ -1,6 +1,6 @@
 ---
 author: Gyunseo Lee
-title: Programmers 즐겨찾기가 가장 많은 식당 정보 출력하기 문제 풀이
+title: "Programmers: 즐겨찾기가 가장 많은 식당 정보 출력하기"
 pubDatetime: 2024-02-27T20:06:00+09:00
 modDatetime: 2024-02-27T20:06:00+09:00
 featured: false
@@ -9,6 +9,7 @@ tags:
   - Coding-Test
   - SQL
   - Programmers
+  - Sub-Query
 description: 서브 쿼리 적극 이용하기
 ogImage: https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1709300745/image_jmhaka.png
 ---
