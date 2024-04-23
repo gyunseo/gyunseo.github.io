@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "38090db7696b1965",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4fd2587bb7adcaed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -168,9 +150,9 @@
   },
   "active": "c692232475758d96",
   "lastOpenFiles": [
-    "src/assets/Screenshot 2024-04-23 at 01.28.02.png",
-    "src/content/blog/programmers-보호소에서-중성화한-동물.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
+    "src/content/blog/programmers-보호소에서-중성화한-동물.md",
+    "src/assets/Screenshot 2024-04-23 at 01.28.02.png",
     "src/content/blog/boj-5014-스타트링크.md",
     "src/content/blog/boj-1026-보물.md",
     "src/content/blog/boj-2230-수-고르기.md",
