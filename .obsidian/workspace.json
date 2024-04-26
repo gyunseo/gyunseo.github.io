@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "3dd4e3fe3c6604ac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eead2d944368253b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-1935-후위-표기식2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
