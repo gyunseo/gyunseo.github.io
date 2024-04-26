@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eead2d944368253b",
+            "id": "544848df0440480a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-1935-후위-표기식2.md",
+                "file": "src/content/blog/boj-15664-N과-M-(10).md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "1ead376bb812a34b",
+        "id": "3dd4e3fe3c6604ac",
         "type": "tabs",
         "children": [
           {
-            "id": "9291886fba53397c",
+            "id": "eead2d944368253b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-10819-차이를-최대로.md",
+                "file": "src/content/blog/boj-1935-후위-표기식2.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-1935-후위-표기식2.md",
+                "file": "src/content/blog/boj-15664-N과-M-(10).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-1935-후위-표기식2.md",
+                "file": "src/content/blog/boj-15664-N과-M-(10).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-1935-후위-표기식2.md"
+                "file": "src/content/blog/boj-15664-N과-M-(10).md"
               }
             }
           }
@@ -166,10 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eead2d944368253b",
+  "active": "544848df0440480a",
   "lastOpenFiles": [
-    "src/content/blog/boj-10819-차이를-최대로.md",
     "src/content/blog/boj-1935-후위-표기식2.md",
+    "src/content/blog/boj-15664-N과-M-(10).md",
+    "src/content/blog/boj-10819-차이를-최대로.md",
     "src/content/blog/boj-1026-보물.md",
     "src/content/blog/programmers-보호소에서-중성화한-동물.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
@@ -195,7 +196,6 @@
     "src/content/blog/create-ssh-key-for-github.md",
     "src/content/blog/bfs-algorithm-technique.md",
     "src/content/blog/go-study.md",
-    "src/content/blog/dfs-and-bfs-algorithms.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
