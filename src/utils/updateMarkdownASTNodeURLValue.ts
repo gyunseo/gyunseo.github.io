@@ -1,4 +1,5 @@
 import { visit } from "unist-util-visit";
+import { slugifyStr } from "./slugify";
 
 export const remarkMathDebug = () => {
   return (tree: any) => {
@@ -42,7 +43,8 @@ export const updateLinkNode = () => {
     visit(tree, "link", node => {
       // if url matches link regex, them trim the .md extension
       if (node.url.match(/^.*\.(md)$/gi)) {
-        node.url = `/posts/${node.url.replace(/\.md$/gi, "")}`;
+        const dotMDTrimmedURL = node.url.replace(/\.md$/gi, "");
+        node.url = `/posts/${slugifyStr(dotMDTrimmedURL)}`;
       }
     });
   };
