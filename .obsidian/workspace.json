@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-15663-N과-M-(9).md",
+                "file": "src/content/blog/computer-science-qna.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-15663-N과-M-(9).md",
+                "file": "src/content/blog/computer-science-qna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-15663-N과-M-(9).md",
+                "file": "src/content/blog/computer-science-qna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-15663-N과-M-(9).md"
+                "file": "src/content/blog/computer-science-qna.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "3102d8e704fadc57",
   "lastOpenFiles": [
+    "src/content/blog/boj-15663-N과-M-(9).md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
@@ -170,8 +171,6 @@
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
     "dist/posts/virtual-lans.png",
-    "dist/posts/windows에서-wsl을-완전히-삭제하자.png",
-    "src/content/blog/boj-15663-N과-M-(9).md",
     "src/content/blog/boj-15664-N과-M-(10).md",
     "src/content/blog/boj-1935-후위-표기식2.md",
     "src/content/blog/boj-10819-차이를-최대로.md",
