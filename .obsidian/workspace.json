@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "2751c6eff19f0222",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b432993a3c090840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-1026-보물.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
