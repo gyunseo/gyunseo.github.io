@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "eb395fb0544b127a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9bf8e36633db0aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-1699-제곱수의-합.md",
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-1699-제곱수의-합.md",
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-1699-제곱수의-합.md"
+                "file": "src/content/blog/boj-15666-N과-M-(12).md"
               }
             }
           }
@@ -148,10 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8e26a343e35175e",
+  "active": "f9bf8e36633db0aa",
   "lastOpenFiles": [
-    "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-1699-제곱수의-합.md",
+    "src/content/blog/boj-15666-N과-M-(12).md",
+    "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/computer-science-qna.md",
     "src/content/blog/boj-1026-보물.md",
     "src/content/blog/boj-15663-N과-M-(9).md",
@@ -194,7 +213,6 @@
     "src/assets/template/obsidian-template.md",
     "src/content/blog/ubuntu-partition.md",
     "src/content/blog/update-markdown-AST-node-url-value.md",
-    "src/content/blog/uninstall-wsl-completely-on-windows.md",
-    "src/content/blog/wooteco-2nd-thoughts.md"
+    "src/content/blog/uninstall-wsl-completely-on-windows.md"
   ]
 }
