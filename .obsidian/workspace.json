@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7b3dd1b0a75c5d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/boj-11507-오르막-수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-1912-연속합.md",
+                "file": "src/content/blog/boj-11507-오르막-수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-1912-연속합.md",
+                "file": "src/content/blog/boj-11507-오르막-수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-1912-연속합.md"
+                "file": "src/content/blog/boj-11507-오르막-수.md"
               }
             }
           }
@@ -166,10 +179,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fbca317c99f1a7a9",
+  "active": "7b3dd1b0a75c5d97",
   "lastOpenFiles": [
-    "src/content/blog/boj-1699-제곱수의-합.md",
     "src/content/blog/boj-1912-연속합.md",
+    "src/content/blog/boj-11507-오르막-수.md",
+    "src/content/blog/boj-1699-제곱수의-합.md",
     "src/content/blog/boj-15666-N과-M-(12).md",
     "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/boj-11725-트리의-부모-찾기.md",
@@ -212,7 +226,6 @@
     "src/content/blog/24-sw-maestro-1st-coding-test.md",
     "src/content/blog/programmers-인기있는-아이스크림.md",
     "src/content/blog/programmers-가장-비싼-상품-구하기.md",
-    "src/assets/template/obsidian-template.md",
-    "src/content/blog/ubuntu-partition.md"
+    "src/assets/template/obsidian-template.md"
   ]
 }
