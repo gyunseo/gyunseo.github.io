@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-5014-스타트링크.md",
+                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-5014-스타트링크.md",
+                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-5014-스타트링크.md",
+                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-5014-스타트링크.md"
+                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "b8e26a343e35175e",
   "lastOpenFiles": [
+    "src/content/blog/boj-5014-스타트링크.md",
     "src/content/blog/boj-1935-후위-표기식2.md",
     "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-15666-N과-M-(12).md",
@@ -159,7 +160,6 @@
     "src/content/blog/boj-11728-배열-합치기.md",
     "src/content/blog/boj-11507-오르막-수.md",
     "src/content/blog/boj-10819-차이를-최대로.md",
-    "src/content/blog/boj-5014-스타트링크.md",
     "src/content/blog/boj-2230-수-고르기.md",
     "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/boj-1912-연속합.md",
