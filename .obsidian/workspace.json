@@ -13,56 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-1699-제곱수의-합.md",
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "6662073dcb9895e4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fbca317c99f1a7a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-1912-연속합.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b3dd1b0a75c5d97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-11507-오르막-수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fda154f1225b22e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-11728-배열-합치기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-11728-배열-합치기.md",
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-11728-배열-합치기.md",
+                "file": "src/content/blog/boj-15666-N과-M-(12).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-11728-배열-합치기.md"
+                "file": "src/content/blog/boj-15666-N과-M-(12).md"
               }
             }
           }
@@ -191,18 +149,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5fda154f1225b22e",
+  "active": "b8e26a343e35175e",
   "lastOpenFiles": [
-    "src/content/blog/boj-1699-제곱수의-합.md",
-    "src/content/blog/boj-11728-배열-합치기.md",
-    "src/content/blog/boj-11507-오르막-수.md",
-    "src/content/blog/boj-1912-연속합.md",
-    "src/content/blog/boj-15666-N과-M-(12).md",
-    "src/content/blog/boj-1940-주몽.md",
-    "src/content/blog/boj-11725-트리의-부모-찾기.md",
-    "src/content/blog/computer-science-qna.md",
-    "src/content/blog/boj-1026-보물.md",
+    "src/content/blog/boj-15664-N과-M-(10).md",
     "src/content/blog/boj-15663-N과-M-(9).md",
+    "src/content/blog/boj-11728-배열-합치기.md",
+    "src/content/blog/boj-11725-트리의-부모-찾기.md",
+    "src/content/blog/boj-11507-오르막-수.md",
+    "src/content/blog/boj-10819-차이를-최대로.md",
+    "src/content/blog/boj-5014-스타트링크.md",
+    "src/content/blog/boj-2230-수-고르기.md",
+    "src/content/blog/boj-1940-주몽.md",
+    "src/content/blog/boj-1935-후위-표기식2.md",
+    "src/content/blog/boj-1912-연속합.md",
+    "src/content/blog/boj-1699-제곱수의-합.md",
+    "src/content/blog/boj-1026-보물.md",
+    "src/content/blog/boj-15666-N과-M-(12).md",
+    "src/content/blog/computer-science-qna.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
@@ -223,13 +186,8 @@
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
     "dist/posts/virtual-lans.png",
-    "src/content/blog/boj-15664-N과-M-(10).md",
-    "src/content/blog/boj-1935-후위-표기식2.md",
-    "src/content/blog/boj-10819-차이를-최대로.md",
     "src/content/blog/programmers-보호소에서-중성화한-동물.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
-    "src/content/blog/boj-5014-스타트링크.md",
-    "src/content/blog/boj-2230-수-고르기.md",
     "src/content/blog/boj-15649-N과-M-(1).md",
     "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
     "Excalidraw/Drawing 2024-03-24 18.59.55.excalidraw.md",
