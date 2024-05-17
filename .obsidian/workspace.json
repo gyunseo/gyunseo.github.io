@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
+                "file": "src/content/blog/boj-5014-스타트링크.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
+                "file": "src/content/blog/boj-5014-스타트링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md",
+                "file": "src/content/blog/boj-5014-스타트링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-11725-트리의-부모-찾기.md"
+                "file": "src/content/blog/boj-5014-스타트링크.md"
               }
             }
           }
@@ -151,17 +151,18 @@
   },
   "active": "b8e26a343e35175e",
   "lastOpenFiles": [
-    "dist/posts/boj-백준-5014-스타트링크.png",
-    "dist/posts/boj-백준-2230-수-고르기.png",
-    "dist/posts/boj-백준-1940-주몽.png",
-    "dist/posts/boj-백준-1935-후위-표기식2.png",
-    "dist/posts/boj-백준-1912-연속합.png",
-    "dist/posts/boj-백준-1699-제곱수의-합.png",
-    "dist/posts/boj-백준-15666-n과-m-12.png",
-    "dist/posts/boj-백준-15664-n과-m-10.png",
-    "dist/posts/boj-백준-15663-n과-m-9.png",
-    "dist/posts/boj-백준-15649-n과-m-1.png",
-    "dist/posts/boj-백준-11728-배열-합치기.png",
+    "dist/posts/dynamic-og-image-generation-in-astropaper-blog-posts.png",
+    "dist/posts/wsl에-font를-설치하자.png",
+    "dist/posts/dijkstra-algorithm.png",
+    "dist/posts/dfs-and-bfs-algorithms.png",
+    "dist/posts/astro-paper-theme를-github-pages에서-deploy하자.png",
+    "dist/posts/ubuntu-linux에서-pacakge-삭제하기.png",
+    "dist/posts/data-communications-and-networking-chapter-4-lans-wireless-lan-mac-sublayer.png",
+    "dist/posts/data-communications-and-networking-chapter-4-lans-wifi.png",
+    "dist/posts/data-communications-and-networking-chapter-4-lans-standard-ethernet.png",
+    "dist/posts/data-communications-and-networking-chapter-4-lans-gigabit-ethernet.png",
+    "dist/posts/data-communications-and-networking-chapter-4-lans-fast-ethernet.png",
+    "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-1935-후위-표기식2.md",
     "dist/posts/index.html",
     "dist/posts",
@@ -173,7 +174,6 @@
     "dist/robots.txt",
     "dist/index.html",
     "dist/manifest_JYYv98Dt.mjs",
-    "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-5014-스타트링크.md",
     "src/content/blog/boj-15666-N과-M-(12).md",
     "src/content/blog/boj-15664-N과-M-(10).md",
