@@ -18,26 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "f050f861ca13820a",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "5aacb1a472f91ae8",
+            "id": "6352edd452388512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-14425-문자열-집합.md",
+                "file": "src/content/blog/boj-random-defense.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-14425-문자열-집합.md",
+                "file": "src/content/blog/boj-random-defense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-14425-문자열-집합.md",
+                "file": "src/content/blog/boj-random-defense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-14425-문자열-집합.md"
+                "file": "src/content/blog/boj-random-defense.md"
               }
             }
           }
@@ -167,9 +162,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5aacb1a472f91ae8",
+  "active": "6352edd452388512",
   "lastOpenFiles": [
     "src/content/blog/boj-5014-스타트링크.md",
+    "src/content/blog/boj-random-defense.md",
     "src/content/blog/boj-14425-문자열-집합.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
@@ -213,7 +209,6 @@
     "src/content/blog/change-apt-get-source-server.md",
     "src/content/blog/personal-statement-for-an-application.md",
     "src/content/blog/software-maestro-application.md",
-    "src/content/blog/24-sw-maestro-1st-coding-test.md",
-    "src/content/blog/programmers-인기있는-아이스크림.md"
+    "src/content/blog/24-sw-maestro-1st-coding-test.md"
   ]
 }
