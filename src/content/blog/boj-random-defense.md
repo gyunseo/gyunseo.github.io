@@ -18,10 +18,10 @@ ogImage: ""
 
 ## 들어가며
 
-푼 사람이 만 명이상인 S5~G1 문제 중에 내가 안 푼 문제
+푼 사람이 만 명이상인 S~G 문제 (수학이랑 기하 문제 빼고) 중에 내가 안 푼 문제
 
 ```plaintext
-s#10000.. *s5..g1 -@$me
+s#10000.. *s..g -#math -#geometry -@$me
 ```
 
 [solved.ac 문제 고급 검색](https://solved.ac/search)
