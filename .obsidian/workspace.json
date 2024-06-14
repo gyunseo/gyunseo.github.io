@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9a1f583a2ed70609",

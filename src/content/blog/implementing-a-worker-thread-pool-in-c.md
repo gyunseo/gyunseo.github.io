@@ -44,7 +44,146 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   OS: Ubuntu 24.04 LTS aarch64
         `:+ssssssssssssssssss+:`           CPU: (4)
             .-/+oossssoo+/-.               GPU: 00:0f.0 VMware Device 0406
                                            Memory: 1028MiB / 7920MiB
-
-
-
 ```
+
+`Makefile`:
+
+```plaintext
+CC = gcc
+TARGET := t1
+OUTPUT = $(TARGET).out
+CCFLAGS = -Og -Wextra -Werror -Wall
+LIBS = -pthread
+
+all: $(OUTPUT)
+$(OUTPUT) : $(TARGET).o
+	$(CC) $< -o $@ $(LIBS)
+
+
+$(TARGET).o: $(TARGET).c
+	$(CC) $(CCFLAGS) -c $< -o $@ $(LIBS)
+
+
+
+.PHONY: clean
+clean:
+	rm -f $(OUTPUT) $(TARGET).o
+```
+
+## Condition Variable이 없으면?
+
+```c
+#include <pthread.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#define NUM_THREADS 4
+typedef struct task {
+  int a, b;
+} Task;
+
+Task taskQueue[256];
+pthread_mutex_t lockForQueue = PTHREAD_MUTEX_INITIALIZER;
+int taskCount = 0;
+
+void enqueueTask(Task task);
+void executeTask(Task *task);
+
+void *startThread();
+
+int main() {
+  pthread_t threads[NUM_THREADS];
+  for (int i = 0; i < NUM_THREADS; i++) {
+    if (pthread_create(&threads[i], NULL, startThread, NULL) != 0) {
+      perror("pthread_create");
+    }
+  }
+  srand(time(NULL));
+  for (int i = 0; i < 100; i++) {
+    Task task = {
+        .a = rand() % 100,
+        .b = rand() % 100,
+    };
+    enqueueTask(task);
+  }
+
+  for (int i = 0; i < NUM_THREADS; i++) {
+    if (pthread_join(threads[i], NULL) != 0) {
+      perror("pthread_join");
+    }
+  }
+  return 0;
+}
+void enqueueTask(Task task) {
+  pthread_mutex_lock(&lockForQueue);
+  taskQueue[taskCount++] = task;
+  pthread_mutex_unlock(&lockForQueue);
+}
+void executeTask(Task *task) {
+  int res = task->a + task->b;
+  printf("the sum of %d and %d is %d\n", task->a, task->b, res);
+}
+
+void *startThread() {
+  while (true) {
+    Task task;
+    bool found = false;
+    pthread_mutex_lock(&lockForQueue);
+    if (taskCount > 0) {
+
+      task = taskQueue[0];
+      for (int i = 0; i < taskCount - 1; i++) {
+        taskQueue[i] = taskQueue[i + 1];
+      }
+      taskCount--;
+      found = true;
+    }
+    pthread_mutex_unlock(&lockForQueue);
+    if (found) {
+      executeTask(&task);
+    }
+  }
+}
+```
+
+다음과 같이 명령어를 실행하여, 프로그램을 실행해 봅시다!
+
+```zsh
+make
+./main.out
+```
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1718367734/Screen_Recording_2024-06-14_at_21.20.01_e54yyc.gif)
+
+그러면 위의 GIF처럼, 실행이 되고, 우측에 각 core별로 CPU Usage가 100%로 치솟는 것을 볼 수 있습니다.  
+왜 그럴까요?
+
+`startThread` 함수를 봅시다.  
+여기서 `taskCount`가 0보다 크면 mutex lock을 들고, critical section에 진입해, 임계 영역내의 공유자원(여기서는 `taskCount`와 `taskQueue`)을 걸어잠그게 됩니다.
+
+```c
+void *startThread() {
+  while (true) {
+    Task task;
+    bool found = false;
+    pthread_mutex_lock(&lockForQueue);
+    if (taskCount > 0) {
+
+      task = taskQueue[0];
+      for (int i = 0; i < taskCount - 1; i++) {
+        taskQueue[i] = taskQueue[i + 1];
+      }
+      taskCount--;
+      found = true;
+    }
+    pthread_mutex_unlock(&lockForQueue);
+    if (found) {
+      executeTask(&task);
+    }
+  }
+}
+```
+
+그런데, 한 스레드가 critical section(임계 영역)에 들어가 걸어 잠그게 되면, 딴 스레드는 계속 손가락만 빨고 있지만 않습니다.  
+`while(true)`에 의해 계속 mutex lock을 얻고, 본인도 임계 영역에 들어가서 걸어 잠글 수 있는지 수시로 확인합니다.  
+그래서 `htop`으로 각 core를 모니터링했을 때, 모든 코어가 바쁘게 돌아가고 있었던 것입니다.😮
