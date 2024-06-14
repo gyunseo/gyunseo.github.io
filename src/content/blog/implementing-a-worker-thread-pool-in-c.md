@@ -112,6 +112,7 @@ int main() {
       perror("pthread_join");
     }
   }
+  pthread_mutex_destroy(&lockForQueue);
   return 0;
 }
 void enqueueTask(Task task) {
