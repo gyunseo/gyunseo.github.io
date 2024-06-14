@@ -19,3 +19,32 @@ ogImage: ""
 
 이번 시스템 프로그래밍 실습 강의에서 Worker Thread Pool을 이용해서, 다수의 동시 접속자를 핸들링하는 예약 서버를 만들라는 과제를 받았습니다... 🥲  
 어떻게 구현해야할지 감이 안 와서, 일단은 Worker Thread Pool을 만들어 보기로 했습니다!!
+
+## 실습 환경
+
+```zsh
+            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssssdMMMNysssso.
+   /ssssssssssshdmmNNmmyNMMMMhssssss/
+  +ssssssssshmydMMMMMMMNddddyssssssss+
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   gyunseo@ubuntu-arm64
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   --------------------
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   OS: Ubuntu 24.04 LTS aarch64
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Host: VMware20,1 1
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Kernel: 6.8.0-35-generic
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Uptime: 7 hours, 41 mins
+  +sssssssssdmydMMMMMMMMddddyssssssss+     Packages: 900 (dpkg)
+   /ssssssssssshdmNNNNmyNMMMMhssssss/      Shell: zsh 5.9
+    .ossssssssssssssssssdMMMNysssso.       Resolution: 1280x800
+      -+sssssssssssssssssyyyssss+-         Terminal: node
+        `:+ssssssssssssssssss+:`           CPU: (4)
+            .-/+oossssoo+/-.               GPU: 00:0f.0 VMware Device 0406
+                                           Memory: 1028MiB / 7920MiB
+
+
+
+```
