@@ -189,7 +189,7 @@ void *startThread() {
 `while(true)`에 의해 계속 mutex lock을 얻고, 본인도 임계 영역에 들어가서 걸어 잠글 수 있는지 수시로 확인합니다.  
 그래서 `htop`으로 각 core를 모니터링했을 때, 모든 코어가 바쁘게 돌아가고 있었던 것입니다.😮
 
-## Condition Variable 도입!
+## Condition Variable 도입하기
 
 ```c
 #include <pthread.h>
