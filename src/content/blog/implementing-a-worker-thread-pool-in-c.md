@@ -10,7 +10,7 @@ tags:
   - Thread
   - System-Programming
 description: Multi Threading 머리 아프다...
-ogImage: ""
+ogImage: "https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1718367734/Screen_Recording_2024-06-14_at_21.20.01_e54yyc.gif"
 ---
 
 ## Table of contents
