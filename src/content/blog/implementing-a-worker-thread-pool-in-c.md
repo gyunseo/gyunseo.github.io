@@ -185,8 +185,15 @@ void *startThread() {
 }
 ```
 
-그런데, 한 스레드가 critical section(임계 영역)에 들어가 걸어 잠그게 되면, 딴 스레드는 계속 손가락만 빨고 있지만 않습니다.  
-`while(true)`에 의해 계속 mutex lock을 얻고, 본인도 임계 영역에 들어가서 걸어 잠글 수 있는지 수시로 확인합니다.  
+그런데, 한 스레드가 critical section(임계 영역)에 들어가 걸어 잠그게 되면, 딴 스레드는 계속 손가락만 빨고 있게 됩니다.  
+linux man page에서의 `phtread_mutex_lock` C library function에 대한 설명에서 발췌해 왔습니다.
+
+> If the mutex is already locked by another thread, the calling thread shall block until the mutex becomes available.
+
+Task Queue에 Task 즉, 작업이 있는 경우에는 임의의 한 스레드에서 락을 얻고 임계영역을 걸어 잠그고 작업을 하면, 딴 스레드들은 block 상태가 됩니다.  
+그래서 처음에 작업들을 Execute할 때는 30% 후반대의 CPU Usage를 보여 줍니다.  
+그런데 만약에, 큐에 작업이 없다면?  
+한 스레드가 mutex lock을 얻지만, 큐 안에 아무것도 없기 때문에 lock을 얻음과 동시에 lock을 반환합니다, 락을 반환하는 순간 딴 스레드도 동시에 같은 작업을 하고요, 이 스레드도 락을 반환하면, 또 다른 스레드도 같은 일을 하게 됩니다. `while(true)`에 의해 해당 작업은 모든 스레드에서 계속 반복이 되고, 결국 CPU Usage는 치솟게 되는 결과가 나옵니다.  
 그래서 `htop`으로 각 core를 모니터링했을 때, 모든 코어가 바쁘게 돌아가고 있었던 것입니다.😮
 
 ## Condition Variable 도입하기
