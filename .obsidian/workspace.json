@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
+                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
+                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
+                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md"
+                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "eee94e44d418180a",
   "lastOpenFiles": [
+    "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
+    "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
     "src/content/blog/astro-paper-4.md",
     "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
     "src/content/blog/boj-1940-주몽.md",
@@ -193,8 +195,6 @@
     "src/content/blog/programmers-보호소에서-중성화한-동물.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
     "src/content/blog/boj-15649-N과-M-(1).md",
-    "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
-    "Excalidraw/Drawing 2024-03-24 18.59.55.excalidraw.md",
-    "src/content/blog/change-apt-get-source-server.md"
+    "src/content/blog/at-coder-beginner-contest-346-up-solve.md"
   ]
 }

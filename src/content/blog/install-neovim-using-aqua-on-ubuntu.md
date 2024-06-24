@@ -1,5 +1,5 @@
 ---
-title: Aqua를 이용해 WSL Ubuntu에 neovim을 설치하자
+title: Aqua를 이용해 Ubuntu에 neovim을 설치하자
 pubDatetime: 2023-12-17T17:01:00+09:00
 featured: false
 draft: false
@@ -23,8 +23,8 @@ programming language runtime version manager로 써먹을 수 없는 이유는 [
 ## `aqua` 설치
 
 ```zsh
-curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/v2.2.0/aqua-installer
-echo "d13118c3172d90ffa6be205344b93e8621de9bf47c852d80da188ffa6985c276 aqua-installer" | sha256sum -c
+curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/v3.0.1/aqua-installer
+echo "fb4b3b7d026e5aba1fc478c268e8fbd653e01404c8a8c6284fdba88ae62eda6a  aqua-installer" | sha256sum -c
 chmod +x aqua-installer
 ./aqua-installer
 ```
