@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fe267ff40f80ebc9",
+        "id": "46a0456c3a5d08ed",
         "type": "tabs",
         "children": [
           {
-            "id": "5ae8d88e74e600aa",
+            "id": "eee94e44d418180a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9a1f583a2ed70609",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/implementing-a-worker-thread-pool-in-c.md"
+                "file": "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md"
               }
             }
           }
@@ -149,8 +148,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5ae8d88e74e600aa",
+  "active": "eee94e44d418180a",
   "lastOpenFiles": [
+    "src/content/blog/astro-paper-4.md",
     "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
     "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/leet-code-minimum-path-sum.md",
@@ -195,7 +195,6 @@
     "src/content/blog/boj-15649-N과-M-(1).md",
     "src/content/blog/at-coder-beginner-contest-346-up-solve.md",
     "Excalidraw/Drawing 2024-03-24 18.59.55.excalidraw.md",
-    "src/content/blog/change-apt-get-source-server.md",
-    "src/content/blog/personal-statement-for-an-application.md"
+    "src/content/blog/change-apt-get-source-server.md"
   ]
 }

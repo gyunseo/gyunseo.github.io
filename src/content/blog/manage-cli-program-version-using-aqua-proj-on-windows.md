@@ -1,5 +1,5 @@
 ---
-title: Aqua를 이용하여 rutnime version을 관리하자
+title: Aqua를 이용하여 Windows에서 rutnime version을 관리하자
 pubDatetime: 2023-12-16T20:23:00+09:00
 featured: false
 draft: false

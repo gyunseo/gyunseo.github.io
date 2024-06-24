@@ -18,7 +18,7 @@ description: neovim binary 새 버전이 release 되면 제때 업데이트 해�
 [Ubuntu Linux에 neovim appimage 설치하기](install-neovim-appimage-on-ubuntu.md)에서 appimage를 다운 받아서, neovim을 설치를 했었다.  
 하지만 그러면 neovim이 새로 나오면, 업데이트를 직접해 줘야 한다.  
 그래서 비록 programming language runtime version manager로 써먹을 수는 없는, `aqua`이지만, cli program version manager로 요긴하게 써먹어 볼 생각이다.  
-programming language runtime version manager로 써먹을 수 없는 이유는 [Aqua를 이용하여 rutnime version을 관리하자](manage-cli-program-version-using-aqua-proj.md) post를 읽어 보자.
+programming language runtime version manager로 써먹을 수 없는 이유는 [Aqua를 이용하여 rutnime version을 관리하자](src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md) post를 읽어 보자.
 
 ## `aqua` 설치
 
