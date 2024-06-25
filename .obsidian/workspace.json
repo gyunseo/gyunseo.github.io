@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7da5d0984d87f55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
+                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
+                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md"
+                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md"
               }
             }
           }
@@ -148,8 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eee94e44d418180a",
+  "active": "b7da5d0984d87f55",
   "lastOpenFiles": [
+    "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
+    "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
     "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
     "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
     "src/content/blog/astro-paper-4.md",
@@ -178,7 +193,6 @@
     "dist/tags/ostep/1",
     "dist/posts/우테코-2차-소감문.png",
     "dist/posts/우테코-1차-소감문.png",
-    "dist/posts/virtual-lans.png",
     "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-1935-후위-표기식2.md",
     "src/content/blog/boj-15666-N과-M-(12).md",
@@ -194,7 +208,6 @@
     "src/content/blog/computer-science-qna.md",
     "src/content/blog/programmers-보호소에서-중성화한-동물.md",
     "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
-    "src/content/blog/boj-15649-N과-M-(1).md",
-    "src/content/blog/at-coder-beginner-contest-346-up-solve.md"
+    "src/content/blog/boj-15649-N과-M-(1).md"
   ]
 }
