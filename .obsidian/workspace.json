@@ -13,26 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7da5d0984d87f55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
+                "file": "src/content/blog/boj-1940-주몽.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "722277b9dddabeca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "908242d88dc6887c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/boj-1926-그림.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
+                "file": "src/content/blog/boj-1926-그림.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
+                "file": "src/content/blog/boj-1926-그림.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md"
+                "file": "src/content/blog/boj-1926-그림.md"
               }
             }
           }
@@ -161,15 +166,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b7da5d0984d87f55",
+  "active": "908242d88dc6887c",
   "lastOpenFiles": [
+    "src/content/blog/boj-1940-주몽.md",
+    "src/content/blog/boj-1926-그림.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
     "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
     "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
     "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
     "src/content/blog/astro-paper-4.md",
     "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
-    "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/leet-code-minimum-path-sum.md",
     "src/content/blog/boj-5014-스타트링크.md",
     "src/content/blog/boj-random-defense.md",
@@ -207,7 +213,6 @@
     "src/content/blog/boj-1026-보물.md",
     "src/content/blog/computer-science-qna.md",
     "src/content/blog/programmers-보호소에서-중성화한-동물.md",
-    "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md",
-    "src/content/blog/boj-15649-N과-M-(1).md"
+    "src/content/blog/programmers-즐겨찾기가-가장-많은 식당-정보-출력하기.md"
   ]
 }
