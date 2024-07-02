@@ -46,15 +46,15 @@ digitAlphabetMap = {
 
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        stringList = []
-        combinationList = []
+        string_list = []
+        combination_list = []
         for d in digits:
-            stringList.append(digitAlphabetMap[d])
-        for comb in product(*stringList):
+            string_list.append(digitAlphabetMap[d])
+        for comb in product(*string_list):
             if len(comb) == 0:
                 continue
-            combinationList.append("".join(comb))
-        return combinationList
+            combination_list.append("".join(comb))
+        return combination_list
 ```
 
 ## 다른 풀이 방법
