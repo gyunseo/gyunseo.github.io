@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-11057-오르막-수.md",
+                "file": "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5dcc65a347118080",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88cef06b4dd7f423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-11057-오르막-수.md",
+                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-11057-오르막-수.md",
+                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-11057-오르막-수.md"
+                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md"
               }
             }
           }
@@ -148,13 +166,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5dda7a5cb081a99f",
+  "active": "88cef06b4dd7f423",
   "lastOpenFiles": [
+    "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
+    "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
     "src/content/blog/boj-11057-오르막-수.md",
     "dist/posts/boj-백준-11507-오르막-수.png",
     "src/content/blog/boj-1926-그림.md",
     "src/content/blog/boj-11057-.md",
-    "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
     "src/content/blog/leet-code-minimum-path-sum.md",
     "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
