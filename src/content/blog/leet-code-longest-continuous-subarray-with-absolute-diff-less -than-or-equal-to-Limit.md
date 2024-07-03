@@ -165,3 +165,5 @@ class Solution:
 
 Monotonic Queue는 Queue의 Top을 peek해서 단조증감이 깨질 거 같은지를 파악해야 되기 때문에, Deque 자료구조를 이용해서 구현해야 합니다.  
 그리고 중요한 점!! Queue에는 Index를 넣어야 됩니다.
+
+단조감소큐의 가장 앞을 보면 최대값이 나오고, 단조증가큐의 가장 앞을 보면 최소값이 나옵니다!
