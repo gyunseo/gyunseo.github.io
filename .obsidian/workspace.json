@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8bdc165835cf7e02",
+        "id": "4687261fa0e002a6",
         "type": "tabs",
         "children": [
           {
-            "id": "9ffba651efc67257",
+            "id": "5dda7a5cb081a99f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,10 +148,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ffba651efc67257",
+  "active": "5dda7a5cb081a99f",
   "lastOpenFiles": [
-    "dist/posts/boj-백준-11507-오르막-수.png",
     "src/content/blog/boj-11057-오르막-수.md",
+    "dist/posts/boj-백준-11507-오르막-수.png",
     "src/content/blog/boj-1926-그림.md",
     "src/content/blog/boj-11057-.md",
     "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
@@ -184,7 +184,6 @@
     "dist/tags/ostep/1/index.html",
     "dist/tags/ostep/1",
     "dist/posts/우테코-2차-소감문.png",
-    "dist/posts/우테코-1차-소감문.png",
     "src/content/blog/boj-11725-트리의-부모-찾기.md",
     "src/content/blog/boj-1935-후위-표기식2.md",
     "src/content/blog/boj-15666-N과-M-(12).md",
