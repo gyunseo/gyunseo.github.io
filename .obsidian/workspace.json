@@ -150,9 +150,10 @@
   },
   "active": "9ffba651efc67257",
   "lastOpenFiles": [
+    "dist/posts/boj-백준-11507-오르막-수.png",
+    "src/content/blog/boj-11057-오르막-수.md",
     "src/content/blog/boj-1926-그림.md",
     "src/content/blog/boj-11057-.md",
-    "src/content/blog/boj-11057-오르막-수.md",
     "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
     "src/content/blog/leet-code-minimum-path-sum.md",
     "src/content/blog/boj-1940-주몽.md",
@@ -194,7 +195,6 @@
     "src/content/blog/boj-2230-수-고르기.md",
     "src/content/blog/boj-1912-연속합.md",
     "src/content/blog/boj-1699-제곱수의-합.md",
-    "src/content/blog/boj-1026-보물.md",
-    "src/content/blog/computer-science-qna.md"
+    "src/content/blog/boj-1026-보물.md"
   ]
 }
