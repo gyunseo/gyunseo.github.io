@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4687261fa0e002a6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5dda7a5cb081a99f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-1926-그림.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "2fc2c57290be6233",
         "type": "tabs",
         "children": [
