@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
+                "file": "src/content/blog/boj-1926-그림.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "5dcc65a347118080",
+        "id": "2fc2c57290be6233",
         "type": "tabs",
         "children": [
           {
-            "id": "88cef06b4dd7f423",
+            "id": "4de88d0967b6111b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
+                "file": "src/content/blog/boj-10159-저울.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
+                "file": "src/content/blog/boj-10159-저울.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
+                "file": "src/content/blog/boj-10159-저울.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md"
+                "file": "src/content/blog/boj-10159-저울.md"
               }
             }
           }
@@ -166,13 +166,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88cef06b4dd7f423",
+  "active": "4de88d0967b6111b",
   "lastOpenFiles": [
-    "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
+    "src/content/blog/boj-10159-저울.md",
+    "src/content/blog/boj-1926-그림.md",
     "src/content/blog/leet-code-letter-combinations-of-a-phone-number.md",
+    "src/content/blog/leet-code-longest-continuous-subarray-with-absolute-diff-less -than-or-equal-to-Limit.md",
     "src/content/blog/boj-11057-오르막-수.md",
     "dist/posts/boj-백준-11507-오르막-수.png",
-    "src/content/blog/boj-1926-그림.md",
     "src/content/blog/boj-11057-.md",
     "src/content/blog/leet-code-minimum-path-sum.md",
     "src/content/blog/boj-1940-주몽.md",
@@ -212,7 +213,6 @@
     "src/content/blog/boj-10819-차이를-최대로.md",
     "src/content/blog/boj-2230-수-고르기.md",
     "src/content/blog/boj-1912-연속합.md",
-    "src/content/blog/boj-1699-제곱수의-합.md",
-    "src/content/blog/boj-1026-보물.md"
+    "src/content/blog/boj-1699-제곱수의-합.md"
   ]
 }
