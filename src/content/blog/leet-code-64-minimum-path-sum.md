@@ -1,6 +1,6 @@
 ---
 author: Gyunseo Lee
-title: "LeetCode: Minimum Path Sum"
+title: "LeetCode 64: Minimum Path Sum"
 pubDatetime: 2024-06-07T16:20:00+09:00
 modDatetime: 2024-06-07T16:20:00+09:00
 featured: false
