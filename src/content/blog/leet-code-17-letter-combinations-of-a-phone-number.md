@@ -1,6 +1,6 @@
 ---
 author: Gyunseo Lee
-title: "LeetCode: Letter Combinations of a Phone Number"
+title: "LeetCode 17: Letter Combinations of a Phone Number"
 pubDatetime: 2024-07-02T23:16:00+09:00
 modDatetime: 2024-07-02T23:16:00+09:00
 featured: false

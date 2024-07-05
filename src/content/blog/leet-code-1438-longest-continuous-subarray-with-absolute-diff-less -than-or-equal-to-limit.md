@@ -1,6 +1,6 @@
 ---
 author: Gyunseo Lee
-title: "LeetCode: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit"
+title: "LeetCode 1438: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit"
 pubDatetime: 2024-07-04T01:34:00+09:00
 modDatetime: 2024-07-04T01:34:00+09:00
 featured: false
