@@ -81,3 +81,14 @@ Node.js는 기본적으로 위에서 Single Threaded하고 Blocking한 (위에�
 그래서 libuv로 넘어갈테고, libuv에서는 epoll(I/O Multiplexing 방식)을 이용해, file descriptor들을 감시하죠.
 그래서 감시 중인 file descriptor들 중에 읽고 쓸 수 있는 fd가 생기면 해당 fd들을 반환받고, 이에 상응하는 작업을 하게 됩니다.  
 물론 이때도 logging이라면 결국, read와 write 시스템 콜을 호출하게 될 것이고, cpu의 개입은 결국 거의 없을 것이라는 겁니다.
+Node.js API 공식 문서에 이런 말이 있습니다.
+
+> Synchronous writes block the event loop until the write has completed. This can be near instantaneous in the case of output to a file, but under high system load, pipes that are not being read at the receiving end, or with slow terminals or file systems, it's possible for the event loop to be blocked often enough and long enough to have severe negative performance impacts. This may not be a problem when writing to an interactive terminal session, but consider this particularly careful when doing production logging to the process output streams.
+
+요약하자면, 동기식으로 로깅하면 시스템에 로드가 클 때, event loop가 block돼서 심각한 문제가 생길 것이다라고 말하네요.  
+즉, 로깅이 많이 되는 것도 Node.js에서는 성능 상에 큰 문제를 야기할 수 있겠군요!
+그런데 제가 예상한 것이랑은 다른 이슈긴 하죠? 일단, CPU Usage가 갑자기 튀어서 일어난 서비스 다운인데, Logging 많이 일어나서, 성능 상에 큰 문제가 생기는 건 CPU Usage랑 아무런 관련이 없습니다.  
+그리고 결정적으로, Pino Logger는 비동기로 처리됩니다.  
+결국 제가 틀린 게 맞습니다.
+
+끄읕
