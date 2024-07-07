@@ -76,7 +76,7 @@ OS는 귀중한 CPU가 낭비되는 걸 싫어하죠.
 ## 그럼 왜 Node.js에서 Pino Logger를 이용한 Log I/O는 CPU Usage에 큰 영향이 없을까?
 
 Node.js는 기본적으로 위에서 Single Threaded하고 Blocking한 (위에서 설명한 방식의 I/O 방법을 따르는) V8 엔진과 비동기 API (함수)들을 처리하는 libuv로 이뤄져 있습니다.  
-대표적으로 `fs.readFile` 같은 것들이 있죠. (참고로 `console.log`는 V8 엔진 메인스레드에서 blocking하게 실행되는 I/O입니다. 참고)  
+대표적으로 `fs.readFile` 같은 것들이 있죠. (~~참고로 `console.log`는 V8 엔진 메인스레드에서 blocking하게 실행되는 I/O입니다.~~ 가 아니고, `process.stdout`의 경우는 synchronous한지 async한지는 때에 따라 다르다고 하네요! [Node.js API 공식 문서 참고](https://nodejs.org/api/process.html#a-note-on-process-io))  
 저도 사실 시간이 없어서 많이 찾아 보지는 않았는데, Pino Logger도 비동기 API랍니다.  
 그래서 libuv로 넘어갈테고, libuv에서는 epoll(I/O Multiplexing 방식)을 이용해, file descriptor들을 감시하죠.
 그래서 감시 중인 file descriptor들 중에 읽고 쓸 수 있는 fd가 생기면 해당 fd들을 반환받고, 이에 상응하는 작업을 하게 됩니다.  
