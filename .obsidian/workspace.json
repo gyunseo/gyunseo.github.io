@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까?.md",
+                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까?.md",
+                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까?.md",
+                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까?.md"
+                "file": "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md"
               }
             }
           }
@@ -164,7 +164,7 @@
   "active": "fdbe03e54f3e81a4",
   "lastOpenFiles": [
     "src/content/blog/boj-2660-회장뽑기.md",
-    "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까?.md",
+    "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md",
     "src/content/blog/.md",
     "src/content/blog/boj-1309-동물원.md",
     "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
