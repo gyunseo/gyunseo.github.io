@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0fb89b2a6940e666",
+        "id": "ea8dbc547ef84373",
         "type": "tabs",
         "children": [
           {
-            "id": "d150f0dbbe8f52e7",
+            "id": "443ea8f1c7a755e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "932958f597546de7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a847079fc4a2b861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-1309-동물원.md",
+                "file": "src/content/blog/boj-2660-회장뽑기.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-1309-동물원.md",
+                "file": "src/content/blog/boj-2660-회장뽑기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-1309-동물원.md",
+                "file": "src/content/blog/boj-2660-회장뽑기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-1309-동물원.md"
+                "file": "src/content/blog/boj-2660-회장뽑기.md"
               }
             }
           }
@@ -166,10 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a847079fc4a2b861",
+  "active": "443ea8f1c7a755e2",
   "lastOpenFiles": [
-    "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
     "src/content/blog/boj-1309-동물원.md",
+    "src/content/blog/boj-2660-회장뽑기.md",
+    "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
     "src/content/blog/leet-code-438-find-all-anagrams-in-a-string.md",
     "src/content/blog/boj-10159-저울.md",
     "src/content/blog/leet-code-64-minimum-path-sum.md",
@@ -212,7 +195,6 @@
     "src/content/blog/boj-15666-N과-M-(12).md",
     "src/content/blog/boj-15664-N과-M-(10).md",
     "src/content/blog/boj-15663-N과-M-(9).md",
-    "src/content/blog/boj-11728-배열-합치기.md",
-    "src/content/blog/boj-10819-차이를-최대로.md"
+    "src/content/blog/boj-11728-배열-합치기.md"
   ]
 }
