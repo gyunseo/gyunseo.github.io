@@ -38,9 +38,9 @@ class Solution:
         r = len(matrix)
         c = len(matrix[0])
         def binary_search():
-            def is_valid(idx):
-                i, j = idx // c, idx % c
-                if matrix[i][j] > target:
+            def check(idx):
+                i, j = divmod(idx, c)
+                if matrix[i][j] >= target:
                     return True
                 return False
 
@@ -48,16 +48,56 @@ class Solution:
             hi = r * c
             while lo + 1 < hi:
                 mid = (lo + hi) // 2
-                if is_valid(mid):
+                if check(mid):
                     hi = mid
                 else:
                     lo = mid
-            # lo is cross point
-            if matrix[lo // c][lo % c] == target:
+
+            if hi == r * c:
+                return False
+            # lo-hi is cross point
+            if matrix[hi // c][hi % c] == target:
                 return True
             else:
                 return False
         return binary_search()
+```
+
+```go
+func divmod(a int, q int) (int, int) {
+    n := a / q
+    r := a % q
+    return n, r
+}
+func searchMatrix(matrix [][]int, target int) bool {
+    r, c := len(matrix), len(matrix[0])
+    check := func (index int) bool {
+        i, j := divmod(index, c)
+        if matrix[i][j] >= target {
+            return true
+        }
+
+        return false
+    }
+
+    lo, hi := -1, r * c
+    for lo + 1 < hi {
+        mid := (lo + hi) / 2
+        if check(mid) {
+            hi = mid
+        } else {
+            lo = mid
+        }
+    }
+    // lo-hi is cross point
+    if hi == r * c {
+        return false
+    }
+    if matrix[hi / c][hi % c] == target {
+        return true
+    }
+    return false
+}
 ```
 
 이분탐색은 off-by-one Error가 나기 쉽습니다.  

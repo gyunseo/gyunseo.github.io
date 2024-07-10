@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea8dbc547ef84373",
+        "id": "1f6f8d12bcf5caf1",
         "type": "tabs",
         "children": [
           {
-            "id": "443ea8f1c7a755e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c7e001a823d6f00b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f0f9243e9d7c564",
+            "id": "e6eed48a7bf97d28",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,11 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6f0f9243e9d7c564",
+  "active": "e6eed48a7bf97d28",
   "lastOpenFiles": [
     "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
-    "src/content/blog/boj-2660-회장뽑기.md",
     "src/content/blog/leet-code-74-search-a-2d-matrix.md",
+    "src/content/blog/boj-2660-회장뽑기.md",
     "src/content/blog/leet-code-64-minimum-path-sum.md",
     "src/content/blog/boj-6593-상범-빌딩.md",
     "src/content/blog/boj-2529-부등호.md",
