@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-1339-단어-수학.md",
+                "file": "src/content/blog/boj-2529-부등호.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-1339-단어-수학.md",
+                "file": "src/content/blog/boj-2529-부등호.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-1339-단어-수학.md"
+                "file": "src/content/blog/boj-2529-부등호.md"
               }
             }
           }
@@ -166,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71e0df042bc7a561",
+  "active": "bb9e313e9ec35bc3",
   "lastOpenFiles": [
-    "src/content/blog/boj-2529-부등호.md",
     "src/content/blog/boj-1339-단어-수학.md",
+    "src/content/blog/boj-2529-부등호.md",
     "src/content/blog/boj-2660-회장뽑기.md",
     "src/content/blog/boj-2011-암호코드.md",
     "src/content/blog/leet-code-438-find-all-anagrams-in-a-string.md",
