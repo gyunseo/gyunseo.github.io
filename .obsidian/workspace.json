@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-2529-부등호.md",
+                "file": "src/content/blog/leet-code-74-search-a-2d-matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "2b1c3a474105df20",
+        "id": "c93cbacdb763ad00",
         "type": "tabs",
         "children": [
           {
-            "id": "71e0df042bc7a561",
+            "id": "4077864ed2ae2ddd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/boj-1339-단어-수학.md",
+                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-2529-부등호.md",
+                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-2529-부등호.md",
+                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-2529-부등호.md"
+                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md"
               }
             }
           }
@@ -166,15 +166,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb9e313e9ec35bc3",
+  "active": "4077864ed2ae2ddd",
   "lastOpenFiles": [
-    "src/content/blog/boj-1339-단어-수학.md",
+    "src/content/blog/leet-code-74-search-a-2d-matrix.md",
     "src/content/blog/boj-2529-부등호.md",
+    "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
+    "src/content/blog/boj-1339-단어-수학.md",
     "src/content/blog/boj-2660-회장뽑기.md",
     "src/content/blog/boj-2011-암호코드.md",
     "src/content/blog/leet-code-438-find-all-anagrams-in-a-string.md",
     "src/content/blog/boj-5525-ioioi.md",
-    "src/content/blog/leet-code-74-search-a-2d-matrix.md",
     "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
     "src/content/blog/leet-code-64-minimum-path-sum.md",
     "src/content/blog/boj-6593-상범-빌딩.md",
@@ -195,7 +196,6 @@
     "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
     "src/content/blog/astro-paper-4.md",
     "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
-    "src/content/blog/boj-5014-스타트링크.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
