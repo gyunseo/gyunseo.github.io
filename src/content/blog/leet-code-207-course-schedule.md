@@ -83,6 +83,6 @@ class Solution:
 
 ```
 
-### Khan 알고리즘 (위상 정렬)
+### Kahn 알고리즘 (위상 정렬)
 
 ### Kosaraju 알고리즘 (SCC)
