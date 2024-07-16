@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "5c7cbcec3c13656e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bb9e313e9ec35bc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/leet-code-74-search-a-2d-matrix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c93cbacdb763ad00",
         "type": "tabs",
         "children": [
@@ -32,6 +14,24 @@
               "type": "markdown",
               "state": {
                 "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "67b79f11d4a32e93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3c142ad93a1e3ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/leet-code-207-course-schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
+                "file": "src/content/blog/leet-code-207-course-schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
+                "file": "src/content/blog/leet-code-207-course-schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/leet-code-919-complete-binary tree-inserter.md"
+                "file": "src/content/blog/leet-code-207-course-schedule.md"
               }
             }
           }
@@ -166,11 +166,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4077864ed2ae2ddd",
+  "active": "d3c142ad93a1e3ac",
   "lastOpenFiles": [
+    "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
+    "src/content/blog/leet-code-207-course-schedule.md",
     "src/content/blog/leet-code-74-search-a-2d-matrix.md",
     "src/content/blog/boj-2529-부등호.md",
-    "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
     "src/content/blog/boj-1339-단어-수학.md",
     "src/content/blog/boj-2660-회장뽑기.md",
     "src/content/blog/boj-2011-암호코드.md",
@@ -195,7 +196,6 @@
     "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
     "src/content/blog/manage-cli-program-version-using-aqua-proj-on-windows.md",
     "src/content/blog/astro-paper-4.md",
-    "src/content/blog/implementing-a-worker-thread-pool-in-c.md",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
