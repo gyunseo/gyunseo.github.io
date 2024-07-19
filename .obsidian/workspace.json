@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "2676f6981de71d52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a33d3c979b188989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/boj-15661-링크와-스타트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "5618ed33c29b957d",
         "type": "tabs",
         "children": [
@@ -32,6 +14,24 @@
               "type": "markdown",
               "state": {
                 "file": "src/content/blog/boj-2564-경비원.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d569986bbfee2eb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e50a64c182f8d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/boj-19951-태상이의-훈련소-생활.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/boj-2564-경비원.md",
+                "file": "src/content/blog/boj-19951-태상이의-훈련소-생활.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/boj-2564-경비원.md",
+                "file": "src/content/blog/boj-19951-태상이의-훈련소-생활.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/boj-2564-경비원.md"
+                "file": "src/content/blog/boj-19951-태상이의-훈련소-생활.md"
               }
             }
           }
@@ -166,9 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "72d69f1c38fd96fe",
+  "active": "a9e50a64c182f8d4",
   "lastOpenFiles": [
     "src/content/blog/boj-2564-경비원.md",
+    "src/content/blog/boj-19951-태상이의-훈련소-생활.md",
     "src/content/blog/boj-15661-링크와-스타트.md",
     "src/content/blog/boj-2529-부등호.md",
     "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
@@ -194,7 +195,6 @@
     "src/content/blog/boj-11057-.md",
     "src/content/blog/boj-1940-주몽.md",
     "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
-    "src/content/blog/how-to-connect-wifi-on-ubuntu-server.md",
     "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
