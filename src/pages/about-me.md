@@ -32,8 +32,8 @@ title: "About Me"
 ## 이메일(Email):
 
 - rbstj0311@naver.com
-- rbstj0311@g.skku.edu
 - rbstj0311@gmail.com
+- rbstj0311@g.skku.edu
 
 ## GitHub:
 
@@ -48,7 +48,7 @@ title: "About Me"
 
 - 트위터(twitter handle): [@gyunseo0311](https://twitter.com/gyunseo0311)
 - 유튜브(youtube handle): [@gyunseo0311](https://youtube.com/gyunseo0311)
-- 인스타그램(ig handle): [@gyunseo0311](https://instagram.com/gyunseo0311)
+- 인스타그램(ig handle): [@gyunrinkle](https://instagram.com/gyunrinkle)
 
 ---
 
