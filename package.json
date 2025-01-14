@@ -16,10 +16,13 @@
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
+    "@giscus/react": "^3.1.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.16.18",
     "fuse.js": "^7.0.0",
+    "katex": "^0.16.20",
     "lodash.kebabcase": "^4.1.1",
+    "rehype-katex": "^7.0.1",
     "remark-collapse": "^0.1.2",
     "remark-math": "^6.0.0",
     "remark-toc": "^9.0.0",
