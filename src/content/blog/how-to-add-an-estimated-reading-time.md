@@ -33,7 +33,9 @@ export function remarkReadingTime() {
   return function (tree, { data }) {
     const textOnPage = toString(tree);
     const readingTime = getReadingTime(textOnPage);
-    data.astro.frontmatter.readingTime = readingTime.text;
+    // readingTime.text will give us minutes read as a friendly string,
+    // i.e. "3 min read"
+    data.astro.frontmatter.minutesRead = readingTime.text;
   };
 }
 ```
@@ -73,12 +75,14 @@ import { SITE } from "@config";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
-  type: "content",
+  type: "content_layer",
+  loader: glob({ pattern: "**/*.md", base: "./src/content/blog" }),
   schema: ({ image }) =>
     z.object({
       // others...
       canonicalURL: z.string().optional(),
       readingTime: z.string().optional(), // 👈🏻 readingTime frontmatter
+      // others...
     }),
 });
 
@@ -88,15 +92,19 @@ export const collections = { blog };
 Step (5) Create a new file called `getPostsWithRT.ts` under `src/utils` directory.
 
 ```ts
-import type { MarkdownInstance } from "astro";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "./slugify";
 
+interface Frontmatter {
+  frontmatter: {
+    title: string;
+    minutesRead: string;
+  };
+}
+
 export const getReadingTime = async () => {
   // Get all posts using glob. This is to get the updated frontmatter
-  const globPosts = import.meta.glob("../content/blog/*.md") as Promise<
-    CollectionEntry<"blog">["data"][]
-  >;
+  const globPosts = import.meta.glob<Frontmatter>("../content/blog/*.md");
 
   // Then, set those frontmatter value in a JS Map with key value pair
   const mapFrontmatter = new Map();
@@ -106,7 +114,7 @@ export const getReadingTime = async () => {
       const { frontmatter } = await globPost();
       mapFrontmatter.set(
         slugifyStr(frontmatter.title),
-        frontmatter.readingTime
+        frontmatter.minutesRead
       );
     })
   );
@@ -125,7 +133,7 @@ const getPostsWithRT = async (posts: CollectionEntry<"blog">[]) => {
 export default getPostsWithRT;
 ```
 
-Step (6) Refactor `getStaticPaths` of `/src/pages/posts/[slug].astro` as the following
+Step (6) Refactor `getStaticPaths` of `src/pages/posts/[slug]/index.astro` as the following
 
 ```ts
 ---
@@ -209,10 +217,10 @@ Step (2) Make sure to refactor every file which uses `getSortedPosts` function. 
 Files that use `getSortedPosts` function are as follow
 
 - src/pages/index.astro
-- src/pages/posts/index.astro
+- src/pages/search.astro
 - src/pages/rss.xml.ts
-- src/pages/posts/index.astro
-- src/pages/posts/[slug].astro
+- src/pages/posts/[...page].astro
+- src/pages/posts/[slug]/index.astro
 - src/utils/getPostsByTag.ts
 
 All you have to do is like this
@@ -220,6 +228,40 @@ All you have to do is like this
 ```ts
 const sortedPosts = getSortedPosts(posts); // old code ❌
 const sortedPosts = await getSortedPosts(posts); // new code ✅
+```
+
+Now, `getPostsByTag` function becomes an async function. Therefore, we needs to `await` the `getPostsByTag` function too.
+
+- src/pages/tags/[tag]/[page].astro
+- src/pages/tags/[tag]/index.astro
+
+```ts
+const postsByTag = getPostsByTag(posts, tag); // old code ❌
+const postsByTag = await getPostsByTag(posts, tag); // new code ✅
+```
+
+Moreover, update the `getStaticPaths` of `src/pages/tags/[tag]/[page].astro` like this:
+
+```ts
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const posts = await getCollection("blog");
+  const tags = getUniqueTags(posts);
+
+  // Make sure to await the promises
+  const paths = await Promise.all(
+    tags.map(async ({ tag, tagName }) => {
+      const tagPosts = await getPostsByTag(posts, tag);
+
+      return paginate(tagPosts, {
+        params: { tag },
+        props: { tagName },
+        pageSize: SITE.postPerPage,
+      });
+    })
+  );
+
+  return paths.flat(); // Flatten the array of arrays
+}
 ```
 
 Now you can access `readingTime` in other places besides `PostDetails`
@@ -233,19 +275,21 @@ But in this section, I'm gonna show you how I would display `readingTime` in my 
 Step (1) Update `Datetime` component to display `readingTime`
 
 ```tsx
-import { LOCALE } from "@config";
+// other codes
 
-export interface Props {
-  datetime: string | Date;
+interface Props extends DatetimesProps, EditPostProps {
   size?: "sm" | "lg";
   className?: string;
-  readingTime?: string; // new type
+  readingTime: string | undefined; // new type
 }
 
 export default function Datetime({
-  datetime,
+  pubDatetime,
+  modDatetime,
   size = "sm",
-  className,
+  className = "",
+  editPost,
+  postId,
   readingTime, // new prop
 }: Props) {
   return (
@@ -253,6 +297,7 @@ export default function Datetime({
     <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
       <FormattedDatetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
       <span> ({readingTime})</span> {/* display reading time */}
+      {size === "lg" && <EditPost editPost={editPost} postId={postId} />}
     </span>
     // other codes
   );
@@ -261,11 +306,11 @@ export default function Datetime({
 
 Step (2) Then, pass `readingTime` props from its parent component.
 
-file: Card.tsx
+file: `Card.tsx`
 
 ```ts
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime description, readingTime } = frontmatter;
+  const { title, pubDatetime, modDatetime description, readingTime } = frontmatter; // don't forget to add readingTime here too
   return (
     ...
     <Datetime
@@ -278,7 +323,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 }
 ```
 
-file: PostDetails.tsx
+file: `PostDetails.astro`
 
 ```jsx
 // Other Codes

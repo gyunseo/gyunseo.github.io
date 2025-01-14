@@ -2,13 +2,20 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://gyunseo.xyz/",
-  author: "Gyunseo Lee (이균서)",
+  author: "Gyunseo Lee",
   desc: "Gyunseo's Blog. Write my logs on the web.",
   title: "Gyunseo's Blog",
   ogImage: "doggo-og.png",
   lightAndDarkMode: true,
+  postPerIndex: 4,
   postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  showArchives: true,
+  editPost: {
+    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    text: "Suggest Changes",
+    appendFilePath: true,
+  },
 };
 
 export const LOCALE = {
