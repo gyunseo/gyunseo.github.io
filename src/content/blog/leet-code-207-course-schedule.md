@@ -17,7 +17,7 @@ tags:
   - Kahn
   - Kosaraju
   - Tarjan
-description: "\b이 문제는 푸는 방법이 엄청 많네요 ㅎㅎ"
+description: "이 문제는 푸는 방법이 엄청 많네요 ㅎㅎ"
 ogImage: ""
 ---
 
