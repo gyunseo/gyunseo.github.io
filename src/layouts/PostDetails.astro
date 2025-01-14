@@ -8,6 +8,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
 import { SITE } from "@config";
+import Comments from "@components/Comments";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -113,23 +114,7 @@ const nextPost =
 
       <ShareLinks />
     </div>
-    <script
-      src="https://giscus.app/client.js"
-      data-repo="gyunseo/gyunseo.github.io"
-      data-repo-id="R_kgDOKRmokg"
-      data-category="Comments"
-      data-category-id="DIC_kwDOKRmoks4CZlYO"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="preferred_color_scheme"
-      data-lang="ko"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async></script>
-
+    <Comments client:only="react" />
     <hr class="my-6 border-dashed" />
 
     <!-- Previous/Next Post Buttons -->
