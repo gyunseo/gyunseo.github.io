@@ -10,7 +10,7 @@ tags:
   - PS
   - 실랜디
   - 골랜디
-description: "\b백준 랜덤 디펜스 하는법"
+description: "백준 랜덤 디펜스 하는법"
 ogImage: ""
 ---
 
