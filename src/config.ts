@@ -1,7 +1,8 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
-  website: "https://gyunseo.xyz/",
+  website: "https://gyunseo.com/",
   author: "Gyunseo Lee",
   desc: "Gyunseo's Blog. Write my logs on the web.",
   title: "Gyunseo's Blog",
@@ -12,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/gyunseo/gyunseo.github.io/edit/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
@@ -152,3 +153,16 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+export const GISCUS: GiscusProps = {
+  repo: "gyunseo/gyunseo.github.io",
+  repoId: "R_kgDOKRmokg",
+  category: "Comments",
+  categoryId: "DIC_kwDOKRmoks4CZlYO",
+  mapping: "pathname",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "ko",
+  loading: "lazy",
+};

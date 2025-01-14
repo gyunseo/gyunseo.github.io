@@ -10,9 +10,11 @@ import {
 } from "./src/utils/updateMarkdownASTNodeURLValue";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import { SITE } from "./src/config";
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gyunseo.xyz", // replace this with your deployed domain
+  site: "https://gyunseo.com", // replace this with your deployed domain
   integrations: [
     tailwind({
       applyBaseStyles: false,
