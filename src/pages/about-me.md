@@ -4,104 +4,24 @@ title: "About Me"
 ---
 
 <div>
-  <img src="https://res.cloudinary.com/gyunseo-blog/image/upload/v1695893159/og-images/me-og.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="https://res.cloudinary.com/gyunseo-blog/image/upload/v1737024044/og-images/badge.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-# 🐾㉶를 꿈꿉니다
+# 이균서(Lee, Gyunseo) / 주니어 소프트웨어 엔지니어
 
-# Would-be Developer
+- [rbstj0311@naver.com](mailto:rbstj0311@naver.com)
+- \+82 010-5505-2576
+- GitHub: [github.com/gyunseo](https://github.com/gyunseo)
+- LinkedIn: [linkedin.com/in/gyunseo](https://www.linkedin.com/in/gyunseo/)
 
-## [![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,astro,bash,azure,androidstudio,azure,c,cpp,discord,docker,dotnet,cs,electron,elixir,fastapi,figma,git,github,gradle,graphql,instagram,java,linux,neovim,nestjs,ps,powershell,prisma,py,react,wordpress,vscode,vite,visualstudio,vercel,unity,twitter,tailwind,sqlite,stackoverflow,selenium,postgres)](https://skillicons.dev)
+# Summary
 
-# Portfolio
+## Experiences
 
-## Game
+- 보잉코리아 OS 소프트웨어 엔지니어 인턴십 (Boeing Linux Team) (2024.09 \~ 2024.12)
+- 성균관대 코딩 플랫폼 백엔드 개발 (2023.03 \~ 현재)
+- 공군 병장 만기 전역 (2020.09 \~ 2022.06)
 
-## Web Service
+## Education
 
-- [코드당](https://github.com/skkuding/codedang)
-
----
-
-# Information
-
-## 이름(Name)
-
-- 이균서(Gyunseo Lee)
-
-## 이메일(Email):
-
-- rbstj0311@naver.com
-- rbstj0311@gmail.com
-- rbstj0311@g.skku.edu
-
-## GitHub:
-
-- <https://github.com/gyunseo>
-
-## 취미(Hobby):
-
-- 기타 연주(playing the guitar🎸)
-- 게임(video game 🎮)
-
-## SNS(Social Media):
-
-- 트위터(twitter handle): [@gyunseo0311](https://twitter.com/gyunseo0311)
-- 유튜브(youtube handle): [@gyunseo0311](https://youtube.com/gyunseo0311)
-- 인스타그램(ig handle): [@gyunrinkle](https://instagram.com/gyunrinkle)
-
----
-
-# History
-
-- (2019 ~ now) 성균관대학교 컴퓨터교육과 입학(Major in Computer Education, College of Education, Sungkyunkwan University)
-
-- (2020 ~ now) 성균관대학교 소프트웨어학과 복수전공(Double Major in Computer Science, College of Computing, Sungkyunkwan University)
-
-- (2020 ~ 2022) 공군 정보보호병 병장 만기전역(Served and Discharged from ROK Airforce, Staff Sergeant)
-
----
-
-# Tech Stack
-
-## OS
-
-- Linux(Ubuntu),
-- Windows,
-- macOS
-
-## Programming Language
-
-- C, C++
-- Python
-- JavaScript, TypeScript
-- Java, Kotlin
-- C#
-
-## DB
-
-- postgresql
-- mysql
-- oracle
-
-## DevOps
-
-- git
-- aws
-- azure
-
-## Web Framework
-
-- Nest.js
-- Next.js
-- Astro
-- Spring boot
-
-## Game Engine
-
-- Unity
-
----
-
-If you like my blog, check out my blog github [repo](https://github.com/gyunseo/gyunseo.github.io).  
-Or you can even give any feedback via my [email](mailto:rbstj0311@naver.com).
+- 성균관대학교 소프트웨어학과/컴퓨터교육과 (2019.02 \~ 2025.08)
