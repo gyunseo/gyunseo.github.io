@@ -13,6 +13,7 @@ title: "About Me"
 - \+82 010-5505-2576
 - GitHub: [github.com/gyunseo](https://github.com/gyunseo)
 - LinkedIn: [linkedin.com/in/gyunseo](https://www.linkedin.com/in/gyunseo/)
+- Blog: [gyunseo.com](https://gyunseo.com)
 
 # Summary
 
