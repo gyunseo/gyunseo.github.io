@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8a1da2d2e95f6e8",
+        "id": "308f11ce2ab16a51",
         "type": "tabs",
         "children": [
           {
-            "id": "e4a3561be773faef",
+            "id": "0dcc270e3d15a39d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/sw-engineering-09-09.md",
+                "file": "src/content/blog/study-spring-0.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "study-spring-0"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #BOJ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/sw-engineering-09-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/sw-engineering-09-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -116,7 +127,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -124,9 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/blog/sw-engineering-09-09.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -148,53 +161,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e4a3561be773faef",
+  "active": "0dcc270e3d15a39d",
   "lastOpenFiles": [
-    "src/content/blog/sw-engineering-09-09.md",
-    "src/content/blog/boj-2564-경비원.md",
-    "src/content/blog/boj-19951-태상이의-훈련소-생활.md",
-    "src/content/blog/boj-15661-링크와-스타트.md",
-    "src/content/blog/boj-2529-부등호.md",
-    "src/content/blog/leet-code-919-complete-binary tree-inserter.md",
-    "src/content/blog/leet-code-207-course-schedule.md",
-    "src/content/blog/leet-code-74-search-a-2d-matrix.md",
-    "src/content/blog/boj-1339-단어-수학.md",
-    "src/content/blog/boj-2660-회장뽑기.md",
-    "src/content/blog/boj-2011-암호코드.md",
-    "src/content/blog/leet-code-438-find-all-anagrams-in-a-string.md",
-    "src/content/blog/boj-5525-ioioi.md",
-    "src/content/blog/leet-code-1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md",
-    "src/content/blog/leet-code-64-minimum-path-sum.md",
-    "src/content/blog/boj-6593-상범-빌딩.md",
-    "src/content/blog/왜-node에서-pino-logger를-이용한-log-io는-cpu-usage에-큰-영향이-없을까.md",
-    "src/content/blog/.md",
-    "src/content/blog/boj-1309-동물원.md",
-    "src/content/blog/boj-10159-저울.md",
-    "src/content/blog/leet-code-17-letter-combinations-of-a-phone-number.md",
-    "src/content/blog/boj-2841-외계인의-기타-연주.md",
-    "src/content/blog/boj-1926-그림.md",
-    "src/content/blog/boj-11057-오르막-수.md",
+    "src/assets/Screenshot 2025-04-03 at 15.58.03.png",
+    "src/content/blog/study-spring-0.md",
+    "src/content/blog/install-neovim-using-aqua-on-ubuntu.md",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-ui.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-ui.d.ts",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-list-window.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-list-window.d.ts",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-list-item.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-list-item.d.ts",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/rules/index.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/rules/a11y.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/rules/perf.js",
+    "node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/rules/perf.d.ts",
+    "node_modules/@eslint/eslintrc/node_modules/ajv/lib/dotjs/README.md",
+    "node_modules/prettier-plugin-tailwindcss/dist/licenses/@shopify/prettier-plugin-liquid/README.md",
+    "node_modules/eslint/node_modules/ajv/lib/dotjs/README.md",
+    "node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping/README.md",
+    "node_modules/vite/node_modules/@esbuild/darwin-arm64/README.md",
+    "node_modules/tailwindcss/src/postcss-plugins/nesting/README.md",
+    "node_modules/tailwindcss/lib/postcss-plugins/nesting/README.md",
+    "node_modules/sitemap/node_modules/@types/node/README.md",
+    "node_modules/prettier-plugin-tailwindcss/dist/licenses/prettier-plugin-style-order/README.md",
+    "node_modules/prettier-plugin-tailwindcss/dist/licenses/prettier-plugin-sort-imports/README.md",
+    "node_modules/prettier-plugin-tailwindcss/dist/licenses/prettier-plugin-css-order/license.md",
+    "node_modules/prettier-plugin-tailwindcss/dist/licenses/marko/README.md",
+    "node_modules/astro/node_modules/@esbuild/darwin-arm64/README.md",
+    "node_modules/@vscode/emmet-helper/node_modules/vscode-uri/README.md",
+    "node_modules/@vscode/emmet-helper/node_modules/vscode-uri/LICENSE.md",
+    "node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion/README.md",
+    "node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/README.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/type-annotation-spacing.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-infix-ops.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-before-function-paren.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-before-blocks.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/semi.md",
+    "node_modules/@typescript-eslint/eslint-plugin/docs/rules/quotes.md",
+    "node_modules/lit/logo.svg",
     "dist/posts/boj-백준-11507-오르막-수.png",
-    "src/content/blog/boj-11057-.md",
-    "src/content/blog/boj-1940-주몽.md",
     "dist/posts/aqua를-이용해-wsl-ubuntu에-neovim을-설치하자.png",
     "dist/assets/forrest-gump-quote@900w.jpeg",
     "dist/assets/forrest-gump-quote.webp.jpg",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1020w.webp",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1320w.webp",
     "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N@1620w.webp",
-    "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N.webp.webp",
-    "dist/_jampack",
-    "dist/sitemap-index.xml",
-    "dist/sitemap-0.xml",
-    "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N.webp",
-    "dist/404.html",
-    "dist/tags/package/1/index.html",
-    "dist/tags/package/1",
-    "dist/tags/ostep/2/index.html",
-    "dist/tags/ostep/2",
-    "dist/tags/ostep/1/index.html",
-    "dist/tags/ostep/1",
-    "dist/posts/우테코-2차-소감문.png"
+    "dist/_astro/AstroPaper-v4.E8pWr1CH_Zmry1N.webp.webp"
   ]
 }
