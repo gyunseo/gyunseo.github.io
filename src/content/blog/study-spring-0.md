@@ -155,4 +155,38 @@ public class Application {
 # 팩토리 패턴
 
 ```python
+from enum import Enum
+
+class AnimalType(Enum):
+    CAT = 1
+    DOG = 2
+
+class Animal:
+    def speak(self, speak_string): print(speak_string)
+
+class Cat(Animal):
+    def __init__(self, _speak_string):
+        self.speak_string = _speak_string
+    def speak(self): super().speak(self.speak_string)
+
+class Dog(Animal):
+    def __init__(self, _speak_string):
+        self.speak_string = _speak_string
+    def speak(self): super().speak(self.speak_string)
+
+class Factory():
+    def createAnimal(self, animal):
+        if animal == AnimalType.CAT: return Cat("야옹")
+        elif animal == AnimalType.DOG: return Dog("월월")
+
+factory = Factory()
+cat = factory.createAnimal(AnimalType.CAT)
+dog = factory.createAnimal(AnimalType.DOG)
+
+cat.speak()
+dog.speak()
 ```
+
+개떡같이 던져줘도 찰떡같이 객체를 생성해서 잘 반환해주는 거(?)
+
+![](https://res.cloudinary.com/gyunseo-blog/image/upload/f_auto/v1743671994/image_svbxfb.png)
